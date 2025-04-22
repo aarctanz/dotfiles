@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 2
+    },
+    "auditLog": "/home/arctan/.config/Code/User/workspaceStorage/26c97a3eccd30e3dec491ddfb8212f25/redhat.java/.c84089a241f6c4a8f7d1e655a235a4cf24b0ec6a-audit.json",
+    "files": [
+        {
+            "date": 1744277065557,
+            "name": "/home/arctan/.config/Code/User/workspaceStorage/26c97a3eccd30e3dec491ddfb8212f25/redhat.java/client.log.2025-04-10",
+            "hash": "b26534609012af9d11d6e12ab27903c3043bbc19eb0fb82299015b3839a12915"
+        }
+    ],
+    "hashType": "sha256"
+}

@@ -1,0 +1,12 @@
+{
+    "window.menuBarVisibility": "toggle",
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 18,
+    "workbench.editorAssociations": {
+        "*.pdf": "default"
+    },
+    "[latex]": {
+        "editor.defaultFormatter": "nickfode.latex-formatter"
+    },
+    "editor.minimap.enabled": false
+}

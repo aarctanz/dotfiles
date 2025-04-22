@@ -1,0 +1,152 @@
+2025-04-13 14:29:08.878 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-13 14:29:08.878 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-13 14:29:08.879 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-13 14:29:09.035 [warning] Creation of workbench contribution 'workbench.contrib.interactiveDocument' took 33ms.
+2025-04-13 14:29:09.746 [info] Started local extension host with pid 3888.
+2025-04-13 14:29:10.591 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-13 14:29:10.593 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-13 14:29:10.596 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-13 14:29:10.604 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-13 14:29:10.608 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-13 14:29:10.611 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-13 14:29:10.611 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-13 14:29:10.982 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-13 14:29:10.983 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-13 14:29:10.983 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-13 14:29:10.984 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-13 14:29:10.984 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-13 14:29:10.984 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-13 14:29:11.282 [error] Extension 'ms-vscode.cpptools' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): terminalDataWriteEvent, chatParticipantAdditions
+product.json (WINS): terminalDataWriteEvent
+2025-04-13 14:29:11.520 [warning] [redhat.vscode-yaml]: Cannot register 'redhat.telemetry.enabled'. This property is already registered.
+2025-04-13 14:29:11.536 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-04-13 14:29:14.600 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-04-13 14:29:15.592 [info] [perf] Render performance baseline is 88ms
+2025-04-13 14:29:42.398 [error] Cannot read the extension from /home/arctan/.vscode/extensions/github.copilot-chat-0.24.1: ScanningExtension: Cannot read the extension from /home/arctan/.vscode/extensions/github.copilot-chat-0.24.1
+    at dh.scanLocalExtension (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:73895)
+2025-04-13 14:29:43.056 [error] Cannot read the extension from /home/arctan/.vscode/extensions/github.copilot-1.301.0: ScanningExtension: Cannot read the extension from /home/arctan/.vscode/extensions/github.copilot-1.301.0
+    at dh.scanLocalExtension (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:73895)
+2025-04-13 14:29:43.782 [error] Cannot read the extension from /home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0: ScanningExtension: Cannot read the extension from /home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0
+    at dh.scanLocalExtension (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:73895)
+2025-04-13 14:29:43.799 [error] Cannot read the extension from /home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64: ScanningExtension: Cannot read the extension from /home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64
+    at dh.scanLocalExtension (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:73895)
+2025-04-13 14:29:45.559 [error] Cannot read the extension from /home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21: ScanningExtension: Cannot read the extension from /home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21
+    at dh.scanLocalExtension (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:73895)
+2025-04-13 15:29:17.840 [error] [network] #126: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 15:29:17.841 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 15:34:17.845 [error] [network] #127: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 15:34:17.876 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 15:39:17.883 [error] [network] #128: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 15:39:17.910 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 15:44:17.915 [error] [network] #129: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 15:44:17.941 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 15:49:17.946 [error] [network] #130: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 15:49:17.974 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 15:54:17.979 [error] [network] #131: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 15:54:18.010 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 15:59:18.031 [error] [network] #132: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 15:59:18.062 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 16:04:18.068 [error] [network] #133: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 16:04:18.094 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 16:09:18.100 [error] [network] #134: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 16:09:18.128 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 16:14:18.134 [error] [network] #135: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 16:14:18.161 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 16:19:18.166 [error] [network] #136: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 16:19:18.194 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 16:24:18.199 [error] [network] #137: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 16:24:18.232 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 16:29:18.238 [error] [network] #138: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 16:29:18.265 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 16:34:18.271 [error] [network] #139: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 16:34:18.308 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 16:39:18.313 [error] [network] #140: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 16:39:18.344 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 16:44:18.348 [error] [network] #141: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 16:44:18.375 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 16:49:18.380 [error] [network] #142: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 16:49:18.406 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 16:54:18.412 [error] [network] #143: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 16:54:18.441 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 16:59:18.446 [error] [network] #144: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 16:59:18.490 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 17:04:18.495 [error] [network] #145: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 17:04:18.521 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 17:09:18.526 [error] [network] #146: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 17:09:18.555 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 17:14:18.560 [error] [network] #147: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 17:14:18.592 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 17:19:18.597 [error] [network] #148: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 17:19:18.625 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 17:24:18.630 [error] [network] #149: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 17:24:18.663 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 17:29:18.668 [error] [network] #150: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 17:29:18.694 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 17:34:18.700 [error] [network] #151: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 17:34:18.725 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 17:39:18.731 [error] [network] #152: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 17:39:18.757 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 17:44:18.763 [error] [network] #153: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 17:44:18.794 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 17:49:18.799 [error] [network] #154: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 17:49:18.833 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 17:54:18.841 [error] [network] #155: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 17:54:18.866 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 17:59:18.871 [error] [network] #156: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 17:59:18.897 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 18:04:18.902 [error] [network] #157: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 18:04:18.928 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 18:09:18.933 [error] [network] #158: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 18:09:18.961 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 18:14:18.966 [error] [network] #159: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 18:14:19.012 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 18:19:19.028 [error] [network] #160: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 18:19:19.053 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 18:24:19.058 [error] [network] #161: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 18:24:19.085 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 18:29:19.092 [error] [network] #162: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 18:29:19.114 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 18:34:19.119 [error] [network] #163: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 18:34:19.148 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 18:39:19.151 [error] [network] #164: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 18:39:19.182 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 18:44:19.187 [error] [network] #165: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 18:44:19.215 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 18:49:19.221 [error] [network] #166: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 18:49:19.249 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 18:54:19.253 [error] [network] #167: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 18:54:19.280 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 18:59:19.285 [error] [network] #168: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 18:59:19.312 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 19:04:19.319 [error] [network] #169: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 19:04:19.345 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 19:07:40.157 [error] No registered selector for ID: copilot-chat.fixWithCopilot
+2025-04-13 19:07:40.158 [error] No registered selector for ID: copilot-chat.generateCommitMessage
+2025-04-13 19:07:40.187 [error] No registered selector for ID: copilot-chat.terminalToDebugging
+2025-04-13 19:07:40.188 [error] No registered selector for ID: copilot-chat.terminalToDebuggingSuccess
+2025-04-13 20:09:20.025 [error] [network] #182: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-13 20:09:20.055 [warning] Failed to fetch chat participant registry Offline
+2025-04-13 20:12:43.840 [error] No registered selector for ID: copilot-chat.fixWithCopilot
+2025-04-13 20:12:43.841 [error] No registered selector for ID: copilot-chat.generateCommitMessage
+2025-04-13 20:12:43.869 [error] No registered selector for ID: copilot-chat.terminalToDebugging
+2025-04-13 20:12:43.870 [error] No registered selector for ID: copilot-chat.terminalToDebuggingSuccess
+2025-04-13 20:19:18.298 [error] [Extension Host] [default] Error sending telemetry FetchError: Stream closed with error code NGHTTP2_REFUSED_STREAM
+    at fetch (/home/arctan/.vscode/extensions/github.copilot-1.270.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at cachingFetch (/home/arctan/.vscode/extensions/github.copilot-1.270.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at Fce.fetch (/home/arctan/.vscode/extensions/github.copilot-1.270.0/lib/src/network/helix.ts:94:22) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_ERROR',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-04-14 08:12:55.872 [error] No registered selector for ID: copilot-chat.fixWithCopilot
+2025-04-14 08:12:55.875 [error] No registered selector for ID: copilot-chat.generateCommitMessage
+2025-04-14 08:12:56.104 [error] No registered selector for ID: copilot-chat.terminalToDebugging
+2025-04-14 08:12:56.107 [error] No registered selector for ID: copilot-chat.terminalToDebuggingSuccess
+2025-04-14 10:11:47.811 [error] No registered selector for ID: copilot-chat.fixWithCopilot
+2025-04-14 10:11:47.816 [error] No registered selector for ID: copilot-chat.generateCommitMessage
+2025-04-14 10:11:47.877 [error] No registered selector for ID: copilot-chat.terminalToDebugging
+2025-04-14 10:11:47.880 [error] No registered selector for ID: copilot-chat.terminalToDebuggingSuccess

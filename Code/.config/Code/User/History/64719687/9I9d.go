@@ -1,0 +1,37 @@
+package main
+
+import (
+	"fmt"
+	"os"
+)
+
+func main(){
+
+	arg := os.Args
+	if len(arg) < 2 {
+		fmt.Println("Usage: go run main.go <filename>")
+		return
+	}
+
+	filename := arg[1]
+	file, err := os.Open(filename)
+	if err != nil {
+		fmt.Println("Error opening file")
+		return
+	}
+	defer file.Close()
+
+	var source []byte
+	_, err = file.Read(source)
+	if err != nil {
+		fmt.Println("Error Reading file")
+		return
+	}
+	fmt.Println(source)
+	s := NewScanner(string(source))
+	s.ScanTokens()
+
+	for _,t := range s.tokens {
+		fmt.Printf("t: %v\n", t)
+	}
+}

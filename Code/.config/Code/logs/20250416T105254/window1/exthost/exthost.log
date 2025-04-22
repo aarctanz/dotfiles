@@ -1,0 +1,28 @@
+2025-04-16 10:52:57.226 [info] Extension host with pid 2798 started
+2025-04-16 10:52:57.226 [info] Skipping acquiring lock for /home/arctan/.config/Code/User/workspaceStorage/5cf6314e3759b47513edf8300edad086.
+2025-04-16 10:52:57.537 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-04-16 10:52:57.702 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-04-16 10:52:57.708 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+2025-04-16 10:52:58.356 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-04-16 10:52:58.644 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-04-16 10:52:58.911 [info] Eager extensions activated
+2025-04-16 10:52:58.967 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-04-16 10:52:58.978 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-04-16 10:52:59.019 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-04-16 10:52:59.241 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-04-16 10:53:00.131 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-04-16 10:53:00.845 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+2025-04-16 10:53:01.086 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-04-16 10:53:01.111 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-04-16 10:53:02.132 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:c'
+2025-04-16 10:53:02.289 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-04-16 10:53:24.459 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-04-16 10:53:31.579 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-04-16 10:53:32.213 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-04-16 10:53:54.215 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-16 10:53:54.232 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-16 10:53:54.308 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-16 10:55:57.791 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-04-16 10:59:29.444 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-04-16 10:59:30.711 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-04-16 10:59:56.169 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.

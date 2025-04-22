@@ -1,0 +1,87 @@
+\documentclass{article}
+\usepackage{multicol}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage[skip=20pt, indent=40pt]{parskip}
+\usepackage{amsmath}
+\usepackage{tcolorbox}
+\usepackage{witharrows}
+
+\title{more latex feature}
+\author{Arctan}
+\date{20 Dec}
+
+\begin{document}
+
+\maketitle
+
+\section{Columns}
+\begin{itemize}
+    \item Two Columns
+    \item multicol
+    \item Minipage
+\end{itemize}
+
+\newpage
+\onecolumn
+\subsection{One Column}
+\lipsum[1-2]
+
+\newpage
+\subsection{Two columns using multicols}
+\begin{multicols}{2}
+    \lipsum[1-3]
+\end{multicols}
+
+\newpage
+
+\subsection{Two columns using multicols}
+\begin{multicols*}{2}
+    
+    \lipsum[1-3]
+\end{multicols*}
+
+\newpage
+\begin{minipage}{0.6\textwidth}
+    \includegraphics[width=\linewidth]{../images/asdd.png}
+\end{minipage}
+\hspace{10pt}
+\begin{minipage}{0.3\textwidth}
+    \includegraphics[width=\linewidth]{../images/asd.png}
+\end{minipage}
+
+\newpage
+\section{Whitespace}
+
+\[y''+ y'+y=0,\quad y(0)=1\]
+\[y'' + y'+y=0, \qquad y(0)=1 \]
+\[y'' + y'+y=0, \hspace{1in} y(0)=1 \]
+\[y'' + y'+y=0, \hfill y(0)=1 \]
+here some text with hfil \hfil some other \\
+here some text with hfill \hfill some other
+
+new paragraph\\
+
+\noindent paragraph with no indent
+\vfill
+\lipsum[1]
+
+\newpage
+
+\section{Anotating equation}
+\subsection{Underbrace}
+\begin{align}
+    y' &=\delta(t-1) \\
+    Y(s)-\underbrace{y(0)}_{I.C.} &= e^{-s}
+\end{align}
+
+\subsection{highlight and arrows }
+
+\WithArrowsOptions{displaystyle, tikz=purple}
+\[\begin{WithArrows}
+    y' &=\delta(t-1) \Arrow{Take Lapalace transform} \\
+    \colorbox{yellow}{Y(s)}-\underbrace{y(0)}_{I.C.} &= e^{-s}
+\end{WithArrows}\]
+
+\end{document}

@@ -1,0 +1,4 @@
+\COPY acts_sections FROM '/home/arctan/data/justice_data/acts_sections/acts_sections_part_7.csv' WITH (FORMAT CSV, HEADER true, NULL '', FORCE_NULL (section, bailable_ipc, number_sections_ipc));
+\COPY acts_sections FROM '/home/arctan/data/justice_data/acts_sections/acts_sections_part_8.csv' WITH (FORMAT CSV, HEADER true, NULL '', FORCE_NULL (section, bailable_ipc, number_sections_ipc));
+\COPY acts_sections FROM '/home/arctan/data/justice_data/acts_sections/acts_sections_part_9.csv' WITH (FORMAT CSV, HEADER true, NULL '', FORCE_NULL (section, bailable_ipc, number_sections_ipc));
+\COPY acts_sections FROM '/home/arctan/data/justice_data/acts_sections/acts_sections_part_10.csv' WITH (FORMAT CSV, HEADER true, NULL '', FORCE_NULL (section, bailable_ipc, number_sections_ipc));

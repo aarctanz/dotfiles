@@ -1,0 +1,662 @@
+2025-04-16 10:52:56.481 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:56.484 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:56.486 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:56.490 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:56.492 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:56.493 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:56.493 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:56.612 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:56.612 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:56.614 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:56.614 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:56.615 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:56.617 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:56.622 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:56.660 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:56.662 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:56.667 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:56.675 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:56.692 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:52:56.700 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:52:56.827 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:56.841 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:56.842 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:56.842 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:56.843 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:56.843 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:56.843 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:56.844 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:56.844 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:56.846 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:56.848 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:56.848 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:52:56.848 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:52:56.849 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:56.849 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:56.856 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:52:56.856 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:56.857 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:56.857 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:52:57.243 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:57.243 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:57.247 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:57.248 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:57.249 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:57.249 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:57.250 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:57.252 [info] Deleted uninstalled extension from disk docker.docker /home/arctan/.vscode/extensions/docker.docker-0.4.7-linux-x64
+2025-04-16 10:52:57.286 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:57.287 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:57.289 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:57.301 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:57.305 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:52:57.306 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:52:57.431 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:57.432 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:57.432 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:57.433 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:57.438 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:57.439 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:57.449 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:57.511 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:57.515 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:57.516 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:52:57.519 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:57.520 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:52:57.533 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:57.709 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:57.710 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:57.714 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:57.716 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:57.717 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:57.720 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:57.722 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:57.742 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:57.751 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:57.755 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:57.758 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:57.760 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:52:57.769 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:52:58.080 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:58.081 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:58.082 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:58.084 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:58.085 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:58.086 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:58.086 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:58.098 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:58.099 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:58.102 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:58.106 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:58.114 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:52:58.121 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:52:58.428 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:58.430 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:58.431 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:58.435 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:58.438 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:58.441 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:58.441 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:58.458 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:58.461 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:58.462 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:58.471 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:58.477 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:52:58.479 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:52:58.798 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:58.799 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:58.803 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:58.804 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:58.807 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:58.807 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:58.808 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:58.817 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:58.819 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:58.821 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:58.825 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:58.831 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:52:58.834 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:52:59.277 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:59.278 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:59.278 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:59.283 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:59.286 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:59.287 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:59.287 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:59.307 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:59.313 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:59.318 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:59.331 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:59.339 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:52:59.343 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:52:59.521 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:59.522 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:59.523 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:59.525 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:59.525 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:59.526 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:59.527 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:59.533 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:59.538 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:59.540 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:59.546 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:59.551 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:52:59.552 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:52:59.650 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:59.651 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:59.651 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:59.651 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:59.653 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:59.654 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:59.655 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:59.658 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:59.660 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:52:59.666 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:52:59.667 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:52:59.669 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:52:59.681 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:53:26.868 [error] [network] #1: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_TIMED_OUT
+2025-04-16 10:53:26.972 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:53:26.972 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:53:26.973 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:53:26.973 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:53:26.973 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:53:26.974 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:53:26.974 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:53:27.017 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:53:27.017 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:53:27.018 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:53:27.023 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:53:27.028 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:53:27.036 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:53:27.092 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:53:27.093 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:53:27.093 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:53:27.097 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:53:27.097 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:53:27.098 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:53:27.098 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:53:27.134 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:53:27.137 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:53:27.139 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:53:27.142 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:53:27.152 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:53:27.157 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:53:27.585 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:53:27.585 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:53:27.586 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:53:27.587 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:53:27.587 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:53:27.587 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:53:27.588 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:53:27.593 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:53:27.594 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:53:27.595 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:53:27.598 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:53:27.602 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:53:27.604 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:53:52.364 [info] Getting Manifest... docker.docker
+2025-04-16 10:53:52.886 [info] Installing extension: docker.docker {"productVersion":{"version":"1.96.1","date":"2024-12-17T17:50:05.206Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/arctan/.vscode/extensions/extensions.json","path":"/home/arctan/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-04-16 10:53:52.934 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:53:52.935 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:53:52.935 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:53:52.936 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:53:52.937 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:53:52.937 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:53:52.938 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:53:52.943 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:53:52.944 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:53:52.945 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:53:52.959 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:53:52.960 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:53:52.963 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:53:57.795 [info] Getting Manifest... ms-azuretools.vscode-docker
+2025-04-16 10:53:58.730 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:53:58.730 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:53:58.731 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:53:58.732 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:53:58.732 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:53:58.733 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:53:58.733 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:53:58.743 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:53:58.745 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:53:58.746 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:53:58.752 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:53:58.754 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:53:58.756 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:53:58.824 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:53:58.825 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:53:58.825 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:53:58.826 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:53:58.827 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:53:58.827 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:53:58.827 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:53:58.831 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:53:58.833 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:53:58.834 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:53:58.839 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:53:58.842 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:53:58.846 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:54:23.245 [info] Extension signature verification result for docker.docker: UnknownError. Executed: true. Duration: 45ms.
+2025-04-16 10:54:23.656 [info] Extracted extension to file:///home/arctan/.vscode/extensions/docker.docker-0.4.9-linux-x64: docker.docker
+2025-04-16 10:54:23.666 [info] Renamed to /home/arctan/.vscode/extensions/docker.docker-0.4.9-linux-x64
+2025-04-16 10:54:23.689 [info] Marked extension as uninstalled docker.docker-0.4.8-linux-x64
+2025-04-16 10:54:23.720 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:54:23.721 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:54:23.721 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:54:23.722 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:54:23.722 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:54:23.723 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:54:23.723 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:54:23.742 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:54:23.742 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:54:23.744 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:54:23.750 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:54:23.754 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:54:23.759 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:54:23.770 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/arctan/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/arctan/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-04-16 10:54:23.773 [info] Extension installed successfully: docker.docker vscode-userdata:/home/arctan/.vscode/extensions/extensions.json
+2025-04-16 10:58:58.139 [error] [network] #25: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_TIMED_OUT
+2025-04-16 10:58:58.213 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:58:58.213 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:58:58.214 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:58:58.214 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:58:58.215 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:58:58.216 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:58:58.216 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:58:58.220 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:58:58.222 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:58:58.225 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 10:58:58.228 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 10:58:58.229 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 10:58:58.233 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 11:04:28.706 [error] [network] #31: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_TIMED_OUT
+2025-04-16 11:04:28.789 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:04:28.789 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:04:28.790 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:04:28.791 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:04:28.792 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:04:28.792 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:04:28.793 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:04:28.803 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:04:28.805 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:04:28.811 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:04:28.814 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:04:28.817 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 11:04:28.818 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 11:09:59.573 [error] [network] #32: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_TIMED_OUT
+2025-04-16 11:09:59.628 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:09:59.629 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:09:59.630 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:09:59.631 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:09:59.632 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:09:59.632 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:09:59.634 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:09:59.640 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:09:59.642 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:09:59.642 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:09:59.650 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:09:59.652 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 11:09:59.653 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 11:15:01.220 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:15:01.221 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:15:01.222 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:15:01.226 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:15:01.227 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:15:01.227 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:15:01.227 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:15:01.233 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:15:01.234 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:15:01.236 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:15:01.240 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:15:01.243 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 11:15:01.247 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 11:22:28.926 [error] [network] #34: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_CONNECTION_RESET
+2025-04-16 11:22:28.984 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:22:28.985 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:22:28.985 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:22:28.986 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:22:28.987 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:22:28.987 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:22:28.988 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:22:28.997 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:22:29.003 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:22:29.011 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:22:29.011 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:22:29.014 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 11:22:29.017 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 11:27:39.200 [error] [network] #35: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-04-16 11:27:39.260 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:27:39.261 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:27:39.263 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:27:39.264 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:27:39.264 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:27:39.265 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:27:39.266 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:27:39.270 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:27:39.271 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:27:39.273 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:27:39.277 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:27:39.281 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 11:27:39.283 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 11:32:39.384 [error] [network] #36: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_INTERNET_DISCONNECTED
+2025-04-16 11:32:39.442 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:32:39.442 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:32:39.443 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:32:39.444 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:32:39.444 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:32:39.445 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:32:39.445 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:32:39.450 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:32:39.451 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:32:39.452 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:32:39.454 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:32:39.459 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 11:32:39.462 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 11:37:39.556 [error] [network] #37: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_INTERNET_DISCONNECTED
+2025-04-16 11:37:39.621 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:37:39.621 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:37:39.622 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:37:39.624 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:37:39.625 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:37:39.625 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:37:39.626 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:37:39.635 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:37:39.638 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:37:39.642 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:37:39.648 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 11:37:39.649 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 11:37:39.653 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:42:42.193 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:42:42.193 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:42:42.195 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:42:42.196 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:42:42.196 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:42:42.196 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:42:42.197 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:42:42.202 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:42:42.203 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:42:42.205 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:42:42.210 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:42:42.212 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 11:42:42.217 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 11:47:45.457 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:47:45.457 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:47:45.458 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:47:45.458 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:47:45.459 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:47:45.460 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:47:45.460 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:47:45.471 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:47:45.472 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:47:45.473 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:47:45.477 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:47:45.485 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 11:47:45.487 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 11:52:50.349 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:52:50.349 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:52:50.350 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:52:50.350 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:52:50.351 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:52:50.351 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:52:50.352 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:52:50.359 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:52:50.360 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:52:50.361 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:52:50.368 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:52:50.372 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 11:52:50.373 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 11:53:33.427 [info] Getting Manifest... github.copilot
+2025-04-16 11:53:33.430 [info] Getting Manifest... github.copilot-chat
+2025-04-16 11:53:33.432 [info] Getting Manifest... ms-kubernetes-tools.vscode-kubernetes-tools
+2025-04-16 11:53:33.434 [info] Getting Manifest... ms-toolsai.jupyter
+2025-04-16 11:53:33.436 [info] Getting Manifest... ms-vscode-remote.remote-containers
+2025-04-16 11:53:36.043 [info] Installing extension: github.copilot-chat {"productVersion":{"version":"1.99.2","date":"2025-04-10T00:55:23.996Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/arctan/.vscode/extensions/extensions.json","path":"/home/arctan/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-04-16 11:53:36.346 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:53:36.346 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:53:36.348 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:53:36.349 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:53:36.349 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:53:36.350 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:53:36.350 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:53:36.354 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:53:36.355 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:53:36.356 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:53:36.358 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:53:36.361 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 11:53:36.363 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 11:53:36.367 [error] Error while installing the extension github.copilot-chat Cannot read the extension from /home/arctan/.vscode/extensions/github.copilot-chat-0.24.1 vscode-userdata:/home/arctan/.vscode/extensions/extensions.json
+2025-04-16 11:53:36.383 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/arctan/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/arctan/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-04-16 11:53:37.530 [info] Installing extension: github.copilot {"productVersion":{"version":"1.99.2","date":"2025-04-10T00:55:23.996Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/arctan/.vscode/extensions/extensions.json","path":"/home/arctan/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-04-16 11:53:37.782 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:53:37.783 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:53:37.783 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:53:37.784 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:53:37.785 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:53:37.785 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:53:37.785 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:53:37.789 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:53:37.790 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:53:37.791 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:53:37.793 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:53:37.795 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 11:53:37.797 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 11:53:37.804 [error] Error while installing the extension github.copilot Cannot read the extension from /home/arctan/.vscode/extensions/github.copilot-1.301.0 vscode-userdata:/home/arctan/.vscode/extensions/extensions.json
+2025-04-16 11:53:37.821 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/arctan/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/arctan/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-04-16 11:53:38.459 [info] Installing extension: ms-vscode-remote.remote-containers {"productVersion":{"version":"1.99.2","date":"2025-04-10T00:55:23.996Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/arctan/.vscode/extensions/extensions.json","path":"/home/arctan/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-04-16 11:53:38.721 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:53:38.721 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:53:38.722 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:53:38.722 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:53:38.723 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:53:38.724 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:53:38.724 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:53:38.728 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:53:38.729 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:53:38.730 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:53:38.733 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:53:38.735 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 11:53:38.737 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 11:53:38.745 [error] Error while installing the extension ms-vscode-remote.remote-containers Cannot read the extension from /home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0 vscode-userdata:/home/arctan/.vscode/extensions/extensions.json
+2025-04-16 11:53:38.762 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/arctan/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/arctan/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-04-16 11:53:40.166 [info] Installing extension: ms-kubernetes-tools.vscode-kubernetes-tools {"productVersion":{"version":"1.99.2","date":"2025-04-10T00:55:23.996Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/arctan/.vscode/extensions/extensions.json","path":"/home/arctan/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-04-16 11:53:40.169 [info] Installing extension: ms-toolsai.jupyter {"productVersion":{"version":"1.99.2","date":"2025-04-10T00:55:23.996Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/arctan/.vscode/extensions/extensions.json","path":"/home/arctan/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-04-16 11:53:40.427 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:53:40.427 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:53:40.428 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:53:40.429 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:53:40.429 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:53:40.429 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:53:40.430 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:53:40.439 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:53:40.441 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:53:40.445 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:53:40.450 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:53:40.450 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 11:53:40.455 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 11:53:40.462 [error] Error while installing the extension ms-toolsai.jupyter Cannot read the extension from /home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64 vscode-userdata:/home/arctan/.vscode/extensions/extensions.json
+2025-04-16 11:53:40.466 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/arctan/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/arctan/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-04-16 11:53:41.050 [info] Getting Manifest... redhat.vscode-yaml
+2025-04-16 11:53:49.763 [info] Extension signature verification result for ms-kubernetes-tools.vscode-kubernetes-tools: UnknownError. Executed: true. Duration: 25ms.
+2025-04-16 11:53:49.932 [info] Extracted extension to file:///home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.22: ms-kubernetes-tools.vscode-kubernetes-tools
+2025-04-16 11:53:49.944 [info] Renamed to /home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.22
+2025-04-16 11:53:49.945 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.22]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:53:49.958 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/arctan/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/arctan/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-04-16 11:53:50.040 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:53:50.040 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:53:50.041 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:53:50.042 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:53:50.042 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:53:50.043 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:53:50.043 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:53:50.043 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.22]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:53:50.054 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:53:50.055 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:53:50.060 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:53:50.063 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:53:50.067 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 11:53:50.069 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 11:53:50.075 [error] Error while installing the extension ms-kubernetes-tools.vscode-kubernetes-tools Cannot read the extension from /home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.22 vscode-userdata:/home/arctan/.vscode/extensions/extensions.json
+2025-04-16 11:57:52.972 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:57:52.973 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:57:52.974 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:57:52.976 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:57:52.976 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:57:52.976 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:57:52.977 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:57:52.977 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.22]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:57:52.989 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:57:52.990 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:57:52.992 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 11:57:52.998 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 11:57:53.029 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 11:57:53.033 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 12:02:54.415 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:02:54.415 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:02:54.416 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:02:54.417 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:02:54.417 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:02:54.418 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:02:54.418 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:02:54.419 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.22]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:02:54.424 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:02:54.426 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:02:54.427 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:02:54.430 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:02:54.435 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 12:02:54.438 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 12:07:56.919 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:07:56.919 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:07:56.920 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:07:56.921 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:07:56.921 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:07:56.922 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:07:56.922 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:07:56.923 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.22]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:07:56.930 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:07:56.933 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:07:56.934 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:07:56.941 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 12:07:56.944 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 12:07:56.952 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:12:58.723 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:12:58.724 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:12:58.724 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:12:58.725 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:12:58.725 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:12:58.726 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:12:58.727 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:12:58.728 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.22]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:12:58.738 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:12:58.740 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:12:58.742 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:12:58.748 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:12:58.750 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 12:12:58.753 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 12:18:01.171 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:18:01.171 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:18:01.172 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:18:01.173 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:18:01.173 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:18:01.173 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:18:01.175 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:18:01.175 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.22]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:18:01.183 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:18:01.184 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:18:01.185 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:18:01.190 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:18:01.195 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 12:18:01.196 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 12:23:03.330 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:23:03.331 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:23:03.331 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:23:03.332 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:23:03.333 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:23:03.334 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:23:03.334 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:23:03.334 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.22]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:23:03.344 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:23:03.347 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:23:03.349 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:23:03.353 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:23:03.356 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 12:23:03.359 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 12:28:04.638 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:28:04.639 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:28:04.640 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:28:04.643 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:28:04.643 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:28:04.644 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:28:04.646 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:28:04.646 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.22]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:28:04.665 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:28:04.671 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:28:04.673 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:28:04.680 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:28:04.688 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 12:28:04.690 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 12:33:06.205 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:33:06.206 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:33:06.207 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:33:06.208 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:33:06.209 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:33:06.210 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:33:06.212 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:33:06.213 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.22]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:33:06.224 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:33:06.226 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:33:06.228 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:33:06.235 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:33:06.241 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 12:33:06.244 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 12:38:36.854 [error] [network] #66: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_TIMED_OUT
+2025-04-16 12:38:36.927 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:38:36.927 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:38:36.928 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:38:36.930 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:38:36.930 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:38:36.931 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:38:36.931 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:38:36.932 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.22]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:38:36.940 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:38:36.944 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:38:36.945 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-16 12:38:36.952 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-16 12:38:36.955 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-16 12:38:36.957 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.

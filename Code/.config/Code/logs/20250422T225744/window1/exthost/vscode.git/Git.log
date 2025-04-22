@@ -1,0 +1,40 @@
+2025-04-22 22:57:54.030 [info] [main] Log level: Info
+2025-04-22 22:57:54.030 [info] [main] Validating found git in: "git"
+2025-04-22 22:57:54.030 [info] [main] Using git "2.49.0" from "git"
+2025-04-22 22:57:54.030 [info] [Model][doInitialScan] Initial repository scan started
+2025-04-22 22:57:54.030 [info] > git rev-parse --show-toplevel [9ms]
+2025-04-22 22:57:54.030 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-22 22:57:54.034 [info] > git rev-parse --show-toplevel [18ms]
+2025-04-22 22:57:54.034 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-22 22:57:54.078 [info] > git rev-parse --show-toplevel [16ms]
+2025-04-22 22:57:54.082 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-22 22:57:58.476 [info] > git rev-parse --show-toplevel [1171ms]
+2025-04-22 22:57:58.476 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-22 22:57:58.611 [info] > git rev-parse --show-toplevel [18ms]
+2025-04-22 22:57:58.758 [info] > git rev-parse --git-dir --git-common-dir [101ms]
+2025-04-22 22:57:58.802 [info] [Model][openRepository] Opened repository: /home/arctan/explorations/go/studnt
+2025-04-22 22:57:58.819 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-04-22 22:57:59.039 [info] > git config --get commit.template [157ms]
+2025-04-22 22:57:59.251 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-22 22:57:59.318 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [68ms]
+2025-04-22 22:57:59.407 [info] > git status -z -uall [47ms]
+2025-04-22 22:57:59.506 [info] > git check-ignore -v -z --stdin [16ms]
+2025-04-22 22:57:59.509 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [109ms]
+2025-04-22 22:57:59.624 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [61ms]
+2025-04-22 22:57:59.733 [info] > git config --local branch.main.vscode-merge-base [66ms]
+2025-04-22 22:57:59.733 [warning] [Git][config] git config failed: Failed to execute git
+2025-04-22 22:57:59.777 [info] > git config --get commit.template [155ms]
+2025-04-22 22:57:59.823 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-22 22:58:02.396 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2573ms]
+2025-04-22 22:58:02.478 [info] > git reflog main --grep-reflog=branch: Created from *. [2701ms]
+2025-04-22 22:58:02.572 [info] > git status -z -uall [138ms]
+2025-04-22 22:58:02.573 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [53ms]
+2025-04-22 22:58:02.573 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-04-22 22:58:02.573 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-04-22 22:58:02.575 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [98ms]
+2025-04-22 22:58:04.108 [info] > git config --get commit.template [4ms]
+2025-04-22 22:58:04.328 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-22 22:58:04.343 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2025-04-22 22:58:04.440 [info] > git status -z -uall [55ms]
+2025-04-22 22:58:04.441 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [17ms]
+2025-04-22 23:42:03.857 [info] > git check-ignore -v -z --stdin [3ms]

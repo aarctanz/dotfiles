@@ -1,0 +1,12 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/explorations/java/TCP client server" value="true" />
+        <entry key="$USER_HOME$/explorations/java/account" value="true" />
+        <entry key="$USER_HOME$/explorations/java/demo" value="true" />
+        <entry key="$USER_HOME$/explorations/java/syncnotes" value="true" />
+      </map>
+    </option>
+  </component>
+</application>

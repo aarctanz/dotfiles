@@ -1,0 +1,31 @@
+2025-04-22 22:57:58.754 [info] Using the Electron fetcher.
+2025-04-22 22:57:58.754 [info] Initializing Git extension service.
+2025-04-22 22:57:58.754 [info] Successfully activated the vscode.git extension.
+2025-04-22 22:57:58.754 [info] Enablement state of the vscode.git extension: true.
+2025-04-22 22:57:58.754 [info] Successfully registered Git commit message provider.
+2025-04-22 22:58:02.677 [info] Logged in as aarctanz
+2025-04-22 22:58:05.387 [info] Got Copilot token for aarctanz
+2025-04-22 22:58:05.514 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-22 22:58:05.514 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-04-22 22:58:05.558 [info] Registering default platform agent...
+2025-04-22 22:58:07.033 [info] Fetched model metadata in 1630ms 64b0ca1f-3093-411f-8f8c-9deeb5bffad8
+2025-04-22 22:58:07.382 [info] activationBlocker from 'languageModelAccess' took for 3346ms
+2025-04-22 23:13:09.539 [info] Fetched model metadata in 1341ms 3eda55fa-59ea-43de-8fd5-7bf41611def7
+2025-04-22 23:23:05.401 [info] Logged in as aarctanz
+2025-04-22 23:23:05.650 [info] Logged in as aarctanz
+2025-04-22 23:23:05.721 [info] copilot token chat_enabled: undefined, sku: 
+2025-04-22 23:23:05.882 [info] Logged in as aarctanz
+2025-04-22 23:23:05.934 [error] GitHub Copilot could not connect to server. Extension activation failed: "net::ERR_CERT_COMMON_NAME_INVALID"
+2025-04-22 23:23:05.938 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-04-22 23:23:05.939 [error] Error: net::ERR_CERT_COMMON_NAME_INVALID
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10511)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+2025-04-22 23:23:05.940 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-04-22 23:23:05.940 [error] Error: net::ERR_CERT_COMMON_NAME_INVALID
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10511)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+2025-04-22 23:38:05.959 [info] Logged in as aarctanz
+2025-04-22 23:38:07.943 [info] Got Copilot token for aarctanz
+2025-04-22 23:38:08.096 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-22 23:38:08.097 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-04-22 23:38:10.339 [info] Fetched model metadata in 2386ms 067e4c78-31d4-4144-a2f1-e0e6dc25a9bc

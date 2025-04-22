@@ -1,0 +1,34 @@
+G19_JudicialDataAnalysis_Abhinav_V01
+
+Andhra Pradesh        2025217
+Assam                 1165481
+Bihar                 2939852
+Chandigarh             211799
+Chhattisgarh          1016314
+Delhi                 1846479
+Diu and Daman           10497
+DNH at Silvasa           7661
+Goa                    275797
+Gujarat               5080430
+Haryana               3390970
+Himachal Pradesh       945362
+Jammu and Kashmir      356076
+Jharkhand             1055131
+Karnataka             7930933
+Kerala                4537028
+Ladakh                    671
+Madhya Pradesh        5352494
+Maharashtra           9770266
+Manipur                 81148
+Meghalaya               33495
+Mizoram                 10125
+Orissa                1565512
+Punjab                3076661
+Rajasthan             4320264
+Sikkim                  28044
+Tamil Nadu            3529316
+Telangana             1533511
+Tripura                 97760
+Uttarakhand            747931
+Uttar Pradesh        12744179
+West Bengal           2449926

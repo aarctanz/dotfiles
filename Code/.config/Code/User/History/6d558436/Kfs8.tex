@@ -1,0 +1,294 @@
+% AUTHOR: Sina Atalay
+% LICENSE: https://github.com/sinaatalay/rendercv/blob/main/LICENSE
+
+\documentclass[10pt, letterpaper]{article}
+
+% Packages:
+\usepackage[
+        ignoreheadfoot, % set margins without considering header and footer
+        top=2 cm, % seperation between body and page edge from the top
+        bottom=2 cm, % seperation between body and page edge from the bottom
+        left=2 cm, % seperation between body and page edge from the left
+        right=2 cm, % seperation between body and page edge from the right
+        footskip=1.0 cm, % seperation between body and footer
+        % showframe % for debugging 
+    ]{geometry} % for adjusting page geometry
+\usepackage[explicit]{titlesec} % for customizing section titles
+\usepackage{tabularx} % for making tables with fixed width columns
+\usepackage{array} % tabularx requires this
+\usepackage[dvipsnames]{xcolor} % for coloring text
+\definecolor{primaryColor}{RGB}{0, 79, 144} % define primary color
+\usepackage{enumitem} % for customizing lists
+\usepackage{fontawesome5} % for using icons
+\usepackage{amsmath} % for math
+\usepackage[
+    pdftitle={Abhinav's CV},
+    pdfauthor={Abhinav Kumar},
+    colorlinks=true,
+    urlcolor=primaryColor
+]{hyperref} % for links, metadata and bookmarks
+\usepackage[pscoord]{eso-pic} % for floating text on the page
+\usepackage{calc} % for calculating lengths
+\usepackage{bookmark} % for bookmarks
+\usepackage{lastpage} % for getting the total number of pages
+\usepackage[default, type1]{sourcesanspro} % for using source sans 3 font
+\usepackage{ifthen}
+
+% Some settings:
+\pagestyle{empty} % no header or footer
+\setcounter{secnumdepth}{0} % no section numbering
+\setlength{\parindent}{0pt} % no indentation
+\setlength{\topskip}{0pt} % no top skip
+\makeatletter
+\let\ps@customFooterStyle\ps@plain % Copy the plain style to customFooterStyle
+\patchcmd{\ps@customFooterStyle}{\thepage}{
+    \color{gray}\textit{\small Abhinav Kumar - Page \thepage{} of \pageref*{LastPage}}
+}{}{} % replace number by desired string
+\makeatother
+\pagestyle{customFooterStyle}
+
+\titleformat{\section}{
+        % make the font size of the section title large and color it with the primary color
+        \Large\color{primaryColor}
+    }{
+    }{
+    }{
+        % print bold title, give 0.15 cm space and draw a line of 0.8 pt thickness
+        % from the end of the title to the end of the body
+        \textbf{#1}\hspace{0.15cm}\titlerule[0.8pt]\hspace{-0.1cm}
+    }[] % section title formatting
+
+\titlespacing{\section}{
+        % left space:
+        0pt
+    }{
+        % top space:
+        0.3 cm
+    }{
+        % bottom space:
+        0.2 cm
+    } % section title spacing
+
+\newcolumntype{L}[1]{
+    >{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}
+} % left-aligned fixed width column type
+\newcolumntype{R}[1]{
+    >{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}p{#1}
+} % right-aligned fixed width column type
+\newcolumntype{K}[1]{
+    >{\let\newline\\\arraybackslash\hspace{0pt}}X
+} % justified flexible width column type
+\setlength\tabcolsep{-1.5pt} % no space between columns
+\newenvironment{highlights}{
+        \begin{itemize}[
+                topsep=0pt,
+                parsep=0.10 cm,
+                partopsep=0pt,
+                itemsep=0pt,
+                after=\vspace{-1\baselineskip},
+                leftmargin=0.4 cm + 3pt
+            ]
+    }{
+        \end{itemize}
+    } % new environment for highlights
+
+\newenvironment{header}{
+        \setlength{\topsep}{0pt}\par\kern\topsep\centering\color{primaryColor}\linespread{1.5}
+    }{
+        \par\kern\topsep
+    } % new environment for the header
+
+\newcommand{\placelastupdatedtext}{% \placetextbox{<horizontal pos>}{<vertical pos>}{<stuff>}
+  \AddToShipoutPictureFG*{% Add <stuff> to current page foreground
+    \put(
+        \LenToUnit{\paperwidth-2 cm-0.2 cm+0.05cm},
+        \LenToUnit{\paperheight-1.0 cm}
+    ){\vtop{{\null}\makebox[0pt][c]{
+        \small\color{gray}\textit{}\hspace{\widthof{}}
+    }}}%
+  }%
+}%
+
+% save the original href command in a new command:
+\let\hrefWithoutArrow\href
+ % new command for external links:
+\renewcommand{\href}[2]{\hrefWithoutArrow{#1}{\mbox{\ifthenelse{\equal{#2}{}}{ }{#2 }\raisebox{.15ex}{\footnotesize \faExternalLink*}}}}
+
+\let\originalTabularx\tabularx
+\let\originalEndTabularx\endtabularx
+
+\renewenvironment{tabularx}{\bgroup\centering\originalTabularx}{\originalEndTabularx\par\egroup}
+
+% For TextEntrys (see https://tex.stackexchange.com/a/600/287984):
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1\topsep=0pt\itemsep=0pt\parsep=0pt\parskip=0pt\labelwidth=0pt\itemindent=0pt\labelsep=0pt}\item[]}
+\let\endchangemargin=\endlist 
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+\begin{document}
+    \placelastupdatedtext
+    \begin{header}
+        \fontsize{30 pt}{30 pt}
+        \textbf{Abhinav Kumar}
+
+        \vspace{0.3 cm}
+
+        \normalsize
+        \mbox{\hrefWithoutArrow{tel: +917895108558}{{\footnotesize\faPhone*}\hspace*{0.13cm}+91 7895108558}}
+        \hspace*{0.5 cm}
+        \mbox{\hrefWithoutArrow{mailto: abhiiinav6@gmail.com}{{\small\faEnvelope[regular]}\hspace*{0.13cm} abhiiinav6@gmail.com}}
+        \hspace*{0.5 cm}
+        
+        
+        \mbox{\hrefWithoutArrow{https://linkedin.com/in/abhiinav6}{{\small\faLinkedinIn}\hspace*{0.13cm}abhiinav6}}
+        \hspace*{0.5 cm}
+        \mbox{\hrefWithoutArrow{https://github.com/abhiiinav6}{{\small\faGithub}\hspace*{0.13cm}abhiiinav6}}
+        \hspace*{0.5 cm}
+    \end{header}
+
+    \vspace{0.3 cm}
+
+
+    
+
+
+
+
+    
+    \section{Education}
+
+        \begin{tabularx}{
+            \textwidth-0.4 cm-0.13cm
+        }{
+            L{0.85cm}
+            K{0.2 cm}
+            R{4.1 cm}
+        }
+            \textbf{BCA, }
+            &
+            B. R. A. Bihar University
+
+            \vspace{0.10 cm}
+
+            % \begin{highlights}
+                
+            %     \item \textbf{Coursework:} Software Foundations, Computer Architecture, Algorithms, Artificial Intelligence, Comparison of Learning Algorithms, Operating system, Computer networks, Database Management system 
+            % \end{highlights}
+            &
+            Sept. 2021 to June 2024\\
+            \textbf{MCA,  }\vspace{0.10 cm}
+            &
+            N.I.T. Kurukshetra
+            & 
+        \end{tabularx}
+
+
+    
+
+                \section{Technologies}
+
+        \begingroup\leftskip=0.2 cm
+        \advance\csname @rightskip\endcsname 0.2 cm
+        \advance\rightskip 0.2 cm
+
+        \textbf{Languages:} Go, Javascript, Typescript, Python, SQL, C++ \par\endgroup
+
+        \vspace{0.2 cm}
+        \begingroup\leftskip=0.2 cm
+        \advance\csname @rightskip\endcsname 0.2 cm
+        \advance\rightskip 0.2 cm
+
+        \textbf{Software:} Visual Studio, Git, Bash, Figma\par\endgroup
+
+        \vspace{0.2 cm}
+        \begingroup\leftskip=0.2 cm
+        \advance\csname @rightskip\endcsname 0.2 cm
+        \advance\rightskip 0.2 cm
+
+        \textbf{Frameworks: } React.js, Next.js, Svelte.js, Express.js, Gorilla mux, Tailwind CSS, Go chi
+        \par\endgroup
+
+        
+
+        \vspace{0.2 cm}
+        \begingroup\leftskip=0.2 cm
+        \advance\csname @rightskip\endcsname 0.2 cm
+        \advance\rightskip 0.2 cm
+
+        \textbf{Databases:} Postgresql, Mysql, MongoDB, Redis, Sqlite \par\endgroup
+        
+        
+    
+    
+
+
+    
+    \section{Projects}
+
+        \begin{tabularx}{
+            \textwidth-0.4 cm-0.13cm
+        }{
+            K{0.2 cm}
+            R{4.1 cm}
+        }
+            \textbf{Codepencil}
+
+            \vspace{0.10 cm}
+
+            \begin{highlights}
+                \item An online web based IDE for language like C,C++,Go, Python,Java etc.
+                \item User can run and store the code like replit.
+                \item Used Next.js for frontend and Golang for backend, Docker for executive code on server in remote environment and Postgresql as database.
+            \end{highlights}
+            &
+            
+
+            jan 
+        \end{tabularx}
+
+
+        \vspace{0.2 cm}
+        \begin{tabularx}{
+            \textwidth-0.4 cm-0.13cm
+        }{
+            K{0.2 cm}
+            R{4.1 cm}
+        }
+            \textbf{Devoverflow}
+
+            \vspace{0.10 cm}
+
+            \begin{highlights}
+                \item An online forum for developers.
+                \item User can ask and answer queries with upvote downvote functionalities.
+                \item Used Next.js for frontend and backend both and postgresql for database.
+            \end{highlights}
+            &
+            
+
+            2003 to 2004
+        \end{tabularx}
+
+
+        \vspace{0.2 cm}
+        \begin{tabularx}{
+            \textwidth-0.4 cm-0.13cm
+        }{
+            K{0.2 cm}
+            R{4.1 cm}
+        }
+            \textbf{Url Shortener}
+
+            \vspace{0.10 cm}
+
+            \begin{highlights}
+                \item A tool to covert long url into short ones.
+                \item Used Svelte.js for frontend, express.js fot backend and Mysql for database.
+            \end{highlights}
+            &
+            
+
+            Jan. 2002
+        \end{tabularx}
+\end{document}

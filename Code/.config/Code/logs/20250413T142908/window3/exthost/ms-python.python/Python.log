@@ -1,0 +1,55 @@
+2025-04-13 21:18:36.270 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-04-13 21:18:36.271 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-04-13 21:18:36.271 [warning] Dir "/home/arctan/data/Dataset-Indian-Names-master/.pixi/envs" is not watchable (directory does not exist)
+2025-04-13 21:18:36.271 [info] Starting Environment refresh
+2025-04-13 21:18:36.271 [info] Starting Environment refresh
+2025-04-13 21:18:36.271 [info] > hatch env show --json
+2025-04-13 21:18:36.271 [info] cwd: .
+2025-04-13 21:18:36.271 [info] Starting Environment refresh
+2025-04-13 21:18:37.114 [info] Environments refresh finished (event): 980 milliseconds
+2025-04-13 21:18:37.115 [info] Environments refresh finished (event): 978 milliseconds
+2025-04-13 21:18:37.115 [info] Environments refresh finished (event): 861 milliseconds
+2025-04-13 21:18:37.115 [info] Environments refresh paths discovered: 981 milliseconds
+2025-04-13 21:18:37.115 [info] Environments refresh paths discovered: 979 milliseconds
+2025-04-13 21:18:37.115 [info] Environments refresh paths discovered: 862 milliseconds
+2025-04-13 21:18:37.118 [info] Environment refresh took 984 milliseconds
+2025-04-13 21:18:37.119 [info] Environment refresh took 983 milliseconds
+2025-04-13 21:18:37.120 [info] Environment refresh took 867 milliseconds
+2025-04-13 21:18:37.162 [info] > pyenv which python
+2025-04-13 21:18:37.162 [info] cwd: .
+2025-04-13 21:18:37.193 [info] > pyenv which python
+2025-04-13 21:18:37.193 [info] cwd: .
+2025-04-13 21:18:37.259 [info] > conda info --json
+2025-04-13 21:18:37.360 [info] Python interpreter path: /sbin/python
+2025-04-13 21:18:37.434 [info] > /sbin/python -I ~/.vscode/extensions/ms-python.python-2025.4.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2025.4.0-linux-x64/python_files/interpreterInfo.py
+2025-04-13 21:18:39.090 [info] Starting Pylance language server.
+2025-04-13 21:18:46.818 [info] Starting Environment refresh
+2025-04-13 21:18:46.818 [info] Searching for interpreters in posix paths locator
+2025-04-13 21:18:46.832 [info] Searching for pyenv environments
+2025-04-13 21:18:46.832 [info] Searching for conda environments
+2025-04-13 21:18:46.832 [info] Searching for global virtual environments
+2025-04-13 21:18:46.832 [info] Searching for custom virtual environments
+2025-04-13 21:18:46.834 [info] pyenv is not installed
+2025-04-13 21:18:46.834 [info] Finished searching for pyenv environments: 4 milliseconds
+2025-04-13 21:18:46.834 [info] Finished searching for custom virtual envs: 3 milliseconds
+2025-04-13 21:18:46.836 [info] Finished searching for global virtual envs: 5 milliseconds
+2025-04-13 21:18:46.867 [info] Found: /bin/python --> /bin/python3.13
+2025-04-13 21:18:46.871 [info] Found: /bin/python3 --> /bin/python3.13
+2025-04-13 21:18:46.872 [info] Found: /bin/python3.13 --> /bin/python3.13
+2025-04-13 21:18:46.926 [info] Found: /sbin/python --> /sbin/python3.13
+2025-04-13 21:18:46.926 [info] Found: /sbin/python3 --> /sbin/python3.13
+2025-04-13 21:18:46.926 [info] Found: /sbin/python3.13 --> /sbin/python3.13
+2025-04-13 21:18:46.938 [info] Found: /usr/bin/python --> /usr/bin/python3.13
+2025-04-13 21:18:46.938 [info] Found: /usr/bin/python3 --> /usr/bin/python3.13
+2025-04-13 21:18:46.939 [info] Found: /usr/bin/python3.13 --> /usr/bin/python3.13
+2025-04-13 21:18:46.985 [info] Found: /usr/sbin/python --> /usr/sbin/python3.13
+2025-04-13 21:18:46.985 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.13
+2025-04-13 21:18:46.985 [info] Found: /usr/sbin/python3.13 --> /usr/sbin/python3.13
+2025-04-13 21:18:47.046 [info] > /bin/python -I ~/.vscode/extensions/ms-python.python-2025.4.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2025.4.0-linux-x64/python_files/interpreterInfo.py
+2025-04-13 21:18:47.096 [info] Finished searching for interpreters in posix paths locator: 246 milliseconds
+2025-04-13 21:18:47.096 [info] > /usr/bin/python -I ~/.vscode/extensions/ms-python.python-2025.4.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2025.4.0-linux-x64/python_files/interpreterInfo.py
+2025-04-13 21:18:47.126 [info] Environments refresh paths discovered (event): 312 milliseconds
+2025-04-13 21:18:47.126 [info] Environments refresh paths discovered: 313 milliseconds
+2025-04-13 21:18:47.181 [info] > /usr/sbin/python -I ~/.vscode/extensions/ms-python.python-2025.4.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2025.4.0-linux-x64/python_files/interpreterInfo.py
+2025-04-13 21:18:47.259 [info] Environments refresh finished (event): 446 milliseconds
+2025-04-13 21:18:47.313 [info] Environment refresh took 500 milliseconds

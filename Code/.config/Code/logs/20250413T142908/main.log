@@ -1,0 +1,6 @@
+2025-04-13 14:29:08.289 [info] update#setState idle
+2025-04-13 14:29:38.293 [info] update#setState checking for updates
+2025-04-13 14:29:38.304 [info] update#setState available for download
+2025-04-13 21:08:05.840 [error] Blocked vscode-file request vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/editor/common/services/editorSimpleWorkerMain.js#TextEditorWorker
+2025-04-13 21:08:05.848 [info] Extension host with pid 153148 exited with code: 0, signal: unknown.
+2025-04-13 21:08:06.850 [error] Extension host with pid 153148 still exists, forcefully killing it...

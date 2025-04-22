@@ -1,0 +1,12 @@
+\d act_key
+                      Table "public.act_key"
+ Column |          Type           | Collation | Nullable | Default
+--------+-------------------------+-----------+----------+---------
+ act_s  | character varying(1024) |           |          |
+ count  | integer                 |           |          |
+ act    | integer                 |           | not null |
+Indexes:
+    "act_key_pkey" PRIMARY KEY, btree (act)
+Referenced by:
+    TABLE "acts_sections" CONSTRAINT "fk_asc_act" FOREIGN KEY (act) REFERENCES act_key(act) ON DELETE CASCADE
+

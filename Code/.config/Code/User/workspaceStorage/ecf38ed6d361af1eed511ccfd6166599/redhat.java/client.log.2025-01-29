@@ -1,0 +1,176 @@
+{
+  message: 'Removing old folder in globalStorage : 1.38.0',
+  level: 'info',
+  timestamp: '2025-01-29 20:36:20.036'
+}
+{
+  message: "Use the JDK from 'PATH' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2025-01-29 20:36:20.131'
+}
+{
+  message: 'Starting Java server with: /home/arctan/.vscode/extensions/redhat.java-1.39.0-linux-x64/jre/21.0.5-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/arctan/.vscode/extensions/redhat.java-1.39.0-linux-x64/lombok/lombok-1.18.34.jar -jar /home/arctan/.vscode/extensions/redhat.java-1.39.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/arctan/.config/Code/User/globalStorage/redhat.java/1.39.0/config_ss_linux -data /home/arctan/.config/Code/User/workspaceStorage/ecf38ed6d361af1eed511ccfd6166599/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2025-01-29 20:36:20.217'
+}
+{
+  message: 'Starting Java server with: /home/arctan/.vscode/extensions/redhat.java-1.39.0-linux-x64/jre/21.0.5-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/arctan/.vscode/extensions/redhat.java-1.39.0-linux-x64/lombok/lombok-1.18.34.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/arctan/.config/Code/User/workspaceStorage/ecf38ed6d361af1eed511ccfd6166599/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/arctan/.vscode/extensions/redhat.java-1.39.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/arctan/.config/Code/User/globalStorage/redhat.java/1.39.0/config_linux -data /home/arctan/.config/Code/User/workspaceStorage/ecf38ed6d361af1eed511ccfd6166599/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2025-01-29 20:36:20.535'
+}
+{
+  message: 'Jan 29, 2025 8:36:24 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2025-01-29 20:36:24.518'
+}
+{
+  message: 'Jan 29, 2025 8:36:24 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2025-01-29 20:36:24.531'
+}
+{
+  message: '[Error - 20:36:33] 29-Jan-2025, 8:36:29 pm An internal error occurred during: "Initialize After Load".\n' +
+    'Cannot invoke "org.osgi.framework.Bundle.start(int)" because the return value of "org.eclipse.core.runtime.Platform.getBundle(String)" is null\n' +
+    'java.lang.NullPointerException: Cannot invoke "org.osgi.framework.Bundle.start(int)" because the return value of "org.eclipse.core.runtime.Platform.getBundle(String)" is null\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.startBundle(BundleUtils.java:360)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin$1.run(JavaLanguageServerPlugin.java:196)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-01-29 20:36:33.790'
+}
+{
+  message: '[Error - 20:36:34] 29-Jan-2025, 8:36:34 pm Error\n' +
+    'org.eclipse.equinox.simpleconfigurator/bundles.info (No such file or directory)\n' +
+    'java.io.FileNotFoundException: org.eclipse.equinox.simpleconfigurator/bundles.info (No such file or directory)\n' +
+    '\tat java.base/java.io.FileInputStream.open0(Native Method)\n' +
+    '\tat java.base/java.io.FileInputStream.open(Unknown Source)\n' +
+    '\tat java.base/java.io.FileInputStream.<init>(Unknown Source)\n' +
+    '\tat java.base/java.io.FileInputStream.<init>(Unknown Source)\n' +
+    '\tat java.base/sun.net.www.protocol.file.FileURLConnection.connect(Unknown Source)\n' +
+    '\tat java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(Unknown Source)\n' +
+    '\tat java.base/java.net.URL.openStream(Unknown Source)\n' +
+    '\tat org.eclipse.equinox.internal.simpleconfigurator.manipulator.SimpleConfiguratorManipulatorImpl.loadConfiguration(SimpleConfiguratorManipulatorImpl.java:364)\n' +
+    '\tat org.eclipse.jdt.internal.junit.buildpath.P2Utils.findBundle(P2Utils.java:93)\n' +
+    '\tat org.eclipse.jdt.internal.junit.buildpath.BuildPathSupport$JUnitPluginDescription.getBundleLocation(BuildPathSupport.java:89)\n' +
+    '\tat org.eclipse.jdt.internal.junit.buildpath.BuildPathSupport$JUnitPluginDescription.getBundleLocation(BuildPathSupport.java:85)\n' +
+    '\tat org.eclipse.jdt.internal.junit.buildpath.BuildPathSupport$JUnitPluginDescription.getLibraryEntry(BuildPathSupport.java:207)\n' +
+    '\tat org.eclipse.jdt.internal.junit.buildpath.BuildPathSupport.getJUnit4as3LibraryEntry(BuildPathSupport.java:418)\n' +
+    '\tat org.eclipse.jdt.internal.junit.buildpath.JUnitContainerInitializer.getNewContainer(JUnitContainerInitializer.java:119)\n' +
+    '\tat org.eclipse.jdt.internal.junit.buildpath.JUnitContainerInitializer.initialize(JUnitContainerInitializer.java:108)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:3223)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:2150)\n' +
+    '\tat org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3970)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:3137)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:3301)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2415)\n' +
+    '\tat org.eclipse.jdt.internal.core.ExternalFoldersManager.refreshReferences(ExternalFoldersManager.java:486)\n' +
+    '\tat org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2083)\n' +
+    '\tat org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:490)\n' +
+    '\tat org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)\n' +
+    '\tat org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:293)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:460)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1600)\n' +
+    '\tat org.eclipse.core.internal.resources.Project.open(Project.java:1136)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.importDir(EclipseProjectImporter.java:140)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.lambda$4(EclipseProjectImporter.java:109)\n' +
+    '\tat java.base/java.util.ArrayList.forEach(Unknown Source)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.importToWorkspace(EclipseProjectImporter.java:109)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:164)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:126)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:263)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-01-29 20:36:34.426'
+}
+{
+  message: '[Error - 20:36:34] 29-Jan-2025, 8:36:34 pm Error\n' +
+    'org.eclipse.equinox.simpleconfigurator/bundles.info (No such file or directory)\n' +
+    'java.io.FileNotFoundException: org.eclipse.equinox.simpleconfigurator/bundles.info (No such file or directory)\n' +
+    '\tat java.base/java.io.FileInputStream.open0(Native Method)\n' +
+    '\tat java.base/java.io.FileInputStream.open(Unknown Source)\n' +
+    '\tat java.base/java.io.FileInputStream.<init>(Unknown Source)\n' +
+    '\tat java.base/java.io.FileInputStream.<init>(Unknown Source)\n' +
+    '\tat java.base/sun.net.www.protocol.file.FileURLConnection.connect(Unknown Source)\n' +
+    '\tat java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(Unknown Source)\n' +
+    '\tat java.base/java.net.URL.openStream(Unknown Source)\n' +
+    '\tat org.eclipse.equinox.internal.simpleconfigurator.manipulator.SimpleConfiguratorManipulatorImpl.loadConfiguration(SimpleConfiguratorManipulatorImpl.java:364)\n' +
+    '\tat org.eclipse.jdt.internal.junit.buildpath.P2Utils.findBundle(P2Utils.java:93)\n' +
+    '\tat org.eclipse.jdt.internal.junit.buildpath.BuildPathSupport$JUnitPluginDescription.getBundleLocation(BuildPathSupport.java:89)\n' +
+    '\tat org.eclipse.jdt.internal.junit.buildpath.BuildPathSupport$JUnitPluginDescription.getBundleLocation(BuildPathSupport.java:85)\n' +
+    '\tat org.eclipse.jdt.internal.junit.buildpath.BuildPathSupport$JUnitPluginDescription.getLibraryEntry(BuildPathSupport.java:220)\n' +
+    '\tat org.eclipse.jdt.internal.junit.buildpath.BuildPathSupport.getJUnit4as3LibraryEntry(BuildPathSupport.java:418)\n' +
+    '\tat org.eclipse.jdt.internal.junit.buildpath.JUnitContainerInitializer.getNewContainer(JUnitContainerInitializer.java:119)\n' +
+    '\tat org.eclipse.jdt.internal.junit.buildpath.JUnitContainerInitializer.initialize(JUnitContainerInitializer.java:108)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:3223)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:2150)\n' +
+    '\tat org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3970)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:3137)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:3301)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2415)\n' +
+    '\tat org.eclipse.jdt.internal.core.ExternalFoldersManager.refreshReferences(ExternalFoldersManager.java:486)\n' +
+    '\tat org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2083)\n' +
+    '\tat org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:490)\n' +
+    '\tat org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)\n' +
+    '\tat org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:293)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:460)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1600)\n' +
+    '\tat org.eclipse.core.internal.resources.Project.open(Project.java:1136)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.importDir(EclipseProjectImporter.java:140)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.lambda$4(EclipseProjectImporter.java:109)\n' +
+    '\tat java.base/java.util.ArrayList.forEach(Unknown Source)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.EclipseProjectImporter.importToWorkspace(EclipseProjectImporter.java:109)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:164)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:126)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:263)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-01-29 20:36:34.433'
+}
+{
+  message: '[Error - 20:36:41] Stopping server timed out',
+  level: 'info',
+  timestamp: '2025-01-29 20:36:41.295'
+}
+{
+  message: '[Warn  - 20:36:41] 29-Jan-2025, 8:36:39 pm Could not load Gradle version information\n' +
+    'Cannot download published Gradle versions.\n' +
+    'org.gradle.api.UncheckedIOException: Cannot download published Gradle versions.\n' +
+    '\tat org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.downloadVersionInformation(PublishedGradleVersions.java:167)\n' +
+    '\tat org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:151)\n' +
+    '\tat org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:111)\n' +
+    '\tat org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:73)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n' +
+    'Caused by: java.net.SocketException: Connection reset by peer\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.NioSocketImpl.tryWrite(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.NioSocketImpl.implWrite(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.NioSocketImpl.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.NioSocketImpl$2.write(Unknown Source)\n' +
+    '\tat java.base/java.net.Socket$SocketOutputStream.write(Unknown Source)\n' +
+    '\tat java.base/sun.security.ssl.SSLSocketOutputRecord.flush(Unknown Source)\n' +
+    '\tat java.base/sun.security.ssl.HandshakeOutStream.flush(Unknown Source)\n' +
+    '\tat java.base/sun.security.ssl.ClientHello$ClientHelloKickstartProducer.produce(Unknown Source)\n' +
+    '\tat java.base/sun.security.ssl.SSLHandshake.kickstart(Unknown Source)\n' +
+    '\tat java.base/sun.security.ssl.ClientHandshakeContext.kickstart(Unknown Source)\n' +
+    '\tat java.base/sun.security.ssl.TransportContext.kickstart(Unknown Source)\n' +
+    '\tat java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)\n' +
+    '\tat java.base/sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)\n' +
+    '\tat org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.downloadVersionInformation(PublishedGradleVersions.java:164)\n' +
+    '\t... 4 more\n',
+  level: 'info',
+  timestamp: '2025-01-29 20:36:41.422'
+}

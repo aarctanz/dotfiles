@@ -1,0 +1,12 @@
+\d acts_section
+\d cases_clean 
+\d court_key   
+\d disp_name   
+\d dist_key    
+\d judge_case  
+\d judges_clean
+\d purpose_name
+\d section_key 
+\d state_key   
+\d temp        
+\d type_name  

@@ -1,0 +1,4 @@
+JSON parser written in go following [RFC 7159](https://datatracker.ietf.org/doc/html/rfc7159) standards.
+
+test cases [source](https://github.com/briandfoy/json-acceptance-tests) 
+

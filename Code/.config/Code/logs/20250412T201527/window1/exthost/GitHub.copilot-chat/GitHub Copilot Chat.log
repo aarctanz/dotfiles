@@ -1,0 +1,259 @@
+2025-04-12 20:15:40.943 [info] Using the Electron fetcher.
+2025-04-12 20:15:40.943 [info] Initializing Git extension service.
+2025-04-12 20:15:40.943 [info] Successfully activated the vscode.git extension.
+2025-04-12 20:15:40.943 [info] Enablement state of the vscode.git extension: true.
+2025-04-12 20:15:40.943 [info] Successfully registered Git commit message provider.
+2025-04-12 20:15:47.196 [info] Logged in as aarctanz
+2025-04-12 20:15:48.790 [info] Got Copilot token for aarctanz
+2025-04-12 20:15:50.036 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-12 20:15:50.037 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-04-12 20:15:50.254 [info] Registering default platform agent...
+2025-04-12 20:15:50.907 [info] Fetched model metadata in 2052ms 017b5409-4cfd-4ee7-b3f8-f15e5d083259
+2025-04-12 20:15:51.250 [info] activationBlocker from 'languageModelAccess' took for 6474ms
+2025-04-12 20:30:55.942 [info] Fetched model metadata in 1686ms ba8cb099-675d-4e9d-9d6a-e9d02711e779
+2025-04-12 20:40:48.808 [info] Logged in as aarctanz
+2025-04-12 20:40:50.086 [info] Got Copilot token for aarctanz
+2025-04-12 20:40:50.107 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-12 20:55:51.840 [info] Fetched model metadata in 1665ms 8d1aacbc-2f93-4883-a8bc-8bc7a2d46f78
+2025-04-12 21:05:50.095 [info] Logged in as aarctanz
+2025-04-12 21:05:51.242 [info] Got Copilot token for aarctanz
+2025-04-12 21:05:51.259 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-12 21:20:53.047 [info] Fetched model metadata in 1773ms c303693e-ac5c-441b-8d1b-7950da06c1d1
+2025-04-12 21:30:51.256 [info] Logged in as aarctanz
+2025-04-12 21:30:52.443 [info] Got Copilot token for aarctanz
+2025-04-12 21:30:52.459 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-12 21:45:56.230 [info] Fetched model metadata in 3684ms 8e7607bd-0eed-44c2-b961-dda541f6f938
+2025-04-12 21:55:52.452 [info] Logged in as aarctanz
+2025-04-12 21:55:57.332 [info] Got Copilot token for aarctanz
+2025-04-12 21:55:57.350 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-12 21:56:07.473 [info] Fetched model metadata in 10115ms e94c7c82-944d-4e88-8996-90502309bede
+2025-04-12 22:11:12.695 [info] Fetched model metadata in 3086ms 787f5b17-8190-44b8-ba56-c5ccd18887c5
+2025-04-12 22:20:57.344 [info] Logged in as aarctanz
+2025-04-12 22:21:00.246 [info] Got Copilot token for aarctanz
+2025-04-12 22:21:00.260 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-12 22:36:01.825 [info] Fetched model metadata in 1529ms 8e0df832-3f2d-476e-8ed8-3be461ac3eaf
+2025-04-12 22:46:00.264 [info] Logged in as aarctanz
+2025-04-12 22:46:01.551 [info] Got Copilot token for aarctanz
+2025-04-12 22:46:01.571 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-12 23:01:03.559 [info] Fetched model metadata in 1973ms 3d710cdf-d0b7-4e17-b804-e69ebf8545a6
+2025-04-12 23:11:01.561 [info] Logged in as aarctanz
+2025-04-12 23:11:03.805 [info] Got Copilot token for aarctanz
+2025-04-12 23:11:03.822 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-12 23:11:05.339 [info] Fetched model metadata in 1508ms 9cfcf250-e404-4e06-844f-f6e5628719a8
+2025-04-12 23:26:10.319 [info] Fetched model metadata in 4639ms 382f5024-deda-4745-ae3e-988d1bd63ee3
+2025-04-12 23:36:03.826 [info] Logged in as aarctanz
+2025-04-12 23:36:11.532 [info] Got Copilot token for aarctanz
+2025-04-12 23:36:11.553 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-12 23:36:14.017 [info] Fetched model metadata in 2451ms e85cad60-3d93-482b-b2cc-1430867c2345
+2025-04-12 23:51:16.772 [info] Fetched model metadata in 2355ms 4760ebac-77aa-4bfa-9684-1cd5e7443527
+2025-04-13 00:01:11.553 [info] Logged in as aarctanz
+2025-04-13 00:01:13.070 [info] Got Copilot token for aarctanz
+2025-04-13 00:01:13.125 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-13 00:16:15.037 [info] Fetched model metadata in 1881ms 086d5c42-ebe0-43b8-829c-754b9be19a6f
+2025-04-13 00:26:13.402 [info] Logged in as aarctanz
+2025-04-13 00:26:14.870 [info] Got Copilot token for aarctanz
+2025-04-13 00:26:14.909 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-13 00:41:18.626 [info] Fetched model metadata in 3679ms 5b4467a0-cd19-423a-8c36-05f15dfe27f9
+2025-04-13 00:51:14.893 [info] Logged in as aarctanz
+2025-04-13 00:51:16.106 [info] Got Copilot token for aarctanz
+2025-04-13 00:51:16.140 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-13 01:06:18.268 [info] Fetched model metadata in 2110ms 79aaa217-9e54-4684-aa22-3dfb0d674b65
+2025-04-13 01:16:16.126 [info] Logged in as aarctanz
+2025-04-13 01:16:18.103 [info] Got Copilot token for aarctanz
+2025-04-13 01:16:18.124 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-13 01:31:20.080 [info] Fetched model metadata in 1932ms 6eba2438-950b-4e11-91f7-6195d6f5e221
+2025-04-13 01:41:18.113 [info] Logged in as aarctanz
+2025-04-13 01:41:19.944 [info] Got Copilot token for aarctanz
+2025-04-13 01:41:19.964 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-13 01:56:21.458 [info] Fetched model metadata in 1460ms a99f4efc-03d4-4c1c-b7fb-36ec90c74abf
+2025-04-13 02:06:19.955 [info] Logged in as aarctanz
+2025-04-13 02:06:21.846 [info] Got Copilot token for aarctanz
+2025-04-13 02:06:21.877 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-13 02:06:23.438 [info] Fetched model metadata in 1554ms 1dc65f39-2a2e-434a-8c82-28966b72c9da
+2025-04-13 02:21:25.082 [info] Fetched model metadata in 1388ms 48bd8b83-becb-4e42-853b-8844f003b363
+2025-04-13 02:31:21.870 [info] Logged in as aarctanz
+2025-04-13 02:31:24.574 [info] Got Copilot token for aarctanz
+2025-04-13 02:31:24.599 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-13 02:46:26.431 [info] Fetched model metadata in 1808ms 267833f7-1b2a-4eb6-98f5-1345e45dd1c0
+2025-04-13 02:56:24.584 [info] Logged in as aarctanz
+2025-04-13 02:56:26.553 [info] Got Copilot token for aarctanz
+2025-04-13 02:56:26.573 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-13 02:56:28.602 [info] Fetched model metadata in 2022ms 70b1914a-fdb9-4f48-ad21-6b599dae5565
+2025-04-13 03:11:30.319 [info] Fetched model metadata in 1507ms 859ac8c4-e93e-41a8-80c3-7291e39b150f
+2025-04-13 03:21:26.561 [info] Logged in as aarctanz
+2025-04-13 03:21:28.035 [info] Got Copilot token for aarctanz
+2025-04-13 03:21:28.064 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-13 03:36:29.264 [info] Fetched model metadata in 1179ms 3d98751c-e073-4f39-8675-491f95a9ac4c
+2025-04-13 03:46:28.042 [info] Logged in as aarctanz
+2025-04-13 03:46:29.510 [info] Got Copilot token for aarctanz
+2025-04-13 03:46:29.529 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-13 03:46:31.563 [info] Fetched model metadata in 2013ms d7dc3314-1932-44e4-a8be-cb9361d2648a
+2025-04-13 04:01:33.219 [info] Fetched model metadata in 1417ms 7d7cbc7e-5760-497b-af20-f2f0b00efef8
+2025-04-13 04:11:29.518 [info] Logged in as aarctanz
+2025-04-13 04:11:30.953 [info] Got Copilot token for aarctanz
+2025-04-13 04:11:30.967 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-13 04:26:32.748 [info] Fetched model metadata in 1768ms b2007ea7-c261-4664-b731-0a0b9c6af178
+2025-04-13 04:36:30.967 [info] Logged in as aarctanz
+2025-04-13 04:36:32.735 [info] Got Copilot token for aarctanz
+2025-04-13 04:36:32.749 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-13 04:36:34.500 [info] Fetched model metadata in 1744ms 66a2804f-0946-4ce2-b460-fed621d9ba3f
+2025-04-13 04:51:37.112 [info] Fetched model metadata in 2275ms ebc12abf-2f2e-4227-ae13-9ec5829f04ea
+2025-04-13 05:01:32.743 [info] Logged in as aarctanz
+2025-04-13 05:01:34.525 [info] Got Copilot token for aarctanz
+2025-04-13 05:01:34.538 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-13 05:16:36.102 [info] Fetched model metadata in 1552ms 297e330a-f94c-4fb6-b43e-dfb6c2a3a6e4
+2025-04-13 05:26:34.539 [info] Logged in as aarctanz
+2025-04-13 05:26:36.292 [info] Got Copilot token for aarctanz
+2025-04-13 05:26:36.307 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-13 05:26:38.085 [info] Fetched model metadata in 1772ms 9e7cbd13-cec5-45c9-b3b8-a2bf1d9784f2
+2025-04-13 05:41:39.985 [info] Fetched model metadata in 1635ms b66bf057-c482-4696-b900-f8a0603107b9
+2025-04-13 05:51:36.337 [info] Logged in as aarctanz
+2025-04-13 05:51:38.111 [info] Got Copilot token for aarctanz
+2025-04-13 05:51:38.128 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-13 05:54:50.474 [info] Fetched model metadata in 1699ms 8f32df08-93fd-4e23-af46-77ba2550b3bc
+2025-04-13 05:54:52.000 [info] message 0 returned. finish reason: [stop]
+2025-04-13 05:54:52.002 [info] request done: requestId: [eaefde73-b67f-4ce8-af8f-4559e50b08a1] model deployment ID: []
+2025-04-13 06:06:38.188 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10511)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28): Failed to fetch models (7fa3fc67-5267-42c3-baa8-9bc46281402d)
+2025-04-13 06:06:38.205 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10511)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28): Failed to fetch models (3431e745-23ef-405d-a3c6-e6bb77d3335b)
+2025-04-13 06:16:38.118 [info] Logged in as aarctanz
+2025-04-13 06:16:38.134 [info] Logged in as aarctanz
+2025-04-13 06:16:38.157 [info] copilot token chat_enabled: undefined, sku: 
+2025-04-13 06:16:38.280 [info] Logged in as aarctanz
+2025-04-13 06:16:38.284 [error] GitHub Copilot could not connect to server. Extension activation failed: "net::ERR_INTERNET_DISCONNECTED"
+2025-04-13 06:16:38.284 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-04-13 06:16:38.284 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10511)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+2025-04-13 06:16:38.286 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-04-13 06:16:38.286 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10511)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+2025-04-13 06:31:38.305 [info] Logged in as aarctanz
+2025-04-13 06:31:38.309 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-04-13 06:31:38.309 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10511)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+2025-04-13 06:46:38.437 [info] Logged in as aarctanz
+2025-04-13 06:46:38.442 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-04-13 06:46:38.442 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10511)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+2025-04-13 07:01:38.463 [info] Logged in as aarctanz
+2025-04-13 07:01:38.467 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-04-13 07:01:38.467 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10511)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+2025-04-13 07:16:38.483 [info] Logged in as aarctanz
+2025-04-13 07:16:38.485 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-04-13 07:16:38.485 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10511)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+2025-04-13 07:31:38.549 [info] Logged in as aarctanz
+2025-04-13 07:31:38.552 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-04-13 07:31:38.552 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10511)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+2025-04-13 07:46:38.569 [info] Logged in as aarctanz
+2025-04-13 07:46:38.572 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-04-13 07:46:38.572 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10511)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+2025-04-13 08:01:38.587 [info] Logged in as aarctanz
+2025-04-13 08:01:38.590 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-04-13 08:01:38.590 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10511)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+2025-04-13 08:16:38.604 [info] Logged in as aarctanz
+2025-04-13 08:16:38.606 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-04-13 08:16:38.606 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10511)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+2025-04-13 08:31:38.619 [info] Logged in as aarctanz
+2025-04-13 08:31:38.621 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-04-13 08:31:38.622 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10511)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+2025-04-13 08:46:38.632 [info] Logged in as aarctanz
+2025-04-13 08:46:38.634 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-04-13 08:46:38.634 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10511)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+2025-04-13 09:01:38.645 [info] Logged in as aarctanz
+2025-04-13 09:01:38.648 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-04-13 09:01:38.651 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10511)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+2025-04-13 09:16:38.663 [info] Logged in as aarctanz
+2025-04-13 09:16:38.665 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-04-13 09:16:38.665 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10511)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+2025-04-13 09:31:38.677 [info] Logged in as aarctanz
+2025-04-13 09:31:38.679 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-04-13 09:31:38.679 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10511)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+2025-04-13 09:46:38.692 [info] Logged in as aarctanz
+2025-04-13 09:46:38.696 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-04-13 09:46:38.696 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10511)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+2025-04-13 10:01:38.706 [info] Logged in as aarctanz
+2025-04-13 10:01:38.708 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-04-13 10:01:38.708 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10511)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+2025-04-13 10:09:29.265 [info] Logged in as aarctanz
+2025-04-13 10:09:31.051 [info] Got Copilot token for aarctanz
+2025-04-13 10:09:31.185 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-13 10:09:31.185 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-04-13 10:09:32.639 [info] Fetched model metadata in 1255ms 426e547c-1b31-4bb0-9e69-e70bcab3bf58
+2025-04-13 10:24:35.472 [info] Fetched model metadata in 2363ms 6d0c896f-30cf-4938-9400-d17488ee1397
+2025-04-13 10:34:31.058 [info] Logged in as aarctanz
+2025-04-13 10:34:32.878 [info] Got Copilot token for aarctanz
+2025-04-13 10:34:32.894 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-13 10:49:34.618 [info] Fetched model metadata in 1707ms c2448b36-5cf5-4b69-a16f-855803355890
+2025-04-13 10:59:32.888 [info] Logged in as aarctanz
+2025-04-13 10:59:34.465 [info] Got Copilot token for aarctanz
+2025-04-13 10:59:34.480 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-13 11:14:36.210 [info] Fetched model metadata in 1706ms a34318f9-56fb-43a2-9992-9bbc727396bc
+2025-04-13 11:24:34.474 [info] Logged in as aarctanz
+2025-04-13 11:24:36.397 [info] Got Copilot token for aarctanz
+2025-04-13 11:24:36.408 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-13 11:24:37.903 [info] Fetched model metadata in 1489ms 1a9a9bb4-0d5e-4cf8-a3c2-5425d1e15fc8
+2025-04-13 11:39:39.897 [info] Fetched model metadata in 1656ms 2887d4f1-7978-44e9-987b-a82f54635301
+2025-04-13 11:49:36.494 [info] Logged in as aarctanz
+2025-04-13 11:49:38.344 [info] Got Copilot token for aarctanz
+2025-04-13 11:49:38.367 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-13 12:04:40.300 [info] Fetched model metadata in 1885ms 4f2d7c98-a73f-4798-aa94-f4c27e0860b4
+2025-04-13 12:14:38.361 [info] Logged in as aarctanz
+2025-04-13 12:14:40.376 [info] Got Copilot token for aarctanz
+2025-04-13 12:14:40.396 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-13 12:14:41.771 [info] Fetched model metadata in 1370ms bf941499-79d9-4f69-b634-8706fc19c5cb
+2025-04-13 12:29:43.181 [info] Fetched model metadata in 1154ms 478d1ae1-bda3-47e0-9bd6-57e62c1b18d9
+2025-04-13 12:39:40.386 [info] Logged in as aarctanz
+2025-04-13 12:39:43.139 [info] Got Copilot token for aarctanz
+2025-04-13 12:39:43.154 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-13 12:54:44.674 [info] Fetched model metadata in 1505ms 90872c44-ff2a-4fb3-ac99-5697c3b1a772
+2025-04-13 13:04:43.148 [info] Logged in as aarctanz
+2025-04-13 13:04:43.164 [info] Logged in as aarctanz
+2025-04-13 13:04:43.184 [info] copilot token chat_enabled: undefined, sku: 
+2025-04-13 13:04:43.318 [info] Logged in as aarctanz
+2025-04-13 13:04:43.323 [error] GitHub Copilot could not connect to server. Extension activation failed: "net::ERR_INTERNET_DISCONNECTED"
+2025-04-13 13:04:43.323 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-04-13 13:04:43.323 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10511)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+2025-04-13 13:04:43.324 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-04-13 13:04:43.324 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10511)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+2025-04-13 13:19:43.339 [info] Logged in as aarctanz
+2025-04-13 13:19:45.132 [info] Got Copilot token for aarctanz
+2025-04-13 13:19:45.219 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-13 13:19:45.219 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-04-13 13:19:46.817 [info] Fetched model metadata in 1676ms 8e4753b3-0ad0-4bc7-886e-1406f3fbc596

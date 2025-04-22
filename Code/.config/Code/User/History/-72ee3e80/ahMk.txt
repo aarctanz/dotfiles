@@ -1,0 +1,62 @@
+Results
+Trends in case filing and disposal over time
+Between 2010 and 2018, the total number of cases filed saw a dramatic rise of 220%, increasing from 42,81,327 in 2010 to 1,37,24,299 in 2018. Interestingly, while the volume of cases filed surged, the rate of case disposals grew even more impressively. The number of cases disposed of jumped from 6,35,001 in 2010 to 1,22,55,352 in 2018—an astounding increase of over 1800%.
+	
+Comparison between states
+Over the past nine years, Uttar Pradesh recorded the highest number of cases filed, with a staggering 12744179 cases. In contrast, Ladakh saw the fewest, with just 671 cases filed.
+When it comes to disposal rates, Diu and Daman, DNH at Silvasa, and Ladakh stand out with a perfect 100% disposal rate—though it's worth noting that these regions also had the lowest number of cases. Among the states with over 1,00,000 cases, Chandigarh and Goa emerged as top performers, each disposing of approximately 86% of their cases. On the other hand, Bihar lagged significantly, managing to dispose of only 43% of its total caseload.
+Looking at average case duration, Orissa took the longest time to resolve cases—683 days on average—while Sikkim led the efficiency chart, with cases disposed of in just 118 days on average.
+
+Comparison between districts
+Over the past nine years, Ahmedabad has consistently led the country’s districts in terms of case filings, with an astonishing total of 5.08 lakh cases registered during this period. 
+At the other end of the spectrum, the serene island territory of Lakshadweep recorded the lowest number of cases, with just 248 filings — a number that reflects its small population and relatively quieter legal landscape.
+When it comes to disposing of cases, a few regions stood out with spotless records. Districts like Lakshadweep, Diu, Mangan, and Churachandpur achieved a flawless 100% disposal rate. However, it’s worth noting that these perfect scores often came from areas with very few total cases, making complete disposal more attainable.
+Among the busier districts — those handling more than 1 lakh cases — Ludhiana and Gautam Buddha Nagar emerged as models of efficiency, each successfully clearing over 85% of their caseload. In contrast, districts like Patna and Ghaziabad struggled under their workloads, managing to dispose of only 46% and 48% of their cases respectively over the same period.
+In terms of how long cases take to reach resolution, the numbers paint a telling picture. Surajpur (Chhattisgarh) holds the unfortunate distinction of the longest average case duration, with litigants waiting an average of 1005 days — nearly three years — for justice. On the brighter side, Gyalshing (Sikkim) proved remarkably efficient, wrapping up cases in just 54 days on average, a figure that reflects both speedy proceedings and a relatively modest caseload.
+Gender Roles in Judicial proceeding 
+To explore potential gender bias in criminal case outcomes, a random sample of 15,000 criminal cases was drawn from the dataset. A contingency table was created to examine the distribution of cases by the gender of the presiding judge and the defendant. A Chi-square test of independence was then applied to assess whether there was a statistically significant association between these two variables.
+
+The results of the Chi-square test were unremarkable, yielding a Chi-square statistic of 0.12 and a p-value of 0.7288. This suggests that, in the sampled cases, there was no statistically significant association between the gender of the judge and the gender of the defendant — at least in terms of their frequency distribution within the dataset.
+
+During preliminary analysis, acquittal rates were examined across different states to identify possible outliers and problematic groups. It was observed that a few states, specifically Bihar, Jharkhand, and Orissa, exhibited 100% acquittal rates in the sampled cases. 
+
+Since logistic regression relies on a maximum likelihood estimation (MLE) process, the presence of states with perfect separation (100% or 0% acquittal) posed convergence issues for the model’s cost function. In these cases, the log-likelihood approaches infinity because the model attempts to assign an infinitely large positive or negative coefficient to perfectly predict outcomes. To address this, states with perfect acquittal rates or with insufficient case counts were excluded from the final regression analysis to ensure stable and interpretable model estimates.
+
+To evaluate the relationship between judge-defendant gender combinations and the probability of acquittal, a logistic regression model was fitted using the formula:
+
+acquitted∼same_gender+C(filing_year)+C(state_code)+number_sections_ipc
+
+The dependent variable acquitted was binary, indicating whether the defendant was acquitted (1) or not (0). The independent variables were carefully selected based on domain relevance and preliminary exploratory analysis:
+
+same_gender: A binary indicator capturing whether both the judge and defendant were female, hypothesized to influence outcomes based on potential gender bias.
+
+C(filing_year): A categorical control for temporal trends in acquittal rates across years.
+
+C(state_code): A categorical variable accounting for regional differences in case outcomes.
+
+number_sections_ipc: A continuous variable representing the number of IPC sections applied in the case, used as a proxy for case complexity or severity.
+
+The regression model converged successfully, with a pseudo R-squared of 0.2406, suggesting a reasonable explanatory power given the binary outcome.
+
+Among the key findings:
+
+The same_gender variable was statistically significant (p < 0.001), with a coefficient of -0.1547. This indicates that cases where both judge and defendant were female had slightly lower odds of acquittal compared to other combinations, holding other factors constant. However, the effect size is modest.
+
+The number of IPC sections applied was a strong positive predictor of conviction, with each additional section significantly decreasing the likelihood of acquittal (coefficient 0.5349, p < 0.001).
+
+As expected, both years of filing and state code exhibited strong, significant effects on case outcomes, reflecting regional and temporal differences in judicial patterns.
+
+Impacts of Acts/Cases type
+Over the past decade, The Indian Penal Code (IPC) unsurprisingly dominated India’s legal landscape, accounting for over 1.7 crore cases — the highest by a significant margin. It was followed by the Code of Criminal Procedure with 65 lakh cases, and then the Motor Vehicles Act and various iterations of the Civil Procedure Code, each with filings in the range of 23 to 25 lakh cases. Other frequently cited laws included the Negotiable Instruments Act and the Hindu Marriage Act, both reflecting the breadth of criminal, civil, and matrimonial disputes coursing through the judicial system.
+When looking at the average time taken to dispose of cases under different acts, a striking disparity emerged. Cases filed under the Industrial Disputes Act, 1947 took the longest to resolve, with an average duration of 1101 days. Other time-consuming laws included the M M C Act, the Specific Relief Act, and the Factories Act, all averaging around 950–1000 days. This pattern suggests that labor and industrial disputes, specific property relief matters, and factory-related cases tend to get mired in prolonged legal proceedings.
+On the other hand, certain laws witnessed remarkably swift disposals. Cases under the 185 M.V. Act averaged just 2 days for disposal, while others like the IMV Act, various state-specific Police Acts, and the Railways Act saw average durations ranging from 7 to 30 days. These typically involve either minor procedural offenses or bailable cases that courts prioritize for swift handling.
+
+
+Interestingly, when comparing bailable and non-bailable cases, the average time to dispose of bailable cases stood at 411 days, marginally higher than non-bailable cases, which averaged 358 days. This somewhat counterintuitive trend possibly reflects the complexities introduced in bailable matters, where procedural delays and adjournments could extend beyond expected timelines.
+
+At the state level, the dominance of certain acts varied considerably. In most states, the Indian Penal Code was the most commonly applied act. However, some regional distinctions stood out:
+Kerala and Tamil Nadu leaned heavily on IPC for their criminal filings.
+Haryana and Punjab showed an unusual trend with the Motor Vehicles Act dominating their legal workload, reflecting a high incidence of traffic-related disputes.
+In Chandigarh, the Negotiable Instruments Act (related to bounced cheques) topped the charts — consistent with its profile as a commercial hub.
+
+Examining gender-sensitive and family-related legislation trends over time, filings under the Hindu Marriage Act saw a steady rise from 32,999 cases in 2010 to an impressive 2.57 lakh cases in 2017 before stabilizing. Similarly, the Protection of Women from Domestic Violence Act steadily gained traction, growing from 8,210 cases in 2010 to over 1 lakh cases per year by 2018. The Dowry Prohibition Act also saw consistent growth, peaking at 4,582 cases in 2016.

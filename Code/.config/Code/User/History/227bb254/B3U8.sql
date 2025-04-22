@@ -1,0 +1,307 @@
+-- COPY (
+--   SELECT
+--     c.ddl_case_id,
+--     c.date_of_filing,
+--     c.date_of_decision,
+--     female_defendant,
+--     female_petitioner,
+--     jc.female_judge,
+--     a.act_s,
+--     s.section_s,
+--     date_of_filing,
+--     date_of_decision,
+--     d.disp_name_s
+--   FROM cases_clean c
+--   JOIN disp_name d ON c.disp_name = d.disp_name AND c.year = d.year
+--   JOIN type_name t ON c.type_name = t.type_name AND c.year = t.year
+--   JOIN judge_case jc ON c.ddl_case_id = jc.ddl_case_id
+--   JOIN judges_clean j ON j.ddl_judge_id = jc.ddl_filing_judge_id
+--   JOIN acts_sections acsc ON c.ddl_case_id = a.ddl_case_id
+--   JOIN act_key a ON a.act = acsc.act
+--   JOIN section_key s ON s.section = acsc.section
+--   WHERE data_of_decision IS NOT NULL 
+--   AND acsc.section IS NOT NULL
+--   AND t.type_name_s='criminal case'
+--   AND jc.ddl_filing_judge_id=jc.ddl_decision_judge_id
+--   LIMIT 5
+-- ) TO '/home/arctan/data/justice_data/sample.csv' WITH CSV HEADER;
+
+\COPY (
+  SELECT
+    c.ddl_case_id,
+    c.date_of_filing,
+    c.date_of_decision,
+    EXTRACT(YEAR FROM c.date_of_filing) AS filing_year,  -- Temporal control
+    c.state_code,  -- Regional control
+    c.court_no,
+
+    c.female_defendant,
+    c.female_petitioner,
+    j.female_judge,
+    a.act_s,
+    s.section_s,
+    acsc.bailable_ipc,           
+    acsc.number_sections_ipc,    
+    d.disp_name_s AS disposition
+  FROM cases_clean c
+  JOIN disp_name d ON c.disp_name = d.disp_name AND c.year = d.year
+  JOIN type_name t ON c.type_name = t.type_name AND c.year = t.year
+  JOIN judge_case jc ON c.ddl_case_id = jc.ddl_case_id
+  JOIN judges_clean j ON j.ddl_judge_id = jc.ddl_filing_judge_id
+  JOIN acts_sections acsc ON c.ddl_case_id = acsc.ddl_case_id
+  JOIN act_key a ON a.act = acsc.act
+  JOIN section_key s ON s.section = acsc.section
+  WHERE c.date_of_decision IS NOT NULL
+    AND acsc.section IS NOT NULL
+    AND t.type_name_s = 'criminal case'
+    AND jc.ddl_filing_judge_id = jc.ddl_decision_judge_id
+    AND ascs.bailable_ipc IN ('bailable', 'non-bailable')
+    AND acsc.number_sections_ipc IS NOT NULL
+    AND d.disp_name_s IN ('convicted', 'acquitted')
+  LIMIT 5
+) TO '/home/arctan/data/justice_data/sample.csv' WITH CSV HEADER;
+
+\COPY (
+  SELECT
+    c.ddl_case_id,
+    c.date_of_filing,
+    c.date_of_decision,
+    EXTRACT(YEAR FROM c.date_of_filing) AS filing_year,
+    c.state_code,
+    c.court_no,
+    c.female_defendant,
+    c.female_petitioner,
+    j.female_judge,
+    a.act_s,
+    s.section_s,  
+    acsc.bailable_ipc,
+    acsc.number_sections_ipc,
+    d.disp_name_s AS disposition
+  FROM cases_clean c
+  TABLESAMPLE BERNAOULLI (1)  -- Adjust the sample size as needed
+  JOIN disp_name d ON c.disp_name = d.disp_name AND c.year = d.year
+  JOIN type_name t ON c.type_name = t.type_name AND c.year = t.year
+  JOIN judge_case jc ON c.ddl_case_id = jc.ddl_case_id
+  JOIN judges_clean j ON j.ddl_judge_id = jc.ddl_filing_judge_id
+  JOIN acts_sections acsc ON c.ddl_case_id = acsc.ddl_case_id
+  JOIN act_key a ON a.act = acsc.act
+  JOIN section_key s ON s.section = acsc.section
+  WHERE 
+    c.date_of_decision IS NOT NULL
+    AND acsc.section IS NOT NULL
+    AND t.type_name_s = 'criminal case'
+    AND jc.ddl_filing_judge_id = jc.ddl_decision_judge_id
+    AND acsc.bailable_ipc IN ('bailable', 'non-bailable') 
+    AND acsc.number_sections_ipc IS NOT NULL
+    AND d.disp_name_s IN ('convicted', 'acquitted')
+    
+  LIMIT 5  
+) TO '/home/arctan/data/justice_data/sample.csv' WITH CSV HEADER;
+
+
+
+-- \COPY (
+--   SELECT
+--     c.ddl_case_id,
+--     c.date_of_filing,
+--     c.date_of_decision,
+--     c.female_defendant,
+--     c.female_petitioner,
+--     j.female_judge,
+--     a.act_s,
+--     s.section_s,
+--     d.disp_name_s
+--   FROM cases_clean c
+--   JOIN disp_name d ON c.disp_name = d.disp_name AND c.year = d.year
+--   JOIN type_name t ON c.type_name = t.type_name AND c.year = t.year
+--   JOIN judge_case jc ON c.ddl_case_id = jc.ddl_case_id
+--   JOIN judges_clean j ON j.ddl_judge_id = jc.ddl_filing_judge_id
+--   JOIN acts_sections acsc ON c.ddl_case_id = acsc.ddl_case_id
+--   JOIN act_key a ON a.act = acsc.act
+--   JOIN section_key s ON s.section = acsc.section
+--   WHERE c.date_of_decision IS NOT NULL
+--     AND acsc.section IS NOT NULL
+--     AND t.type_name_s = 'criminal case'
+--     AND jc.ddl_filing_judge_id = jc.ddl_decision_judge_id
+--     AND acsc.bailable_ipc IN ('bailable', 'non-bailable') 
+--     AND acsc.number_sections_ipc IS NOT NULL
+--     AND d.disp_name_s IN ('convicted', 'acquitted')
+--   LIMIT 5
+-- ) TO '/home/arctan/data/justice_data/sample.csv' WITH CSV HEADER;
+
+
+
+--   SELECT
+--     count(*)
+--   FROM cases_clean c
+--   JOIN disp_name d ON c.disp_name = d.disp_name AND c.year = d.year
+--   JOIN type_name t ON c.type_name = t.type_name AND c.year = t.year
+--   JOIN judge_case jc ON c.ddl_case_id = jc.ddl_case_id
+--   JOIN judges_clean j ON j.ddl_judge_id = jc.ddl_filing_judge_id
+--   JOIN acts_sections acsc ON c.ddl_case_id = acsc.ddl_case_id
+--   JOIN act_key a ON a.act = acsc.act
+--   JOIN section_key s ON s.section = acsc.section
+--   WHERE c.date_of_decision IS NOT NULL
+--     AND acsc.section IS NOT NULL
+--     AND t.type_name_s = 'criminal case'
+--     AND jc.ddl_filing_judge_id = jc.ddl_decision_judge_id;
+ 
+
+
+
+
+-- \COPY (
+-- WITH sample AS(
+--   SELECT
+--     c.ddl_case_id,
+--     c.date_of_filing,
+--     c.date_of_decision,
+--     EXTRACT(YEAR FROM c.date_of_filing) AS filing_year,
+--     c.state_code,
+--     c.court_no,
+--     c.female_defendant,
+--     c.female_petitioner,
+--     j.female_judge,
+--     a.act_s,
+--     s.section_s,  
+--     acsc.bailable_ipc,
+--     acsc.number_sections_ipc,
+--     d.disp_name_s AS disposition
+--   FROM cases_clean c
+--   JOIN disp_name d ON c.disp_name = d.disp_name AND c.year = d.year
+--   JOIN type_name t ON c.type_name = t.type_name AND c.year = t.year
+--   JOIN judge_case jc ON c.ddl_case_id = jc.ddl_case_id
+--   JOIN judges_clean j ON j.ddl_judge_id = jc.ddl_filing_judge_id
+--   JOIN acts_sections acsc ON c.ddl_case_id = acsc.ddl_case_id
+--   JOIN act_key a ON a.act = acsc.act
+--   JOIN section_key s ON s.section = acsc.section
+--   WHERE 
+--     c.date_of_decision IS NOT NULL
+--     AND acsc.section IS NOT NULL
+--     AND t.type_name_s = 'criminal case'
+--     AND jc.ddl_filing_judge_id = jc.ddl_decision_judge_id
+--     AND acsc.bailable_ipc IN ('bailable', 'non-bailable') 
+--     AND acsc.number_sections_ipc IS NOT NULL
+--     AND d.disp_name_s IN ('convicted', 'acquitted')
+-- )
+-- SELECT *
+-- FROM sample
+-- ORDER BY RANDOM()  
+-- LIMIT 5  
+-- ) TO '/home/arctan/data/justice_data/sample.csv' WITH CSV HEADER;
+
+-- \COPY (
+-- WITH sample AS(
+--   SELECT
+--     c.ddl_case_id,
+--     c.date_of_filing,
+--     c.date_of_decision,
+--     EXTRACT(YEAR FROM c.date_of_filing) AS filing_year,
+--     c.state_code,
+--     c.court_no,
+--     c.female_defendant,
+--     c.female_petitioner,
+--     j.female_judge,
+--     a.act_s,
+--     s.section_s,  
+--     t.type_name_s,
+--     acsc.bailable_ipc,
+--     acsc.number_sections_ipc,
+--     d.disp_name_s AS disposition
+--   FROM cases_clean c
+--   JOIN disp_name d ON c.disp_name = d.disp_name AND c.year = d.year
+--   JOIN type_name t ON c.type_name = t.type_name AND c.year = t.year
+--   JOIN judge_case jc ON c.ddl_case_id = jc.ddl_case_id
+--   JOIN judges_clean j ON j.ddl_judge_id = jc.ddl_filing_judge_id
+--   JOIN acts_sections acsc ON c.ddl_case_id = acsc.ddl_case_id
+--   JOIN act_key a ON a.act = acsc.act
+--   JOIN section_key s ON s.section = acsc.section
+--   WHERE 
+--     c.date_of_decision IS NOT NULL
+--     AND acsc.section IS NOT NULL
+--     AND jc.ddl_filing_judge_id = jc.ddl_decision_judge_id
+--     AND acsc.number_sections_ipc IS NOT NULL
+-- )
+-- SELECT *
+-- FROM sample
+-- ORDER BY RANDOM()  
+-- LIMIT 5  
+-- ) TO '/home/arctan/data/justice_data/sample.csv' WITH CSV HEADER;
+
+
+-- \COPY (
+-- WITH sample AS(
+--   SELECT
+--     c.ddl_case_id,
+--     c.date_of_filing,
+--     c.date_of_decision,
+--     EXTRACT(YEAR FROM c.date_of_filing) AS filing_year,
+--     c.state_code,
+--     c.court_no,
+--     c.female_defendant,
+--     c.female_petitioner,
+--     j.female_judge,
+--     a.act_s,
+--     s.section_s,  
+--     acsc.bailable_ipc,
+--     acsc.number_sections_ipc,
+--     d.disp_name_s AS disposition
+--   FROM cases_clean c
+--   JOIN disp_name d ON c.disp_name = d.disp_name AND c.year = d.year
+--   JOIN type_name t ON c.type_name = t.type_name AND c.year = t.year
+--   JOIN judge_case jc ON c.ddl_case_id = jc.ddl_case_id
+--   JOIN judges_clean j ON j.ddl_judge_id = jc.ddl_filing_judge_id
+--   JOIN acts_sections acsc ON c.ddl_case_id = acsc.ddl_case_id
+--   JOIN act_key a ON a.act = acsc.act
+--   JOIN section_key s ON s.section = acsc.section
+--   WHERE 
+--     c.date_of_decision IS NOT NULL
+--     AND acsc.section IS NOT NULL
+--     AND jc.ddl_filing_judge_id = jc.ddl_decision_judge_id
+-- )
+-- SELECT *
+-- FROM sample
+-- ORDER BY RANDOM()  
+-- LIMIT 100000
+-- ) TO '/home/arctan/data/justice_data/sample.csv' WITH CSV HEADER;
+
+\COPY (
+WITH sample AS(
+  SELECT
+    c.ddl_case_id,
+    c.date_of_filing,
+    c.date_of_decision,
+    EXTRACT(YEAR FROM c.date_of_filing) AS filing_year,
+    c.state_code,
+    c.court_no,
+    c.female_defendant,
+    c.female_petitioner,
+    j.female_judge,
+    (j.end_date-j.start_date) AS judge_tenure,
+    court_key
+    a.act_s,
+    s.section_s,  
+    acsc.bailable_ipc,
+    acsc.number_sections_ipc,
+    d.disp_name_s AS disposition
+  FROM cases_clean c
+  JOIN disp_name d ON c.disp_name = d.disp_name AND c.year = d.year
+  JOIN type_name t ON c.type_name = t.type_name AND c.year = t.year
+  JOIN judge_case jc ON c.ddl_case_id = jc.ddl_case_id
+  JOIN judges_clean j ON j.ddl_judge_id = jc.ddl_filing_judge_id
+  JOIN acts_sections acsc ON c.ddl_case_id = acsc.ddl_case_id
+  JOIN act_key a ON a.act = acsc.act
+  JOIN section_key s ON s.section = acsc.section
+  JOIN court_key on c.court_no = court_key.court_no
+  WHERE 
+    c.date_of_decision IS NOT NULL
+    AND acsc.section IS NOT NULL
+    AND jc.ddl_filing_judge_id = jc.ddl_decision_judge_id
+    AND j.end_date IS NOT NULL 
+    AND j.start_date IS NOT NULL
+)
+SELECT *
+FROM sample
+ORDER BY RANDOM()  
+LIMIT 100000
+) TO '/home/arctan/data/justice_data/sample.csv' WITH CSV HEADER;

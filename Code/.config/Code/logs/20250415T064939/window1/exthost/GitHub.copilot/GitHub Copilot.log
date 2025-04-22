@@ -1,0 +1,187 @@
+2025-04-15 06:49:58.904 [warning] [certificates] Failed to parse certificate # ACCVRAIZ1
+ Error: error:0900006e:PEM routines:OPENSSL_internal:NO_START_LINE
+    at new X509Certificate (node:internal/crypto/x509:119:21)
+    at /home/arctan/.vscode/extensions/github.copilot-1.270.0/lib/src/network/certificateReaders.ts:79:36
+    at Array.filter (<anonymous>)
+    at ice.removeExpiredCertificates (/home/arctan/.vscode/extensions/github.copilot-1.270.0/lib/src/network/certificateReaders.ts:77:32)
+    at ice.getAllRootCAs (/home/arctan/.vscode/extensions/github.copilot-1.270.0/lib/src/network/certificateReaders.ts:68:38)
+    at Sce.createSecureContext (/home/arctan/.vscode/extensions/github.copilot-1.270.0/lib/src/network/certificates.ts:47:23) {
+  opensslErrorStack: [
+    'error:0c00006d:ASN.1 encoding routines:OPENSSL_internal:DECODE_ERROR'
+  ],
+  library: 'PEM routines',
+  function: 'OPENSSL_internal',
+  reason: 'NO_START_LINE',
+  code: 'ERR_OSSL_PEM_NO_START_LINE'
+}
+2025-04-15 06:49:58.904 [warning] [certificates] Failed to parse certificate # ACCVRAIZ1
+ Error: error:0900006e:PEM routines:OPENSSL_internal:NO_START_LINE
+    at new X509Certificate (node:internal/crypto/x509:119:21)
+    at /home/arctan/.vscode/extensions/github.copilot-1.270.0/lib/src/network/certificateReaders.ts:79:36
+    at Array.filter (<anonymous>)
+    at ice.removeExpiredCertificates (/home/arctan/.vscode/extensions/github.copilot-1.270.0/lib/src/network/certificateReaders.ts:77:32)
+    at ice.getAllRootCAs (/home/arctan/.vscode/extensions/github.copilot-1.270.0/lib/src/network/certificateReaders.ts:68:38)
+    at Sce.createSecureContext (/home/arctan/.vscode/extensions/github.copilot-1.270.0/lib/src/network/certificates.ts:47:23) {
+  opensslErrorStack: [
+    'error:0c00006d:ASN.1 encoding routines:OPENSSL_internal:DECODE_ERROR'
+  ],
+  library: 'PEM routines',
+  function: 'OPENSSL_internal',
+  reason: 'NO_START_LINE',
+  code: 'ERR_OSSL_PEM_NO_START_LINE'
+}
+2025-04-15 06:49:58.904 [info] [certificates] Removed 2 expired certificates
+2025-04-15 06:50:01.028 [info] [fetcher] Using Helix fetcher.
+2025-04-15 06:50:01.030 [info] [code-referencing] Public code references are enabled.
+2025-04-15 06:50:04.403 [info] [customModels] Available generic completion model: gpt-4o-copilot
+2025-04-15 06:52:38.095 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 326.45524799998384 ms
+2025-04-15 06:52:38.103 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 06:52:38.104 [info] [streamChoices] request done: headerRequestId: [1d9da0db-412b-492e-bff8-323a8b751954] model deployment ID: []
+2025-04-15 06:52:38.818 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 351.6652130000002 ms
+2025-04-15 06:52:38.880 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 06:52:38.885 [info] [streamChoices] request done: headerRequestId: [277fbd75-e8b3-437e-85f0-62d8de31db32] model deployment ID: []
+2025-04-15 06:52:42.181 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 366.43498399999226 ms
+2025-04-15 06:52:42.183 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 06:52:42.185 [info] [streamChoices] request done: headerRequestId: [a67535d4-dafe-4ad4-a420-942866c39180] model deployment ID: []
+2025-04-15 06:52:50.943 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 746.3006179999793 ms
+2025-04-15 06:52:50.959 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 06:52:50.961 [info] [streamChoices] request done: headerRequestId: [fadeb7c5-a68d-4f3a-9dfe-2dd0c38cc848] model deployment ID: []
+2025-04-15 06:52:58.804 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 415.8886969999876 ms
+2025-04-15 06:52:58.807 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 06:52:58.808 [info] [streamChoices] request done: headerRequestId: [0e379129-2780-4bb0-84ee-1b321612c340] model deployment ID: []
+2025-04-15 06:53:13.142 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 410.49899500000174 ms
+2025-04-15 06:53:13.145 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 06:53:13.146 [info] [streamChoices] request done: headerRequestId: [8890ecfd-2954-44be-b119-5ab75fc218cc] model deployment ID: []
+2025-04-15 06:53:14.779 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 618.5659509999969 ms
+2025-04-15 06:53:14.782 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 06:53:14.785 [info] [streamChoices] request done: headerRequestId: [67d3dd66-23ac-474c-a6b7-2196fc7f7686] model deployment ID: []
+2025-04-15 06:53:24.501 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 372.4107920000097 ms
+2025-04-15 06:53:24.505 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 06:53:24.508 [info] [streamChoices] request done: headerRequestId: [58d96c87-eb10-47fb-83e4-f8065deb55b5] model deployment ID: []
+2025-04-15 06:53:27.523 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 982.3055879999883 ms
+2025-04-15 06:53:27.530 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 06:53:27.533 [info] [streamChoices] request done: headerRequestId: [cd61d359-b92d-4d96-ad06-e4ba5264e6c6] model deployment ID: []
+2025-04-15 06:53:33.416 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 525.3061260000104 ms
+2025-04-15 06:53:33.418 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 06:53:33.420 [info] [streamChoices] request done: headerRequestId: [e611d491-b0bb-42a1-ae58-a1038016ad02] model deployment ID: []
+2025-04-15 06:53:42.647 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 703.4849819999945 ms
+2025-04-15 06:53:42.651 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 06:53:42.655 [info] [streamChoices] request done: headerRequestId: [62bb6579-e428-467a-be09-151bf65304d4] model deployment ID: []
+2025-04-15 06:53:50.121 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 833.1610450000153 ms
+2025-04-15 06:53:50.130 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 06:53:50.133 [info] [streamChoices] request done: headerRequestId: [71b71aa9-5586-4625-8671-df13a20d6b19] model deployment ID: []
+2025-04-15 06:53:53.077 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 753.2827239999897 ms
+2025-04-15 06:53:53.080 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 06:53:53.084 [info] [streamChoices] request done: headerRequestId: [4ee01984-f07d-40ea-9276-dd9f956667ac] model deployment ID: []
+2025-04-15 06:54:06.155 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 390.6082269999897 ms
+2025-04-15 06:54:06.157 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 06:54:06.159 [info] [streamChoices] request done: headerRequestId: [fc9db474-2d93-4057-87fc-d6f051f35ee5] model deployment ID: []
+2025-04-15 06:54:07.328 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 588.3610619999818 ms
+2025-04-15 06:54:07.330 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 06:54:07.330 [info] [streamChoices] request done: headerRequestId: [f80188a6-6232-4345-a58c-a1c0d4d996fb] model deployment ID: []
+2025-04-15 06:54:10.136 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 1092.36801200005 ms
+2025-04-15 06:54:10.152 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 06:54:10.160 [info] [streamChoices] request done: headerRequestId: [e59a7965-253e-4d02-9afe-7bdd093a6213] model deployment ID: []
+2025-04-15 06:54:12.519 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 992.4138580000144 ms
+2025-04-15 06:54:12.524 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 06:54:12.526 [info] [streamChoices] request done: headerRequestId: [7841469a-8b62-41c0-9685-fae0f8e90ea5] model deployment ID: []
+2025-04-15 06:54:19.324 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 584.0424229999771 ms
+2025-04-15 06:54:19.329 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 06:54:19.332 [info] [streamChoices] request done: headerRequestId: [ca613ea0-9d17-4109-9ae6-94748da60860] model deployment ID: []
+2025-04-15 06:54:20.503 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 592.8397649999824 ms
+2025-04-15 06:54:20.505 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 06:54:20.506 [info] [streamChoices] request done: headerRequestId: [d640b9f6-1e4c-4be2-aef8-5edb989845b7] model deployment ID: []
+2025-04-15 06:54:24.021 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 1225.2368229999556 ms
+2025-04-15 06:54:24.033 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 06:54:24.036 [info] [streamChoices] request done: headerRequestId: [fe440b71-ef3f-4c36-b631-9bd8627fe819] model deployment ID: []
+2025-04-15 06:54:26.054 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 807.0067010000348 ms
+2025-04-15 06:54:26.060 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 06:54:26.062 [info] [streamChoices] request done: headerRequestId: [b95fddf4-540a-4086-b032-7f75b458a071] model deployment ID: []
+2025-04-15 06:54:33.426 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 533.2302440000349 ms
+2025-04-15 06:54:33.428 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 06:54:33.432 [info] [streamChoices] request done: headerRequestId: [ed1f814d-bee3-4d81-a074-f6ac65ee04de] model deployment ID: []
+2025-04-15 06:54:42.482 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 593.726342000009 ms
+2025-04-15 06:54:42.484 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 06:54:42.484 [info] [streamChoices] request done: headerRequestId: [846c8684-16b6-4b3f-aa7c-7f2b0316dede] model deployment ID: []
+2025-04-15 06:57:45.309 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 1826.1102139999857 ms
+2025-04-15 06:57:45.496 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 06:57:45.498 [info] [streamChoices] request done: headerRequestId: [f6e82f11-390a-4e84-b7aa-66f469b0a6fc] model deployment ID: []
+2025-04-15 06:57:47.256 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 499.266856000002 ms
+2025-04-15 06:57:47.259 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 06:57:47.264 [info] [streamChoices] request done: headerRequestId: [c1c2bba6-9177-44f2-bbc4-40d3eee1cc75] model deployment ID: []
+2025-04-15 07:05:47.793 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 1574.702588000102 ms
+2025-04-15 07:05:47.797 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 07:05:47.800 [info] [streamChoices] request done: headerRequestId: [8bb6f2e0-323e-4a5a-87f6-76ba4994b7b7] model deployment ID: []
+2025-04-15 07:05:49.599 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 421.779678999912 ms
+2025-04-15 07:05:49.613 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 07:05:49.619 [info] [streamChoices] request done: headerRequestId: [83a77c82-ef5e-4931-bf41-c2a4f1783a5f] model deployment ID: []
+2025-04-15 07:05:53.858 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 627.3307979999809 ms
+2025-04-15 07:05:53.860 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 07:05:53.862 [info] [streamChoices] request done: headerRequestId: [db5269c1-9c10-4261-a105-e26068e86fde] model deployment ID: []
+2025-04-15 07:08:28.218 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 1112.2449369998649 ms
+2025-04-15 07:08:28.232 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 07:08:28.240 [info] [streamChoices] request done: headerRequestId: [b15bf928-502d-4e33-982a-459481d28764] model deployment ID: []
+2025-04-15 07:08:33.747 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 584.3522990001366 ms
+2025-04-15 07:08:33.750 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 07:08:33.754 [info] [streamChoices] request done: headerRequestId: [c93dce97-732b-429b-8085-aae95b0ed9fc] model deployment ID: []
+2025-04-15 07:08:37.273 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 511.41873500007205 ms
+2025-04-15 07:08:37.301 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 07:08:37.314 [info] [streamChoices] request done: headerRequestId: [0b39441f-625c-4c09-bab9-de8621b9617c] model deployment ID: []
+2025-04-15 07:09:27.744 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 583.1617609998211 ms
+2025-04-15 07:09:27.747 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 07:09:27.748 [info] [streamChoices] request done: headerRequestId: [548b3f9c-3768-498d-8614-077501c760da] model deployment ID: []
+2025-04-15 07:09:30.190 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 700.3080949999858 ms
+2025-04-15 07:09:30.194 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 07:09:30.196 [info] [streamChoices] request done: headerRequestId: [3a0f333d-bbb5-4fc4-9ff1-879a99cfefc8] model deployment ID: []
+2025-04-15 07:09:32.151 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 704.0124679999426 ms
+2025-04-15 07:09:32.155 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 07:09:32.160 [info] [streamChoices] request done: headerRequestId: [fa27ba86-3225-402c-b0ab-e2f61c19aa25] model deployment ID: []
+2025-04-15 07:09:32.160 [info] [ghostText] Filtered out solution matching next line
+2025-04-15 07:10:08.777 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 558.4324660000857 ms
+2025-04-15 07:10:08.780 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 07:10:08.781 [info] [streamChoices] request done: headerRequestId: [14e38c78-ebeb-4515-9225-c50e0d866986] model deployment ID: []
+2025-04-15 07:10:10.825 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 531.0393590000458 ms
+2025-04-15 07:10:10.827 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 07:10:10.828 [info] [streamChoices] request done: headerRequestId: [0ad60007-aa6b-4bf6-a57a-03cb26e58d47] model deployment ID: []
+2025-04-15 07:10:15.876 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 406.73065199982375 ms
+2025-04-15 07:10:15.878 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 07:10:15.880 [info] [streamChoices] request done: headerRequestId: [eac0e225-4234-4c90-8d25-39ef14ed2e7b] model deployment ID: []
+2025-04-15 07:10:17.191 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 531.0395149998367 ms
+2025-04-15 07:10:17.193 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 07:10:17.194 [info] [streamChoices] request done: headerRequestId: [9c370a10-2755-4e33-974f-91045f2da859] model deployment ID: []
+2025-04-15 07:10:22.450 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 409.248770999955 ms
+2025-04-15 07:10:22.453 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 07:10:22.457 [info] [streamChoices] request done: headerRequestId: [db7c4043-8cf6-4f41-9282-2afae5fd3671] model deployment ID: []
+2025-04-15 07:10:23.949 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 545.8705509998836 ms
+2025-04-15 07:10:23.950 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 07:10:23.951 [info] [streamChoices] request done: headerRequestId: [a7c54714-4da4-440c-8a03-e4f06a748dbe] model deployment ID: []
+2025-04-15 07:11:55.131 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 927.1214950000867 ms
+2025-04-15 07:11:55.136 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 07:11:55.140 [info] [streamChoices] request done: headerRequestId: [6cfd061f-ac4c-4bb3-9f85-22e06eaded62] model deployment ID: []
+2025-04-15 07:11:56.440 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 484.82928499998525 ms
+2025-04-15 07:11:56.442 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 07:11:56.443 [info] [streamChoices] request done: headerRequestId: [3618d1e7-f436-488c-9efc-c5d19872857a] model deployment ID: []
+2025-04-15 07:12:02.976 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 379.10906899999827 ms
+2025-04-15 07:12:02.980 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 07:12:02.982 [info] [streamChoices] request done: headerRequestId: [cff3a40c-401c-4785-bba4-27d2c355b21f] model deployment ID: []
+2025-04-15 07:12:04.028 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 350.05241699982435 ms
+2025-04-15 07:12:04.033 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 07:12:04.034 [info] [streamChoices] request done: headerRequestId: [70c03d2c-fbe5-4293-ac8f-d004e9d2b7ed] model deployment ID: []
+2025-04-15 07:12:14.021 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 407.86397699988447 ms
+2025-04-15 07:12:14.044 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 07:12:14.046 [info] [streamChoices] request done: headerRequestId: [65f34752-20e4-46fd-8373-53c5af35a730] model deployment ID: []
+2025-04-15 07:12:15.596 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 529.1491559999995 ms
+2025-04-15 07:12:15.598 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 07:12:15.599 [info] [streamChoices] request done: headerRequestId: [6f3fc41c-1215-4dc9-9c0d-eee6c449f097] model deployment ID: []
+2025-04-15 07:12:18.519 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 680.8479130000342 ms
+2025-04-15 07:12:18.521 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 07:12:18.522 [info] [streamChoices] request done: headerRequestId: [841d86f2-4ec5-472d-a9fe-0f47eddaa441] model deployment ID: []
+2025-04-15 07:12:20.629 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 547.1410280000418 ms
+2025-04-15 07:12:20.630 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 07:12:20.631 [info] [streamChoices] request done: headerRequestId: [c0bd1f8b-bf51-4827-9501-6b17c9256add] model deployment ID: []
+2025-04-15 07:12:30.722 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 805.666801000014 ms
+2025-04-15 07:12:30.725 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 07:12:30.727 [info] [streamChoices] request done: headerRequestId: [4a669be2-7f8c-4f4d-bdda-735b6b2739ec] model deployment ID: []
+2025-04-15 07:12:32.592 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 533.0575489997864 ms
+2025-04-15 07:12:32.594 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-04-15 07:12:32.595 [info] [streamChoices] request done: headerRequestId: [9730629c-99cd-4f0a-b225-5f9694b54bff] model deployment ID: []

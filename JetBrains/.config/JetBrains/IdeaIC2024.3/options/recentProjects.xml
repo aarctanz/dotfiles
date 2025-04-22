@@ -1,0 +1,74 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/explorations/java/demo">
+          <value>
+            <RecentProjectMetaInfo frameTitle="demo – DemoApplication.java" projectWorkspaceId="2qffggbVOWAYwHfcNVGLJ85ydeY">
+              <option name="activationTimestamp" value="1737520756588" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-243.21565.193" />
+              <option name="buildTimestamp" value="1731634860000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="1" />
+              </option>
+              <frame x="6" y="46" width="1908" height="1028" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1737520658136" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/explorations/java/account">
+          <value>
+            <RecentProjectMetaInfo frameTitle="account [~/explorations/java/account] – Main.java" projectWorkspaceId="2ryA5MoDZ4wJy4SCBhYQTjmmUgF">
+              <option name="activationTimestamp" value="1742629015900" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-243.25659.59" />
+              <option name="buildTimestamp" value="1741603500000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="2" />
+              </option>
+              <frame x="6" y="46" width="1908" height="1028" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1742623842380" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/explorations/java/TCP client server">
+          <value>
+            <RecentProjectMetaInfo frameTitle="TCP client server – Server.java" projectWorkspaceId="2uf9yF5duoTSZSb900FqaR2JWXc">
+              <option name="activationTimestamp" value="1742830160275" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-243.25659.59" />
+              <option name="buildTimestamp" value="1741603500000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="4" />
+              </option>
+              <frame x="6" y="46" width="1908" height="1028" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1742629016235" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/explorations/java/syncnotes">
+          <value>
+            <RecentProjectMetaInfo frameTitle="syncnotes – LoginForm.java" opened="true" projectWorkspaceId="2uljfUlW5BdMIET7aWA8p3s9cme">
+              <option name="activationTimestamp" value="1743704376210" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-243.25659.59" />
+              <option name="buildTimestamp" value="1741603500000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="5" />
+              </option>
+              <frame x="6" y="46" width="1908" height="1028" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1743683219935" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/explorations/java/syncnotes" />
+    <option name="lastProjectLocation" value="$USER_HOME$/explorations/java" />
+  </component>
+</application>

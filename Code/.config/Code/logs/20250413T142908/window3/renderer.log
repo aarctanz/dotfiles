@@ -1,0 +1,78 @@
+2025-04-13 21:18:13.699 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-13 21:18:13.700 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-13 21:18:13.700 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-13 21:18:14.417 [info] Started local extension host with pid 218943.
+2025-04-13 21:18:15.426 [error] Extension 'ms-vscode.cpptools' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): terminalDataWriteEvent, chatParticipantAdditions
+product.json (WINS): terminalDataWriteEvent
+2025-04-13 21:18:15.596 [warning] [redhat.vscode-yaml]: Cannot register 'redhat.telemetry.enabled'. This property is already registered.
+2025-04-13 21:18:15.597 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-04-13 21:18:18.105 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-13 21:18:18.111 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-13 21:18:18.112 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-13 21:18:18.124 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-13 21:18:18.126 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-13 21:18:18.126 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-13 21:18:18.127 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-13 21:18:18.245 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-13 21:18:18.248 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-13 21:18:18.253 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-13 21:18:18.260 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-13 21:18:18.298 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-13 21:18:18.302 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-13 21:18:18.754 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-04-13 21:18:28.571 [error] [network] #2: https://www.vscode-unpkg.net/_gallery/aprilandjan/ascii-tree-generator/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.573 [error] [network] #3: https://www.vscode-unpkg.net/_gallery/codezombiech/gitignore/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.574 [error] [network] #4: https://www.vscode-unpkg.net/_gallery/daltonmenezes/aura-theme/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.575 [error] [network] #5: https://www.vscode-unpkg.net/_gallery/developersoapbox/vscode-springboot-snippets/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.575 [error] [network] #6: https://www.vscode-unpkg.net/_gallery/docker/docker/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.576 [error] [network] #7: https://www.vscode-unpkg.net/_gallery/elanandkumar/el-vsc-product-icon-theme/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.577 [error] [network] #8: https://www.vscode-unpkg.net/_gallery/esbenp/prettier-vscode/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.578 [error] [network] #9: https://www.vscode-unpkg.net/_gallery/github/copilot/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.579 [error] [network] #10: https://www.vscode-unpkg.net/_gallery/github/copilot-chat/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.581 [error] [network] #11: https://www.vscode-unpkg.net/_gallery/golang/go/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.583 [error] [network] #12: https://www.vscode-unpkg.net/_gallery/graphql/vscode-graphql/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.584 [error] [network] #13: https://www.vscode-unpkg.net/_gallery/graphql/vscode-graphql-syntax/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.585 [error] [network] #14: https://www.vscode-unpkg.net/_gallery/james-yu/latex-workshop/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.586 [error] [network] #15: https://www.vscode-unpkg.net/_gallery/janisdd/vscode-edit-csv/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.587 [error] [network] #16: https://www.vscode-unpkg.net/_gallery/mechatroner/rainbow-csv/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.588 [error] [network] #17: https://www.vscode-unpkg.net/_gallery/mhutchie/git-graph/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.589 [error] [network] #18: https://www.vscode-unpkg.net/_gallery/ms-azuretools/vscode-docker/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.590 [error] [network] #19: https://www.vscode-unpkg.net/_gallery/ms-kubernetes-tools/vscode-kubernetes-tools/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.591 [error] [network] #20: https://www.vscode-unpkg.net/_gallery/ms-python/debugpy/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.592 [error] [network] #21: https://www.vscode-unpkg.net/_gallery/ms-python/python/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.592 [error] [network] #22: https://www.vscode-unpkg.net/_gallery/ms-python/vscode-pylance/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.593 [error] [network] #23: https://www.vscode-unpkg.net/_gallery/ms-toolsai/jupyter/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.594 [error] [network] #24: https://www.vscode-unpkg.net/_gallery/ms-toolsai/jupyter-keymap/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.595 [error] [network] #25: https://www.vscode-unpkg.net/_gallery/ms-toolsai/jupyter-renderers/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.596 [error] [network] #26: https://www.vscode-unpkg.net/_gallery/ms-toolsai/vscode-jupyter-cell-tags/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.596 [error] [network] #27: https://www.vscode-unpkg.net/_gallery/ms-toolsai/vscode-jupyter-slideshow/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.598 [error] [network] #28: https://www.vscode-unpkg.net/_gallery/ms-vscode-remote/remote-containers/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.598 [error] [network] #29: https://www.vscode-unpkg.net/_gallery/ms-vscode/cmake-tools/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.599 [error] [network] #30: https://www.vscode-unpkg.net/_gallery/ms-vscode/cpptools/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.599 [error] [network] #31: https://www.vscode-unpkg.net/_gallery/ms-vscode/cpptools-extension-pack/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.599 [error] [network] #32: https://www.vscode-unpkg.net/_gallery/ms-vscode/cpptools-themes/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.601 [error] [network] #33: https://www.vscode-unpkg.net/_gallery/ms-vscode/makefile-tools/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.602 [error] [network] #34: https://www.vscode-unpkg.net/_gallery/nickfode/latex-formatter/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.603 [error] [network] #35: https://www.vscode-unpkg.net/_gallery/pkief/material-icon-theme/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.606 [error] [network] #36: https://www.vscode-unpkg.net/_gallery/rangav/vscode-thunder-client/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.606 [error] [network] #37: https://www.vscode-unpkg.net/_gallery/redhat/java/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.607 [error] [network] #38: https://www.vscode-unpkg.net/_gallery/redhat/vscode-yaml/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.607 [error] [network] #39: https://www.vscode-unpkg.net/_gallery/ritwickdey/liveserver/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.610 [error] [network] #40: https://www.vscode-unpkg.net/_gallery/steoates/autoimport/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.611 [error] [network] #41: https://www.vscode-unpkg.net/_gallery/tecosaur/latex-utilities/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.612 [error] [network] #42: https://www.vscode-unpkg.net/_gallery/tomoki1207/pdf/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.612 [error] [network] #43: https://www.vscode-unpkg.net/_gallery/twxs/cmake/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.613 [error] [network] #44: https://www.vscode-unpkg.net/_gallery/visualstudioexptteam/intellicode-api-usage-examples/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.614 [error] [network] #45: https://www.vscode-unpkg.net/_gallery/visualstudioexptteam/vscodeintellicode/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.614 [error] [network] #46: https://www.vscode-unpkg.net/_gallery/vmware/vscode-boot-dev-pack/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.617 [error] [network] #47: https://www.vscode-unpkg.net/_gallery/vmware/vscode-spring-boot/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.618 [error] [network] #48: https://www.vscode-unpkg.net/_gallery/vscjava/vscode-gradle/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.619 [error] [network] #49: https://www.vscode-unpkg.net/_gallery/vscjava/vscode-java-debug/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.620 [error] [network] #50: https://www.vscode-unpkg.net/_gallery/vscjava/vscode-java-dependency/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.620 [error] [network] #51: https://www.vscode-unpkg.net/_gallery/vscjava/vscode-java-pack/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.622 [error] [network] #52: https://www.vscode-unpkg.net/_gallery/vscjava/vscode-java-test/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.625 [error] [network] #53: https://www.vscode-unpkg.net/_gallery/vscjava/vscode-maven/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.626 [error] [network] #54: https://www.vscode-unpkg.net/_gallery/vscjava/vscode-spring-boot-dashboard/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:28.627 [error] [network] #55: https://www.vscode-unpkg.net/_gallery/vscjava/vscode-spring-initializr/latest - error GET Fetch timeout: 10000ms
+2025-04-13 21:18:32.061 [info] [perf] Render performance baseline is 32ms

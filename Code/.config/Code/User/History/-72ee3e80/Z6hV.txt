@@ -1,0 +1,9 @@
+Results
+Trends in case filing and disposal over time
+Between 2010 and 2018, the total number of cases filed saw a dramatic rise of 220%, increasing from 42,81,327 in 2010 to 1,37,24,299 in 2018. Interestingly, while the volume of cases filed surged, the rate of case disposals grew even more impressively. The number of cases disposed of jumped from 6,35,001 in 2010 to 1,22,55,352 in 2018—an astounding increase of over 1800%.
+	
+Comparison between states
+Over the past nine years, Uttar Pradesh recorded the highest number of cases filed, with a staggering 12744179 cases. In contrast, Ladakh saw the fewest, with just 671 cases filed.
+When it comes to disposal rates, Diu and Daman, DNH at Silvasa, and Ladakh stand out with a perfect 100% disposal rate—though it's worth noting that these regions also had the lowest number of cases. Among the states with over 1,00,000 cases, Chandigarh and Goa emerged as top performers, each disposing of approximately 86% of their cases. On the other hand, Bihar lagged significantly, managing to dispose of only 43% of its total caseload.
+Looking at average case duration, Orissa took the longest time to resolve cases—683 days on average—while Sikkim led the efficiency chart, with cases disposed of in just 118 days on average.
+

@@ -1,0 +1,81 @@
+[
+    {
+        "_id": "3a2fed48-af33-4edd-8845-7ea634300a66",
+        "colId": "history",
+        "created": "2024-12-28T06:16:28.445Z",
+        "modified": "2024-12-28T07:24:38.702Z",
+        "response": {
+            "responseText": "",
+            "filePath": "",
+            "type": "text",
+            "headers": [
+                {
+                    "name": "date",
+                    "value": "Sat, 28 Dec 2024 07:24:38 GMT"
+                },
+                {
+                    "name": "content-length",
+                    "value": "9"
+                },
+                {
+                    "name": "content-type",
+                    "value": "text/plain; charset=utf-8"
+                },
+                {
+                    "name": "connection",
+                    "value": "close"
+                }
+            ],
+            "cookies": [],
+            "testResults": [],
+            "url": "http://localhost:8080/protected",
+            "status": 200,
+            "statusText": "OK",
+            "contentType": "text/plain; charset=utf-8",
+            "contentLength": "9 Bytes",
+            "responseTimeText": "4 ms",
+            "responseTime": 4,
+            "responseSize": 9,
+            "preScriptTime": 1,
+            "preReqTime": 1,
+            "reqTime": 6,
+            "postScriptTime": 0,
+            "chartHTML": ""
+        },
+        "requestInfo": {
+            "reqUrl": "http://localhost:8080/protected",
+            "headers": [
+                {
+                    "name": "content-type",
+                    "value": "multipart/form-data; boundary=--------------------------860640722725603331527687"
+                },
+                {
+                    "name": "content-length",
+                    "value": "286"
+                },
+                {
+                    "name": "accept-encoding",
+                    "value": "gzip, deflate, br"
+                },
+                {
+                    "name": "cookie",
+                    "value": "session_token=bp7rgke801cPDCT2xPWLXePJGZ0E7ZIcWD2WDgyBeMk=; csrf_token=CKOyNZKNpOSAOTtnxg6TNuh-8PD0F5xHYob9hZdX0s0="
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                },
+                {
+                    "name": "X-CSRF-Token",
+                    "value": "CKOyNZKNpOSAOTtnxg6TNuh-8PD0F5xHYob9hZdX0s0="
+                }
+            ],
+            "body": "{\n  \"username\": \"asdfghjk\",\n  \"password\": \"qwertyui\"\n}",
+            "type": "formdata"
+        }
+    }
+]

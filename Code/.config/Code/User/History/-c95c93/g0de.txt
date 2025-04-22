@@ -1,0 +1,34 @@
+\d act_key
+                      Table "public.act_key"
+ Column |          Type           | Collation | Nullable | Default
+--------+-------------------------+-----------+----------+---------
+ act_s  | character varying(1024) |           |          |
+ count  | integer                 |           |          |
+ act    | integer                 |           | not null |
+Indexes:
+    "act_key_pkey" PRIMARY KEY, btree (act)
+Referenced by:
+    TABLE "acts_sections" CONSTRAINT "fk_asc_act" FOREIGN KEY (act) REFERENCES act_key(act) ON DELETE CASCADE
+
+\d acts_sections
+                         Table "public.acts_sections"
+       Column        |          Type          | Collation | Nullable | Default
+---------------------+------------------------+-----------+----------+---------
+ ddl_case_id         | character varying(256) |           |          |
+ act                 | integer                |           |          |
+ section             | integer                |           |          |
+ bailable_ipc        | character varying(256) |           |          |
+ number_sections_ipc | integer                |           |          |
+ criminal            | integer                |           |          |
+Indexes:
+    "idx_asc_act" btree (act)
+    "idx_asc_act_section" btree (act, section)
+    "idx_asc_bailable" btree (bailable_ipc)
+    "idx_asc_case_id" btree (ddl_case_id)
+    "idx_asc_criminal" btree (criminal)
+    "idx_asc_section" btree (section)
+Foreign-key constraints:
+    "fk_asc_act" FOREIGN KEY (act) REFERENCES act_key(act) ON DELETE CASCADE
+    "fk_asc_case" FOREIGN KEY (ddl_case_id) REFERENCES cases_clean(ddl_case_id) ON DELETE CASCADE
+    "fk_asc_section" FOREIGN KEY (section) REFERENCES section_key(section) ON DELETE CASCADE
+

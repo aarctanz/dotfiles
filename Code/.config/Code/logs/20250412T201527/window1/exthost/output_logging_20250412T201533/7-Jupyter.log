@@ -1,0 +1,1353 @@
+Visual Studio Code (1.96.1, undefined, desktop)
+Jupyter Extension Version: 2024.11.0.
+Python Extension Version: 2025.4.0.
+Pylance Extension Version: 2025.4.1.
+Platform: linux (x64).
+Temp Storage folder ~/.config/Code/User/globalStorage/ms-toolsai.jupyter/version-2024.11.0
+Workspace folder ~/data/justice_data, Home = /home/arctan
+21:28:47.988 [info] Starting Kernel (Python Path: /usr/bin/python, Unknown, 3.13.1) for '~/data/justice_data/script/analysis.ipynb' (disableUI=false)
+21:28:48.082 [warn] Failed to get activated env vars for /usr/bin/python in 109ms
+21:28:48.136 [info] Process Execution: /usr/bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+21:28:48.162 [warn] Failed to get activated env vars for /usr/bin/python in 100ms
+21:28:48.226 [info] Process Execution: /usr/bin/python -m pip list
+21:28:48.316 [info] Process Execution: /usr/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+21:28:48.388 [info] Process Execution: /usr/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v3b39e8c7d084e8ee239720f0b60f73a30d0bde11e.json
+    > cwd: //home/~/data/justice_data/script
+21:28:51.150 [info] Kernel successfully started
+21:28:51.239 [info] Process Execution: /usr/bin/python /home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/pythonFiles/printJupyterDataDir.py
+21:28:52.519 [warn] Cell completed with errors iu [Error]: No module named 'sqlalchemy'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'sqlalchemy'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mModuleNotFoundError\x1B[39m                       Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[1]\x1B[39m\x1B[32m, line 2\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mpandas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mpd\x1B[39;00m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m2\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01msqlalchemy\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m create_engine\n' +
+      "\x1B[32m      4\x1B[39m username = \x1B[33m'\x1B[39m\x1B[33m~\x1B[39m\x1B[33m'\x1B[39m\n" +
+      "\x1B[32m      5\x1B[39m password = \x1B[33m'\x1B[39m\x1B[33marcpg17\x1B[39m\x1B[33m'\x1B[39m\n",
+    "\x1B[31mModuleNotFoundError\x1B[39m: No module named 'sqlalchemy'"
+  ]
+}
+03:48:50.494 [warn] Cell completed with errors iu [Error]: 'disp_name_s'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'KeyError',
+  evalue: "'disp_name_s'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mKeyError\x1B[39m                                  Traceback (most recent call last)',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/indexes/base.py:3805\x1B[39m, in \x1B[36mIndex.get_loc\x1B[39m\x1B[34m(self, key)\x1B[39m\n' +
+      '\x1B[32m   3804\x1B[39m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m3805\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_engine\x1B[49m\x1B[43m.\x1B[49m\x1B[43mget_loc\x1B[49m\x1B[43m(\x1B[49m\x1B[43mcasted_key\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   3806\x1B[39m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m err:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32mindex.pyx:167\x1B[39m, in \x1B[36mpandas._libs.index.IndexEngine.get_loc\x1B[39m\x1B[34m()\x1B[39m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32mindex.pyx:196\x1B[39m, in \x1B[36mpandas._libs.index.IndexEngine.get_loc\x1B[39m\x1B[34m()\x1B[39m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32mpandas/_libs/hashtable_class_helper.pxi:7081\x1B[39m, in \x1B[36mpandas._libs.hashtable.PyObjectHashTable.get_item\x1B[39m\x1B[34m()\x1B[39m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32mpandas/_libs/hashtable_class_helper.pxi:7089\x1B[39m, in \x1B[36mpandas._libs.hashtable.PyObjectHashTable.get_item\x1B[39m\x1B[34m()\x1B[39m\n',
+    "\x1B[31mKeyError\x1B[39m: 'disp_name_s'",
+    '\nThe above exception was the direct cause of the following exception:\n',
+    '\x1B[31mKeyError\x1B[39m                                  Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[6]\x1B[39m\x1B[32m, line 7\x1B[39m\n' +
+      '\x1B[32m      4\x1B[39m \x1B[38;5;28mprint\x1B[39m(df.describe())\n' +
+      '\x1B[32m      6\x1B[39m \x1B[38;5;66;03m# Check unique values for categorical columns\x1B[39;00m\n' +
+      `\x1B[32m----> \x1B[39m\x1B[32m7\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33m"\x1B[39m\x1B[33mDispositions:\x1B[39m\x1B[33m"\x1B[39m, \x1B[43mdf\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mdisp_name_s\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m]\x1B[49m.unique())\n` +
+      `\x1B[32m      8\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33m"\x1B[39m\x1B[33mBailable IPC:\x1B[39m\x1B[33m"\x1B[39m, df[\x1B[33m'\x1B[39m\x1B[33mbailable_ipc\x1B[39m\x1B[33m'\x1B[39m].unique())\n`,
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/frame.py:4102\x1B[39m, in \x1B[36mDataFrame.__getitem__\x1B[39m\x1B[34m(self, key)\x1B[39m\n' +
+      '\x1B[32m   4100\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m.columns.nlevels > \x1B[32m1\x1B[39m:\n' +
+      '\x1B[32m   4101\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m._getitem_multilevel(key)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m4102\x1B[39m indexer = \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m.\x1B[49m\x1B[43mget_loc\x1B[49m\x1B[43m(\x1B[49m\x1B[43mkey\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   4103\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m is_integer(indexer):\n' +
+      '\x1B[32m   4104\x1B[39m     indexer = [indexer]\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/indexes/base.py:3812\x1B[39m, in \x1B[36mIndex.get_loc\x1B[39m\x1B[34m(self, key)\x1B[39m\n' +
+      '\x1B[32m   3807\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(casted_key, \x1B[38;5;28mslice\x1B[39m) \x1B[38;5;129;01mor\x1B[39;00m (\n' +
+      '\x1B[32m   3808\x1B[39m         \x1B[38;5;28misinstance\x1B[39m(casted_key, abc.Iterable)\n' +
+      '\x1B[32m   3809\x1B[39m         \x1B[38;5;129;01mand\x1B[39;00m \x1B[38;5;28many\x1B[39m(\x1B[38;5;28misinstance\x1B[39m(x, \x1B[38;5;28mslice\x1B[39m) \x1B[38;5;28;01mfor\x1B[39;00m x \x1B[38;5;129;01min\x1B[39;00m casted_key)\n' +
+      '\x1B[32m   3810\x1B[39m     ):\n' +
+      '\x1B[32m   3811\x1B[39m         \x1B[38;5;28;01mraise\x1B[39;00m InvalidIndexError(key)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m3812\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m(key) \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01merr\x1B[39;00m\n' +
+      '\x1B[32m   3813\x1B[39m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mTypeError\x1B[39;00m:\n' +
+      '\x1B[32m   3814\x1B[39m     \x1B[38;5;66;03m# If we have a listlike key, _check_indexing_error will raise\x1B[39;00m\n' +
+      '\x1B[32m   3815\x1B[39m     \x1B[38;5;66;03m#  InvalidIndexError. Otherwise we fall through and re-raise\x1B[39;00m\n' +
+      '\x1B[32m   3816\x1B[39m     \x1B[38;5;66;03m#  the TypeError.\x1B[39;00m\n' +
+      '\x1B[32m   3817\x1B[39m     \x1B[38;5;28mself\x1B[39m._check_indexing_error(key)\n',
+    "\x1B[31mKeyError\x1B[39m: 'disp_name_s'"
+  ]
+}
+03:51:37.074 [warn] Cell completed with errors iu [Error]: invalid literal for int() with base 10: '1 female'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'ValueError',
+  evalue: "invalid literal for int() with base 10: '1 female'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mValueError\x1B[39m                                Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[8]\x1B[39m\x1B[32m, line 2\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;66;03m# Ensure binary columns are 0/1\x1B[39;00m\n' +
+      "\x1B[32m----> \x1B[39m\x1B[32m2\x1B[39m df[\x1B[33m'\x1B[39m\x1B[33mfemale_defendant\x1B[39m\x1B[33m'\x1B[39m] = \x1B[43mdf\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mfemale_defendant\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m.\x1B[49m\x1B[43mastype\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;28;43mint\x1B[39;49m\x1B[43m)\x1B[49m\n" +
+      "\x1B[32m      3\x1B[39m df[\x1B[33m'\x1B[39m\x1B[33mfemale_judge\x1B[39m\x1B[33m'\x1B[39m] = df[\x1B[33m'\x1B[39m\x1B[33mfemale_judge\x1B[39m\x1B[33m'\x1B[39m].astype(\x1B[38;5;28mint\x1B[39m)\n" +
+      '\x1B[32m      5\x1B[39m \x1B[38;5;66;03m# Check for missing values\x1B[39;00m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/generic.py:6643\x1B[39m, in \x1B[36mNDFrame.astype\x1B[39m\x1B[34m(self, dtype, copy, errors)\x1B[39m\n' +
+      '\x1B[32m   6637\x1B[39m     results = [\n' +
+      '\x1B[32m   6638\x1B[39m         ser.astype(dtype, copy=copy, errors=errors) \x1B[38;5;28;01mfor\x1B[39;00m _, ser \x1B[38;5;129;01min\x1B[39;00m \x1B[38;5;28mself\x1B[39m.items()\n' +
+      '\x1B[32m   6639\x1B[39m     ]\n' +
+      '\x1B[32m   6641\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m   6642\x1B[39m     \x1B[38;5;66;03m# else, only a single dtype is given\x1B[39;00m\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m6643\x1B[39m     new_data = \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_mgr\x1B[49m\x1B[43m.\x1B[49m\x1B[43mastype\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdtype\x1B[49m\x1B[43m=\x1B[49m\x1B[43mdtype\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcopy\x1B[49m\x1B[43m=\x1B[49m\x1B[43mcopy\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43merrors\x1B[49m\x1B[43m=\x1B[49m\x1B[43merrors\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   6644\x1B[39m     res = \x1B[38;5;28mself\x1B[39m._constructor_from_mgr(new_data, axes=new_data.axes)\n' +
+      '\x1B[32m   6645\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m res.__finalize__(\x1B[38;5;28mself\x1B[39m, method=\x1B[33m"\x1B[39m\x1B[33mastype\x1B[39m\x1B[33m"\x1B[39m)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/internals/managers.py:430\x1B[39m, in \x1B[36mBaseBlockManager.astype\x1B[39m\x1B[34m(self, dtype, copy, errors)\x1B[39m\n' +
+      '\x1B[32m    427\x1B[39m \x1B[38;5;28;01melif\x1B[39;00m using_copy_on_write():\n' +
+      '\x1B[32m    428\x1B[39m     copy = \x1B[38;5;28;01mFalse\x1B[39;00m\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m430\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43mapply\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[32m    431\x1B[39m \x1B[43m    \x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43mastype\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    432\x1B[39m \x1B[43m    \x1B[49m\x1B[43mdtype\x1B[49m\x1B[43m=\x1B[49m\x1B[43mdtype\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    433\x1B[39m \x1B[43m    \x1B[49m\x1B[43mcopy\x1B[49m\x1B[43m=\x1B[49m\x1B[43mcopy\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    434\x1B[39m \x1B[43m    \x1B[49m\x1B[43merrors\x1B[49m\x1B[43m=\x1B[49m\x1B[43merrors\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    435\x1B[39m \x1B[43m    \x1B[49m\x1B[43musing_cow\x1B[49m\x1B[43m=\x1B[49m\x1B[43musing_copy_on_write\x1B[49m\x1B[43m(\x1B[49m\x1B[43m)\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    436\x1B[39m \x1B[43m\x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/internals/managers.py:363\x1B[39m, in \x1B[36mBaseBlockManager.apply\x1B[39m\x1B[34m(self, f, align_keys, **kwargs)\x1B[39m\n' +
+      '\x1B[32m    361\x1B[39m         applied = b.apply(f, **kwargs)\n' +
+      '\x1B[32m    362\x1B[39m     \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m363\x1B[39m         applied = \x1B[38;5;28;43mgetattr\x1B[39;49m\x1B[43m(\x1B[49m\x1B[43mb\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mf\x1B[49m\x1B[43m)\x1B[49m\x1B[43m(\x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    364\x1B[39m     result_blocks = extend_blocks(applied, result_blocks)\n' +
+      '\x1B[32m    366\x1B[39m out = \x1B[38;5;28mtype\x1B[39m(\x1B[38;5;28mself\x1B[39m).from_blocks(result_blocks, \x1B[38;5;28mself\x1B[39m.axes)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/internals/blocks.py:758\x1B[39m, in \x1B[36mBlock.astype\x1B[39m\x1B[34m(self, dtype, copy, errors, using_cow, squeeze)\x1B[39m\n' +
+      '\x1B[32m    755\x1B[39m         \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(\x1B[33m"\x1B[39m\x1B[33mCan not squeeze with more than one column.\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m    756\x1B[39m     values = values[\x1B[32m0\x1B[39m, :]  \x1B[38;5;66;03m# type: ignore[call-overload]\x1B[39;00m\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m758\x1B[39m new_values = \x1B[43mastype_array_safe\x1B[49m\x1B[43m(\x1B[49m\x1B[43mvalues\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdtype\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcopy\x1B[49m\x1B[43m=\x1B[49m\x1B[43mcopy\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43merrors\x1B[49m\x1B[43m=\x1B[49m\x1B[43merrors\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    760\x1B[39m new_values = maybe_coerce_values(new_values)\n' +
+      '\x1B[32m    762\x1B[39m refs = \x1B[38;5;28;01mNone\x1B[39;00m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/dtypes/astype.py:237\x1B[39m, in \x1B[36mastype_array_safe\x1B[39m\x1B[34m(values, dtype, copy, errors)\x1B[39m\n' +
+      '\x1B[32m    234\x1B[39m     dtype = dtype.numpy_dtype\n' +
+      '\x1B[32m    236\x1B[39m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m237\x1B[39m     new_values = \x1B[43mastype_array\x1B[49m\x1B[43m(\x1B[49m\x1B[43mvalues\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdtype\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcopy\x1B[49m\x1B[43m=\x1B[49m\x1B[43mcopy\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    238\x1B[39m \x1B[38;5;28;01mexcept\x1B[39;00m (\x1B[38;5;167;01mValueError\x1B[39;00m, \x1B[38;5;167;01mTypeError\x1B[39;00m):\n' +
+      '\x1B[32m    239\x1B[39m     \x1B[38;5;66;03m# e.g. _astype_nansafe can fail on object-dtype of strings\x1B[39;00m\n' +
+      '\x1B[32m    240\x1B[39m     \x1B[38;5;66;03m#  trying to convert to float\x1B[39;00m\n' +
+      '\x1B[32m    241\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m errors == \x1B[33m"\x1B[39m\x1B[33mignore\x1B[39m\x1B[33m"\x1B[39m:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/dtypes/astype.py:182\x1B[39m, in \x1B[36mastype_array\x1B[39m\x1B[34m(values, dtype, copy)\x1B[39m\n' +
+      '\x1B[32m    179\x1B[39m     values = values.astype(dtype, copy=copy)\n' +
+      '\x1B[32m    181\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m182\x1B[39m     values = \x1B[43m_astype_nansafe\x1B[49m\x1B[43m(\x1B[49m\x1B[43mvalues\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdtype\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcopy\x1B[49m\x1B[43m=\x1B[49m\x1B[43mcopy\x1B[49m\x1B[43m)\x1B[49m\n' +
+      "\x1B[32m    184\x1B[39m \x1B[38;5;66;03m# in pandas we don't store numpy str dtypes, so convert to object\x1B[39;00m\n" +
+      '\x1B[32m    185\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(dtype, np.dtype) \x1B[38;5;129;01mand\x1B[39;00m \x1B[38;5;28missubclass\x1B[39m(values.dtype.type, \x1B[38;5;28mstr\x1B[39m):\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/dtypes/astype.py:133\x1B[39m, in \x1B[36m_astype_nansafe\x1B[39m\x1B[34m(arr, dtype, copy, skipna)\x1B[39m\n' +
+      '\x1B[32m    129\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(msg)\n' +
+      '\x1B[32m    131\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m copy \x1B[38;5;129;01mor\x1B[39;00m arr.dtype == \x1B[38;5;28mobject\x1B[39m \x1B[38;5;129;01mor\x1B[39;00m dtype == \x1B[38;5;28mobject\x1B[39m:\n' +
+      "\x1B[32m    132\x1B[39m     \x1B[38;5;66;03m# Explicit copy, or required since NumPy can't view from / to object.\x1B[39;00m\n" +
+      '\x1B[32m--> \x1B[39m\x1B[32m133\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43marr\x1B[49m\x1B[43m.\x1B[49m\x1B[43mastype\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdtype\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcopy\x1B[49m\x1B[43m=\x1B[49m\x1B[38;5;28;43;01mTrue\x1B[39;49;00m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    135\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m arr.astype(dtype, copy=copy)\n',
+    "\x1B[31mValueError\x1B[39m: invalid literal for int() with base 10: '1 female'"
+  ]
+}
+03:51:50.092 [warn] Cell completed with errors iu [Error]: 'disp_name_s'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'KeyError',
+  evalue: "'disp_name_s'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mKeyError\x1B[39m                                  Traceback (most recent call last)',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/indexes/base.py:3805\x1B[39m, in \x1B[36mIndex.get_loc\x1B[39m\x1B[34m(self, key)\x1B[39m\n' +
+      '\x1B[32m   3804\x1B[39m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m3805\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_engine\x1B[49m\x1B[43m.\x1B[49m\x1B[43mget_loc\x1B[49m\x1B[43m(\x1B[49m\x1B[43mcasted_key\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   3806\x1B[39m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m err:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32mindex.pyx:167\x1B[39m, in \x1B[36mpandas._libs.index.IndexEngine.get_loc\x1B[39m\x1B[34m()\x1B[39m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32mindex.pyx:196\x1B[39m, in \x1B[36mpandas._libs.index.IndexEngine.get_loc\x1B[39m\x1B[34m()\x1B[39m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32mpandas/_libs/hashtable_class_helper.pxi:7081\x1B[39m, in \x1B[36mpandas._libs.hashtable.PyObjectHashTable.get_item\x1B[39m\x1B[34m()\x1B[39m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32mpandas/_libs/hashtable_class_helper.pxi:7089\x1B[39m, in \x1B[36mpandas._libs.hashtable.PyObjectHashTable.get_item\x1B[39m\x1B[34m()\x1B[39m\n',
+    "\x1B[31mKeyError\x1B[39m: 'disp_name_s'",
+    '\nThe above exception was the direct cause of the following exception:\n',
+    '\x1B[31mKeyError\x1B[39m                                  Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[9]\x1B[39m\x1B[32m, line 9\x1B[39m\n' +
+      '\x1B[32m      6\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33m"\x1B[39m\x1B[33mMissing values:\x1B[39m\x1B[38;5;130;01m\\n\x1B[39;00m\x1B[33m"\x1B[39m, df.isnull().sum())\n' +
+      '\x1B[32m      8\x1B[39m \x1B[38;5;66;03m# Filter valid dispositions (if needed)\x1B[39;00m\n' +
+      "\x1B[32m----> \x1B[39m\x1B[32m9\x1B[39m df = df[\x1B[43mdf\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mdisp_name_s\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m]\x1B[49m.isin([\x1B[33m'\x1B[39m\x1B[33mconvicted\x1B[39m\x1B[33m'\x1B[39m, \x1B[33m'\x1B[39m\x1B[33macquitted\x1B[39m\x1B[33m'\x1B[39m])]\n",
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/frame.py:4102\x1B[39m, in \x1B[36mDataFrame.__getitem__\x1B[39m\x1B[34m(self, key)\x1B[39m\n' +
+      '\x1B[32m   4100\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m.columns.nlevels > \x1B[32m1\x1B[39m:\n' +
+      '\x1B[32m   4101\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m._getitem_multilevel(key)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m4102\x1B[39m indexer = \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m.\x1B[49m\x1B[43mget_loc\x1B[49m\x1B[43m(\x1B[49m\x1B[43mkey\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   4103\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m is_integer(indexer):\n' +
+      '\x1B[32m   4104\x1B[39m     indexer = [indexer]\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/indexes/base.py:3812\x1B[39m, in \x1B[36mIndex.get_loc\x1B[39m\x1B[34m(self, key)\x1B[39m\n' +
+      '\x1B[32m   3807\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(casted_key, \x1B[38;5;28mslice\x1B[39m) \x1B[38;5;129;01mor\x1B[39;00m (\n' +
+      '\x1B[32m   3808\x1B[39m         \x1B[38;5;28misinstance\x1B[39m(casted_key, abc.Iterable)\n' +
+      '\x1B[32m   3809\x1B[39m         \x1B[38;5;129;01mand\x1B[39;00m \x1B[38;5;28many\x1B[39m(\x1B[38;5;28misinstance\x1B[39m(x, \x1B[38;5;28mslice\x1B[39m) \x1B[38;5;28;01mfor\x1B[39;00m x \x1B[38;5;129;01min\x1B[39;00m casted_key)\n' +
+      '\x1B[32m   3810\x1B[39m     ):\n' +
+      '\x1B[32m   3811\x1B[39m         \x1B[38;5;28;01mraise\x1B[39;00m InvalidIndexError(key)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m3812\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m(key) \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01merr\x1B[39;00m\n' +
+      '\x1B[32m   3813\x1B[39m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mTypeError\x1B[39;00m:\n' +
+      '\x1B[32m   3814\x1B[39m     \x1B[38;5;66;03m# If we have a listlike key, _check_indexing_error will raise\x1B[39;00m\n' +
+      '\x1B[32m   3815\x1B[39m     \x1B[38;5;66;03m#  InvalidIndexError. Otherwise we fall through and re-raise\x1B[39;00m\n' +
+      '\x1B[32m   3816\x1B[39m     \x1B[38;5;66;03m#  the TypeError.\x1B[39;00m\n' +
+      '\x1B[32m   3817\x1B[39m     \x1B[38;5;28mself\x1B[39m._check_indexing_error(key)\n',
+    "\x1B[31mKeyError\x1B[39m: 'disp_name_s'"
+  ]
+}
+04:02:28.919 [warn] Cell completed with errors iu [Error]: Could not interpret value `same_gender` for `x`. An entry with this name does not appear in `data`.
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'ValueError',
+  evalue: 'Could not interpret value `same_gender` for `x`. An entry with this name does not appear in `data`.',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mValueError\x1B[39m                                Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[19]\x1B[39m\x1B[32m, line 2\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;66;03m# Acquittal rate by gender match\x1B[39;00m\n' +
+      "\x1B[32m----> \x1B[39m\x1B[32m2\x1B[39m \x1B[43msns\x1B[49m\x1B[43m.\x1B[49m\x1B[43mbarplot\x1B[49m\x1B[43m(\x1B[49m\x1B[43mx\x1B[49m\x1B[43m=\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43msame_gender\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43my\x1B[49m\x1B[43m=\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43macquitted\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdata\x1B[49m\x1B[43m=\x1B[49m\x1B[43mdf_clean\x1B[49m\x1B[43m)\x1B[49m\n" +
+      '\x1B[32m      3\x1B[39m plt.title(\x1B[33m"\x1B[39m\x1B[33mAcquittal Rate by Gender Match\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m      4\x1B[39m plt.show()\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/seaborn/categorical.py:2341\x1B[39m, in \x1B[36mbarplot\x1B[39m\x1B[34m(data, x, y, hue, order, hue_order, estimator, errorbar, n_boot, seed, units, weights, orient, color, palette, saturation, fill, hue_norm, width, dodge, gap, log_scale, native_scale, formatter, legend, capsize, err_kws, ci, errcolor, errwidth, ax, **kwargs)\x1B[39m\n' +
+      '\x1B[32m   2338\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m estimator \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28mlen\x1B[39m:\n' +
+      '\x1B[32m   2339\x1B[39m     estimator = \x1B[33m"\x1B[39m\x1B[33msize\x1B[39m\x1B[33m"\x1B[39m\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m2341\x1B[39m p = \x1B[43m_CategoricalAggPlotter\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[32m   2342\x1B[39m \x1B[43m    \x1B[49m\x1B[43mdata\x1B[49m\x1B[43m=\x1B[49m\x1B[43mdata\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2343\x1B[39m \x1B[43m    \x1B[49m\x1B[43mvariables\x1B[49m\x1B[43m=\x1B[49m\x1B[38;5;28;43mdict\x1B[39;49m\x1B[43m(\x1B[49m\x1B[43mx\x1B[49m\x1B[43m=\x1B[49m\x1B[43mx\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43my\x1B[49m\x1B[43m=\x1B[49m\x1B[43my\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mhue\x1B[49m\x1B[43m=\x1B[49m\x1B[43mhue\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43munits\x1B[49m\x1B[43m=\x1B[49m\x1B[43munits\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mweight\x1B[49m\x1B[43m=\x1B[49m\x1B[43mweights\x1B[49m\x1B[43m)\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2344\x1B[39m \x1B[43m    \x1B[49m\x1B[43morder\x1B[49m\x1B[43m=\x1B[49m\x1B[43morder\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2345\x1B[39m \x1B[43m    \x1B[49m\x1B[43morient\x1B[49m\x1B[43m=\x1B[49m\x1B[43morient\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2346\x1B[39m \x1B[43m    \x1B[49m\x1B[43mcolor\x1B[49m\x1B[43m=\x1B[49m\x1B[43mcolor\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2347\x1B[39m \x1B[43m    \x1B[49m\x1B[43mlegend\x1B[49m\x1B[43m=\x1B[49m\x1B[43mlegend\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2348\x1B[39m \x1B[43m\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   2350\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m ax \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[32m   2351\x1B[39m     ax = plt.gca()\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/seaborn/categorical.py:67\x1B[39m, in \x1B[36m_CategoricalPlotter.__init__\x1B[39m\x1B[34m(self, data, variables, order, orient, require_numeric, color, legend)\x1B[39m\n' +
+      '\x1B[32m     56\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34m__init__\x1B[39m(\n' +
+      '\x1B[32m     57\x1B[39m     \x1B[38;5;28mself\x1B[39m,\n' +
+      '\x1B[32m     58\x1B[39m     data=\x1B[38;5;28;01mNone\x1B[39;00m,\n' +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m     64\x1B[39m     legend=\x1B[33m"\x1B[39m\x1B[33mauto\x1B[39m\x1B[33m"\x1B[39m,\n' +
+      '\x1B[32m     65\x1B[39m ):\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m67\x1B[39m     \x1B[38;5;28;43msuper\x1B[39;49m\x1B[43m(\x1B[49m\x1B[43m)\x1B[49m\x1B[43m.\x1B[49m\x1B[34;43m__init__\x1B[39;49m\x1B[43m(\x1B[49m\x1B[43mdata\x1B[49m\x1B[43m=\x1B[49m\x1B[43mdata\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mvariables\x1B[49m\x1B[43m=\x1B[49m\x1B[43mvariables\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m     69\x1B[39m     \x1B[38;5;66;03m# This method takes care of some bookkeeping that is necessary because the\x1B[39;00m\n' +
+      '\x1B[32m     70\x1B[39m     \x1B[38;5;66;03m# original categorical plots (prior to the 2021 refactor) had some rules that\x1B[39;00m\n' +
+      "\x1B[32m     71\x1B[39m     \x1B[38;5;66;03m# don't fit exactly into VectorPlotter logic. It may be wise to have a second\x1B[39;00m\n" +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m     76\x1B[39m     \x1B[38;5;66;03m# default VectorPlotter rules. If we do decide to make orient part of the\x1B[39;00m\n' +
+      "\x1B[32m     77\x1B[39m     \x1B[38;5;66;03m# _base variable assignment, we'll want to figure out how to express that.\x1B[39;00m\n" +
+      '\x1B[32m     78\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m.input_format == \x1B[33m"\x1B[39m\x1B[33mwide\x1B[39m\x1B[33m"\x1B[39m \x1B[38;5;129;01mand\x1B[39;00m orient \x1B[38;5;129;01min\x1B[39;00m [\x1B[33m"\x1B[39m\x1B[33mh\x1B[39m\x1B[33m"\x1B[39m, \x1B[33m"\x1B[39m\x1B[33my\x1B[39m\x1B[33m"\x1B[39m]:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/seaborn/_base.py:634\x1B[39m, in \x1B[36mVectorPlotter.__init__\x1B[39m\x1B[34m(self, data, variables)\x1B[39m\n' +
+      '\x1B[32m    629\x1B[39m \x1B[38;5;66;03m# var_ordered is relevant only for categorical axis variables, and may\x1B[39;00m\n' +
+      '\x1B[32m    630\x1B[39m \x1B[38;5;66;03m# be better handled by an internal axis information object that tracks\x1B[39;00m\n' +
+      '\x1B[32m    631\x1B[39m \x1B[38;5;66;03m# such information and is set up by the scale_* methods. The analogous\x1B[39;00m\n' +
+      '\x1B[32m    632\x1B[39m \x1B[38;5;66;03m# information for numeric axes would be information about log scales.\x1B[39;00m\n' +
+      '\x1B[32m    633\x1B[39m \x1B[38;5;28mself\x1B[39m._var_ordered = {\x1B[33m"\x1B[39m\x1B[33mx\x1B[39m\x1B[33m"\x1B[39m: \x1B[38;5;28;01mFalse\x1B[39;00m, \x1B[33m"\x1B[39m\x1B[33my\x1B[39m\x1B[33m"\x1B[39m: \x1B[38;5;28;01mFalse\x1B[39;00m}  \x1B[38;5;66;03m# alt., used DefaultDict\x1B[39;00m\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m634\x1B[39m \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43massign_variables\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdata\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mvariables\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    636\x1B[39m \x1B[38;5;66;03m# TODO Lots of tests assume that these are called to initialize the\x1B[39;00m\n' +
+      "\x1B[32m    637\x1B[39m \x1B[38;5;66;03m# mappings to default values on class initialization. I'd prefer to\x1B[39;00m\n" +
+      '\x1B[32m    638\x1B[39m \x1B[38;5;66;03m# move away from that and only have a mapping when explicitly called.\x1B[39;00m\n' +
+      '\x1B[32m    639\x1B[39m \x1B[38;5;28;01mfor\x1B[39;00m var \x1B[38;5;129;01min\x1B[39;00m [\x1B[33m"\x1B[39m\x1B[33mhue\x1B[39m\x1B[33m"\x1B[39m, \x1B[33m"\x1B[39m\x1B[33msize\x1B[39m\x1B[33m"\x1B[39m, \x1B[33m"\x1B[39m\x1B[33mstyle\x1B[39m\x1B[33m"\x1B[39m]:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/seaborn/_base.py:679\x1B[39m, in \x1B[36mVectorPlotter.assign_variables\x1B[39m\x1B[34m(self, data, variables)\x1B[39m\n' +
+      '\x1B[32m    674\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m    675\x1B[39m     \x1B[38;5;66;03m# When dealing with long-form input, use the newer PlotData\x1B[39;00m\n' +
+      '\x1B[32m    676\x1B[39m     \x1B[38;5;66;03m# object (internal but introduced for the objects interface)\x1B[39;00m\n' +
+      '\x1B[32m    677\x1B[39m     \x1B[38;5;66;03m# to centralize / standardize data consumption logic.\x1B[39;00m\n' +
+      '\x1B[32m    678\x1B[39m     \x1B[38;5;28mself\x1B[39m.input_format = \x1B[33m"\x1B[39m\x1B[33mlong\x1B[39m\x1B[33m"\x1B[39m\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m679\x1B[39m     plot_data = \x1B[43mPlotData\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdata\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mvariables\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    680\x1B[39m     frame = plot_data.frame\n' +
+      '\x1B[32m    681\x1B[39m     names = plot_data.names\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/seaborn/_core/data.py:58\x1B[39m, in \x1B[36mPlotData.__init__\x1B[39m\x1B[34m(self, data, variables)\x1B[39m\n' +
+      '\x1B[32m     51\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34m__init__\x1B[39m(\n' +
+      '\x1B[32m     52\x1B[39m     \x1B[38;5;28mself\x1B[39m,\n' +
+      '\x1B[32m     53\x1B[39m     data: DataSource,\n' +
+      '\x1B[32m     54\x1B[39m     variables: \x1B[38;5;28mdict\x1B[39m[\x1B[38;5;28mstr\x1B[39m, VariableSpec],\n' +
+      '\x1B[32m     55\x1B[39m ):\n' +
+      '\x1B[32m     57\x1B[39m     data = handle_data_source(data)\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m58\x1B[39m     frame, names, ids = \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_assign_variables\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdata\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mvariables\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m     60\x1B[39m     \x1B[38;5;28mself\x1B[39m.frame = frame\n' +
+      '\x1B[32m     61\x1B[39m     \x1B[38;5;28mself\x1B[39m.names = names\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/seaborn/_core/data.py:232\x1B[39m, in \x1B[36mPlotData._assign_variables\x1B[39m\x1B[34m(self, data, variables)\x1B[39m\n' +
+      '\x1B[32m    230\x1B[39m     \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m    231\x1B[39m         err += \x1B[33m"\x1B[39m\x1B[33mAn entry with this name does not appear in `data`.\x1B[39m\x1B[33m"\x1B[39m\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m232\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(err)\n' +
+      '\x1B[32m    234\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m    235\x1B[39m \n' +
+      '\x1B[32m    236\x1B[39m     \x1B[38;5;66;03m# Otherwise, assume the value somehow represents data\x1B[39;00m\n' +
+      '\x1B[32m    237\x1B[39m \n' +
+      '\x1B[32m    238\x1B[39m     \x1B[38;5;66;03m# Ignore empty data structures\x1B[39;00m\n' +
+      '\x1B[32m    239\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(val, Sized) \x1B[38;5;129;01mand\x1B[39;00m \x1B[38;5;28mlen\x1B[39m(val) == \x1B[32m0\x1B[39m:\n',
+    '\x1B[31mValueError\x1B[39m: Could not interpret value `same_gender` for `x`. An entry with this name does not appear in `data`.'
+  ]
+}
+04:03:28.270 [warn] Cell completed with errors iu [Error]: 'disp_name_s'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'KeyError',
+  evalue: "'disp_name_s'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mKeyError\x1B[39m                                  Traceback (most recent call last)',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/indexes/base.py:3805\x1B[39m, in \x1B[36mIndex.get_loc\x1B[39m\x1B[34m(self, key)\x1B[39m\n' +
+      '\x1B[32m   3804\x1B[39m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m3805\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_engine\x1B[49m\x1B[43m.\x1B[49m\x1B[43mget_loc\x1B[49m\x1B[43m(\x1B[49m\x1B[43mcasted_key\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   3806\x1B[39m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m err:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32mindex.pyx:167\x1B[39m, in \x1B[36mpandas._libs.index.IndexEngine.get_loc\x1B[39m\x1B[34m()\x1B[39m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32mindex.pyx:196\x1B[39m, in \x1B[36mpandas._libs.index.IndexEngine.get_loc\x1B[39m\x1B[34m()\x1B[39m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32mpandas/_libs/hashtable_class_helper.pxi:7081\x1B[39m, in \x1B[36mpandas._libs.hashtable.PyObjectHashTable.get_item\x1B[39m\x1B[34m()\x1B[39m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32mpandas/_libs/hashtable_class_helper.pxi:7089\x1B[39m, in \x1B[36mpandas._libs.hashtable.PyObjectHashTable.get_item\x1B[39m\x1B[34m()\x1B[39m\n',
+    "\x1B[31mKeyError\x1B[39m: 'disp_name_s'",
+    '\nThe above exception was the direct cause of the following exception:\n',
+    '\x1B[31mKeyError\x1B[39m                                  Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[20]\x1B[39m\x1B[32m, line 8\x1B[39m\n' +
+      "\x1B[32m      5\x1B[39m df_clean[\x1B[33m'\x1B[39m\x1B[33mduration_days\x1B[39m\x1B[33m'\x1B[39m] = (df_clean[\x1B[33m'\x1B[39m\x1B[33mdate_of_decision\x1B[39m\x1B[33m'\x1B[39m] - df_clean[\x1B[33m'\x1B[39m\x1B[33mdate_of_filing\x1B[39m\x1B[33m'\x1B[39m]).dt.days\n" +
+      '\x1B[32m      7\x1B[39m \x1B[38;5;66;03m# Simplify disposition to binary (1 = acquitted)\x1B[39;00m\n' +
+      "\x1B[32m----> \x1B[39m\x1B[32m8\x1B[39m df_clean[\x1B[33m'\x1B[39m\x1B[33macquitted\x1B[39m\x1B[33m'\x1B[39m] = \x1B[43mdf_clean\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mdisp_name_s\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m]\x1B[49m.apply(\x1B[38;5;28;01mlambda\x1B[39;00m x: \x1B[32m1\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m x == \x1B[33m'\x1B[39m\x1B[33macquitted\x1B[39m\x1B[33m'\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m \x1B[32m0\x1B[39m)\n",
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/frame.py:4102\x1B[39m, in \x1B[36mDataFrame.__getitem__\x1B[39m\x1B[34m(self, key)\x1B[39m\n' +
+      '\x1B[32m   4100\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m.columns.nlevels > \x1B[32m1\x1B[39m:\n' +
+      '\x1B[32m   4101\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m._getitem_multilevel(key)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m4102\x1B[39m indexer = \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m.\x1B[49m\x1B[43mget_loc\x1B[49m\x1B[43m(\x1B[49m\x1B[43mkey\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   4103\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m is_integer(indexer):\n' +
+      '\x1B[32m   4104\x1B[39m     indexer = [indexer]\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/indexes/base.py:3812\x1B[39m, in \x1B[36mIndex.get_loc\x1B[39m\x1B[34m(self, key)\x1B[39m\n' +
+      '\x1B[32m   3807\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(casted_key, \x1B[38;5;28mslice\x1B[39m) \x1B[38;5;129;01mor\x1B[39;00m (\n' +
+      '\x1B[32m   3808\x1B[39m         \x1B[38;5;28misinstance\x1B[39m(casted_key, abc.Iterable)\n' +
+      '\x1B[32m   3809\x1B[39m         \x1B[38;5;129;01mand\x1B[39;00m \x1B[38;5;28many\x1B[39m(\x1B[38;5;28misinstance\x1B[39m(x, \x1B[38;5;28mslice\x1B[39m) \x1B[38;5;28;01mfor\x1B[39;00m x \x1B[38;5;129;01min\x1B[39;00m casted_key)\n' +
+      '\x1B[32m   3810\x1B[39m     ):\n' +
+      '\x1B[32m   3811\x1B[39m         \x1B[38;5;28;01mraise\x1B[39;00m InvalidIndexError(key)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m3812\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m(key) \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01merr\x1B[39;00m\n' +
+      '\x1B[32m   3813\x1B[39m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mTypeError\x1B[39;00m:\n' +
+      '\x1B[32m   3814\x1B[39m     \x1B[38;5;66;03m# If we have a listlike key, _check_indexing_error will raise\x1B[39;00m\n' +
+      '\x1B[32m   3815\x1B[39m     \x1B[38;5;66;03m#  InvalidIndexError. Otherwise we fall through and re-raise\x1B[39;00m\n' +
+      '\x1B[32m   3816\x1B[39m     \x1B[38;5;66;03m#  the TypeError.\x1B[39;00m\n' +
+      '\x1B[32m   3817\x1B[39m     \x1B[38;5;28mself\x1B[39m._check_indexing_error(key)\n',
+    "\x1B[31mKeyError\x1B[39m: 'disp_name_s'"
+  ]
+}
+04:09:34.660 [warn] Cell completed with errors iu [Error]: "['acquitted', 'same_gender', 'duration_days'] not in index"
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'KeyError',
+  evalue: `"['acquitted', 'same_gender', 'duration_days'] not in index"`,
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mKeyError\x1B[39m                                  Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[32]\x1B[39m\x1B[32m, line 2\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;66;03m# Select relevant columns\x1B[39;00m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m2\x1B[39m analysis_df = \x1B[43mdf\x1B[49m\x1B[43m[\x1B[49m\x1B[43m[\x1B[49m\n' +
+      "\x1B[32m      3\x1B[39m \x1B[43m    \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43macquitted\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\n" +
+      "\x1B[32m      4\x1B[39m \x1B[43m    \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43msame_gender\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\n" +
+      "\x1B[32m      5\x1B[39m \x1B[43m    \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mfemale_judge\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\n" +
+      "\x1B[32m      6\x1B[39m \x1B[43m    \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mfemale_defendant\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\n" +
+      "\x1B[32m      7\x1B[39m \x1B[43m    \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mduration_days\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\n" +
+      "\x1B[32m      8\x1B[39m \x1B[43m    \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mbailable_ipc\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\n" +
+      "\x1B[32m      9\x1B[39m \x1B[43m    \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mnumber_sections_ipc\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\n" +
+      "\x1B[32m     10\x1B[39m \x1B[43m    \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mstate_code\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\n" +
+      "\x1B[32m     11\x1B[39m \x1B[43m    \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mcourt_no\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\n" +
+      "\x1B[32m     12\x1B[39m \x1B[43m    \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mfiling_year\x1B[39;49m\x1B[33;43m'\x1B[39;49m\n" +
+      '\x1B[32m     13\x1B[39m \x1B[43m]\x1B[49m\x1B[43m]\x1B[49m\n' +
+      '\x1B[32m     15\x1B[39m \x1B[38;5;66;03m# Drop rows with missing values\x1B[39;00m\n' +
+      '\x1B[32m     16\x1B[39m analysis_df = analysis_df.dropna()\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/frame.py:4108\x1B[39m, in \x1B[36mDataFrame.__getitem__\x1B[39m\x1B[34m(self, key)\x1B[39m\n' +
+      '\x1B[32m   4106\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m is_iterator(key):\n' +
+      '\x1B[32m   4107\x1B[39m         key = \x1B[38;5;28mlist\x1B[39m(key)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m4108\x1B[39m     indexer = \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m.\x1B[49m\x1B[43m_get_indexer_strict\x1B[49m\x1B[43m(\x1B[49m\x1B[43mkey\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43mcolumns\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m)\x1B[49m[\x1B[32m1\x1B[39m]\n' +
+      '\x1B[32m   4110\x1B[39m \x1B[38;5;66;03m# take() does not accept boolean indexers\x1B[39;00m\n' +
+      '\x1B[32m   4111\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mgetattr\x1B[39m(indexer, \x1B[33m"\x1B[39m\x1B[33mdtype\x1B[39m\x1B[33m"\x1B[39m, \x1B[38;5;28;01mNone\x1B[39;00m) == \x1B[38;5;28mbool\x1B[39m:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/indexes/base.py:6200\x1B[39m, in \x1B[36mIndex._get_indexer_strict\x1B[39m\x1B[34m(self, key, axis_name)\x1B[39m\n' +
+      '\x1B[32m   6197\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m   6198\x1B[39m     keyarr, indexer, new_indexer = \x1B[38;5;28mself\x1B[39m._reindex_non_unique(keyarr)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m6200\x1B[39m \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_raise_if_missing\x1B[49m\x1B[43m(\x1B[49m\x1B[43mkeyarr\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mindexer\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43maxis_name\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   6202\x1B[39m keyarr = \x1B[38;5;28mself\x1B[39m.take(indexer)\n' +
+      '\x1B[32m   6203\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(key, Index):\n' +
+      '\x1B[32m   6204\x1B[39m     \x1B[38;5;66;03m# GH 42790 - Preserve name from an Index\x1B[39;00m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/indexes/base.py:6252\x1B[39m, in \x1B[36mIndex._raise_if_missing\x1B[39m\x1B[34m(self, key, indexer, axis_name)\x1B[39m\n' +
+      '\x1B[32m   6249\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mNone of [\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mkey\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m] are in the [\x1B[39m\x1B[38;5;132;01m{\x1B[39;00maxis_name\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m]\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m   6251\x1B[39m not_found = \x1B[38;5;28mlist\x1B[39m(ensure_index(key)[missing_mask.nonzero()[\x1B[32m0\x1B[39m]].unique())\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m6252\x1B[39m \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mnot_found\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m not in index\x1B[39m\x1B[33m"\x1B[39m)\n',
+    `\x1B[31mKeyError\x1B[39m: "['acquitted', 'same_gender', 'duration_days'] not in index"`
+  ]
+}
+04:12:07.283 [warn] Cell completed with errors iu [Error]: No module named 'statsmodels'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'statsmodels'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mModuleNotFoundError\x1B[39m                       Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[34]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mstatsmodels\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mformula\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mapi\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01msmf\x1B[39;00m\n' +
+      '\x1B[32m      3\x1B[39m \x1B[38;5;66;03m# Logistic regression for acquittal probability\x1B[39;00m\n' +
+      '\x1B[32m      4\x1B[39m model = smf.logit(\n' +
+      "\x1B[32m      5\x1B[39m     \x1B[33m'\x1B[39m\x1B[33macquitted ~ same_gender + C(filing_year) + C(state_code) + number_sections_ipc\x1B[39m\x1B[33m'\x1B[39m,\n" +
+      '\x1B[32m      6\x1B[39m     data=analysis_df\n' +
+      '\x1B[32m      7\x1B[39m ).fit()\n',
+    "\x1B[31mModuleNotFoundError\x1B[39m: No module named 'statsmodels'"
+  ]
+}
+04:28:03.701 [warn] Cell completed with errors iu [Error]: Error evaluating factor: NameError: name 'state_code' is not defined
+    acquitted ~ same_gender + C(filing_year) + C(state_code) + number_sections_ipc
+                                               ^^^^^^^^^^^^^
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'PatsyError',
+  evalue: "Error evaluating factor: NameError: name 'state_code' is not defined\n" +
+    '    acquitted ~ same_gender + C(filing_year) + C(state_code) + number_sections_ipc\n' +
+    '                                               ^^^^^^^^^^^^^',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/patsy/compat.py:40\x1B[39m, in \x1B[36mcall_and_wrap_exc\x1B[39m\x1B[34m(msg, origin, f, *args, **kwargs)\x1B[39m\n' +
+      '\x1B[32m     39\x1B[39m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m40\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mf\x1B[49m\x1B[43m(\x1B[49m\x1B[43m*\x1B[49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m     41\x1B[39m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mException\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m e:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/patsy/eval.py:179\x1B[39m, in \x1B[36mEvalEnvironment.eval\x1B[39m\x1B[34m(self, expr, source_name, inner_namespace)\x1B[39m\n' +
+      '\x1B[32m    178\x1B[39m code = \x1B[38;5;28mcompile\x1B[39m(expr, source_name, \x1B[33m"\x1B[39m\x1B[33meval\x1B[39m\x1B[33m"\x1B[39m, \x1B[38;5;28mself\x1B[39m.flags, \x1B[38;5;28;01mFalse\x1B[39;00m)\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m179\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43meval\x1B[39;49m\x1B[43m(\x1B[49m\x1B[43mcode\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m{\x1B[49m\x1B[43m}\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mVarLookupDict\x1B[49m\x1B[43m(\x1B[49m\x1B[43m[\x1B[49m\x1B[43minner_namespace\x1B[49m\x1B[43m]\x1B[49m\x1B[43m \x1B[49m\x1B[43m+\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_namespaces\x1B[49m\x1B[43m)\x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m<string>:1\x1B[39m\n',
+    "\x1B[31mNameError\x1B[39m: name 'state_code' is not defined",
+    '\nThe above exception was the direct cause of the following exception:\n',
+    '\x1B[31mPatsyError\x1B[39m                                Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[40]\x1B[39m\x1B[32m, line 4\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mstatsmodels\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mformula\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mapi\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01msmf\x1B[39;00m\n' +
+      '\x1B[32m      3\x1B[39m \x1B[38;5;66;03m# Logistic regression for acquittal probability\x1B[39;00m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m4\x1B[39m model = \x1B[43msmf\x1B[49m\x1B[43m.\x1B[49m\x1B[43mlogit\x1B[49m\x1B[43m(\x1B[49m\n' +
+      "\x1B[32m      5\x1B[39m \x1B[43m    \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43macquitted ~ same_gender + C(filing_year) + C(state_code) + number_sections_ipc\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\n" +
+      '\x1B[32m      6\x1B[39m \x1B[43m    \x1B[49m\x1B[43mdata\x1B[49m\x1B[43m=\x1B[49m\x1B[43manalysis_df\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m      7\x1B[39m \x1B[43m    \x1B[49m\x1B[43mmax_iter\x1B[49m\x1B[43m=\x1B[49m\x1B[32;43m1000\x1B[39;49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m      8\x1B[39m \x1B[43m)\x1B[49m.fit()\n' +
+      '\x1B[32m     10\x1B[39m \x1B[38;5;28mprint\x1B[39m(model.summary())\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/statsmodels/base/model.py:203\x1B[39m, in \x1B[36mModel.from_formula\x1B[39m\x1B[34m(cls, formula, data, subset, drop_cols, *args, **kwargs)\x1B[39m\n' +
+      "\x1B[32m    200\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m missing == \x1B[33m'\x1B[39m\x1B[33mnone\x1B[39m\x1B[33m'\x1B[39m:  \x1B[38;5;66;03m# with patsy it's drop or raise. let's raise.\x1B[39;00m\n" +
+      "\x1B[32m    201\x1B[39m     missing = \x1B[33m'\x1B[39m\x1B[33mraise\x1B[39m\x1B[33m'\x1B[39m\n" +
+      '\x1B[32m--> \x1B[39m\x1B[32m203\x1B[39m tmp = \x1B[43mhandle_formula_data\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdata\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;28;43;01mNone\x1B[39;49;00m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mformula\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdepth\x1B[49m\x1B[43m=\x1B[49m\x1B[43meval_env\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    204\x1B[39m \x1B[43m                          \x1B[49m\x1B[43mmissing\x1B[49m\x1B[43m=\x1B[49m\x1B[43mmissing\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    205\x1B[39m ((endog, exog), missing_idx, design_info) = tmp\n' +
+      '\x1B[32m    206\x1B[39m max_endog = \x1B[38;5;28mcls\x1B[39m._formula_max_endog\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/statsmodels/formula/formulatools.py:63\x1B[39m, in \x1B[36mhandle_formula_data\x1B[39m\x1B[34m(Y, X, formula, depth, missing)\x1B[39m\n' +
+      '\x1B[32m     61\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m     62\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m data_util._is_using_pandas(Y, \x1B[38;5;28;01mNone\x1B[39;00m):\n' +
+      "\x1B[32m---> \x1B[39m\x1B[32m63\x1B[39m         result = \x1B[43mdmatrices\x1B[49m\x1B[43m(\x1B[49m\x1B[43mformula\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mY\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdepth\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mreturn_type\x1B[49m\x1B[43m=\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mdataframe\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\n" +
+      '\x1B[32m     64\x1B[39m \x1B[43m                           \x1B[49m\x1B[43mNA_action\x1B[49m\x1B[43m=\x1B[49m\x1B[43mna_action\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m     65\x1B[39m     \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      "\x1B[32m     66\x1B[39m         result = dmatrices(formula, Y, depth, return_type=\x1B[33m'\x1B[39m\x1B[33mdataframe\x1B[39m\x1B[33m'\x1B[39m,\n" +
+      '\x1B[32m     67\x1B[39m                            NA_action=na_action)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/patsy/highlevel.py:319\x1B[39m, in \x1B[36mdmatrices\x1B[39m\x1B[34m(formula_like, data, eval_env, NA_action, return_type)\x1B[39m\n' +
+      '\x1B[32m    309\x1B[39m \x1B[38;5;250m\x1B[39m\x1B[33;03m"""Construct two design matrices given a formula_like and data.\x1B[39;00m\n' +
+      '\x1B[32m    310\x1B[39m \n' +
+      '\x1B[32m    311\x1B[39m \x1B[33;03mThis function is identical to :func:`dmatrix`, except that it requires\x1B[39;00m\n' +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m    316\x1B[39m \x1B[33;03mSee :func:`dmatrix` for details.\x1B[39;00m\n' +
+      '\x1B[32m    317\x1B[39m \x1B[33;03m"""\x1B[39;00m\n' +
+      '\x1B[32m    318\x1B[39m eval_env = EvalEnvironment.capture(eval_env, reference=\x1B[32m1\x1B[39m)\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m319\x1B[39m (lhs, rhs) = \x1B[43m_do_highlevel_design\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[32m    320\x1B[39m \x1B[43m    \x1B[49m\x1B[43mformula_like\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdata\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43meval_env\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mNA_action\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mreturn_type\x1B[49m\n' +
+      '\x1B[32m    321\x1B[39m \x1B[43m\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    322\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m lhs.shape[\x1B[32m1\x1B[39m] == \x1B[32m0\x1B[39m:\n' +
+      '\x1B[32m    323\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m PatsyError(\x1B[33m"\x1B[39m\x1B[33mmodel is missing required outcome variables\x1B[39m\x1B[33m"\x1B[39m)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/patsy/highlevel.py:164\x1B[39m, in \x1B[36m_do_highlevel_design\x1B[39m\x1B[34m(formula_like, data, eval_env, NA_action, return_type)\x1B[39m\n' +
+      '\x1B[32m    161\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34mdata_iter_maker\x1B[39m():\n' +
+      '\x1B[32m    162\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28miter\x1B[39m([data])\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m164\x1B[39m design_infos = \x1B[43m_try_incr_builders\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[32m    165\x1B[39m \x1B[43m    \x1B[49m\x1B[43mformula_like\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdata_iter_maker\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43meval_env\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mNA_action\x1B[49m\n' +
+      '\x1B[32m    166\x1B[39m \x1B[43m\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    167\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m design_infos \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[32m    168\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m build_design_matrices(\n' +
+      '\x1B[32m    169\x1B[39m         design_infos, data, NA_action=NA_action, return_type=return_type\n' +
+      '\x1B[32m    170\x1B[39m     )\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/patsy/highlevel.py:56\x1B[39m, in \x1B[36m_try_incr_builders\x1B[39m\x1B[34m(formula_like, data_iter_maker, eval_env, NA_action)\x1B[39m\n' +
+      '\x1B[32m     54\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(formula_like, ModelDesc):\n' +
+      '\x1B[32m     55\x1B[39m     \x1B[38;5;28;01massert\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(eval_env, EvalEnvironment)\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m56\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mdesign_matrix_builders\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[32m     57\x1B[39m \x1B[43m        \x1B[49m\x1B[43m[\x1B[49m\x1B[43mformula_like\x1B[49m\x1B[43m.\x1B[49m\x1B[43mlhs_termlist\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mformula_like\x1B[49m\x1B[43m.\x1B[49m\x1B[43mrhs_termlist\x1B[49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m     58\x1B[39m \x1B[43m        \x1B[49m\x1B[43mdata_iter_maker\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m     59\x1B[39m \x1B[43m        \x1B[49m\x1B[43meval_env\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m     60\x1B[39m \x1B[43m        \x1B[49m\x1B[43mNA_action\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m     61\x1B[39m \x1B[43m    \x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m     62\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m     63\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/patsy/build.py:746\x1B[39m, in \x1B[36mdesign_matrix_builders\x1B[39m\x1B[34m(termlists, data_iter_maker, eval_env, NA_action)\x1B[39m\n' +
+      '\x1B[32m    743\x1B[39m factor_states = _factors_memorize(all_factors, data_iter_maker, eval_env)\n' +
+      '\x1B[32m    744\x1B[39m \x1B[38;5;66;03m# Now all the factors have working eval methods, so we can evaluate them\x1B[39;00m\n' +
+      '\x1B[32m    745\x1B[39m \x1B[38;5;66;03m# on some data to find out what type of data they return.\x1B[39;00m\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m746\x1B[39m (num_column_counts, cat_levels_contrasts) = \x1B[43m_examine_factor_types\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[32m    747\x1B[39m \x1B[43m    \x1B[49m\x1B[43mall_factors\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mfactor_states\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdata_iter_maker\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mNA_action\x1B[49m\n' +
+      '\x1B[32m    748\x1B[39m \x1B[43m\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    749\x1B[39m \x1B[38;5;66;03m# Now we need the factor infos, which encapsulate the knowledge of\x1B[39;00m\n' +
+      '\x1B[32m    750\x1B[39m \x1B[38;5;66;03m# how to turn any given factor into a chunk of data:\x1B[39;00m\n' +
+      '\x1B[32m    751\x1B[39m factor_infos = {}\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/patsy/build.py:491\x1B[39m, in \x1B[36m_examine_factor_types\x1B[39m\x1B[34m(factors, factor_states, data_iter_maker, NA_action)\x1B[39m\n' +
+      '\x1B[32m    489\x1B[39m \x1B[38;5;28;01mfor\x1B[39;00m data \x1B[38;5;129;01min\x1B[39;00m data_iter_maker():\n' +
+      '\x1B[32m    490\x1B[39m     \x1B[38;5;28;01mfor\x1B[39;00m factor \x1B[38;5;129;01min\x1B[39;00m \x1B[38;5;28mlist\x1B[39m(examine_needed):\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m491\x1B[39m         value = \x1B[43mfactor\x1B[49m\x1B[43m.\x1B[49m\x1B[43meval\x1B[49m\x1B[43m(\x1B[49m\x1B[43mfactor_states\x1B[49m\x1B[43m[\x1B[49m\x1B[43mfactor\x1B[49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdata\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    492\x1B[39m         \x1B[38;5;28;01mif\x1B[39;00m factor \x1B[38;5;129;01min\x1B[39;00m cat_sniffers \x1B[38;5;129;01mor\x1B[39;00m guess_categorical(value):\n' +
+      '\x1B[32m    493\x1B[39m             \x1B[38;5;28;01mif\x1B[39;00m factor \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;129;01min\x1B[39;00m cat_sniffers:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/patsy/eval.py:599\x1B[39m, in \x1B[36mEvalFactor.eval\x1B[39m\x1B[34m(self, memorize_state, data)\x1B[39m\n' +
+      '\x1B[32m    598\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34meval\x1B[39m(\x1B[38;5;28mself\x1B[39m, memorize_state, data):\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m599\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_eval\x1B[49m\x1B[43m(\x1B[49m\x1B[43mmemorize_state\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43meval_code\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mmemorize_state\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdata\x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/patsy/eval.py:582\x1B[39m, in \x1B[36mEvalFactor._eval\x1B[39m\x1B[34m(self, code, memorize_state, data)\x1B[39m\n' +
+      '\x1B[32m    580\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34m_eval\x1B[39m(\x1B[38;5;28mself\x1B[39m, code, memorize_state, data):\n' +
+      '\x1B[32m    581\x1B[39m     inner_namespace = VarLookupDict([data, memorize_state[\x1B[33m"\x1B[39m\x1B[33mtransforms\x1B[39m\x1B[33m"\x1B[39m]])\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m582\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mcall_and_wrap_exc\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[32m    583\x1B[39m \x1B[43m        \x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43mError evaluating factor\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    584\x1B[39m \x1B[43m        \x1B[49m\x1B[38;5;28;43mself\x1B[39;49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    585\x1B[39m \x1B[43m        \x1B[49m\x1B[43mmemorize_state\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43meval_env\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m.\x1B[49m\x1B[43meval\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    586\x1B[39m \x1B[43m        \x1B[49m\x1B[43mcode\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    587\x1B[39m \x1B[43m        \x1B[49m\x1B[43minner_namespace\x1B[49m\x1B[43m=\x1B[49m\x1B[43minner_namespace\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    588\x1B[39m \x1B[43m    \x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/patsy/compat.py:43\x1B[39m, in \x1B[36mcall_and_wrap_exc\x1B[39m\x1B[34m(msg, origin, f, *args, **kwargs)\x1B[39m\n' +
+      '\x1B[32m     41\x1B[39m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mException\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m e:\n' +
+      '\x1B[32m     42\x1B[39m     new_exc = PatsyError(\x1B[33m"\x1B[39m\x1B[38;5;132;01m%s\x1B[39;00m\x1B[33m: \x1B[39m\x1B[38;5;132;01m%s\x1B[39;00m\x1B[33m: \x1B[39m\x1B[38;5;132;01m%s\x1B[39;00m\x1B[33m"\x1B[39m % (msg, e.\x1B[34m__class__\x1B[39m.\x1B[34m__name__\x1B[39m, e), origin)\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m43\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m new_exc \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01me\x1B[39;00m\n',
+    "\x1B[31mPatsyError\x1B[39m: Error evaluating factor: NameError: name 'state_code' is not defined\n" +
+      '    acquitted ~ same_gender + C(filing_year) + C(state_code) + number_sections_ipc\n' +
+      '                                               ^^^^^^^^^^^^^'
+  ]
+}
+04:28:27.174 [warn] Cell completed with errors iu [Error]: Error evaluating factor: NameError: name 'filing_year' is not defined
+    acquitted ~ same_gender + C(filing_year) + C(state_code) + number_sections_ipc
+                              ^^^^^^^^^^^^^^
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'PatsyError',
+  evalue: "Error evaluating factor: NameError: name 'filing_year' is not defined\n" +
+    '    acquitted ~ same_gender + C(filing_year) + C(state_code) + number_sections_ipc\n' +
+    '                              ^^^^^^^^^^^^^^',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/patsy/compat.py:40\x1B[39m, in \x1B[36mcall_and_wrap_exc\x1B[39m\x1B[34m(msg, origin, f, *args, **kwargs)\x1B[39m\n' +
+      '\x1B[32m     39\x1B[39m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m40\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mf\x1B[49m\x1B[43m(\x1B[49m\x1B[43m*\x1B[49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m     41\x1B[39m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mException\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m e:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/patsy/eval.py:179\x1B[39m, in \x1B[36mEvalEnvironment.eval\x1B[39m\x1B[34m(self, expr, source_name, inner_namespace)\x1B[39m\n' +
+      '\x1B[32m    178\x1B[39m code = \x1B[38;5;28mcompile\x1B[39m(expr, source_name, \x1B[33m"\x1B[39m\x1B[33meval\x1B[39m\x1B[33m"\x1B[39m, \x1B[38;5;28mself\x1B[39m.flags, \x1B[38;5;28;01mFalse\x1B[39;00m)\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m179\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43meval\x1B[39;49m\x1B[43m(\x1B[49m\x1B[43mcode\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m{\x1B[49m\x1B[43m}\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mVarLookupDict\x1B[49m\x1B[43m(\x1B[49m\x1B[43m[\x1B[49m\x1B[43minner_namespace\x1B[49m\x1B[43m]\x1B[49m\x1B[43m \x1B[49m\x1B[43m+\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_namespaces\x1B[49m\x1B[43m)\x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m<string>:1\x1B[39m\n',
+    "\x1B[31mNameError\x1B[39m: name 'filing_year' is not defined",
+    '\nThe above exception was the direct cause of the following exception:\n',
+    '\x1B[31mPatsyError\x1B[39m                                Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[42]\x1B[39m\x1B[32m, line 4\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mstatsmodels\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mformula\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mapi\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01msmf\x1B[39;00m\n' +
+      '\x1B[32m      3\x1B[39m \x1B[38;5;66;03m# Logistic regression for acquittal probability\x1B[39;00m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m4\x1B[39m model = \x1B[43msmf\x1B[49m\x1B[43m.\x1B[49m\x1B[43mlogit\x1B[49m\x1B[43m(\x1B[49m\n' +
+      "\x1B[32m      5\x1B[39m \x1B[43m    \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43macquitted ~ same_gender + C(filing_year) + C(state_code) + number_sections_ipc\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\n" +
+      '\x1B[32m      6\x1B[39m \x1B[43m    \x1B[49m\x1B[43mdata\x1B[49m\x1B[43m=\x1B[49m\x1B[43manalysis_df\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m      7\x1B[39m \x1B[43m    \x1B[49m\x1B[43mmax_iter\x1B[49m\x1B[43m=\x1B[49m\x1B[32;43m1000\x1B[39;49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m      8\x1B[39m \x1B[43m)\x1B[49m.fit()\n' +
+      '\x1B[32m     10\x1B[39m \x1B[38;5;28mprint\x1B[39m(model.summary())\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/statsmodels/base/model.py:203\x1B[39m, in \x1B[36mModel.from_formula\x1B[39m\x1B[34m(cls, formula, data, subset, drop_cols, *args, **kwargs)\x1B[39m\n' +
+      "\x1B[32m    200\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m missing == \x1B[33m'\x1B[39m\x1B[33mnone\x1B[39m\x1B[33m'\x1B[39m:  \x1B[38;5;66;03m# with patsy it's drop or raise. let's raise.\x1B[39;00m\n" +
+      "\x1B[32m    201\x1B[39m     missing = \x1B[33m'\x1B[39m\x1B[33mraise\x1B[39m\x1B[33m'\x1B[39m\n" +
+      '\x1B[32m--> \x1B[39m\x1B[32m203\x1B[39m tmp = \x1B[43mhandle_formula_data\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdata\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;28;43;01mNone\x1B[39;49;00m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mformula\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdepth\x1B[49m\x1B[43m=\x1B[49m\x1B[43meval_env\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    204\x1B[39m \x1B[43m                          \x1B[49m\x1B[43mmissing\x1B[49m\x1B[43m=\x1B[49m\x1B[43mmissing\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    205\x1B[39m ((endog, exog), missing_idx, design_info) = tmp\n' +
+      '\x1B[32m    206\x1B[39m max_endog = \x1B[38;5;28mcls\x1B[39m._formula_max_endog\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/statsmodels/formula/formulatools.py:63\x1B[39m, in \x1B[36mhandle_formula_data\x1B[39m\x1B[34m(Y, X, formula, depth, missing)\x1B[39m\n' +
+      '\x1B[32m     61\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m     62\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m data_util._is_using_pandas(Y, \x1B[38;5;28;01mNone\x1B[39;00m):\n' +
+      "\x1B[32m---> \x1B[39m\x1B[32m63\x1B[39m         result = \x1B[43mdmatrices\x1B[49m\x1B[43m(\x1B[49m\x1B[43mformula\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mY\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdepth\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mreturn_type\x1B[49m\x1B[43m=\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mdataframe\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\n" +
+      '\x1B[32m     64\x1B[39m \x1B[43m                           \x1B[49m\x1B[43mNA_action\x1B[49m\x1B[43m=\x1B[49m\x1B[43mna_action\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m     65\x1B[39m     \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      "\x1B[32m     66\x1B[39m         result = dmatrices(formula, Y, depth, return_type=\x1B[33m'\x1B[39m\x1B[33mdataframe\x1B[39m\x1B[33m'\x1B[39m,\n" +
+      '\x1B[32m     67\x1B[39m                            NA_action=na_action)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/patsy/highlevel.py:319\x1B[39m, in \x1B[36mdmatrices\x1B[39m\x1B[34m(formula_like, data, eval_env, NA_action, return_type)\x1B[39m\n' +
+      '\x1B[32m    309\x1B[39m \x1B[38;5;250m\x1B[39m\x1B[33;03m"""Construct two design matrices given a formula_like and data.\x1B[39;00m\n' +
+      '\x1B[32m    310\x1B[39m \n' +
+      '\x1B[32m    311\x1B[39m \x1B[33;03mThis function is identical to :func:`dmatrix`, except that it requires\x1B[39;00m\n' +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m    316\x1B[39m \x1B[33;03mSee :func:`dmatrix` for details.\x1B[39;00m\n' +
+      '\x1B[32m    317\x1B[39m \x1B[33;03m"""\x1B[39;00m\n' +
+      '\x1B[32m    318\x1B[39m eval_env = EvalEnvironment.capture(eval_env, reference=\x1B[32m1\x1B[39m)\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m319\x1B[39m (lhs, rhs) = \x1B[43m_do_highlevel_design\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[32m    320\x1B[39m \x1B[43m    \x1B[49m\x1B[43mformula_like\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdata\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43meval_env\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mNA_action\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mreturn_type\x1B[49m\n' +
+      '\x1B[32m    321\x1B[39m \x1B[43m\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    322\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m lhs.shape[\x1B[32m1\x1B[39m] == \x1B[32m0\x1B[39m:\n' +
+      '\x1B[32m    323\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m PatsyError(\x1B[33m"\x1B[39m\x1B[33mmodel is missing required outcome variables\x1B[39m\x1B[33m"\x1B[39m)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/patsy/highlevel.py:164\x1B[39m, in \x1B[36m_do_highlevel_design\x1B[39m\x1B[34m(formula_like, data, eval_env, NA_action, return_type)\x1B[39m\n' +
+      '\x1B[32m    161\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34mdata_iter_maker\x1B[39m():\n' +
+      '\x1B[32m    162\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28miter\x1B[39m([data])\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m164\x1B[39m design_infos = \x1B[43m_try_incr_builders\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[32m    165\x1B[39m \x1B[43m    \x1B[49m\x1B[43mformula_like\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdata_iter_maker\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43meval_env\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mNA_action\x1B[49m\n' +
+      '\x1B[32m    166\x1B[39m \x1B[43m\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    167\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m design_infos \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[32m    168\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m build_design_matrices(\n' +
+      '\x1B[32m    169\x1B[39m         design_infos, data, NA_action=NA_action, return_type=return_type\n' +
+      '\x1B[32m    170\x1B[39m     )\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/patsy/highlevel.py:56\x1B[39m, in \x1B[36m_try_incr_builders\x1B[39m\x1B[34m(formula_like, data_iter_maker, eval_env, NA_action)\x1B[39m\n' +
+      '\x1B[32m     54\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(formula_like, ModelDesc):\n' +
+      '\x1B[32m     55\x1B[39m     \x1B[38;5;28;01massert\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(eval_env, EvalEnvironment)\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m56\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mdesign_matrix_builders\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[32m     57\x1B[39m \x1B[43m        \x1B[49m\x1B[43m[\x1B[49m\x1B[43mformula_like\x1B[49m\x1B[43m.\x1B[49m\x1B[43mlhs_termlist\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mformula_like\x1B[49m\x1B[43m.\x1B[49m\x1B[43mrhs_termlist\x1B[49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m     58\x1B[39m \x1B[43m        \x1B[49m\x1B[43mdata_iter_maker\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m     59\x1B[39m \x1B[43m        \x1B[49m\x1B[43meval_env\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m     60\x1B[39m \x1B[43m        \x1B[49m\x1B[43mNA_action\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m     61\x1B[39m \x1B[43m    \x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m     62\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m     63\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/patsy/build.py:746\x1B[39m, in \x1B[36mdesign_matrix_builders\x1B[39m\x1B[34m(termlists, data_iter_maker, eval_env, NA_action)\x1B[39m\n' +
+      '\x1B[32m    743\x1B[39m factor_states = _factors_memorize(all_factors, data_iter_maker, eval_env)\n' +
+      '\x1B[32m    744\x1B[39m \x1B[38;5;66;03m# Now all the factors have working eval methods, so we can evaluate them\x1B[39;00m\n' +
+      '\x1B[32m    745\x1B[39m \x1B[38;5;66;03m# on some data to find out what type of data they return.\x1B[39;00m\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m746\x1B[39m (num_column_counts, cat_levels_contrasts) = \x1B[43m_examine_factor_types\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[32m    747\x1B[39m \x1B[43m    \x1B[49m\x1B[43mall_factors\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mfactor_states\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdata_iter_maker\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mNA_action\x1B[49m\n' +
+      '\x1B[32m    748\x1B[39m \x1B[43m\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    749\x1B[39m \x1B[38;5;66;03m# Now we need the factor infos, which encapsulate the knowledge of\x1B[39;00m\n' +
+      '\x1B[32m    750\x1B[39m \x1B[38;5;66;03m# how to turn any given factor into a chunk of data:\x1B[39;00m\n' +
+      '\x1B[32m    751\x1B[39m factor_infos = {}\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/patsy/build.py:491\x1B[39m, in \x1B[36m_examine_factor_types\x1B[39m\x1B[34m(factors, factor_states, data_iter_maker, NA_action)\x1B[39m\n' +
+      '\x1B[32m    489\x1B[39m \x1B[38;5;28;01mfor\x1B[39;00m data \x1B[38;5;129;01min\x1B[39;00m data_iter_maker():\n' +
+      '\x1B[32m    490\x1B[39m     \x1B[38;5;28;01mfor\x1B[39;00m factor \x1B[38;5;129;01min\x1B[39;00m \x1B[38;5;28mlist\x1B[39m(examine_needed):\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m491\x1B[39m         value = \x1B[43mfactor\x1B[49m\x1B[43m.\x1B[49m\x1B[43meval\x1B[49m\x1B[43m(\x1B[49m\x1B[43mfactor_states\x1B[49m\x1B[43m[\x1B[49m\x1B[43mfactor\x1B[49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdata\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    492\x1B[39m         \x1B[38;5;28;01mif\x1B[39;00m factor \x1B[38;5;129;01min\x1B[39;00m cat_sniffers \x1B[38;5;129;01mor\x1B[39;00m guess_categorical(value):\n' +
+      '\x1B[32m    493\x1B[39m             \x1B[38;5;28;01mif\x1B[39;00m factor \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;129;01min\x1B[39;00m cat_sniffers:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/patsy/eval.py:599\x1B[39m, in \x1B[36mEvalFactor.eval\x1B[39m\x1B[34m(self, memorize_state, data)\x1B[39m\n' +
+      '\x1B[32m    598\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34meval\x1B[39m(\x1B[38;5;28mself\x1B[39m, memorize_state, data):\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m599\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_eval\x1B[49m\x1B[43m(\x1B[49m\x1B[43mmemorize_state\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43meval_code\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mmemorize_state\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdata\x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/patsy/eval.py:582\x1B[39m, in \x1B[36mEvalFactor._eval\x1B[39m\x1B[34m(self, code, memorize_state, data)\x1B[39m\n' +
+      '\x1B[32m    580\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34m_eval\x1B[39m(\x1B[38;5;28mself\x1B[39m, code, memorize_state, data):\n' +
+      '\x1B[32m    581\x1B[39m     inner_namespace = VarLookupDict([data, memorize_state[\x1B[33m"\x1B[39m\x1B[33mtransforms\x1B[39m\x1B[33m"\x1B[39m]])\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m582\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mcall_and_wrap_exc\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[32m    583\x1B[39m \x1B[43m        \x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43mError evaluating factor\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    584\x1B[39m \x1B[43m        \x1B[49m\x1B[38;5;28;43mself\x1B[39;49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    585\x1B[39m \x1B[43m        \x1B[49m\x1B[43mmemorize_state\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43meval_env\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m.\x1B[49m\x1B[43meval\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    586\x1B[39m \x1B[43m        \x1B[49m\x1B[43mcode\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    587\x1B[39m \x1B[43m        \x1B[49m\x1B[43minner_namespace\x1B[49m\x1B[43m=\x1B[49m\x1B[43minner_namespace\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    588\x1B[39m \x1B[43m    \x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/patsy/compat.py:43\x1B[39m, in \x1B[36mcall_and_wrap_exc\x1B[39m\x1B[34m(msg, origin, f, *args, **kwargs)\x1B[39m\n' +
+      '\x1B[32m     41\x1B[39m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mException\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m e:\n' +
+      '\x1B[32m     42\x1B[39m     new_exc = PatsyError(\x1B[33m"\x1B[39m\x1B[38;5;132;01m%s\x1B[39;00m\x1B[33m: \x1B[39m\x1B[38;5;132;01m%s\x1B[39;00m\x1B[33m: \x1B[39m\x1B[38;5;132;01m%s\x1B[39;00m\x1B[33m"\x1B[39m % (msg, e.\x1B[34m__class__\x1B[39m.\x1B[34m__name__\x1B[39m, e), origin)\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m43\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m new_exc \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01me\x1B[39;00m\n',
+    "\x1B[31mPatsyError\x1B[39m: Error evaluating factor: NameError: name 'filing_year' is not defined\n" +
+      '    acquitted ~ same_gender + C(filing_year) + C(state_code) + number_sections_ipc\n' +
+      '                              ^^^^^^^^^^^^^^'
+  ]
+}
+04:30:35.084 [warn] Cell completed with errors iu [Error]: Singular matrix
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'LinAlgError',
+  evalue: 'Singular matrix',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mLinAlgError\x1B[39m                               Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[46]\x1B[39m\x1B[32m, line 7\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mstatsmodels\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mformula\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mapi\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01msmf\x1B[39;00m\n' +
+      '\x1B[32m      3\x1B[39m \x1B[38;5;66;03m# Logistic regression for acquittal probability\x1B[39;00m\n' +
+      '\x1B[32m      4\x1B[39m model = \x1B[43msmf\x1B[49m\x1B[43m.\x1B[49m\x1B[43mlogit\x1B[49m\x1B[43m(\x1B[49m\n' +
+      "\x1B[32m      5\x1B[39m \x1B[43m    \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43macquitted ~ same_gender + C(filing_year) + C(state_code) + number_sections_ipc\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\n" +
+      '\x1B[32m      6\x1B[39m \x1B[43m    \x1B[49m\x1B[43mdata\x1B[49m\x1B[43m=\x1B[49m\x1B[43manalysis_df\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m7\x1B[39m \x1B[43m)\x1B[49m\x1B[43m.\x1B[49m\x1B[43mfit\x1B[49m\x1B[43m(\x1B[49m\x1B[43mmaxiter\x1B[49m\x1B[43m=\x1B[49m\x1B[32;43m1000\x1B[39;49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m      9\x1B[39m \x1B[38;5;28mprint\x1B[39m(model.summary())\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/statsmodels/discrete/discrete_model.py:2601\x1B[39m, in \x1B[36mLogit.fit\x1B[39m\x1B[34m(self, start_params, method, maxiter, full_output, disp, callback, **kwargs)\x1B[39m\n' +
+      '\x1B[32m   2598\x1B[39m \x1B[38;5;129m@Appender\x1B[39m(DiscreteModel.fit.\x1B[34m__doc__\x1B[39m)\n' +
+      "\x1B[32m   2599\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34mfit\x1B[39m(\x1B[38;5;28mself\x1B[39m, start_params=\x1B[38;5;28;01mNone\x1B[39;00m, method=\x1B[33m'\x1B[39m\x1B[33mnewton\x1B[39m\x1B[33m'\x1B[39m, maxiter=\x1B[32m35\x1B[39m,\n" +
+      '\x1B[32m   2600\x1B[39m         full_output=\x1B[32m1\x1B[39m, disp=\x1B[32m1\x1B[39m, callback=\x1B[38;5;28;01mNone\x1B[39;00m, **kwargs):\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m2601\x1B[39m     bnryfit = \x1B[38;5;28;43msuper\x1B[39;49m\x1B[43m(\x1B[49m\x1B[43m)\x1B[49m\x1B[43m.\x1B[49m\x1B[43mfit\x1B[49m\x1B[43m(\x1B[49m\x1B[43mstart_params\x1B[49m\x1B[43m=\x1B[49m\x1B[43mstart_params\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2602\x1B[39m \x1B[43m                          \x1B[49m\x1B[43mmethod\x1B[49m\x1B[43m=\x1B[49m\x1B[43mmethod\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2603\x1B[39m \x1B[43m                          \x1B[49m\x1B[43mmaxiter\x1B[49m\x1B[43m=\x1B[49m\x1B[43mmaxiter\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2604\x1B[39m \x1B[43m                          \x1B[49m\x1B[43mfull_output\x1B[49m\x1B[43m=\x1B[49m\x1B[43mfull_output\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2605\x1B[39m \x1B[43m                          \x1B[49m\x1B[43mdisp\x1B[49m\x1B[43m=\x1B[49m\x1B[43mdisp\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2606\x1B[39m \x1B[43m                          \x1B[49m\x1B[43mcallback\x1B[49m\x1B[43m=\x1B[49m\x1B[43mcallback\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2607\x1B[39m \x1B[43m                          \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   2609\x1B[39m     discretefit = LogitResults(\x1B[38;5;28mself\x1B[39m, bnryfit)\n' +
+      '\x1B[32m   2610\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m BinaryResultsWrapper(discretefit)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/statsmodels/discrete/discrete_model.py:243\x1B[39m, in \x1B[36mDiscreteModel.fit\x1B[39m\x1B[34m(self, start_params, method, maxiter, full_output, disp, callback, **kwargs)\x1B[39m\n' +
+      '\x1B[32m    240\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m    241\x1B[39m     \x1B[38;5;28;01mpass\x1B[39;00m  \x1B[38;5;66;03m# TODO: make a function factory to have multiple call-backs\x1B[39;00m\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m243\x1B[39m mlefit = \x1B[38;5;28;43msuper\x1B[39;49m\x1B[43m(\x1B[49m\x1B[43m)\x1B[49m\x1B[43m.\x1B[49m\x1B[43mfit\x1B[49m\x1B[43m(\x1B[49m\x1B[43mstart_params\x1B[49m\x1B[43m=\x1B[49m\x1B[43mstart_params\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    244\x1B[39m \x1B[43m                     \x1B[49m\x1B[43mmethod\x1B[49m\x1B[43m=\x1B[49m\x1B[43mmethod\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    245\x1B[39m \x1B[43m                     \x1B[49m\x1B[43mmaxiter\x1B[49m\x1B[43m=\x1B[49m\x1B[43mmaxiter\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    246\x1B[39m \x1B[43m                     \x1B[49m\x1B[43mfull_output\x1B[49m\x1B[43m=\x1B[49m\x1B[43mfull_output\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    247\x1B[39m \x1B[43m                     \x1B[49m\x1B[43mdisp\x1B[49m\x1B[43m=\x1B[49m\x1B[43mdisp\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    248\x1B[39m \x1B[43m                     \x1B[49m\x1B[43mcallback\x1B[49m\x1B[43m=\x1B[49m\x1B[43mcallback\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    249\x1B[39m \x1B[43m                     \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    251\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m mlefit\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/statsmodels/base/model.py:582\x1B[39m, in \x1B[36mLikelihoodModel.fit\x1B[39m\x1B[34m(self, start_params, method, maxiter, full_output, disp, fargs, callback, retall, skip_hessian, **kwargs)\x1B[39m\n' +
+      '\x1B[32m    580\x1B[39m     Hinv = cov_params_func(\x1B[38;5;28mself\x1B[39m, xopt, retvals)\n' +
+      "\x1B[32m    581\x1B[39m \x1B[38;5;28;01melif\x1B[39;00m method == \x1B[33m'\x1B[39m\x1B[33mnewton\x1B[39m\x1B[33m'\x1B[39m \x1B[38;5;129;01mand\x1B[39;00m full_output:\n" +
+      "\x1B[32m--> \x1B[39m\x1B[32m582\x1B[39m     Hinv = \x1B[43mnp\x1B[49m\x1B[43m.\x1B[49m\x1B[43mlinalg\x1B[49m\x1B[43m.\x1B[49m\x1B[43minv\x1B[49m\x1B[43m(\x1B[49m\x1B[43m-\x1B[49m\x1B[43mretvals\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mHessian\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m)\x1B[49m / nobs\n" +
+      '\x1B[32m    583\x1B[39m \x1B[38;5;28;01melif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m skip_hessian:\n' +
+      '\x1B[32m    584\x1B[39m     H = -\x1B[32m1\x1B[39m * \x1B[38;5;28mself\x1B[39m.hessian(xopt)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/numpy/linalg/_linalg.py:609\x1B[39m, in \x1B[36minv\x1B[39m\x1B[34m(a)\x1B[39m\n' +
+      "\x1B[32m    606\x1B[39m signature = \x1B[33m'\x1B[39m\x1B[33mD->D\x1B[39m\x1B[33m'\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m isComplexType(t) \x1B[38;5;28;01melse\x1B[39;00m \x1B[33m'\x1B[39m\x1B[33md->d\x1B[39m\x1B[33m'\x1B[39m\n" +
+      "\x1B[32m    607\x1B[39m \x1B[38;5;28;01mwith\x1B[39;00m errstate(call=_raise_linalgerror_singular, invalid=\x1B[33m'\x1B[39m\x1B[33mcall\x1B[39m\x1B[33m'\x1B[39m,\n" +
+      "\x1B[32m    608\x1B[39m               over=\x1B[33m'\x1B[39m\x1B[33mignore\x1B[39m\x1B[33m'\x1B[39m, divide=\x1B[33m'\x1B[39m\x1B[33mignore\x1B[39m\x1B[33m'\x1B[39m, under=\x1B[33m'\x1B[39m\x1B[33mignore\x1B[39m\x1B[33m'\x1B[39m):\n" +
+      '\x1B[32m--> \x1B[39m\x1B[32m609\x1B[39m     ainv = \x1B[43m_umath_linalg\x1B[49m\x1B[43m.\x1B[49m\x1B[43minv\x1B[49m\x1B[43m(\x1B[49m\x1B[43ma\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43msignature\x1B[49m\x1B[43m=\x1B[49m\x1B[43msignature\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    610\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m wrap(ainv.astype(result_t, copy=\x1B[38;5;28;01mFalse\x1B[39;00m))\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/numpy/linalg/_linalg.py:104\x1B[39m, in \x1B[36m_raise_linalgerror_singular\x1B[39m\x1B[34m(err, flag)\x1B[39m\n' +
+      '\x1B[32m    103\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34m_raise_linalgerror_singular\x1B[39m(err, flag):\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m104\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m LinAlgError(\x1B[33m"\x1B[39m\x1B[33mSingular matrix\x1B[39m\x1B[33m"\x1B[39m)\n',
+    '\x1B[31mLinAlgError\x1B[39m: Singular matrix'
+  ]
+}
+04:31:04.867 [warn] Cell completed with errors iu [Error]: Singular matrix
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'LinAlgError',
+  evalue: 'Singular matrix',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mLinAlgError\x1B[39m                               Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[47]\x1B[39m\x1B[32m, line 7\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mstatsmodels\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mformula\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mapi\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01msmf\x1B[39;00m\n' +
+      '\x1B[32m      3\x1B[39m \x1B[38;5;66;03m# Logistic regression for acquittal probability\x1B[39;00m\n' +
+      '\x1B[32m      4\x1B[39m model = \x1B[43msmf\x1B[49m\x1B[43m.\x1B[49m\x1B[43mlogit\x1B[49m\x1B[43m(\x1B[49m\n' +
+      "\x1B[32m      5\x1B[39m \x1B[43m    \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43macquitted ~ same_gender + C(filing_year) + C(state_code) + number_sections_ipc\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\n" +
+      '\x1B[32m      6\x1B[39m \x1B[43m    \x1B[49m\x1B[43mdata\x1B[49m\x1B[43m=\x1B[49m\x1B[43manalysis_df\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m7\x1B[39m \x1B[43m)\x1B[49m\x1B[43m.\x1B[49m\x1B[43mfit\x1B[49m\x1B[43m(\x1B[49m\x1B[43mmaxiter\x1B[49m\x1B[43m=\x1B[49m\x1B[32;43m100\x1B[39;49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m      9\x1B[39m \x1B[38;5;28mprint\x1B[39m(model.summary())\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/statsmodels/discrete/discrete_model.py:2601\x1B[39m, in \x1B[36mLogit.fit\x1B[39m\x1B[34m(self, start_params, method, maxiter, full_output, disp, callback, **kwargs)\x1B[39m\n' +
+      '\x1B[32m   2598\x1B[39m \x1B[38;5;129m@Appender\x1B[39m(DiscreteModel.fit.\x1B[34m__doc__\x1B[39m)\n' +
+      "\x1B[32m   2599\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34mfit\x1B[39m(\x1B[38;5;28mself\x1B[39m, start_params=\x1B[38;5;28;01mNone\x1B[39;00m, method=\x1B[33m'\x1B[39m\x1B[33mnewton\x1B[39m\x1B[33m'\x1B[39m, maxiter=\x1B[32m35\x1B[39m,\n" +
+      '\x1B[32m   2600\x1B[39m         full_output=\x1B[32m1\x1B[39m, disp=\x1B[32m1\x1B[39m, callback=\x1B[38;5;28;01mNone\x1B[39;00m, **kwargs):\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m2601\x1B[39m     bnryfit = \x1B[38;5;28;43msuper\x1B[39;49m\x1B[43m(\x1B[49m\x1B[43m)\x1B[49m\x1B[43m.\x1B[49m\x1B[43mfit\x1B[49m\x1B[43m(\x1B[49m\x1B[43mstart_params\x1B[49m\x1B[43m=\x1B[49m\x1B[43mstart_params\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2602\x1B[39m \x1B[43m                          \x1B[49m\x1B[43mmethod\x1B[49m\x1B[43m=\x1B[49m\x1B[43mmethod\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2603\x1B[39m \x1B[43m                          \x1B[49m\x1B[43mmaxiter\x1B[49m\x1B[43m=\x1B[49m\x1B[43mmaxiter\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2604\x1B[39m \x1B[43m                          \x1B[49m\x1B[43mfull_output\x1B[49m\x1B[43m=\x1B[49m\x1B[43mfull_output\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2605\x1B[39m \x1B[43m                          \x1B[49m\x1B[43mdisp\x1B[49m\x1B[43m=\x1B[49m\x1B[43mdisp\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2606\x1B[39m \x1B[43m                          \x1B[49m\x1B[43mcallback\x1B[49m\x1B[43m=\x1B[49m\x1B[43mcallback\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2607\x1B[39m \x1B[43m                          \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   2609\x1B[39m     discretefit = LogitResults(\x1B[38;5;28mself\x1B[39m, bnryfit)\n' +
+      '\x1B[32m   2610\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m BinaryResultsWrapper(discretefit)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/statsmodels/discrete/discrete_model.py:243\x1B[39m, in \x1B[36mDiscreteModel.fit\x1B[39m\x1B[34m(self, start_params, method, maxiter, full_output, disp, callback, **kwargs)\x1B[39m\n' +
+      '\x1B[32m    240\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m    241\x1B[39m     \x1B[38;5;28;01mpass\x1B[39;00m  \x1B[38;5;66;03m# TODO: make a function factory to have multiple call-backs\x1B[39;00m\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m243\x1B[39m mlefit = \x1B[38;5;28;43msuper\x1B[39;49m\x1B[43m(\x1B[49m\x1B[43m)\x1B[49m\x1B[43m.\x1B[49m\x1B[43mfit\x1B[49m\x1B[43m(\x1B[49m\x1B[43mstart_params\x1B[49m\x1B[43m=\x1B[49m\x1B[43mstart_params\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    244\x1B[39m \x1B[43m                     \x1B[49m\x1B[43mmethod\x1B[49m\x1B[43m=\x1B[49m\x1B[43mmethod\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    245\x1B[39m \x1B[43m                     \x1B[49m\x1B[43mmaxiter\x1B[49m\x1B[43m=\x1B[49m\x1B[43mmaxiter\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    246\x1B[39m \x1B[43m                     \x1B[49m\x1B[43mfull_output\x1B[49m\x1B[43m=\x1B[49m\x1B[43mfull_output\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    247\x1B[39m \x1B[43m                     \x1B[49m\x1B[43mdisp\x1B[49m\x1B[43m=\x1B[49m\x1B[43mdisp\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    248\x1B[39m \x1B[43m                     \x1B[49m\x1B[43mcallback\x1B[49m\x1B[43m=\x1B[49m\x1B[43mcallback\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    249\x1B[39m \x1B[43m                     \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    251\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m mlefit\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/statsmodels/base/model.py:582\x1B[39m, in \x1B[36mLikelihoodModel.fit\x1B[39m\x1B[34m(self, start_params, method, maxiter, full_output, disp, fargs, callback, retall, skip_hessian, **kwargs)\x1B[39m\n' +
+      '\x1B[32m    580\x1B[39m     Hinv = cov_params_func(\x1B[38;5;28mself\x1B[39m, xopt, retvals)\n' +
+      "\x1B[32m    581\x1B[39m \x1B[38;5;28;01melif\x1B[39;00m method == \x1B[33m'\x1B[39m\x1B[33mnewton\x1B[39m\x1B[33m'\x1B[39m \x1B[38;5;129;01mand\x1B[39;00m full_output:\n" +
+      "\x1B[32m--> \x1B[39m\x1B[32m582\x1B[39m     Hinv = \x1B[43mnp\x1B[49m\x1B[43m.\x1B[49m\x1B[43mlinalg\x1B[49m\x1B[43m.\x1B[49m\x1B[43minv\x1B[49m\x1B[43m(\x1B[49m\x1B[43m-\x1B[49m\x1B[43mretvals\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mHessian\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m)\x1B[49m / nobs\n" +
+      '\x1B[32m    583\x1B[39m \x1B[38;5;28;01melif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m skip_hessian:\n' +
+      '\x1B[32m    584\x1B[39m     H = -\x1B[32m1\x1B[39m * \x1B[38;5;28mself\x1B[39m.hessian(xopt)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/numpy/linalg/_linalg.py:609\x1B[39m, in \x1B[36minv\x1B[39m\x1B[34m(a)\x1B[39m\n' +
+      "\x1B[32m    606\x1B[39m signature = \x1B[33m'\x1B[39m\x1B[33mD->D\x1B[39m\x1B[33m'\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m isComplexType(t) \x1B[38;5;28;01melse\x1B[39;00m \x1B[33m'\x1B[39m\x1B[33md->d\x1B[39m\x1B[33m'\x1B[39m\n" +
+      "\x1B[32m    607\x1B[39m \x1B[38;5;28;01mwith\x1B[39;00m errstate(call=_raise_linalgerror_singular, invalid=\x1B[33m'\x1B[39m\x1B[33mcall\x1B[39m\x1B[33m'\x1B[39m,\n" +
+      "\x1B[32m    608\x1B[39m               over=\x1B[33m'\x1B[39m\x1B[33mignore\x1B[39m\x1B[33m'\x1B[39m, divide=\x1B[33m'\x1B[39m\x1B[33mignore\x1B[39m\x1B[33m'\x1B[39m, under=\x1B[33m'\x1B[39m\x1B[33mignore\x1B[39m\x1B[33m'\x1B[39m):\n" +
+      '\x1B[32m--> \x1B[39m\x1B[32m609\x1B[39m     ainv = \x1B[43m_umath_linalg\x1B[49m\x1B[43m.\x1B[49m\x1B[43minv\x1B[49m\x1B[43m(\x1B[49m\x1B[43ma\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43msignature\x1B[49m\x1B[43m=\x1B[49m\x1B[43msignature\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    610\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m wrap(ainv.astype(result_t, copy=\x1B[38;5;28;01mFalse\x1B[39;00m))\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/numpy/linalg/_linalg.py:104\x1B[39m, in \x1B[36m_raise_linalgerror_singular\x1B[39m\x1B[34m(err, flag)\x1B[39m\n' +
+      '\x1B[32m    103\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34m_raise_linalgerror_singular\x1B[39m(err, flag):\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m104\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m LinAlgError(\x1B[33m"\x1B[39m\x1B[33mSingular matrix\x1B[39m\x1B[33m"\x1B[39m)\n',
+    '\x1B[31mLinAlgError\x1B[39m: Singular matrix'
+  ]
+}
+04:31:31.377 [warn] Cell completed with errors iu [Error]: Singular matrix
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'LinAlgError',
+  evalue: 'Singular matrix',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mLinAlgError\x1B[39m                               Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[49]\x1B[39m\x1B[32m, line 7\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mstatsmodels\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mformula\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mapi\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01msmf\x1B[39;00m\n' +
+      '\x1B[32m      3\x1B[39m \x1B[38;5;66;03m# Logistic regression for acquittal probability\x1B[39;00m\n' +
+      '\x1B[32m      4\x1B[39m model = \x1B[43msmf\x1B[49m\x1B[43m.\x1B[49m\x1B[43mlogit\x1B[49m\x1B[43m(\x1B[49m\n' +
+      "\x1B[32m      5\x1B[39m \x1B[43m    \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43macquitted ~ same_gender + C(filing_year) + C(state_code) + number_sections_ipc\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\n" +
+      '\x1B[32m      6\x1B[39m \x1B[43m    \x1B[49m\x1B[43mdata\x1B[49m\x1B[43m=\x1B[49m\x1B[43manalysis_df\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m7\x1B[39m \x1B[43m)\x1B[49m\x1B[43m.\x1B[49m\x1B[43mfit\x1B[49m\x1B[43m(\x1B[49m\x1B[43mmaxiter\x1B[49m\x1B[43m=\x1B[49m\x1B[32;43m100\x1B[39;49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m      9\x1B[39m \x1B[38;5;28mprint\x1B[39m(model.summary())\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/statsmodels/discrete/discrete_model.py:2601\x1B[39m, in \x1B[36mLogit.fit\x1B[39m\x1B[34m(self, start_params, method, maxiter, full_output, disp, callback, **kwargs)\x1B[39m\n' +
+      '\x1B[32m   2598\x1B[39m \x1B[38;5;129m@Appender\x1B[39m(DiscreteModel.fit.\x1B[34m__doc__\x1B[39m)\n' +
+      "\x1B[32m   2599\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34mfit\x1B[39m(\x1B[38;5;28mself\x1B[39m, start_params=\x1B[38;5;28;01mNone\x1B[39;00m, method=\x1B[33m'\x1B[39m\x1B[33mnewton\x1B[39m\x1B[33m'\x1B[39m, maxiter=\x1B[32m35\x1B[39m,\n" +
+      '\x1B[32m   2600\x1B[39m         full_output=\x1B[32m1\x1B[39m, disp=\x1B[32m1\x1B[39m, callback=\x1B[38;5;28;01mNone\x1B[39;00m, **kwargs):\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m2601\x1B[39m     bnryfit = \x1B[38;5;28;43msuper\x1B[39;49m\x1B[43m(\x1B[49m\x1B[43m)\x1B[49m\x1B[43m.\x1B[49m\x1B[43mfit\x1B[49m\x1B[43m(\x1B[49m\x1B[43mstart_params\x1B[49m\x1B[43m=\x1B[49m\x1B[43mstart_params\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2602\x1B[39m \x1B[43m                          \x1B[49m\x1B[43mmethod\x1B[49m\x1B[43m=\x1B[49m\x1B[43mmethod\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2603\x1B[39m \x1B[43m                          \x1B[49m\x1B[43mmaxiter\x1B[49m\x1B[43m=\x1B[49m\x1B[43mmaxiter\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2604\x1B[39m \x1B[43m                          \x1B[49m\x1B[43mfull_output\x1B[49m\x1B[43m=\x1B[49m\x1B[43mfull_output\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2605\x1B[39m \x1B[43m                          \x1B[49m\x1B[43mdisp\x1B[49m\x1B[43m=\x1B[49m\x1B[43mdisp\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2606\x1B[39m \x1B[43m                          \x1B[49m\x1B[43mcallback\x1B[49m\x1B[43m=\x1B[49m\x1B[43mcallback\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2607\x1B[39m \x1B[43m                          \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   2609\x1B[39m     discretefit = LogitResults(\x1B[38;5;28mself\x1B[39m, bnryfit)\n' +
+      '\x1B[32m   2610\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m BinaryResultsWrapper(discretefit)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/statsmodels/discrete/discrete_model.py:243\x1B[39m, in \x1B[36mDiscreteModel.fit\x1B[39m\x1B[34m(self, start_params, method, maxiter, full_output, disp, callback, **kwargs)\x1B[39m\n' +
+      '\x1B[32m    240\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m    241\x1B[39m     \x1B[38;5;28;01mpass\x1B[39;00m  \x1B[38;5;66;03m# TODO: make a function factory to have multiple call-backs\x1B[39;00m\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m243\x1B[39m mlefit = \x1B[38;5;28;43msuper\x1B[39;49m\x1B[43m(\x1B[49m\x1B[43m)\x1B[49m\x1B[43m.\x1B[49m\x1B[43mfit\x1B[49m\x1B[43m(\x1B[49m\x1B[43mstart_params\x1B[49m\x1B[43m=\x1B[49m\x1B[43mstart_params\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    244\x1B[39m \x1B[43m                     \x1B[49m\x1B[43mmethod\x1B[49m\x1B[43m=\x1B[49m\x1B[43mmethod\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    245\x1B[39m \x1B[43m                     \x1B[49m\x1B[43mmaxiter\x1B[49m\x1B[43m=\x1B[49m\x1B[43mmaxiter\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    246\x1B[39m \x1B[43m                     \x1B[49m\x1B[43mfull_output\x1B[49m\x1B[43m=\x1B[49m\x1B[43mfull_output\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    247\x1B[39m \x1B[43m                     \x1B[49m\x1B[43mdisp\x1B[49m\x1B[43m=\x1B[49m\x1B[43mdisp\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    248\x1B[39m \x1B[43m                     \x1B[49m\x1B[43mcallback\x1B[49m\x1B[43m=\x1B[49m\x1B[43mcallback\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    249\x1B[39m \x1B[43m                     \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    251\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m mlefit\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/statsmodels/base/model.py:582\x1B[39m, in \x1B[36mLikelihoodModel.fit\x1B[39m\x1B[34m(self, start_params, method, maxiter, full_output, disp, fargs, callback, retall, skip_hessian, **kwargs)\x1B[39m\n' +
+      '\x1B[32m    580\x1B[39m     Hinv = cov_params_func(\x1B[38;5;28mself\x1B[39m, xopt, retvals)\n' +
+      "\x1B[32m    581\x1B[39m \x1B[38;5;28;01melif\x1B[39;00m method == \x1B[33m'\x1B[39m\x1B[33mnewton\x1B[39m\x1B[33m'\x1B[39m \x1B[38;5;129;01mand\x1B[39;00m full_output:\n" +
+      "\x1B[32m--> \x1B[39m\x1B[32m582\x1B[39m     Hinv = \x1B[43mnp\x1B[49m\x1B[43m.\x1B[49m\x1B[43mlinalg\x1B[49m\x1B[43m.\x1B[49m\x1B[43minv\x1B[49m\x1B[43m(\x1B[49m\x1B[43m-\x1B[49m\x1B[43mretvals\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mHessian\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m)\x1B[49m / nobs\n" +
+      '\x1B[32m    583\x1B[39m \x1B[38;5;28;01melif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m skip_hessian:\n' +
+      '\x1B[32m    584\x1B[39m     H = -\x1B[32m1\x1B[39m * \x1B[38;5;28mself\x1B[39m.hessian(xopt)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/numpy/linalg/_linalg.py:609\x1B[39m, in \x1B[36minv\x1B[39m\x1B[34m(a)\x1B[39m\n' +
+      "\x1B[32m    606\x1B[39m signature = \x1B[33m'\x1B[39m\x1B[33mD->D\x1B[39m\x1B[33m'\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m isComplexType(t) \x1B[38;5;28;01melse\x1B[39;00m \x1B[33m'\x1B[39m\x1B[33md->d\x1B[39m\x1B[33m'\x1B[39m\n" +
+      "\x1B[32m    607\x1B[39m \x1B[38;5;28;01mwith\x1B[39;00m errstate(call=_raise_linalgerror_singular, invalid=\x1B[33m'\x1B[39m\x1B[33mcall\x1B[39m\x1B[33m'\x1B[39m,\n" +
+      "\x1B[32m    608\x1B[39m               over=\x1B[33m'\x1B[39m\x1B[33mignore\x1B[39m\x1B[33m'\x1B[39m, divide=\x1B[33m'\x1B[39m\x1B[33mignore\x1B[39m\x1B[33m'\x1B[39m, under=\x1B[33m'\x1B[39m\x1B[33mignore\x1B[39m\x1B[33m'\x1B[39m):\n" +
+      '\x1B[32m--> \x1B[39m\x1B[32m609\x1B[39m     ainv = \x1B[43m_umath_linalg\x1B[49m\x1B[43m.\x1B[49m\x1B[43minv\x1B[49m\x1B[43m(\x1B[49m\x1B[43ma\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43msignature\x1B[49m\x1B[43m=\x1B[49m\x1B[43msignature\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    610\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m wrap(ainv.astype(result_t, copy=\x1B[38;5;28;01mFalse\x1B[39;00m))\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/numpy/linalg/_linalg.py:104\x1B[39m, in \x1B[36m_raise_linalgerror_singular\x1B[39m\x1B[34m(err, flag)\x1B[39m\n' +
+      '\x1B[32m    103\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34m_raise_linalgerror_singular\x1B[39m(err, flag):\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m104\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m LinAlgError(\x1B[33m"\x1B[39m\x1B[33mSingular matrix\x1B[39m\x1B[33m"\x1B[39m)\n',
+    '\x1B[31mLinAlgError\x1B[39m: Singular matrix'
+  ]
+}
+04:46:32.463 [warn] Cell completed with errors iu [Error]: 'female_judge'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'KeyError',
+  evalue: "'female_judge'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mKeyError\x1B[39m                                  Traceback (most recent call last)',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/indexes/base.py:3805\x1B[39m, in \x1B[36mIndex.get_loc\x1B[39m\x1B[34m(self, key)\x1B[39m\n' +
+      '\x1B[32m   3804\x1B[39m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m3805\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_engine\x1B[49m\x1B[43m.\x1B[49m\x1B[43mget_loc\x1B[49m\x1B[43m(\x1B[49m\x1B[43mcasted_key\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   3806\x1B[39m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m err:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32mindex.pyx:167\x1B[39m, in \x1B[36mpandas._libs.index.IndexEngine.get_loc\x1B[39m\x1B[34m()\x1B[39m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32mindex.pyx:196\x1B[39m, in \x1B[36mpandas._libs.index.IndexEngine.get_loc\x1B[39m\x1B[34m()\x1B[39m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32mpandas/_libs/hashtable_class_helper.pxi:7081\x1B[39m, in \x1B[36mpandas._libs.hashtable.PyObjectHashTable.get_item\x1B[39m\x1B[34m()\x1B[39m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32mpandas/_libs/hashtable_class_helper.pxi:7089\x1B[39m, in \x1B[36mpandas._libs.hashtable.PyObjectHashTable.get_item\x1B[39m\x1B[34m()\x1B[39m\n',
+    "\x1B[31mKeyError\x1B[39m: 'female_judge'",
+    '\nThe above exception was the direct cause of the following exception:\n',
+    '\x1B[31mKeyError\x1B[39m                                  Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[53]\x1B[39m\x1B[32m, line 23\x1B[39m\n' +
+      '\x1B[32m     21\x1B[39m             \x1B[38;5;28;01mbreak\x1B[39;00m\n' +
+      '\x1B[32m     22\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m best_features\n' +
+      "\x1B[32m---> \x1B[39m\x1B[32m23\x1B[39m \x1B[43mforward_selection\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdf_clean\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43macquitted\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m)\x1B[49m\n",
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[53]\x1B[39m\x1B[32m, line 14\x1B[39m, in \x1B[36mforward_selection\x1B[39m\x1B[34m(data, target, max_features)\x1B[39m\n' +
+      `\x1B[32m     12\x1B[39m formula = \x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mtarget\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m ~ \x1B[39m\x1B[38;5;132;01m{\x1B[39;00m\x1B[33m'\x1B[39m\x1B[33m + \x1B[39m\x1B[33m'\x1B[39m.join(best_features\x1B[38;5;250m \x1B[39m+\x1B[38;5;250m \x1B[39m[feature])\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m"\x1B[39m\n` +
+      '\x1B[32m     13\x1B[39m model = sm.Logit.from_formula(formula, data).fit(disp=\x1B[32m0\x1B[39m)\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m14\x1B[39m pval = \x1B[43mmodel\x1B[49m\x1B[43m.\x1B[49m\x1B[43mpvalues\x1B[49m\x1B[43m[\x1B[49m\x1B[43mfeature\x1B[49m\x1B[43m]\x1B[49m\n' +
+      '\x1B[32m     15\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m pval < best_pval:\n' +
+      '\x1B[32m     16\x1B[39m     best_pval = pval\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/series.py:1121\x1B[39m, in \x1B[36mSeries.__getitem__\x1B[39m\x1B[34m(self, key)\x1B[39m\n' +
+      '\x1B[32m   1118\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m._values[key]\n' +
+      '\x1B[32m   1120\x1B[39m \x1B[38;5;28;01melif\x1B[39;00m key_is_scalar:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1121\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_get_value\x1B[49m\x1B[43m(\x1B[49m\x1B[43mkey\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   1123\x1B[39m \x1B[38;5;66;03m# Convert generator to list before going through hashable part\x1B[39;00m\n' +
+      '\x1B[32m   1124\x1B[39m \x1B[38;5;66;03m# (We will iterate through the generator there to check for slices)\x1B[39;00m\n' +
+      '\x1B[32m   1125\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m is_iterator(key):\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/series.py:1237\x1B[39m, in \x1B[36mSeries._get_value\x1B[39m\x1B[34m(self, label, takeable)\x1B[39m\n' +
+      '\x1B[32m   1234\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m._values[label]\n' +
+      '\x1B[32m   1236\x1B[39m \x1B[38;5;66;03m# Similar to Index.get_value, but we do not fall back to positional\x1B[39;00m\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1237\x1B[39m loc = \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43mindex\x1B[49m\x1B[43m.\x1B[49m\x1B[43mget_loc\x1B[49m\x1B[43m(\x1B[49m\x1B[43mlabel\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   1239\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m is_integer(loc):\n' +
+      '\x1B[32m   1240\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m._values[loc]\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/indexes/base.py:3812\x1B[39m, in \x1B[36mIndex.get_loc\x1B[39m\x1B[34m(self, key)\x1B[39m\n' +
+      '\x1B[32m   3807\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(casted_key, \x1B[38;5;28mslice\x1B[39m) \x1B[38;5;129;01mor\x1B[39;00m (\n' +
+      '\x1B[32m   3808\x1B[39m         \x1B[38;5;28misinstance\x1B[39m(casted_key, abc.Iterable)\n' +
+      '\x1B[32m   3809\x1B[39m         \x1B[38;5;129;01mand\x1B[39;00m \x1B[38;5;28many\x1B[39m(\x1B[38;5;28misinstance\x1B[39m(x, \x1B[38;5;28mslice\x1B[39m) \x1B[38;5;28;01mfor\x1B[39;00m x \x1B[38;5;129;01min\x1B[39;00m casted_key)\n' +
+      '\x1B[32m   3810\x1B[39m     ):\n' +
+      '\x1B[32m   3811\x1B[39m         \x1B[38;5;28;01mraise\x1B[39;00m InvalidIndexError(key)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m3812\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m(key) \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01merr\x1B[39;00m\n' +
+      '\x1B[32m   3813\x1B[39m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mTypeError\x1B[39;00m:\n' +
+      '\x1B[32m   3814\x1B[39m     \x1B[38;5;66;03m# If we have a listlike key, _check_indexing_error will raise\x1B[39;00m\n' +
+      '\x1B[32m   3815\x1B[39m     \x1B[38;5;66;03m#  InvalidIndexError. Otherwise we fall through and re-raise\x1B[39;00m\n' +
+      '\x1B[32m   3816\x1B[39m     \x1B[38;5;66;03m#  the TypeError.\x1B[39;00m\n' +
+      '\x1B[32m   3817\x1B[39m     \x1B[38;5;28mself\x1B[39m._check_indexing_error(key)\n',
+    "\x1B[31mKeyError\x1B[39m: 'female_judge'"
+  ]
+}
+04:49:40.876 [warn] Cell completed with errors iu [Error]: 'female_judge'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'KeyError',
+  evalue: "'female_judge'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mKeyError\x1B[39m                                  Traceback (most recent call last)',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/indexes/base.py:3805\x1B[39m, in \x1B[36mIndex.get_loc\x1B[39m\x1B[34m(self, key)\x1B[39m\n' +
+      '\x1B[32m   3804\x1B[39m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m3805\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_engine\x1B[49m\x1B[43m.\x1B[49m\x1B[43mget_loc\x1B[49m\x1B[43m(\x1B[49m\x1B[43mcasted_key\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   3806\x1B[39m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m err:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32mindex.pyx:167\x1B[39m, in \x1B[36mpandas._libs.index.IndexEngine.get_loc\x1B[39m\x1B[34m()\x1B[39m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32mindex.pyx:196\x1B[39m, in \x1B[36mpandas._libs.index.IndexEngine.get_loc\x1B[39m\x1B[34m()\x1B[39m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32mpandas/_libs/hashtable_class_helper.pxi:7081\x1B[39m, in \x1B[36mpandas._libs.hashtable.PyObjectHashTable.get_item\x1B[39m\x1B[34m()\x1B[39m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32mpandas/_libs/hashtable_class_helper.pxi:7089\x1B[39m, in \x1B[36mpandas._libs.hashtable.PyObjectHashTable.get_item\x1B[39m\x1B[34m()\x1B[39m\n',
+    "\x1B[31mKeyError\x1B[39m: 'female_judge'",
+    '\nThe above exception was the direct cause of the following exception:\n',
+    '\x1B[31mKeyError\x1B[39m                                  Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[54]\x1B[39m\x1B[32m, line 24\x1B[39m\n' +
+      '\x1B[32m     22\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m best_features\n' +
+      '\x1B[32m     23\x1B[39m \x1B[38;5;28mprint\x1B[39m(df_clean.columns.tolist())\n' +
+      "\x1B[32m---> \x1B[39m\x1B[32m24\x1B[39m \x1B[43mforward_selection\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdf_clean\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43macquitted\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m)\x1B[49m\n",
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[54]\x1B[39m\x1B[32m, line 14\x1B[39m, in \x1B[36mforward_selection\x1B[39m\x1B[34m(data, target, max_features)\x1B[39m\n' +
+      `\x1B[32m     12\x1B[39m formula = \x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mtarget\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m ~ \x1B[39m\x1B[38;5;132;01m{\x1B[39;00m\x1B[33m'\x1B[39m\x1B[33m + \x1B[39m\x1B[33m'\x1B[39m.join(best_features\x1B[38;5;250m \x1B[39m+\x1B[38;5;250m \x1B[39m[feature])\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m"\x1B[39m\n` +
+      '\x1B[32m     13\x1B[39m model = sm.Logit.from_formula(formula, data).fit(disp=\x1B[32m0\x1B[39m)\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m14\x1B[39m pval = \x1B[43mmodel\x1B[49m\x1B[43m.\x1B[49m\x1B[43mpvalues\x1B[49m\x1B[43m[\x1B[49m\x1B[43mfeature\x1B[49m\x1B[43m]\x1B[49m\n' +
+      '\x1B[32m     15\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m pval < best_pval:\n' +
+      '\x1B[32m     16\x1B[39m     best_pval = pval\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/series.py:1121\x1B[39m, in \x1B[36mSeries.__getitem__\x1B[39m\x1B[34m(self, key)\x1B[39m\n' +
+      '\x1B[32m   1118\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m._values[key]\n' +
+      '\x1B[32m   1120\x1B[39m \x1B[38;5;28;01melif\x1B[39;00m key_is_scalar:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1121\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_get_value\x1B[49m\x1B[43m(\x1B[49m\x1B[43mkey\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   1123\x1B[39m \x1B[38;5;66;03m# Convert generator to list before going through hashable part\x1B[39;00m\n' +
+      '\x1B[32m   1124\x1B[39m \x1B[38;5;66;03m# (We will iterate through the generator there to check for slices)\x1B[39;00m\n' +
+      '\x1B[32m   1125\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m is_iterator(key):\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/series.py:1237\x1B[39m, in \x1B[36mSeries._get_value\x1B[39m\x1B[34m(self, label, takeable)\x1B[39m\n' +
+      '\x1B[32m   1234\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m._values[label]\n' +
+      '\x1B[32m   1236\x1B[39m \x1B[38;5;66;03m# Similar to Index.get_value, but we do not fall back to positional\x1B[39;00m\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1237\x1B[39m loc = \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43mindex\x1B[49m\x1B[43m.\x1B[49m\x1B[43mget_loc\x1B[49m\x1B[43m(\x1B[49m\x1B[43mlabel\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   1239\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m is_integer(loc):\n' +
+      '\x1B[32m   1240\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m._values[loc]\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/indexes/base.py:3812\x1B[39m, in \x1B[36mIndex.get_loc\x1B[39m\x1B[34m(self, key)\x1B[39m\n' +
+      '\x1B[32m   3807\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(casted_key, \x1B[38;5;28mslice\x1B[39m) \x1B[38;5;129;01mor\x1B[39;00m (\n' +
+      '\x1B[32m   3808\x1B[39m         \x1B[38;5;28misinstance\x1B[39m(casted_key, abc.Iterable)\n' +
+      '\x1B[32m   3809\x1B[39m         \x1B[38;5;129;01mand\x1B[39;00m \x1B[38;5;28many\x1B[39m(\x1B[38;5;28misinstance\x1B[39m(x, \x1B[38;5;28mslice\x1B[39m) \x1B[38;5;28;01mfor\x1B[39;00m x \x1B[38;5;129;01min\x1B[39;00m casted_key)\n' +
+      '\x1B[32m   3810\x1B[39m     ):\n' +
+      '\x1B[32m   3811\x1B[39m         \x1B[38;5;28;01mraise\x1B[39;00m InvalidIndexError(key)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m3812\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m(key) \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01merr\x1B[39;00m\n' +
+      '\x1B[32m   3813\x1B[39m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mTypeError\x1B[39;00m:\n' +
+      '\x1B[32m   3814\x1B[39m     \x1B[38;5;66;03m# If we have a listlike key, _check_indexing_error will raise\x1B[39;00m\n' +
+      '\x1B[32m   3815\x1B[39m     \x1B[38;5;66;03m#  InvalidIndexError. Otherwise we fall through and re-raise\x1B[39;00m\n' +
+      '\x1B[32m   3816\x1B[39m     \x1B[38;5;66;03m#  the TypeError.\x1B[39;00m\n' +
+      '\x1B[32m   3817\x1B[39m     \x1B[38;5;28mself\x1B[39m._check_indexing_error(key)\n',
+    "\x1B[31mKeyError\x1B[39m: 'female_judge'"
+  ]
+}
+04:50:34.410 [warn] Cell completed with errors iu [Error]: No module named 'sklearn'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'sklearn'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mModuleNotFoundError\x1B[39m                       Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[55]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01msklearn\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mfeature_selection\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m SelectKBest, chi2\n' +
+      "\x1B[32m      3\x1B[39m X = df[[\x1B[33m'\x1B[39m\x1B[33msame_gender\x1B[39m\x1B[33m'\x1B[39m, \x1B[33m'\x1B[39m\x1B[33mnumber_sections_ipc\x1B[39m\x1B[33m'\x1B[39m, ...]]  \x1B[38;5;66;03m# Include all features\x1B[39;00m\n" +
+      "\x1B[32m      4\x1B[39m y = df[\x1B[33m'\x1B[39m\x1B[33macquitted\x1B[39m\x1B[33m'\x1B[39m]\n",
+    "\x1B[31mModuleNotFoundError\x1B[39m: No module named 'sklearn'"
+  ]
+}
+04:51:42.661 [warn] Cell completed with errors iu [Error]: "['same_gender', Ellipsis] not in index"
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'KeyError',
+  evalue: `"['same_gender', Ellipsis] not in index"`,
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mKeyError\x1B[39m                                  Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[56]\x1B[39m\x1B[32m, line 3\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01msklearn\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mfeature_selection\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m SelectKBest, chi2\n' +
+      "\x1B[32m----> \x1B[39m\x1B[32m3\x1B[39m X = \x1B[43mdf\x1B[49m\x1B[43m[\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43msame_gender\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mnumber_sections_ipc\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m.\x1B[49m\x1B[43m.\x1B[49m\x1B[43m.\x1B[49m\x1B[43m]\x1B[49m\x1B[43m]\x1B[49m  \x1B[38;5;66;03m# Include all features\x1B[39;00m\n" +
+      "\x1B[32m      4\x1B[39m y = df[\x1B[33m'\x1B[39m\x1B[33macquitted\x1B[39m\x1B[33m'\x1B[39m]\n" +
+      '\x1B[32m      5\x1B[39m selector = SelectKBest(chi2, k=\x1B[32m5\x1B[39m)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/frame.py:4108\x1B[39m, in \x1B[36mDataFrame.__getitem__\x1B[39m\x1B[34m(self, key)\x1B[39m\n' +
+      '\x1B[32m   4106\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m is_iterator(key):\n' +
+      '\x1B[32m   4107\x1B[39m         key = \x1B[38;5;28mlist\x1B[39m(key)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m4108\x1B[39m     indexer = \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m.\x1B[49m\x1B[43m_get_indexer_strict\x1B[49m\x1B[43m(\x1B[49m\x1B[43mkey\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43mcolumns\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m)\x1B[49m[\x1B[32m1\x1B[39m]\n' +
+      '\x1B[32m   4110\x1B[39m \x1B[38;5;66;03m# take() does not accept boolean indexers\x1B[39;00m\n' +
+      '\x1B[32m   4111\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mgetattr\x1B[39m(indexer, \x1B[33m"\x1B[39m\x1B[33mdtype\x1B[39m\x1B[33m"\x1B[39m, \x1B[38;5;28;01mNone\x1B[39;00m) == \x1B[38;5;28mbool\x1B[39m:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/indexes/base.py:6200\x1B[39m, in \x1B[36mIndex._get_indexer_strict\x1B[39m\x1B[34m(self, key, axis_name)\x1B[39m\n' +
+      '\x1B[32m   6197\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m   6198\x1B[39m     keyarr, indexer, new_indexer = \x1B[38;5;28mself\x1B[39m._reindex_non_unique(keyarr)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m6200\x1B[39m \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_raise_if_missing\x1B[49m\x1B[43m(\x1B[49m\x1B[43mkeyarr\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mindexer\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43maxis_name\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   6202\x1B[39m keyarr = \x1B[38;5;28mself\x1B[39m.take(indexer)\n' +
+      '\x1B[32m   6203\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(key, Index):\n' +
+      '\x1B[32m   6204\x1B[39m     \x1B[38;5;66;03m# GH 42790 - Preserve name from an Index\x1B[39;00m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/indexes/base.py:6252\x1B[39m, in \x1B[36mIndex._raise_if_missing\x1B[39m\x1B[34m(self, key, indexer, axis_name)\x1B[39m\n' +
+      '\x1B[32m   6249\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mNone of [\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mkey\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m] are in the [\x1B[39m\x1B[38;5;132;01m{\x1B[39;00maxis_name\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m]\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m   6251\x1B[39m not_found = \x1B[38;5;28mlist\x1B[39m(ensure_index(key)[missing_mask.nonzero()[\x1B[32m0\x1B[39m]].unique())\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m6252\x1B[39m \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mnot_found\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m not in index\x1B[39m\x1B[33m"\x1B[39m)\n',
+    `\x1B[31mKeyError\x1B[39m: "['same_gender', Ellipsis] not in index"`
+  ]
+}
+04:53:34.030 [warn] Cell completed with errors iu [Error]: 'female_judge'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'KeyError',
+  evalue: "'female_judge'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mKeyError\x1B[39m                                  Traceback (most recent call last)',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/indexes/base.py:3805\x1B[39m, in \x1B[36mIndex.get_loc\x1B[39m\x1B[34m(self, key)\x1B[39m\n' +
+      '\x1B[32m   3804\x1B[39m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m3805\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_engine\x1B[49m\x1B[43m.\x1B[49m\x1B[43mget_loc\x1B[49m\x1B[43m(\x1B[49m\x1B[43mcasted_key\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   3806\x1B[39m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m err:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32mindex.pyx:167\x1B[39m, in \x1B[36mpandas._libs.index.IndexEngine.get_loc\x1B[39m\x1B[34m()\x1B[39m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32mindex.pyx:196\x1B[39m, in \x1B[36mpandas._libs.index.IndexEngine.get_loc\x1B[39m\x1B[34m()\x1B[39m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32mpandas/_libs/hashtable_class_helper.pxi:7081\x1B[39m, in \x1B[36mpandas._libs.hashtable.PyObjectHashTable.get_item\x1B[39m\x1B[34m()\x1B[39m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32mpandas/_libs/hashtable_class_helper.pxi:7089\x1B[39m, in \x1B[36mpandas._libs.hashtable.PyObjectHashTable.get_item\x1B[39m\x1B[34m()\x1B[39m\n',
+    "\x1B[31mKeyError\x1B[39m: 'female_judge'",
+    '\nThe above exception was the direct cause of the following exception:\n',
+    '\x1B[31mKeyError\x1B[39m                                  Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[57]\x1B[39m\x1B[32m, line 24\x1B[39m\n' +
+      '\x1B[32m     22\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m best_features\n' +
+      '\x1B[32m     23\x1B[39m \x1B[38;5;28mprint\x1B[39m(df_clean.columns.tolist())\n' +
+      "\x1B[32m---> \x1B[39m\x1B[32m24\x1B[39m \x1B[43mforward_selection\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdf_clean\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43macquitted\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m)\x1B[49m\n",
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[57]\x1B[39m\x1B[32m, line 14\x1B[39m, in \x1B[36mforward_selection\x1B[39m\x1B[34m(data, target, max_features)\x1B[39m\n' +
+      `\x1B[32m     12\x1B[39m formula = \x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mtarget\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m ~ \x1B[39m\x1B[38;5;132;01m{\x1B[39;00m\x1B[33m'\x1B[39m\x1B[33m + \x1B[39m\x1B[33m'\x1B[39m.join(best_features\x1B[38;5;250m \x1B[39m+\x1B[38;5;250m \x1B[39m[feature])\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m"\x1B[39m\n` +
+      '\x1B[32m     13\x1B[39m model = sm.Logit.from_formula(formula, data).fit(disp=\x1B[32m0\x1B[39m)\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m14\x1B[39m pval = \x1B[43mmodel\x1B[49m\x1B[43m.\x1B[49m\x1B[43mpvalues\x1B[49m\x1B[43m[\x1B[49m\x1B[43mfeature\x1B[49m\x1B[43m]\x1B[49m\n' +
+      '\x1B[32m     15\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m pval < best_pval:\n' +
+      '\x1B[32m     16\x1B[39m     best_pval = pval\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/series.py:1121\x1B[39m, in \x1B[36mSeries.__getitem__\x1B[39m\x1B[34m(self, key)\x1B[39m\n' +
+      '\x1B[32m   1118\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m._values[key]\n' +
+      '\x1B[32m   1120\x1B[39m \x1B[38;5;28;01melif\x1B[39;00m key_is_scalar:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1121\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_get_value\x1B[49m\x1B[43m(\x1B[49m\x1B[43mkey\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   1123\x1B[39m \x1B[38;5;66;03m# Convert generator to list before going through hashable part\x1B[39;00m\n' +
+      '\x1B[32m   1124\x1B[39m \x1B[38;5;66;03m# (We will iterate through the generator there to check for slices)\x1B[39;00m\n' +
+      '\x1B[32m   1125\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m is_iterator(key):\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/series.py:1237\x1B[39m, in \x1B[36mSeries._get_value\x1B[39m\x1B[34m(self, label, takeable)\x1B[39m\n' +
+      '\x1B[32m   1234\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m._values[label]\n' +
+      '\x1B[32m   1236\x1B[39m \x1B[38;5;66;03m# Similar to Index.get_value, but we do not fall back to positional\x1B[39;00m\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1237\x1B[39m loc = \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43mindex\x1B[49m\x1B[43m.\x1B[49m\x1B[43mget_loc\x1B[49m\x1B[43m(\x1B[49m\x1B[43mlabel\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   1239\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m is_integer(loc):\n' +
+      '\x1B[32m   1240\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m._values[loc]\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/indexes/base.py:3812\x1B[39m, in \x1B[36mIndex.get_loc\x1B[39m\x1B[34m(self, key)\x1B[39m\n' +
+      '\x1B[32m   3807\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(casted_key, \x1B[38;5;28mslice\x1B[39m) \x1B[38;5;129;01mor\x1B[39;00m (\n' +
+      '\x1B[32m   3808\x1B[39m         \x1B[38;5;28misinstance\x1B[39m(casted_key, abc.Iterable)\n' +
+      '\x1B[32m   3809\x1B[39m         \x1B[38;5;129;01mand\x1B[39;00m \x1B[38;5;28many\x1B[39m(\x1B[38;5;28misinstance\x1B[39m(x, \x1B[38;5;28mslice\x1B[39m) \x1B[38;5;28;01mfor\x1B[39;00m x \x1B[38;5;129;01min\x1B[39;00m casted_key)\n' +
+      '\x1B[32m   3810\x1B[39m     ):\n' +
+      '\x1B[32m   3811\x1B[39m         \x1B[38;5;28;01mraise\x1B[39;00m InvalidIndexError(key)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m3812\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m(key) \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01merr\x1B[39;00m\n' +
+      '\x1B[32m   3813\x1B[39m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mTypeError\x1B[39;00m:\n' +
+      '\x1B[32m   3814\x1B[39m     \x1B[38;5;66;03m# If we have a listlike key, _check_indexing_error will raise\x1B[39;00m\n' +
+      '\x1B[32m   3815\x1B[39m     \x1B[38;5;66;03m#  InvalidIndexError. Otherwise we fall through and re-raise\x1B[39;00m\n' +
+      '\x1B[32m   3816\x1B[39m     \x1B[38;5;66;03m#  the TypeError.\x1B[39;00m\n' +
+      '\x1B[32m   3817\x1B[39m     \x1B[38;5;28mself\x1B[39m._check_indexing_error(key)\n',
+    "\x1B[31mKeyError\x1B[39m: 'female_judge'"
+  ]
+}
+04:55:59.680 [warn] Cell completed with errors iu [Error]: "['same_gender', 'duration_days', 'acquitted'] not in index"
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'KeyError',
+  evalue: `"['same_gender', 'duration_days', 'acquitted'] not in index"`,
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mKeyError\x1B[39m                                  Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[58]\x1B[39m\x1B[32m, line 3\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01msklearn\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mfeature_selection\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m SelectKBest, chi2\n' +
+      "\x1B[32m----> \x1B[39m\x1B[32m3\x1B[39m X = \x1B[43mdf\x1B[49m\x1B[43m[\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mddl_case_id\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mdate_of_filing\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mdate_of_decision\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mfiling_year\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mstate_code\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mcourt_no\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mfemale_defendant\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mfemale_petitioner\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mfemale_judge\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mact_s\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43msection_s\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mbailable_ipc\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mnumber_sections_ipc\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mdisposition\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43msame_gender\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mduration_days\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43macquitted\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m]\x1B[49m  \x1B[38;5;66;03m# Include all features\x1B[39;00m\n" +
+      "\x1B[32m      4\x1B[39m y = df[\x1B[33m'\x1B[39m\x1B[33macquitted\x1B[39m\x1B[33m'\x1B[39m]\n" +
+      '\x1B[32m      5\x1B[39m selector = SelectKBest(chi2, k=\x1B[32m5\x1B[39m)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/frame.py:4108\x1B[39m, in \x1B[36mDataFrame.__getitem__\x1B[39m\x1B[34m(self, key)\x1B[39m\n' +
+      '\x1B[32m   4106\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m is_iterator(key):\n' +
+      '\x1B[32m   4107\x1B[39m         key = \x1B[38;5;28mlist\x1B[39m(key)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m4108\x1B[39m     indexer = \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m.\x1B[49m\x1B[43m_get_indexer_strict\x1B[49m\x1B[43m(\x1B[49m\x1B[43mkey\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43mcolumns\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m)\x1B[49m[\x1B[32m1\x1B[39m]\n' +
+      '\x1B[32m   4110\x1B[39m \x1B[38;5;66;03m# take() does not accept boolean indexers\x1B[39;00m\n' +
+      '\x1B[32m   4111\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mgetattr\x1B[39m(indexer, \x1B[33m"\x1B[39m\x1B[33mdtype\x1B[39m\x1B[33m"\x1B[39m, \x1B[38;5;28;01mNone\x1B[39;00m) == \x1B[38;5;28mbool\x1B[39m:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/indexes/base.py:6200\x1B[39m, in \x1B[36mIndex._get_indexer_strict\x1B[39m\x1B[34m(self, key, axis_name)\x1B[39m\n' +
+      '\x1B[32m   6197\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m   6198\x1B[39m     keyarr, indexer, new_indexer = \x1B[38;5;28mself\x1B[39m._reindex_non_unique(keyarr)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m6200\x1B[39m \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_raise_if_missing\x1B[49m\x1B[43m(\x1B[49m\x1B[43mkeyarr\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mindexer\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43maxis_name\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   6202\x1B[39m keyarr = \x1B[38;5;28mself\x1B[39m.take(indexer)\n' +
+      '\x1B[32m   6203\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(key, Index):\n' +
+      '\x1B[32m   6204\x1B[39m     \x1B[38;5;66;03m# GH 42790 - Preserve name from an Index\x1B[39;00m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/indexes/base.py:6252\x1B[39m, in \x1B[36mIndex._raise_if_missing\x1B[39m\x1B[34m(self, key, indexer, axis_name)\x1B[39m\n' +
+      '\x1B[32m   6249\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mNone of [\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mkey\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m] are in the [\x1B[39m\x1B[38;5;132;01m{\x1B[39;00maxis_name\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m]\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m   6251\x1B[39m not_found = \x1B[38;5;28mlist\x1B[39m(ensure_index(key)[missing_mask.nonzero()[\x1B[32m0\x1B[39m]].unique())\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m6252\x1B[39m \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mnot_found\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m not in index\x1B[39m\x1B[33m"\x1B[39m)\n',
+    `\x1B[31mKeyError\x1B[39m: "['same_gender', 'duration_days', 'acquitted'] not in index"`
+  ]
+}
+04:56:16.553 [warn] Cell completed with errors iu [Error]: "['same_gender', 'duration_days'] not in index"
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'KeyError',
+  evalue: `"['same_gender', 'duration_days'] not in index"`,
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mKeyError\x1B[39m                                  Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[59]\x1B[39m\x1B[32m, line 3\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01msklearn\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mfeature_selection\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m SelectKBest, chi2\n' +
+      "\x1B[32m----> \x1B[39m\x1B[32m3\x1B[39m X = \x1B[43mdf\x1B[49m\x1B[43m[\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mddl_case_id\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mdate_of_filing\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mdate_of_decision\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mfiling_year\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mstate_code\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mcourt_no\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mfemale_defendant\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mfemale_petitioner\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mfemale_judge\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mact_s\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43msection_s\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mbailable_ipc\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mnumber_sections_ipc\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mdisposition\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43msame_gender\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mduration_days\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m]\x1B[49m  \x1B[38;5;66;03m# Include all features\x1B[39;00m\n" +
+      "\x1B[32m      4\x1B[39m y = df[\x1B[33m'\x1B[39m\x1B[33macquitted\x1B[39m\x1B[33m'\x1B[39m]\n" +
+      '\x1B[32m      5\x1B[39m selector = SelectKBest(chi2, k=\x1B[32m5\x1B[39m)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/frame.py:4108\x1B[39m, in \x1B[36mDataFrame.__getitem__\x1B[39m\x1B[34m(self, key)\x1B[39m\n' +
+      '\x1B[32m   4106\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m is_iterator(key):\n' +
+      '\x1B[32m   4107\x1B[39m         key = \x1B[38;5;28mlist\x1B[39m(key)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m4108\x1B[39m     indexer = \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m.\x1B[49m\x1B[43m_get_indexer_strict\x1B[49m\x1B[43m(\x1B[49m\x1B[43mkey\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43mcolumns\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m)\x1B[49m[\x1B[32m1\x1B[39m]\n' +
+      '\x1B[32m   4110\x1B[39m \x1B[38;5;66;03m# take() does not accept boolean indexers\x1B[39;00m\n' +
+      '\x1B[32m   4111\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mgetattr\x1B[39m(indexer, \x1B[33m"\x1B[39m\x1B[33mdtype\x1B[39m\x1B[33m"\x1B[39m, \x1B[38;5;28;01mNone\x1B[39;00m) == \x1B[38;5;28mbool\x1B[39m:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/indexes/base.py:6200\x1B[39m, in \x1B[36mIndex._get_indexer_strict\x1B[39m\x1B[34m(self, key, axis_name)\x1B[39m\n' +
+      '\x1B[32m   6197\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m   6198\x1B[39m     keyarr, indexer, new_indexer = \x1B[38;5;28mself\x1B[39m._reindex_non_unique(keyarr)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m6200\x1B[39m \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_raise_if_missing\x1B[49m\x1B[43m(\x1B[49m\x1B[43mkeyarr\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mindexer\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43maxis_name\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   6202\x1B[39m keyarr = \x1B[38;5;28mself\x1B[39m.take(indexer)\n' +
+      '\x1B[32m   6203\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(key, Index):\n' +
+      '\x1B[32m   6204\x1B[39m     \x1B[38;5;66;03m# GH 42790 - Preserve name from an Index\x1B[39;00m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/indexes/base.py:6252\x1B[39m, in \x1B[36mIndex._raise_if_missing\x1B[39m\x1B[34m(self, key, indexer, axis_name)\x1B[39m\n' +
+      '\x1B[32m   6249\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mNone of [\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mkey\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m] are in the [\x1B[39m\x1B[38;5;132;01m{\x1B[39;00maxis_name\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m]\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m   6251\x1B[39m not_found = \x1B[38;5;28mlist\x1B[39m(ensure_index(key)[missing_mask.nonzero()[\x1B[32m0\x1B[39m]].unique())\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m6252\x1B[39m \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mnot_found\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m not in index\x1B[39m\x1B[33m"\x1B[39m)\n',
+    `\x1B[31mKeyError\x1B[39m: "['same_gender', 'duration_days'] not in index"`
+  ]
+}
+04:56:45.356 [warn] Cell completed with errors iu [Error]: could not convert string to float: '04-05-20-202900010552015'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'ValueError',
+  evalue: "could not convert string to float: '04-05-20-202900010552015'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mValueError\x1B[39m                                Traceback (most recent call last)',
+    '\x1B[32m/tmp/ipykernel_242947/1425386654.py\x1B[39m in \x1B[36m?\x1B[39m\x1B[34m()\x1B[39m\n' +
+      '\x1B[32m      2\x1B[39m \n' +
+      "\x1B[32m      3\x1B[39m X = df_clean[[\x1B[33m'ddl_case_id'\x1B[39m, \x1B[33m'date_of_filing'\x1B[39m, \x1B[33m'date_of_decision'\x1B[39m, \x1B[33m'filing_year'\x1B[39m, \x1B[33m'state_code'\x1B[39m, \x1B[33m'court_no'\x1B[39m, \x1B[33m'female_defendant'\x1B[39m, \x1B[33m'female_petitioner'\x1B[39m, \x1B[33m'female_judge'\x1B[39m, \x1B[33m'act_s'\x1B[39m, \x1B[33m'section_s'\x1B[39m, \x1B[33m'bailable_ipc'\x1B[39m, \x1B[33m'number_sections_ipc'\x1B[39m, \x1B[33m'disposition'\x1B[39m, \x1B[33m'same_gender'\x1B[39m, \x1B[33m'duration_days'\x1B[39m]]  \x1B[38;5;66;03m# Include all features\x1B[39;00m\n" +
+      "\x1B[32m      4\x1B[39m y = df_clean[\x1B[33m'acquitted'\x1B[39m]\n" +
+      '\x1B[32m      5\x1B[39m selector = SelectKBest(chi2, k=\x1B[32m5\x1B[39m)\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m6\x1B[39m selector.fit(X, y)\n' +
+      '\x1B[32m      7\x1B[39m selected_features = X.columns[selector.get_support()]\n' +
+      '\x1B[32m      8\x1B[39m print(\x1B[33m"Selected features:"\x1B[39m, selected_features.tolist())\n',
+    '\x1B[32m/usr/lib/python3.13/site-packages/sklearn/base.py\x1B[39m in \x1B[36m?\x1B[39m\x1B[34m(estimator, *args, **kwargs)\x1B[39m\n' +
+      '\x1B[32m   1385\x1B[39m                 skip_parameter_validation=(\n' +
+      '\x1B[32m   1386\x1B[39m                     prefer_skip_nested_validation \x1B[38;5;28;01mor\x1B[39;00m global_skip_validation\n' +
+      '\x1B[32m   1387\x1B[39m                 )\n' +
+      '\x1B[32m   1388\x1B[39m             ):\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1389\x1B[39m                 \x1B[38;5;28;01mreturn\x1B[39;00m fit_method(estimator, *args, **kwargs)\n',
+    '\x1B[32m/usr/lib/python3.13/site-packages/sklearn/feature_selection/_univariate_selection.py\x1B[39m in \x1B[36m?\x1B[39m\x1B[34m(self, X, y)\x1B[39m\n' +
+      '\x1B[32m    560\x1B[39m         """\n' +
+      '\x1B[32m    561\x1B[39m         \x1B[38;5;28;01mif\x1B[39;00m y \x1B[38;5;28;01mis\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[32m    562\x1B[39m             X = validate_data(self, X, accept_sparse=[\x1B[33m"csr"\x1B[39m, \x1B[33m"csc"\x1B[39m])\n' +
+      '\x1B[32m    563\x1B[39m         \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m564\x1B[39m             X, y = validate_data(\n' +
+      '\x1B[32m    565\x1B[39m                 self, X, y, accept_sparse=[\x1B[33m"csr"\x1B[39m, \x1B[33m"csc"\x1B[39m], multi_output=\x1B[38;5;28;01mTrue\x1B[39;00m\n' +
+      '\x1B[32m    566\x1B[39m             )\n' +
+      '\x1B[32m    567\x1B[39m \n',
+    '\x1B[32m/usr/lib/python3.13/site-packages/sklearn/utils/validation.py\x1B[39m in \x1B[36m?\x1B[39m\x1B[34m(_estimator, X, y, reset, validate_separately, skip_check_array, **check_params)\x1B[39m\n' +
+      '\x1B[32m   2957\x1B[39m             \x1B[38;5;28;01mif\x1B[39;00m \x1B[33m"estimator"\x1B[39m \x1B[38;5;28;01mnot\x1B[39;00m \x1B[38;5;28;01min\x1B[39;00m check_y_params:\n' +
+      '\x1B[32m   2958\x1B[39m                 check_y_params = {**default_check_params, **check_y_params}\n' +
+      '\x1B[32m   2959\x1B[39m             y = check_array(y, input_name=\x1B[33m"y"\x1B[39m, **check_y_params)\n' +
+      '\x1B[32m   2960\x1B[39m         \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m2961\x1B[39m             X, y = check_X_y(X, y, **check_params)\n' +
+      '\x1B[32m   2962\x1B[39m         out = X, y\n' +
+      '\x1B[32m   2963\x1B[39m \n' +
+      '\x1B[32m   2964\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28;01mnot\x1B[39;00m no_val_X \x1B[38;5;28;01mand\x1B[39;00m check_params.get(\x1B[33m"ensure_2d"\x1B[39m, \x1B[38;5;28;01mTrue\x1B[39;00m):\n',
+    '\x1B[32m/usr/lib/python3.13/site-packages/sklearn/utils/validation.py\x1B[39m in \x1B[36m?\x1B[39m\x1B[34m(X, y, accept_sparse, accept_large_sparse, dtype, order, copy, force_writeable, force_all_finite, ensure_all_finite, ensure_2d, allow_nd, multi_output, ensure_min_samples, ensure_min_features, y_numeric, estimator)\x1B[39m\n' +
+      '\x1B[32m   1366\x1B[39m         )\n' +
+      '\x1B[32m   1367\x1B[39m \n' +
+      '\x1B[32m   1368\x1B[39m     ensure_all_finite = _deprecate_force_all_finite(force_all_finite, ensure_all_finite)\n' +
+      '\x1B[32m   1369\x1B[39m \n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1370\x1B[39m     X = check_array(\n' +
+      '\x1B[32m   1371\x1B[39m         X,\n' +
+      '\x1B[32m   1372\x1B[39m         accept_sparse=accept_sparse,\n' +
+      '\x1B[32m   1373\x1B[39m         accept_large_sparse=accept_large_sparse,\n',
+    '\x1B[32m/usr/lib/python3.13/site-packages/sklearn/utils/validation.py\x1B[39m in \x1B[36m?\x1B[39m\x1B[34m(array, accept_sparse, accept_large_sparse, dtype, order, copy, force_writeable, force_all_finite, ensure_all_finite, ensure_non_negative, ensure_2d, allow_nd, ensure_min_samples, ensure_min_features, estimator, input_name)\x1B[39m\n' +
+      '\x1B[32m   1052\x1B[39m                         )\n' +
+      '\x1B[32m   1053\x1B[39m                     array = xp.astype(array, dtype, copy=\x1B[38;5;28;01mFalse\x1B[39;00m)\n' +
+      '\x1B[32m   1054\x1B[39m                 \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m   1055\x1B[39m                     array = _asarray_with_order(array, order=order, dtype=dtype, xp=xp)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1056\x1B[39m             \x1B[38;5;28;01mexcept\x1B[39;00m ComplexWarning \x1B[38;5;28;01mas\x1B[39;00m complex_warning:\n' +
+      '\x1B[32m   1057\x1B[39m                 raise ValueError(\n' +
+      '\x1B[32m   1058\x1B[39m                     \x1B[33m"Complex data not supported\\n{}\\n"\x1B[39m.format(array)\n' +
+      '\x1B[32m   1059\x1B[39m                 ) \x1B[38;5;28;01mfrom\x1B[39;00m complex_warning\n',
+    '\x1B[32m/usr/lib/python3.13/site-packages/sklearn/utils/_array_api.py\x1B[39m in \x1B[36m?\x1B[39m\x1B[34m(array, dtype, order, copy, xp, device)\x1B[39m\n' +
+      '\x1B[32m    835\x1B[39m         \x1B[38;5;66;03m# Use NumPy API to support order\x1B[39;00m\n' +
+      '\x1B[32m    836\x1B[39m         \x1B[38;5;28;01mif\x1B[39;00m copy \x1B[38;5;28;01mis\x1B[39;00m \x1B[38;5;28;01mTrue\x1B[39;00m:\n' +
+      '\x1B[32m    837\x1B[39m             array = numpy.array(array, order=order, dtype=dtype)\n' +
+      '\x1B[32m    838\x1B[39m         \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m839\x1B[39m             array = numpy.asarray(array, order=order, dtype=dtype)\n' +
+      '\x1B[32m    840\x1B[39m \n' +
+      '\x1B[32m    841\x1B[39m         \x1B[38;5;66;03m# At this point array is a NumPy ndarray. We convert it to an array\x1B[39;00m\n' +
+      "\x1B[32m    842\x1B[39m         \x1B[38;5;66;03m# container that is consistent with the input's namespace.\x1B[39;00m\n",
+    '\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/generic.py\x1B[39m in \x1B[36m?\x1B[39m\x1B[34m(self, dtype, copy)\x1B[39m\n' +
+      '\x1B[32m   2149\x1B[39m     def __array__(\n' +
+      '\x1B[32m   2150\x1B[39m         self, dtype: npt.DTypeLike | \x1B[38;5;28;01mNone\x1B[39;00m = \x1B[38;5;28;01mNone\x1B[39;00m, copy: bool_t | \x1B[38;5;28;01mNone\x1B[39;00m = \x1B[38;5;28;01mNone\x1B[39;00m\n' +
+      '\x1B[32m   2151\x1B[39m     ) -> np.ndarray:\n' +
+      '\x1B[32m   2152\x1B[39m         values = self._values\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m2153\x1B[39m         arr = np.asarray(values, dtype=dtype)\n' +
+      '\x1B[32m   2154\x1B[39m         if (\n' +
+      '\x1B[32m   2155\x1B[39m             astype_is_view(values.dtype, arr.dtype)\n' +
+      '\x1B[32m   2156\x1B[39m             \x1B[38;5;28;01mand\x1B[39;00m using_copy_on_write()\n',
+    "\x1B[31mValueError\x1B[39m: could not convert string to float: '04-05-20-202900010552015'"
+  ]
+}
+04:57:17.233 [warn] Cell completed with errors iu [Error]: float() argument must be a string or a real number, not 'Timestamp'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'TypeError',
+  evalue: "float() argument must be a string or a real number, not 'Timestamp'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mTypeError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[32m/tmp/ipykernel_242947/3695076043.py\x1B[39m in \x1B[36m?\x1B[39m\x1B[34m()\x1B[39m\n' +
+      '\x1B[32m      2\x1B[39m \n' +
+      "\x1B[32m      3\x1B[39m X = df_clean[[ \x1B[33m'date_of_filing'\x1B[39m, \x1B[33m'date_of_decision'\x1B[39m, \x1B[33m'filing_year'\x1B[39m, \x1B[33m'state_code'\x1B[39m, \x1B[33m'court_no'\x1B[39m, \x1B[33m'female_defendant'\x1B[39m, \x1B[33m'female_petitioner'\x1B[39m, \x1B[33m'female_judge'\x1B[39m, \x1B[33m'act_s'\x1B[39m, \x1B[33m'section_s'\x1B[39m, \x1B[33m'bailable_ipc'\x1B[39m, \x1B[33m'number_sections_ipc'\x1B[39m, \x1B[33m'disposition'\x1B[39m, \x1B[33m'same_gender'\x1B[39m, \x1B[33m'duration_days'\x1B[39m]]  \x1B[38;5;66;03m# Include all features\x1B[39;00m\n" +
+      "\x1B[32m      4\x1B[39m y = df_clean[\x1B[33m'acquitted'\x1B[39m]\n" +
+      '\x1B[32m      5\x1B[39m selector = SelectKBest(chi2, k=\x1B[32m5\x1B[39m)\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m6\x1B[39m selector.fit(X, y)\n' +
+      '\x1B[32m      7\x1B[39m selected_features = X.columns[selector.get_support()]\n' +
+      '\x1B[32m      8\x1B[39m print(\x1B[33m"Selected features:"\x1B[39m, selected_features.tolist())\n',
+    '\x1B[32m/usr/lib/python3.13/site-packages/sklearn/base.py\x1B[39m in \x1B[36m?\x1B[39m\x1B[34m(estimator, *args, **kwargs)\x1B[39m\n' +
+      '\x1B[32m   1385\x1B[39m                 skip_parameter_validation=(\n' +
+      '\x1B[32m   1386\x1B[39m                     prefer_skip_nested_validation \x1B[38;5;28;01mor\x1B[39;00m global_skip_validation\n' +
+      '\x1B[32m   1387\x1B[39m                 )\n' +
+      '\x1B[32m   1388\x1B[39m             ):\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1389\x1B[39m                 \x1B[38;5;28;01mreturn\x1B[39;00m fit_method(estimator, *args, **kwargs)\n',
+    '\x1B[32m/usr/lib/python3.13/site-packages/sklearn/feature_selection/_univariate_selection.py\x1B[39m in \x1B[36m?\x1B[39m\x1B[34m(self, X, y)\x1B[39m\n' +
+      '\x1B[32m    560\x1B[39m         """\n' +
+      '\x1B[32m    561\x1B[39m         \x1B[38;5;28;01mif\x1B[39;00m y \x1B[38;5;28;01mis\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[32m    562\x1B[39m             X = validate_data(self, X, accept_sparse=[\x1B[33m"csr"\x1B[39m, \x1B[33m"csc"\x1B[39m])\n' +
+      '\x1B[32m    563\x1B[39m         \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m564\x1B[39m             X, y = validate_data(\n' +
+      '\x1B[32m    565\x1B[39m                 self, X, y, accept_sparse=[\x1B[33m"csr"\x1B[39m, \x1B[33m"csc"\x1B[39m], multi_output=\x1B[38;5;28;01mTrue\x1B[39;00m\n' +
+      '\x1B[32m    566\x1B[39m             )\n' +
+      '\x1B[32m    567\x1B[39m \n',
+    '\x1B[32m/usr/lib/python3.13/site-packages/sklearn/utils/validation.py\x1B[39m in \x1B[36m?\x1B[39m\x1B[34m(_estimator, X, y, reset, validate_separately, skip_check_array, **check_params)\x1B[39m\n' +
+      '\x1B[32m   2957\x1B[39m             \x1B[38;5;28;01mif\x1B[39;00m \x1B[33m"estimator"\x1B[39m \x1B[38;5;28;01mnot\x1B[39;00m \x1B[38;5;28;01min\x1B[39;00m check_y_params:\n' +
+      '\x1B[32m   2958\x1B[39m                 check_y_params = {**default_check_params, **check_y_params}\n' +
+      '\x1B[32m   2959\x1B[39m             y = check_array(y, input_name=\x1B[33m"y"\x1B[39m, **check_y_params)\n' +
+      '\x1B[32m   2960\x1B[39m         \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m2961\x1B[39m             X, y = check_X_y(X, y, **check_params)\n' +
+      '\x1B[32m   2962\x1B[39m         out = X, y\n' +
+      '\x1B[32m   2963\x1B[39m \n' +
+      '\x1B[32m   2964\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28;01mnot\x1B[39;00m no_val_X \x1B[38;5;28;01mand\x1B[39;00m check_params.get(\x1B[33m"ensure_2d"\x1B[39m, \x1B[38;5;28;01mTrue\x1B[39;00m):\n',
+    '\x1B[32m/usr/lib/python3.13/site-packages/sklearn/utils/validation.py\x1B[39m in \x1B[36m?\x1B[39m\x1B[34m(X, y, accept_sparse, accept_large_sparse, dtype, order, copy, force_writeable, force_all_finite, ensure_all_finite, ensure_2d, allow_nd, multi_output, ensure_min_samples, ensure_min_features, y_numeric, estimator)\x1B[39m\n' +
+      '\x1B[32m   1366\x1B[39m         )\n' +
+      '\x1B[32m   1367\x1B[39m \n' +
+      '\x1B[32m   1368\x1B[39m     ensure_all_finite = _deprecate_force_all_finite(force_all_finite, ensure_all_finite)\n' +
+      '\x1B[32m   1369\x1B[39m \n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1370\x1B[39m     X = check_array(\n' +
+      '\x1B[32m   1371\x1B[39m         X,\n' +
+      '\x1B[32m   1372\x1B[39m         accept_sparse=accept_sparse,\n' +
+      '\x1B[32m   1373\x1B[39m         accept_large_sparse=accept_large_sparse,\n',
+    '\x1B[32m/usr/lib/python3.13/site-packages/sklearn/utils/validation.py\x1B[39m in \x1B[36m?\x1B[39m\x1B[34m(array, accept_sparse, accept_large_sparse, dtype, order, copy, force_writeable, force_all_finite, ensure_all_finite, ensure_non_negative, ensure_2d, allow_nd, ensure_min_samples, ensure_min_features, estimator, input_name)\x1B[39m\n' +
+      '\x1B[32m   1052\x1B[39m                         )\n' +
+      '\x1B[32m   1053\x1B[39m                     array = xp.astype(array, dtype, copy=\x1B[38;5;28;01mFalse\x1B[39;00m)\n' +
+      '\x1B[32m   1054\x1B[39m                 \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m   1055\x1B[39m                     array = _asarray_with_order(array, order=order, dtype=dtype, xp=xp)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1056\x1B[39m             \x1B[38;5;28;01mexcept\x1B[39;00m ComplexWarning \x1B[38;5;28;01mas\x1B[39;00m complex_warning:\n' +
+      '\x1B[32m   1057\x1B[39m                 raise ValueError(\n' +
+      '\x1B[32m   1058\x1B[39m                     \x1B[33m"Complex data not supported\\n{}\\n"\x1B[39m.format(array)\n' +
+      '\x1B[32m   1059\x1B[39m                 ) \x1B[38;5;28;01mfrom\x1B[39;00m complex_warning\n',
+    '\x1B[32m/usr/lib/python3.13/site-packages/sklearn/utils/_array_api.py\x1B[39m in \x1B[36m?\x1B[39m\x1B[34m(array, dtype, order, copy, xp, device)\x1B[39m\n' +
+      '\x1B[32m    835\x1B[39m         \x1B[38;5;66;03m# Use NumPy API to support order\x1B[39;00m\n' +
+      '\x1B[32m    836\x1B[39m         \x1B[38;5;28;01mif\x1B[39;00m copy \x1B[38;5;28;01mis\x1B[39;00m \x1B[38;5;28;01mTrue\x1B[39;00m:\n' +
+      '\x1B[32m    837\x1B[39m             array = numpy.array(array, order=order, dtype=dtype)\n' +
+      '\x1B[32m    838\x1B[39m         \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m839\x1B[39m             array = numpy.asarray(array, order=order, dtype=dtype)\n' +
+      '\x1B[32m    840\x1B[39m \n' +
+      '\x1B[32m    841\x1B[39m         \x1B[38;5;66;03m# At this point array is a NumPy ndarray. We convert it to an array\x1B[39;00m\n' +
+      "\x1B[32m    842\x1B[39m         \x1B[38;5;66;03m# container that is consistent with the input's namespace.\x1B[39;00m\n",
+    '\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/generic.py\x1B[39m in \x1B[36m?\x1B[39m\x1B[34m(self, dtype, copy)\x1B[39m\n' +
+      '\x1B[32m   2149\x1B[39m     def __array__(\n' +
+      '\x1B[32m   2150\x1B[39m         self, dtype: npt.DTypeLike | \x1B[38;5;28;01mNone\x1B[39;00m = \x1B[38;5;28;01mNone\x1B[39;00m, copy: bool_t | \x1B[38;5;28;01mNone\x1B[39;00m = \x1B[38;5;28;01mNone\x1B[39;00m\n' +
+      '\x1B[32m   2151\x1B[39m     ) -> np.ndarray:\n' +
+      '\x1B[32m   2152\x1B[39m         values = self._values\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m2153\x1B[39m         arr = np.asarray(values, dtype=dtype)\n' +
+      '\x1B[32m   2154\x1B[39m         if (\n' +
+      '\x1B[32m   2155\x1B[39m             astype_is_view(values.dtype, arr.dtype)\n' +
+      '\x1B[32m   2156\x1B[39m             \x1B[38;5;28;01mand\x1B[39;00m using_copy_on_write()\n',
+    "\x1B[31mTypeError\x1B[39m: float() argument must be a string or a real number, not 'Timestamp'"
+  ]
+}
+05:17:03.323 [warn] Cell completed with errors iu [Error]: Error evaluating factor: NameError: name 'crime_type' is not defined
+    acquitted ~ female_judge * female_defendant + female_judge * C(crime_type) + female_defendant * number_sections_ipc
+                                                                 ^^^^^^^^^^^^^
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'PatsyError',
+  evalue: "Error evaluating factor: NameError: name 'crime_type' is not defined\n" +
+    '    acquitted ~ female_judge * female_defendant + female_judge * C(crime_type) + female_defendant * number_sections_ipc\n' +
+    '                                                                 ^^^^^^^^^^^^^',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/patsy/compat.py:40\x1B[39m, in \x1B[36mcall_and_wrap_exc\x1B[39m\x1B[34m(msg, origin, f, *args, **kwargs)\x1B[39m\n' +
+      '\x1B[32m     39\x1B[39m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m40\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mf\x1B[49m\x1B[43m(\x1B[49m\x1B[43m*\x1B[49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m     41\x1B[39m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mException\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m e:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/patsy/eval.py:179\x1B[39m, in \x1B[36mEvalEnvironment.eval\x1B[39m\x1B[34m(self, expr, source_name, inner_namespace)\x1B[39m\n' +
+      '\x1B[32m    178\x1B[39m code = \x1B[38;5;28mcompile\x1B[39m(expr, source_name, \x1B[33m"\x1B[39m\x1B[33meval\x1B[39m\x1B[33m"\x1B[39m, \x1B[38;5;28mself\x1B[39m.flags, \x1B[38;5;28;01mFalse\x1B[39;00m)\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m179\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43meval\x1B[39;49m\x1B[43m(\x1B[49m\x1B[43mcode\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m{\x1B[49m\x1B[43m}\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mVarLookupDict\x1B[49m\x1B[43m(\x1B[49m\x1B[43m[\x1B[49m\x1B[43minner_namespace\x1B[49m\x1B[43m]\x1B[49m\x1B[43m \x1B[49m\x1B[43m+\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_namespaces\x1B[49m\x1B[43m)\x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m<string>:1\x1B[39m\n',
+    "\x1B[31mNameError\x1B[39m: name 'crime_type' is not defined",
+    '\nThe above exception was the direct cause of the following exception:\n',
+    '\x1B[31mPatsyError\x1B[39m                                Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[67]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m model = \x1B[43msmf\x1B[49m\x1B[43m.\x1B[49m\x1B[43mlogit\x1B[49m\x1B[43m(\x1B[49m\n' +
+      "\x1B[32m      2\x1B[39m \x1B[43m    \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43macquitted ~ female_judge * female_defendant + female_judge * C(crime_type) + female_defendant * number_sections_ipc\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\n" +
+      '\x1B[32m      3\x1B[39m \x1B[43m    \x1B[49m\x1B[43mdata\x1B[49m\x1B[43m=\x1B[49m\x1B[43manalysis_df_clean\x1B[49m\n' +
+      '\x1B[32m      4\x1B[39m \x1B[43m)\x1B[49m.fit()\n' +
+      '\x1B[32m      5\x1B[39m model.summary()\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/statsmodels/base/model.py:203\x1B[39m, in \x1B[36mModel.from_formula\x1B[39m\x1B[34m(cls, formula, data, subset, drop_cols, *args, **kwargs)\x1B[39m\n' +
+      "\x1B[32m    200\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m missing == \x1B[33m'\x1B[39m\x1B[33mnone\x1B[39m\x1B[33m'\x1B[39m:  \x1B[38;5;66;03m# with patsy it's drop or raise. let's raise.\x1B[39;00m\n" +
+      "\x1B[32m    201\x1B[39m     missing = \x1B[33m'\x1B[39m\x1B[33mraise\x1B[39m\x1B[33m'\x1B[39m\n" +
+      '\x1B[32m--> \x1B[39m\x1B[32m203\x1B[39m tmp = \x1B[43mhandle_formula_data\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdata\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;28;43;01mNone\x1B[39;49;00m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mformula\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdepth\x1B[49m\x1B[43m=\x1B[49m\x1B[43meval_env\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    204\x1B[39m \x1B[43m                          \x1B[49m\x1B[43mmissing\x1B[49m\x1B[43m=\x1B[49m\x1B[43mmissing\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    205\x1B[39m ((endog, exog), missing_idx, design_info) = tmp\n' +
+      '\x1B[32m    206\x1B[39m max_endog = \x1B[38;5;28mcls\x1B[39m._formula_max_endog\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/statsmodels/formula/formulatools.py:63\x1B[39m, in \x1B[36mhandle_formula_data\x1B[39m\x1B[34m(Y, X, formula, depth, missing)\x1B[39m\n' +
+      '\x1B[32m     61\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m     62\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m data_util._is_using_pandas(Y, \x1B[38;5;28;01mNone\x1B[39;00m):\n' +
+      "\x1B[32m---> \x1B[39m\x1B[32m63\x1B[39m         result = \x1B[43mdmatrices\x1B[49m\x1B[43m(\x1B[49m\x1B[43mformula\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mY\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdepth\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mreturn_type\x1B[49m\x1B[43m=\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mdataframe\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\n" +
+      '\x1B[32m     64\x1B[39m \x1B[43m                           \x1B[49m\x1B[43mNA_action\x1B[49m\x1B[43m=\x1B[49m\x1B[43mna_action\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m     65\x1B[39m     \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      "\x1B[32m     66\x1B[39m         result = dmatrices(formula, Y, depth, return_type=\x1B[33m'\x1B[39m\x1B[33mdataframe\x1B[39m\x1B[33m'\x1B[39m,\n" +
+      '\x1B[32m     67\x1B[39m                            NA_action=na_action)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/patsy/highlevel.py:319\x1B[39m, in \x1B[36mdmatrices\x1B[39m\x1B[34m(formula_like, data, eval_env, NA_action, return_type)\x1B[39m\n' +
+      '\x1B[32m    309\x1B[39m \x1B[38;5;250m\x1B[39m\x1B[33;03m"""Construct two design matrices given a formula_like and data.\x1B[39;00m\n' +
+      '\x1B[32m    310\x1B[39m \n' +
+      '\x1B[32m    311\x1B[39m \x1B[33;03mThis function is identical to :func:`dmatrix`, except that it requires\x1B[39;00m\n' +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m    316\x1B[39m \x1B[33;03mSee :func:`dmatrix` for details.\x1B[39;00m\n' +
+      '\x1B[32m    317\x1B[39m \x1B[33;03m"""\x1B[39;00m\n' +
+      '\x1B[32m    318\x1B[39m eval_env = EvalEnvironment.capture(eval_env, reference=\x1B[32m1\x1B[39m)\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m319\x1B[39m (lhs, rhs) = \x1B[43m_do_highlevel_design\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[32m    320\x1B[39m \x1B[43m    \x1B[49m\x1B[43mformula_like\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdata\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43meval_env\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mNA_action\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mreturn_type\x1B[49m\n' +
+      '\x1B[32m    321\x1B[39m \x1B[43m\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    322\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m lhs.shape[\x1B[32m1\x1B[39m] == \x1B[32m0\x1B[39m:\n' +
+      '\x1B[32m    323\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m PatsyError(\x1B[33m"\x1B[39m\x1B[33mmodel is missing required outcome variables\x1B[39m\x1B[33m"\x1B[39m)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/patsy/highlevel.py:164\x1B[39m, in \x1B[36m_do_highlevel_design\x1B[39m\x1B[34m(formula_like, data, eval_env, NA_action, return_type)\x1B[39m\n' +
+      '\x1B[32m    161\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34mdata_iter_maker\x1B[39m():\n' +
+      '\x1B[32m    162\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28miter\x1B[39m([data])\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m164\x1B[39m design_infos = \x1B[43m_try_incr_builders\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[32m    165\x1B[39m \x1B[43m    \x1B[49m\x1B[43mformula_like\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdata_iter_maker\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43meval_env\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mNA_action\x1B[49m\n' +
+      '\x1B[32m    166\x1B[39m \x1B[43m\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    167\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m design_infos \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[32m    168\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m build_design_matrices(\n' +
+      '\x1B[32m    169\x1B[39m         design_infos, data, NA_action=NA_action, return_type=return_type\n' +
+      '\x1B[32m    170\x1B[39m     )\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/patsy/highlevel.py:56\x1B[39m, in \x1B[36m_try_incr_builders\x1B[39m\x1B[34m(formula_like, data_iter_maker, eval_env, NA_action)\x1B[39m\n' +
+      '\x1B[32m     54\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(formula_like, ModelDesc):\n' +
+      '\x1B[32m     55\x1B[39m     \x1B[38;5;28;01massert\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(eval_env, EvalEnvironment)\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m56\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mdesign_matrix_builders\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[32m     57\x1B[39m \x1B[43m        \x1B[49m\x1B[43m[\x1B[49m\x1B[43mformula_like\x1B[49m\x1B[43m.\x1B[49m\x1B[43mlhs_termlist\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mformula_like\x1B[49m\x1B[43m.\x1B[49m\x1B[43mrhs_termlist\x1B[49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m     58\x1B[39m \x1B[43m        \x1B[49m\x1B[43mdata_iter_maker\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m     59\x1B[39m \x1B[43m        \x1B[49m\x1B[43meval_env\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m     60\x1B[39m \x1B[43m        \x1B[49m\x1B[43mNA_action\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m     61\x1B[39m \x1B[43m    \x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m     62\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m     63\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/patsy/build.py:746\x1B[39m, in \x1B[36mdesign_matrix_builders\x1B[39m\x1B[34m(termlists, data_iter_maker, eval_env, NA_action)\x1B[39m\n' +
+      '\x1B[32m    743\x1B[39m factor_states = _factors_memorize(all_factors, data_iter_maker, eval_env)\n' +
+      '\x1B[32m    744\x1B[39m \x1B[38;5;66;03m# Now all the factors have working eval methods, so we can evaluate them\x1B[39;00m\n' +
+      '\x1B[32m    745\x1B[39m \x1B[38;5;66;03m# on some data to find out what type of data they return.\x1B[39;00m\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m746\x1B[39m (num_column_counts, cat_levels_contrasts) = \x1B[43m_examine_factor_types\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[32m    747\x1B[39m \x1B[43m    \x1B[49m\x1B[43mall_factors\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mfactor_states\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdata_iter_maker\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mNA_action\x1B[49m\n' +
+      '\x1B[32m    748\x1B[39m \x1B[43m\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    749\x1B[39m \x1B[38;5;66;03m# Now we need the factor infos, which encapsulate the knowledge of\x1B[39;00m\n' +
+      '\x1B[32m    750\x1B[39m \x1B[38;5;66;03m# how to turn any given factor into a chunk of data:\x1B[39;00m\n' +
+      '\x1B[32m    751\x1B[39m factor_infos = {}\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/patsy/build.py:491\x1B[39m, in \x1B[36m_examine_factor_types\x1B[39m\x1B[34m(factors, factor_states, data_iter_maker, NA_action)\x1B[39m\n' +
+      '\x1B[32m    489\x1B[39m \x1B[38;5;28;01mfor\x1B[39;00m data \x1B[38;5;129;01min\x1B[39;00m data_iter_maker():\n' +
+      '\x1B[32m    490\x1B[39m     \x1B[38;5;28;01mfor\x1B[39;00m factor \x1B[38;5;129;01min\x1B[39;00m \x1B[38;5;28mlist\x1B[39m(examine_needed):\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m491\x1B[39m         value = \x1B[43mfactor\x1B[49m\x1B[43m.\x1B[49m\x1B[43meval\x1B[49m\x1B[43m(\x1B[49m\x1B[43mfactor_states\x1B[49m\x1B[43m[\x1B[49m\x1B[43mfactor\x1B[49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdata\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    492\x1B[39m         \x1B[38;5;28;01mif\x1B[39;00m factor \x1B[38;5;129;01min\x1B[39;00m cat_sniffers \x1B[38;5;129;01mor\x1B[39;00m guess_categorical(value):\n' +
+      '\x1B[32m    493\x1B[39m             \x1B[38;5;28;01mif\x1B[39;00m factor \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;129;01min\x1B[39;00m cat_sniffers:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/patsy/eval.py:599\x1B[39m, in \x1B[36mEvalFactor.eval\x1B[39m\x1B[34m(self, memorize_state, data)\x1B[39m\n' +
+      '\x1B[32m    598\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34meval\x1B[39m(\x1B[38;5;28mself\x1B[39m, memorize_state, data):\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m599\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_eval\x1B[49m\x1B[43m(\x1B[49m\x1B[43mmemorize_state\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43meval_code\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mmemorize_state\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdata\x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/patsy/eval.py:582\x1B[39m, in \x1B[36mEvalFactor._eval\x1B[39m\x1B[34m(self, code, memorize_state, data)\x1B[39m\n' +
+      '\x1B[32m    580\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34m_eval\x1B[39m(\x1B[38;5;28mself\x1B[39m, code, memorize_state, data):\n' +
+      '\x1B[32m    581\x1B[39m     inner_namespace = VarLookupDict([data, memorize_state[\x1B[33m"\x1B[39m\x1B[33mtransforms\x1B[39m\x1B[33m"\x1B[39m]])\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m582\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mcall_and_wrap_exc\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[32m    583\x1B[39m \x1B[43m        \x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43mError evaluating factor\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    584\x1B[39m \x1B[43m        \x1B[49m\x1B[38;5;28;43mself\x1B[39;49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    585\x1B[39m \x1B[43m        \x1B[49m\x1B[43mmemorize_state\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43meval_env\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m.\x1B[49m\x1B[43meval\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    586\x1B[39m \x1B[43m        \x1B[49m\x1B[43mcode\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    587\x1B[39m \x1B[43m        \x1B[49m\x1B[43minner_namespace\x1B[49m\x1B[43m=\x1B[49m\x1B[43minner_namespace\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    588\x1B[39m \x1B[43m    \x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/patsy/compat.py:43\x1B[39m, in \x1B[36mcall_and_wrap_exc\x1B[39m\x1B[34m(msg, origin, f, *args, **kwargs)\x1B[39m\n' +
+      '\x1B[32m     41\x1B[39m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mException\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m e:\n' +
+      '\x1B[32m     42\x1B[39m     new_exc = PatsyError(\x1B[33m"\x1B[39m\x1B[38;5;132;01m%s\x1B[39;00m\x1B[33m: \x1B[39m\x1B[38;5;132;01m%s\x1B[39;00m\x1B[33m: \x1B[39m\x1B[38;5;132;01m%s\x1B[39;00m\x1B[33m"\x1B[39m % (msg, e.\x1B[34m__class__\x1B[39m.\x1B[34m__name__\x1B[39m, e), origin)\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m43\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m new_exc \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01me\x1B[39;00m\n',
+    "\x1B[31mPatsyError\x1B[39m: Error evaluating factor: NameError: name 'crime_type' is not defined\n" +
+      '    acquitted ~ female_judge * female_defendant + female_judge * C(crime_type) + female_defendant * number_sections_ipc\n' +
+      '                                                                 ^^^^^^^^^^^^^'
+  ]
+}
+11:20:21.947 [info] Starting Kernel (Python Path: /usr/bin/python, Unknown, 3.13.1) for '~/data/justice_data/charts.ipynb' (disableUI=true)
+11:20:22.235 [warn] Failed to get activated env vars for /usr/bin/python in 258ms
+11:20:22.394 [info] Process Execution: /usr/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+11:20:22.407 [warn] Failed to get activated env vars for /usr/bin/python in 310ms
+11:20:22.518 [info] Process Execution: /usr/bin/python -m pip list
+11:20:22.648 [info] Process Execution: /usr/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v36f79493e55bb37e294677a6c18be9da2260a21e6.json
+    > cwd: //home/~/data/justice_data
+11:20:23.976 [info] Kernel successfully started
+11:25:14.106 [warn] Cell completed with errors iu [Error]: keyword argument repeated: color (1219795537.py, line 39)
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'SyntaxError',
+  evalue: 'keyword argument repeated: color (1219795537.py, line 39)',
+  traceback: [
+    '  \x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[4]\x1B[39m\x1B[32m, line 39\x1B[39m\n' +
+      "\x1B[31m    \x1B[39m\x1B[31mbars = plt.barh(sorted_acts, sorted_days, color=plt.cm.Blues_r([d/max(days) for d in sorted_days]), color='#2c5c8a')\x1B[39m\n" +
+      '                                                                                                        ^\n' +
+      '\x1B[31mSyntaxError\x1B[39m\x1B[31m:\x1B[39m keyword argument repeated: color\n'
+  ]
+}
+11:32:24.562 [warn] Cell completed with errors iu [Error]: incomplete input (2897900693.py, line 97)
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: '_IncompleteInputError',
+  evalue: 'incomplete input (2897900693.py, line 97)',
+  traceback: [
+    '  \x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[13]\x1B[39m\x1B[32m, line 97\x1B[39m\n' +
+      "\x1B[31m    \x1B[39m\x1B[31mplt.Rectangle((0,0),1,1, color=act_colors['Code of Criminal Procedure'], label='Criminal Procedure'),\x1B[39m\n" +
+      '                                                                                                         ^\n' +
+      '\x1B[31m_IncompleteInputError\x1B[39m\x1B[31m:\x1B[39m incomplete input\n'
+  ]
+}
+11:34:28.278 [info] exporting plot...

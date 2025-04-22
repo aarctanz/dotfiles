@@ -1,0 +1,636 @@
+SELECT
+  dk.district_name,
+  ROUND(AVG(cc.date_of_decision - cc.date_of_filing)) AS avg_duration_days
+FROM cases_clean cc
+JOIN dist_key dk ON cc.year = dk.year AND cc.state_code = dk.state_code AND cc.dist_code = dk.dist_code
+GROUP BY dk.district_name
+ORDER BY dk.district_name;
+
+ Adilabad                                    468
+ Agra                                        327
+ Ahmedabad                                   436
+ Ahmednagar                                  510
+ Aizawl                                      313
+ Ajmer                                       402
+ Akola                                       494
+ Alappuzha                                   393
+ Aligarh                                     356
+ Alirajpur                                   306
+ Allahabad                                   438
+ Almora                                      201
+ Alwar                                       608
+ Ambala                                      375
+ Ambedkar Nagar                              490
+ Amravati                                    502
+ Amreli                                      354
+ Amritsar                                    410
+ Anand                                       436
+ Ananthapur                                  479
+ Anantnag                                    180
+ Anugul                                      982
+ Anuppur                                     460
+ Araria                                      529
+ Aravalli at Modasa                          320
+ Ariyalur                                    369
+ Ashoknagr                                   773
+ Auraiya                                     485
+ Aurangabad                                  421
+ Azamgarh                                    648
+ BAGALKOT                                    291
+ Bageshwar                                   130
+ Baghpat                                     539
+ Bahraich                                    523
+ Baksa                                       220
+ Balaghat                                    347
+ Balangir                                    656
+ Balasore                                    674
+ BALLARI                                     240
+ Ballia                                      723
+ Balod                                       189
+ Balodabazar                                 364
+ Balotra Barmer                              475
+ Balrampur                                   578
+ Balrampur Ramanujganj                       620
+ Banaskanth at Palanpur                      391
+ Banda                                       391
+ Bandipora                                   627
+ Banka                                       413
+ Bankura                                     626
+ Banswara                                    466
+ Barabanki                                   416
+ Baramulla                                   523
+ Baran                                       368
+ Bareilly                                    388
+ Bargarh                                     870
+ Barnala                                     392
+ Barpeta                                     517
+ Barwani                                     431
+ Bastar                                      334
+ Basti                                       394
+ Bathinda                                    293
+ Beed                                        411
+ Begusarai                                   533
+ BELAGAVI                                    363
+ Bemetara                                    449
+ BENGALURU                                   300
+ BENGALURU RURAL                             309
+ Bettiah                                     327
+ Betul                                       367
+ Bhadohi SR Nagar                            375
+ Bhadrak                                     586
+ Bhagalpur                                   803
+ Bhandara                                    526
+ Bharatpur                                   573
+ Bharuch                                     279
+ Bhavnagar                                   358
+ Bhilwara                                    553
+ Bhind                                       439
+ Bhiwani                                     403
+ Bhojpur                                     330
+ Bhopal                                      278
+ BIDAR                                       242
+ Bijnor                                      503
+ Bikaner                                     339
+ Bilaspur                                    299
+ Birbhum                                     575
+ Bishnupur                                    81
+ Bokaro                                      340
+ Bongaigaon                                  453
+ BOTAD                                       246
+ Boudh                                       402
+ Budaun                                      347
+ Budgam                                      437
+ Bulandshahr                                 347
+ Buldhana                                    467
+ Bundi                                       358
+ Burhanpur                                   387
+ Buxar                                       540
+ Cachar                                      484
+ Calcutta                                    566
+ Central                                     408
+ Chamba                                      256
+ Chamoli                                     260
+ Champawat                                   144
+ CHAMRAJNAGAR                                324
+ Chandauli                                   626
+ Chandel                                      79
+ Chandigarh                                  429
+ Chandrapur                                  469
+ Chatra                                      399
+ Chennai                                     508
+ Chhatarpur                                  498
+ Chhindwara                                  355
+ Chhota Udepur                               261
+ CHIKKABALLAPUR                              320
+ CHIKKAMAGALURU                              305
+ Chirang                                     581
+ CHITRADURGA                                 269
+ Chitrakoot                                  335
+ Chittoor                                    609
+ Chittorgarh                                 556
+ Churachandpur                                72
+ Churu                                       417
+ Coimbatore                                  605
+ Coochbehar                                  339
+ Cuddalore                                   632
+ Cuttack                                     649
+ Dahod                                       437
+ DAKSHINA KANNADA                            271
+ Daltonganj                                  489
+ Daman                                       278
+ Damoh                                       435
+ Dantewada                                   306
+ Darbhanga                                   516
+ Darjeeling                                  440
+ Darrang                                     533
+ Datia                                       373
+ Dausa                                       402
+ DAVANGERE                                   256
+ Dehradun                                    421
+ Deogarh                                     686
+ Deoghar                                     537
+ Deoria                                      903
+ Devbhumi Dwarka at Khambhaliya              407
+ Dewas                                       503
+ Dhalai Tripura                              329
+ Dhamtari                                    254
+ Dhanbad                                     425
+ Dhar                                        429
+ Dharmapuri                                  608
+ DHARWAD                                     270
+ Dhemaji                                     279
+ Dhenkanal                                   792
+ Dholpur                                     511
+ Dhubri                                      583
+ Dhule                                       494
+ Dibrugarh                                   355
+ Dima Hasao                                  259
+ Dindigul                                    520
+ Dindori                                     373
+ Diu                                         143
+ Doda                                        356
+ Dumka                                       467
+ Dungarpur                                   375
+ Durg                                        452
+ East                                        430
+ East Garo Hills                             144
+ East Godavari                               507
+ East Khasi Hills                            212
+ East Singhbhum at Jamshedpur                478
+ Ernakulam                                   468
+ Erode                                       562
+ Etah                                        342
+ Etawah                                      564
+ Faizabad                                    368
+ Faridabad                                   390
+ Faridkot                                    443
+ Farrukhabad                                 428
+ Fatehabad                                   239
+ Fatehgarh Sahib                             334
+ Fatehpur                                    290
+ Fazilka                                     371
+ Ferozepur                                   392
+ Firozabad                                   407
+ GADAG                                       276
+ Gadchiroli                                  253
+ Gajapati                                    538
+ Ganderbal                                   492
+ GANDHINAGAR                                 417
+ Ganganagar                                  425
+ Gangtok                                     157
+ Ganjam                                      704
+ Garhwa                                      391
+ Gautam Buddha Nagar                         316
+ Gaya                                        165
+ Ghaziabad                                   448
+ Ghazipur                                    567
+ Giridih                                     454
+ Gir Somnath at Veraval                      409
+ Goalpara                                    445
+ Godda                                       405
+ Golaghat                                    383
+ Gomati District                             475
+ Gonda                                       448
+ Gondia                                      534
+ Gopalganj                                   492
+ Gorakhpur                                   294
+ Gumla                                       541
+ Guna                                        426
+ Guntur                                      471
+ Gurdaspur                                   574
+ Gurugram                                    405
+ Gwalior                                     356
+ Gyalshing                                    54
+ Hailakandi                                  426
+ Hamirpur                                    389
+ Hanumangarh                                 429
+ Hapur                                       334
+ Harda                                       418
+ Hardoi                                      576
+ Haridwar                                    426
+ HASSAN                                      261
+ Hathras                                     448
+ HAVERI                                      339
+ Hazaribagh                                  371
+ Hisar                                       346
+ Hooghly                                     482
+ Hoshangabad                                 434
+ Hoshiarpur                                  291
+ Hoshiarpurr                                 633
+ Howrah                                      319
+ Hyderabad                                   520
+ Idukki                                      417
+ Imphal East                                 142
+ Imphal West                                 223
+ Indore                                      385
+ Jabalpur                                    377
+ Jagatsinghpur                               771
+ Jaipur District                             615
+ Jaipur Metro                                476
+ Jaipur Metro I                              597
+ Jaipur Metro II                             448
+ Jaiselmer                                   302
+ Jajpur                                      686
+ Jalandhar                                   288
+ Jalaun                                      595
+ Jalgaon                                     488
+ Jalna                                       521
+ Jalore                                      517
+ Jalpaiguri                                  381
+ Jammu                                       687
+ Jamnagar                                    431
+ Jamtara                                     337
+ Jamui                                       588
+ Janjgir                                     412
+ Jashpur                                     328
+ Jaunpur                                     465
+ Jehanabad                                   312
+ Jhabua                                      402
+ Jhajjar                                     421
+ Jhalawar                                    448
+ Jhansi                                      298
+ Jhargram                                    589
+ Jharsuguda                                  399
+ Jhunjhunu                                   525
+ Jind                                        357
+ Jodhpur District                            405
+ Jodhpur Metro                               606
+ Jorhat                                      330
+ Junagadh                                    407
+ Jyotiba Phule Nagar                         483
+ kachchh at Bhuj                             417
+ Kadapa                                      447
+ Kaimur at Bhabhua                           560
+ Kaithal                                     393
+ KALABURAGI                                  313
+ Kalahandi                                   635
+ kalimpong                                   263
+ Kamrup                                      725
+ Kamrup Metro                                474
+ Kancheepuram                                632
+ Kandhamal                                   531
+ Kangra                                      467
+ Kanker                                      323
+ Kannauj                                     508
+ Kanniyakumari                               545
+ Kannur                                      367
+ Kanpur Dehat                                423
+ Kanpur Nagar                                701
+ Kanshi Ram Nagar                            544
+ Kapurthala                                  345
+ Karauli                                     454
+ Karbi Anglong                               281
+ Kargil                                      399
+ Karimganj                                   521
+ Karimnagar                                  804
+ Karnal                                      311
+ Karur                                       506
+ Kasaragod                                   326
+ Kathua                                      584
+ Katihar                                     516
+ Katni                                       360
+ Kaushambi                                   608
+ Kawardha                                    318
+ Kendrapada                                  770
+ Keonjhar                                    724
+ Khagaria                                    437
+ Khammam                                     540
+ Khandwa                                     282
+ Kheda at Nadiad                             350
+ Khowai Tripura                              509
+ KHUNTI                                      586
+ Khurda                                      759
+ Kinnaur                                     461
+ Kishanganj                                  512
+ Kishtwar                                    418
+ KODAGU                                      281
+ Koderma                                     487
+ Kokrajhar                                   478
+ KOLAR                                       333
+ Kolhapur                                    570
+ Kollam                                      544
+ Kondagaon                                   495
+ KOPPAL                                      279
+ Koraput                                     595
+ Korba                                       351
+ Koriya                                      504
+ Kota                                        454
+ Kottayam                                    302
+ Kozhikode                                   323
+ Krishna                                     541
+ Krishnagiri                                 389
+ Kulgam                                      566
+ Kullu                                       255
+ Kupwara                                     423
+ Kurnool                                     575
+ Kurukshetra                                 359
+ Kushinagar                                  466
+ Lakhimpur                                   529
+ Lakhisarai                                  459
+ Lakshadweep                                 918
+ Lalitpur                                    501
+ Latehar                                     416
+ Latur                                       484
+ Leh                                         264
+ Lohardaga                                   419
+ Lucknow                                     567
+ Ludhiana                                    434
+ Lunglei                                     219
+ Madhepura                                   500
+ Madhubani                                   684
+ Madurai                                     454
+ Mahabubnagar                                634
+ Maharajganj                                 422
+ Maharashtra-Family Courts                   452
+ Maharashtra Industrial and Lab              724
+ Maharashtra-School Tribunals                660
+ Mahasamund                                  375
+ Mahesana                                    406
+ Mahisagar at Lunawada                       464
+ Mahoba                                      346
+ Mah State Cooperative Appellat              475
+ Mainpuri                                    529
+ Malappuram                                  371
+ Malda                                       293
+ Malkangiri                                  411
+ Mandi                                       358
+ Mandla                                      358
+ Mandleshwar                                 505
+ Mandsaur                                    537
+ MANDYA                                      338
+ Mangan                                      120
+ Mansa                                       341
+ Mathura                                     315
+ Mau                                         498
+ Mayurbhanj                                  696
+ Medak                                       641
+ Meerut                                      369
+ Merta (Nagaur)                              682
+ Merta Nagaur                                325
+ Mirzapur                                    411
+ Moga                                        428
+ Mohali                                      464
+ Moradabad                                   293
+ MORBI                                       274
+ Morena                                      492
+ Morigaon                                    352
+ Motihari                                    452
+ Mumbai City Civil Court                     294
+ Mumbai CMM Courts                           518
+ Mumbai Motor Accident Claims T             1047
+ Mumbai Small Causes Court                   622
+ Mungeli                                     424
+ Munger                                      428
+ Murshidabad                                 415
+ Muzaffarnagar                               484
+ Muzaffarpur                                 588
+ MYSURU                                      364
+ Nabarangpur                                 621
+ Nadia                                       390
+ Nagaon                                      400
+ Nagapattinam                                435
+ Nagpur                                      357
+ Nainital                                    312
+ Nalanda                                     626
+ Nalbari                                     309
+ Nalgonda                                    701
+ Namakkal                                    471
+ Namchi                                       75
+ Nanded                                      500
+ Nandurbar                                   425
+ Narmada                                     326
+ Narnaul                                     521
+ Narsinghpur                                 363
+ Nashik                                      473
+ Navsari                                     227
+ Nawada                                      453
+ Nayagarh                                    674
+ Neemuch                                     534
+ Nellore                                     710
+ New Delhi                                   352
+ Nizamabad                                   580
+ North                                       342
+ North Dinajpur                              385
+ North East                                  360
+ North Goa                                   319
+ North Tripura                               513
+ North  Twenty Four Parganas                 476
+ North West                                  347
+ Nuapada                                     763
+ Nuh                                         442
+ Osmanabad                                   459
+ Pakur                                       445
+ Palakkad                                    374
+ Pali                                        427
+ Palwal                                      459
+ Panchkula                                   281
+ Panchmahal at Godhra                        515
+ Panipat                                     414
+ Panna                                       320
+ Parbhani                                    516
+ Paschim Bardhaman                           404
+ Paschim Medinpur                            324
+ Patan                                       343
+ Pathanamthitta                              482
+ Pathankot                                   493
+ Patiala                                     333
+ Patna                                       291
+ Pauri Garhwal                               344
+ Perambalur                                  457
+ Pilibhit                                    330
+ Pithoragarh                                 184
+ Poonch                                      527
+ Porbandar                                   324
+ Prakasham                                   517
+ Pratapgarh                                  383
+ Puducherry                                  563
+ Pudukkottai                                 643
+ Pulwama                                     400
+ Pune                                        470
+ Purba Bardhaman                             428
+ Purba Medinipur                             567
+ Puri                                        726
+ Purnea                                      732
+ Purulia                                     386
+ Raebareli                                   539
+ RAICHUR                                     333
+ Raigad                                      426
+ Raigarh                                     465
+ Raipur                                      287
+ Raisen                                      508
+ Rajgarh                                     499
+ RAJKOT                                      418
+ Rajnandgaon                                 368
+ Rajouri                                     681
+ Rajsamand                                   365
+ RAMANAGARAM                                 394
+ Ramanathapuram                              339
+ Ramban                                      406
+ RAMGARH                                     371
+ Rampur                                      336
+ Ranchi                                      527
+ Rangareddy                                  558
+ Ratlam                                      471
+ Ratnagiri                                   399
+ Rayagada                                    696
+ Reasi                                       446
+ Rewa                                        549
+ Rewari                                      442
+ Ri Bhoi                                     570
+ Rohtak                                      335
+ Rohtas Sasaram                              617
+ Rupnagar                                    463
+ Sabarkantha at Himmatnagar                  359
+ Sagar                                       379
+ Saharanpur                                  467
+ Saharsa                                     442
+ Sahibganj                                   327
+ Salem                                       608
+ Samastipur                                  649
+ Samba                                       634
+ Sambalpur                                   618
+ Sambhal at Chandausi                        554
+ Sangli                                      470
+ Sangrur                                     397
+ Santkabir Nagar                             518
+ Saran at Chapra                             398
+ Satara                                      472
+ Satna                                       570
+ Sawai Madhopur                              417
+ SBS Nagar                                   381
+ Sehore                                      480
+ Senapati                                    152
+ Seoni                                       377
+ Sepahijala Tripura                          810
+ Seraikella                                  358
+ Shahdara                                    424
+ Shahdol                                     425
+ Shahjahanpur                                349
+ Shajapur                                    545
+ Shamli                                      564
+ Sheikhpura                                  599
+ Sheohar                                     960
+ Sheopur                                     495
+ Shimla                                      249
+ SHIVAMOGGA                                  285
+ Shivpuri                                    460
+ Shopian                                     491
+ Shravasti                                   646
+ Siddharthnagar                              397
+ Sidhi                                       548
+ Sikar                                       465
+ Silvassa                                    470
+ Simdega                                     361
+ Sindhudurg                                  355
+ Singrauli                                   645
+ Sirmaur                                     330
+ Sirohi                                      451
+ Sirsa                                       322
+ Sitamarhi                                   397
+ Sitapur                                     322
+ Sivagangai                                  410
+ Sivasagar                                   415
+ Siwan                                       557
+ Solan                                       350
+ Solapur                                     456
+ Sonbhadra                                   446
+ Sonepat                                     438
+ Sonepur                                     595
+ Sonitpur                                    326
+ South                                       338
+ South Dinajpur                              295
+ South East                                  318
+ South Goa                                   209
+ SouthTripura                                574
+ South Twenty Four Parganas                  588
+ South West                                  349
+ Srikakulam                                  545
+ Sri Muktsar Sahib                           382
+ Srinagar                                    513
+ Sultanpur                                   496
+ Sundargarh                                  723
+ Supaul                                      681
+ Surajpur                                   1005
+ SURAT                                       577
+ Surendranagar                               398
+ Surguja                                     648
+ Surguja at Ambikapur                        291
+ Tamenglong                                  111
+ Tapi                                        408
+ Tarn Taran                                  452
+ Tehri Garhwal                               236
+ Thane                                       490
+ Thanjavur                                   428
+ Theni                                       313
+ The Nilgiris                                404
+ Thiruvananthapuram                          572
+ Thoothukudi                                 390
+ Thoubal                                      98
+ Thrissur                                    480
+ Tikamgarh                                   418
+ Tinsukia                                    383
+ Tiruchirappalli                             445
+ Tirunelveli                                 416
+ Tiruppur                                    521
+ Tiruvallur                                  730
+ Tiruvannamalai                              657
+ Tiruvarur                                   338
+ Tonk                                        523
+ TUMAKURU                                    278
+ Udaipur                                     505
+ Udalguri                                    317
+ Udhampur                                    428
+ Udham Singh Nagar                           443
+ UDUPI                                       217
+ Ujjain                                      475
+ Umaria                                      381
+ Una                                         292
+ Unakoti  Tripura                            354
+ Unnao                                       500
+ UTTARA KANNADA                              301
+ Uttarkashi                                  204
+ Vadodara                                    447
+ Vaishali                                    597
+ Valsad                                      388
+ Varanasi                                    387
+ Vellore                                     394
+ Vidisha                                     406
+ VIJAYAPURA                                  316
+ Viluppuram                                  621
+ Virudhunagar                                359
+ Visakapatnam                                564
+ Vizianagaram                                510
+ Warangal                                    657
+ Wardha                                      447
+ Washim                                      526
+ Wayanad                                     263
+ West                                        429
+ West Garo Hills                             214
+ West Godavari                               568
+ West Jaintia Hills                          719
+ West Singhbhum at Chaibasa                  442
+ West Tripura                                474
+ YADGIR                                      325
+ YADGIR.                                     155
+ Yamunanagar                                 496
+ Yavatmal                                    472

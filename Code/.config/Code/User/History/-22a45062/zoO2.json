@@ -1,0 +1,42 @@
+{
+    "window.menuBarVisibility": "toggle",
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 18,
+    "terminal.integrated.fontSize": 18,
+    "editor.lineHeight": 1.5,
+    "workbench.editorAssociations": {
+        "*.pdf": "default"
+    },
+    "[latex]": {
+        "editor.defaultFormatter": "nickfode.latex-formatter"
+    },
+    "editor.minimap.enabled": false,
+    "explorer.confirmDelete": false,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.view.pdf.tab.editorGroup": "below",
+    "latex-workshop.latex.tools": [
+  {
+    "name": "pdflatex",
+    "command": "pdflatex",
+    "args": [
+      "-synctex=1",
+      "-interaction=nonstopmode",
+      "-shell-escape",
+      "%DOC%"
+    ]
+  }
+],
+"latex-workshop.latex.recipes": [
+  {
+    "name": "pdflatex",
+    "tools": [
+      "pdflatex"
+    ]
+  }
+],
+"[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"workbench.colorTheme": "Aura Dark (Soft Text)"
+
+}

@@ -1,0 +1,47 @@
+2025-04-19 11:52:01.541 [info] (Client) Pylance async client (2025.4.1) started with python extension (2025.4.0)
+2025-04-19 11:52:02.073 [info] [Info  - 11:52:02] (9692) Server root directory: file:///home/arctan/.vscode/extensions/ms-python.vscode-pylance-2025.4.1/dist
+2025-04-19 11:52:02.074 [info] [Info  - 11:52:02] (9692) Pylance language server 2025.4.1 (pyright version 1.1.398, commit 4f24eccc) starting
+2025-04-19 11:52:02.081 [info] [Info  - 11:52:02] (9692) Starting service instance "python" for workspace "/home/arctan/explorations/python"
+2025-04-19 11:52:02.175 [info] [Info  - 11:52:02] (9692) Setting environmentName for service "python": "3.13.1 (global)"
+2025-04-19 11:52:02.175 [info] [Info  - 11:52:02] (9692) Setting pythonPath for service "python": "/sbin/python"
+2025-04-19 11:52:02.176 [info] [Info  - 11:52:02] (9692) No include entries specified; assuming /home/arctan/explorations/python
+2025-04-19 11:52:02.177 [info] [Info  - 11:52:02] (9692) Auto-excluding **/node_modules
+2025-04-19 11:52:02.177 [info] [Info  - 11:52:02] (9692) Auto-excluding **/__pycache__
+2025-04-19 11:52:02.177 [info] [Info  - 11:52:02] (9692) Auto-excluding **/.*
+2025-04-19 11:52:02.221 [info] [Info  - 11:52:02] (9692) Assuming Python version 3.13.2.final.0
+2025-04-19 11:52:02.451 [info] [Info  - 11:52:02] (9692) Found 14 source files
+2025-04-19 11:52:02.550 [info] [Info  - 11:52:02] (9692) Setting environmentName for service "python": "3.13.1 (global)"
+2025-04-19 11:52:02.551 [info] [Info  - 11:52:02] (9692) Setting pythonPath for service "python": "/sbin/python"
+2025-04-19 11:52:02.554 [info] [Info  - 11:52:02] (9692) No include entries specified; assuming /home/arctan/explorations/python
+2025-04-19 11:52:02.554 [info] [Info  - 11:52:02] (9692) Auto-excluding **/node_modules
+2025-04-19 11:52:02.554 [info] [Info  - 11:52:02] (9692) Auto-excluding **/__pycache__
+2025-04-19 11:52:02.554 [info] [Info  - 11:52:02] (9692) Auto-excluding **/.*
+2025-04-19 11:52:02.632 [info] [Info  - 11:52:02] (9692) Assuming Python version 3.13.2.final.0
+2025-04-19 11:52:02.988 [info] [Info  - 11:52:02] (9692) Found 14 source files
+2025-04-19 11:52:03.053 [info] [Info  - 11:52:03] (9692) Starting service instance "<default>" for workspace ""
+2025-04-19 11:52:06.562 [info] [Info  - 11:52:06] (9692) Setting environmentName for service "<default>": "3.13.1 (global)"
+2025-04-19 11:52:06.579 [info] [Info  - 11:52:06] (9692) Setting pythonPath for service "<default>": "/sbin/python"
+2025-04-19 11:52:06.673 [info] [Info  - 11:52:06] (9692) No include entries specified; assuming /<default workspace root>
+2025-04-19 11:52:06.675 [info] [Info  - 11:52:06] (9692) Auto-excluding **/node_modules
+2025-04-19 11:52:06.677 [info] [Info  - 11:52:06] (9692) Auto-excluding **/__pycache__
+2025-04-19 11:52:06.677 [info] [Info  - 11:52:06] (9692) Auto-excluding **/.*
+2025-04-19 11:52:06.677 [info] [Info  - 11:52:06] (9692) Assuming Python version 3.13.2.final.0
+2025-04-19 11:52:06.677 [info] [Error - 11:52:06] (9692) File or directory "/<default workspace root>" does not exist.
+2025-04-19 11:52:06.677 [info] [Info  - 11:52:06] (9692) No source files found.
+2025-04-19 11:52:06.687 [info] [Info  - 11:52:06] (9692) BG: Priority queue background worker(2) root directory: file:///home/arctan/.vscode/extensions/ms-python.vscode-pylance-2025.4.1/dist
+2025-04-19 11:52:06.687 [info] [Info  - 11:52:06] (9692) BG: Priority queue background worker(2) started
+2025-04-19 11:52:06.873 [info] [Info  - 11:52:06] (9692) BG: Indexer background runner(3) root directory: file:///home/arctan/.vscode/extensions/ms-python.vscode-pylance-2025.4.1/dist (index)
+2025-04-19 11:52:06.875 [info] [Info  - 11:52:06] (9692) BG: Indexing(3) started
+2025-04-19 11:52:08.643 [info] [Info  - 11:52:08] (9692) BG: Priority queue background worker(5) root directory: file:///home/arctan/.vscode/extensions/ms-python.vscode-pylance-2025.4.1/dist
+2025-04-19 11:52:08.643 [info] [Info  - 11:52:08] (9692) BG: Priority queue background worker(5) started
+2025-04-19 11:52:08.646 [info] [Info  - 11:52:08] (9692) BG: [BG(1)] Long operation: analyzing: file:///home/arctan/explorations/python/codeforces/skfhard.py (2229ms)
+2025-04-19 11:52:10.461 [info] [Info  - 11:52:10] (9692) BG: [IDX(3)] Long operation: scan packages file:///home/arctan/explorations/python (2914ms)
+2025-04-19 11:52:10.461 [info] [Info  - 11:52:10] (9692) BG: scanned(3) 324 files over 1 exec env
+2025-04-19 11:52:15.934 [info] [Info  - 11:52:15] (9692) BG: [IDX(3)] Long operation: index execution environment file:///home/arctan/explorations/python (4859ms)
+2025-04-19 11:52:15.971 [info] [Info  - 11:52:15] (9692) BG: [IDX(3)] Long operation: index packages file:///home/arctan/explorations/python (4940ms)
+2025-04-19 11:52:15.971 [info] [Info  - 11:52:15] (9692) BG: indexed(3) 324 files over 1 exec env
+2025-04-19 11:52:16.202 [info] [Info  - 11:52:16] (9692) BG: Indexing finished(3).
+2025-04-19 11:52:16.734 [info] [Info  - 11:52:16] (9692) Found 14 source files
+2025-04-19 11:52:17.611 [info] [Info  - 11:52:17] (9692) Found 14 source files
+2025-04-19 11:55:14.182 [info] [Info  - 11:55:14] (9692) Found 15 source files
+2025-04-19 11:58:45.424 [info] [Info  - 11:58:45] (9692) Found 16 source files

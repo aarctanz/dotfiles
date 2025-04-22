@@ -1,0 +1,103 @@
+2025-04-18 21:41:53.105 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-18 21:41:53.105 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-18 21:41:53.106 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-18 21:41:53.754 [info] Started local extension host with pid 2685.
+2025-04-18 21:41:54.302 [error] [/home/arctan/.vscode/extensions/github.copilot-1.275.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-18 21:41:54.303 [error] [/home/arctan/.vscode/extensions/github.copilot-1.272.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-18 21:41:54.325 [error] [/home/arctan/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-18 21:41:54.325 [error] [/home/arctan/.vscode/extensions/github.copilot-1.300.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-18 21:41:54.329 [error] [/home/arctan/.vscode/extensions/github.copilot-1.301.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-18 21:41:54.331 [error] [/home/arctan/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-18 21:41:54.332 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.21]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-18 21:41:54.333 [error] [/home/arctan/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.22]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-18 21:41:54.450 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-18 21:41:54.462 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-18 21:41:54.463 [error] [/home/arctan/.vscode/extensions/github.copilot-chat-0.24.1]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.97.0.
+2025-04-18 21:41:54.550 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.2.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.98.0.
+2025-04-18 21:41:54.565 [error] [/home/arctan/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-18 21:41:54.598 [error] [/home/arctan/.vscode/extensions/ms-toolsai.jupyter-2025.3.0-linux-x64]: Extension is not compatible with Code 1.96.1. Extension requires: ^1.99.0.
+2025-04-18 21:41:54.849 [error] Extension 'ms-vscode.cpptools' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): terminalDataWriteEvent, chatParticipantAdditions
+product.json (WINS): terminalDataWriteEvent
+2025-04-18 21:41:54.985 [warning] [redhat.vscode-yaml]: Cannot register 'redhat.telemetry.enabled'. This property is already registered.
+2025-04-18 21:41:54.987 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-04-18 21:41:56.740 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-04-18 21:41:56.776 [error] [network] #1: https://api.github.com/copilot_internal/user - error GET Offline
+2025-04-18 21:41:56.776 [error] [chat setup] request: error Offline: Offline
+2025-04-18 21:41:57.061 [error] [network] #2: https://www.vscode-unpkg.net/_gallery/aprilandjan/ascii-tree-generator/latest - error GET Offline
+2025-04-18 21:41:57.079 [error] [network] #3: https://www.vscode-unpkg.net/_gallery/codezombiech/gitignore/latest - error GET Offline
+2025-04-18 21:41:57.079 [error] [network] #4: https://www.vscode-unpkg.net/_gallery/daltonmenezes/aura-theme/latest - error GET Offline
+2025-04-18 21:41:57.100 [error] [network] #5: https://www.vscode-unpkg.net/_gallery/developersoapbox/vscode-springboot-snippets/latest - error GET Offline
+2025-04-18 21:41:57.100 [error] [network] #6: https://www.vscode-unpkg.net/_gallery/docker/docker/latest - error GET Offline
+2025-04-18 21:41:57.100 [error] [network] #15: https://www.vscode-unpkg.net/_gallery/janisdd/vscode-edit-csv/latest - error GET Offline
+2025-04-18 21:41:57.108 [error] [network] #16: https://www.vscode-unpkg.net/_gallery/mechatroner/rainbow-csv/latest - error GET Offline
+2025-04-18 21:41:57.109 [error] [network] #17: https://www.vscode-unpkg.net/_gallery/mhutchie/git-graph/latest - error GET Offline
+2025-04-18 21:41:57.109 [error] [network] #18: https://www.vscode-unpkg.net/_gallery/ms-azuretools/vscode-docker/latest - error GET Offline
+2025-04-18 21:41:57.111 [error] [network] #19: https://www.vscode-unpkg.net/_gallery/ms-kubernetes-tools/vscode-kubernetes-tools/latest - error GET Offline
+2025-04-18 21:41:57.115 [error] [network] #20: https://www.vscode-unpkg.net/_gallery/ms-python/debugpy/latest - error GET Offline
+2025-04-18 21:41:57.116 [error] [network] #21: https://www.vscode-unpkg.net/_gallery/ms-python/python/latest - error GET Offline
+2025-04-18 21:41:57.117 [error] [network] #22: https://www.vscode-unpkg.net/_gallery/ms-python/vscode-pylance/latest - error GET Offline
+2025-04-18 21:41:57.118 [error] [network] #23: https://www.vscode-unpkg.net/_gallery/ms-toolsai/jupyter/latest - error GET Offline
+2025-04-18 21:41:57.118 [error] [network] #24: https://www.vscode-unpkg.net/_gallery/ms-toolsai/jupyter-keymap/latest - error GET Offline
+2025-04-18 21:41:57.119 [error] [network] #25: https://www.vscode-unpkg.net/_gallery/ms-toolsai/jupyter-renderers/latest - error GET Offline
+2025-04-18 21:41:57.119 [error] [network] #26: https://www.vscode-unpkg.net/_gallery/ms-toolsai/vscode-jupyter-cell-tags/latest - error GET Offline
+2025-04-18 21:41:57.120 [error] [network] #27: https://www.vscode-unpkg.net/_gallery/ms-toolsai/vscode-jupyter-slideshow/latest - error GET Offline
+2025-04-18 21:41:57.120 [error] [network] #28: https://www.vscode-unpkg.net/_gallery/ms-vscode-remote/remote-containers/latest - error GET Offline
+2025-04-18 21:41:57.121 [error] [network] #29: https://www.vscode-unpkg.net/_gallery/ms-vscode/cmake-tools/latest - error GET Offline
+2025-04-18 21:41:57.125 [error] [network] #30: https://www.vscode-unpkg.net/_gallery/ms-vscode/cpptools/latest - error GET Offline
+2025-04-18 21:41:57.127 [error] [network] #31: https://www.vscode-unpkg.net/_gallery/ms-vscode/cpptools-extension-pack/latest - error GET Offline
+2025-04-18 21:41:57.128 [error] [network] #32: https://www.vscode-unpkg.net/_gallery/ms-vscode/cpptools-themes/latest - error GET Offline
+2025-04-18 21:41:57.130 [error] [network] #33: https://www.vscode-unpkg.net/_gallery/ms-vscode/makefile-tools/latest - error GET Offline
+2025-04-18 21:41:57.131 [error] [network] #34: https://www.vscode-unpkg.net/_gallery/nickfode/latex-formatter/latest - error GET Offline
+2025-04-18 21:41:57.133 [error] [network] #35: https://www.vscode-unpkg.net/_gallery/pkief/material-icon-theme/latest - error GET Offline
+2025-04-18 21:41:57.133 [error] [network] #36: https://www.vscode-unpkg.net/_gallery/rangav/vscode-thunder-client/latest - error GET Offline
+2025-04-18 21:41:57.133 [error] [network] #37: https://www.vscode-unpkg.net/_gallery/redhat/java/latest - error GET Offline
+2025-04-18 21:41:57.134 [error] [network] #38: https://www.vscode-unpkg.net/_gallery/redhat/vscode-yaml/latest - error GET Offline
+2025-04-18 21:41:57.135 [error] [network] #39: https://www.vscode-unpkg.net/_gallery/ritwickdey/liveserver/latest - error GET Offline
+2025-04-18 21:41:57.135 [error] [network] #40: https://www.vscode-unpkg.net/_gallery/steoates/autoimport/latest - error GET Offline
+2025-04-18 21:41:57.137 [error] [network] #41: https://www.vscode-unpkg.net/_gallery/tecosaur/latex-utilities/latest - error GET Offline
+2025-04-18 21:41:57.139 [error] [network] #42: https://www.vscode-unpkg.net/_gallery/tomoki1207/pdf/latest - error GET Offline
+2025-04-18 21:41:57.139 [error] [network] #43: https://www.vscode-unpkg.net/_gallery/twxs/cmake/latest - error GET Offline
+2025-04-18 21:41:57.140 [error] [network] #44: https://www.vscode-unpkg.net/_gallery/visualstudioexptteam/intellicode-api-usage-examples/latest - error GET Offline
+2025-04-18 21:41:57.142 [error] [network] #45: https://www.vscode-unpkg.net/_gallery/visualstudioexptteam/vscodeintellicode/latest - error GET Offline
+2025-04-18 21:41:57.143 [error] [network] #46: https://www.vscode-unpkg.net/_gallery/vmware/vscode-boot-dev-pack/latest - error GET Offline
+2025-04-18 21:41:57.145 [error] [network] #47: https://www.vscode-unpkg.net/_gallery/vmware/vscode-spring-boot/latest - error GET Offline
+2025-04-18 21:41:57.146 [error] [network] #48: https://www.vscode-unpkg.net/_gallery/vscjava/vscode-gradle/latest - error GET Offline
+2025-04-18 21:41:57.147 [error] [network] #49: https://www.vscode-unpkg.net/_gallery/vscjava/vscode-java-debug/latest - error GET Offline
+2025-04-18 21:41:57.147 [error] [network] #50: https://www.vscode-unpkg.net/_gallery/vscjava/vscode-java-dependency/latest - error GET Offline
+2025-04-18 21:41:57.148 [error] [network] #51: https://www.vscode-unpkg.net/_gallery/vscjava/vscode-java-pack/latest - error GET Offline
+2025-04-18 21:41:57.149 [error] [network] #52: https://www.vscode-unpkg.net/_gallery/vscjava/vscode-java-test/latest - error GET Offline
+2025-04-18 21:41:57.150 [error] [network] #53: https://www.vscode-unpkg.net/_gallery/vscjava/vscode-maven/latest - error GET Offline
+2025-04-18 21:41:57.151 [error] [network] #54: https://www.vscode-unpkg.net/_gallery/vscjava/vscode-spring-boot-dashboard/latest - error GET Offline
+2025-04-18 21:41:57.152 [error] [network] #55: https://www.vscode-unpkg.net/_gallery/vscjava/vscode-spring-initializr/latest - error GET Offline
+2025-04-18 21:41:57.153 [error] [network] #7: https://www.vscode-unpkg.net/_gallery/elanandkumar/el-vsc-product-icon-theme/latest - error GET Offline
+2025-04-18 21:41:57.154 [error] [network] #8: https://www.vscode-unpkg.net/_gallery/esbenp/prettier-vscode/latest - error GET Offline
+2025-04-18 21:41:57.154 [error] [network] #9: https://www.vscode-unpkg.net/_gallery/github/copilot/latest - error GET Offline
+2025-04-18 21:41:57.155 [error] [network] #10: https://www.vscode-unpkg.net/_gallery/github/copilot-chat/latest - error GET Offline
+2025-04-18 21:41:57.156 [error] [network] #11: https://www.vscode-unpkg.net/_gallery/golang/go/latest - error GET Offline
+2025-04-18 21:41:57.157 [error] [network] #12: https://www.vscode-unpkg.net/_gallery/graphql/vscode-graphql/latest - error GET Offline
+2025-04-18 21:41:57.158 [error] [network] #13: https://www.vscode-unpkg.net/_gallery/graphql/vscode-graphql-syntax/latest - error GET Offline
+2025-04-18 21:41:57.158 [error] [network] #14: https://www.vscode-unpkg.net/_gallery/james-yu/latex-workshop/latest - error GET Offline
+2025-04-18 21:41:57.182 [error] [network] #56: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Offline
+2025-04-18 21:41:58.495 [error] [network] #57: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-18 21:41:58.495 [warning] Failed to fetch chat participant registry Offline
+2025-04-18 21:41:58.604 [info] [perf] Render performance baseline is 69ms
+2025-04-18 21:42:19.110 [error] [Extension Host] [default] Error sending telemetry FetchError: getaddrinfo EAI_AGAIN copilot-telemetry.githubusercontent.com
+    at fetch (/home/arctan/.vscode/extensions/github.copilot-1.270.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at cachingFetch (/home/arctan/.vscode/extensions/github.copilot-1.270.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at Fce.fetch (/home/arctan/.vscode/extensions/github.copilot-1.270.0/lib/src/network/helix.ts:94:22) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'EAI_AGAIN',
+  errno: -3001,
+  erroredSysCall: 'getaddrinfo'
+}
+2025-04-18 21:46:58.548 [error] [network] #58: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-18 21:46:58.549 [warning] Failed to fetch chat participant registry Offline
+2025-04-18 21:51:58.555 [error] [network] #59: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-18 21:51:58.599 [warning] Failed to fetch chat participant registry Offline
+2025-04-18 21:56:58.606 [error] [network] #60: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-18 21:56:58.644 [warning] Failed to fetch chat participant registry Offline
+2025-04-18 22:01:58.648 [error] [network] #61: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-04-18 22:01:58.677 [warning] Failed to fetch chat participant registry Offline

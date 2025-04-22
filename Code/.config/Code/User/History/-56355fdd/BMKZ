@@ -1,0 +1,35 @@
+\documentclass{article}
+\usepackage{geometry}
+
+\newgeometry{
+    top=1in,
+    bottom=0.75in,
+    outer=0.75in,
+    inner=0.75in,
+}
+
+\title{Hardwire and microprogrammed control, RISC and CISC processors, Multiprocessing and Multiprocessors and Parallel Processors}
+\author{Abhinav Kumar(524110022)}
+% \date{December 23, 2024}
+
+\begin{document}
+\Large % Increase font size for the entire document
+\maketitle
+\newpage
+\section*{Hardwire and Microprogrammed control}
+\subsection*{Hardwire control}
+Hardwired control is a control mechanism that generates control signals by using an appropriate finite state machine (FSM). Hardwired control is a control mechanism that generates control signals by using an appropriate finite state machine (FSM).
+\subsection*{Microprogrammed control}
+Microprogrammed control is a control mechanism that generates control signals by using a memory called control memory that stores the control signals. Microprogrammed control is a control mechanism that generates control signals by using a memory called control memory that stores the control signals.
+\section*{RISC and CISC processors}
+\subsection*{RISC}
+RISC stands for Reduced Instruction Set Computer. RISC is a type of microprocessor architecture that uses a small, highly-optimized set of instructions. RISC processors are designed to execute a small number of instructions at a very high speed. RISC processors are designed to execute a small number of instructions at a very high speed.
+\subsection*{CISC}
+CISC stands for Complex Instruction Set Computer. CISC is a type of microprocessor architecture that uses a large, complex set of instructions. CISC processors are designed to execute a large number of instructions at a moderate speed. CISC processors are designed to execute a large number of instructions at a moderate speed.
+\section*{Multiprocessing and Multiprocessors}
+\subsection*{Multiprocessing}
+Multiprocessing is the use of two or more central processing units (CPUs) within a single computer system. Multiprocessing is the use of two or more central processing units (CPUs) within a single computer system.
+\subsection*{Multiprocessors}
+Multiprocessors are computer systems that have two or more processing units that share the same memory and are connected by a bus. Multiprocessors are computer systems that have two or more processing units that share the same memory and are connected by a bus.
+\section*{Parallel Processors}
+Parallel processors are computer systems that use multiple processing units to perform multiple tasks simultaneously.

@@ -1,0 +1,247 @@
+Top 20 acts with most number of cases
+
+SELECT act_s, COUNT(*) AS no_of_cases
+FROM acts_sections
+JOIN act_key USING (act)
+GROUP BY act_s
+ORDER BY no_of_cases DESC
+LIMIT 20;
+
+                      act_s                      | no_of_cases
+------------------------------------------------+-------------
+ The Indian Penal Code                          |    17120060
+ Code of Criminal Procedure                     |     6562230
+ Motor Vehicles Act                             |     2542135
+ Code of Civil Procedure                        |     2335799
+ Civil Procedure Code                           |     1521136
+ Negotiable Instruments Act                     |     1460713
+ HINDU MARRIAGE ACT                             |     1309914
+ CODE OF CIVIL PROCEDURE                        |     1147422
+ I.P.C(Police)                                  |     1059274
+ CODE OF CIVIL PROCEDURE, 1908 (HB)             |      929351
+ Motor Vehicle Act                              |      899043
+ MOTOR VEHICLES ACT                             |      849174
+ GUJARAT (BOMBAY) PROHIBITION ACT, 1949         |      716711
+ NEGOTIABLE INSTRUMENTS ACT, 1881               |      707008
+ NEGOTIABLE INSTRUMENTS ACT                     |      679799
+ Protection of Women from Domestic Violence Act |      529172
+ CodeofCivilProcedure                           |      522264
+ Prohibition Act (Maharashtra)                  |      465464
+ MOTOR VEHICLES ACT, 1988                       |      453343
+ Motor Vehicles Act 1988                        |      397630
+(20 rows)
+
+(20 rows)
+
+Top 20 acts with most average days in disposition
+SELECT
+    ak.act_s,
+    AVG(c.date_of_decision - c.date_of_filing) AS avg_disposal_days,
+    COUNT(*) AS total_cases
+FROM
+    cases_clean c
+JOIN acts_sections a ON c.ddl_case_id = a.ddl_case_id
+JOIN act_key ak ON a.act = ak.act
+WHERE
+    c.date_of_decision IS NOT NULL
+GROUP BY
+    ak.act_s
+HAVING
+    COUNT(*) > 10000
+ORDER BY
+    avg_disposal_days DESC
+LIMIT 20;
+                                           act_s                                            | avg_disposal_days | total_cases
+--------------------------------------------------------------------------------------------+-------------------+-------------
+ Industrial Disputes Act, 1947                                                              |              1101 |       13962
+ M M C ACT                                                                                  |              1033 |       22571
+ SPECIFIC RELIEF ACT, 1963                                                                  |               993 |       66901
+ INDUSTRIAL DISPUTES ACT, 1947                                                              |               983 |       54298
+ FACTORIES ACT, 1948                                                                        |               956 |       10691
+ Motor Vehicles Rules, 1989 (Kerala)                                                        |               882 |       14797
+ LAND ACQUISITION ACT, 1894                                                                 |               847 |       34960
+ Negotiable Instruments Act \                                                               |               839 |       28293
+ Electricity Act 2003                                                                       |               833 |      268208
+ Ranbir Penal Code                                                                          |               826 |       11474
+ Specific Relief Act 1963                                                                   |               815 |       11249
+ Court-feesAct                                                                              |               812 |       18758
+ Negotiable Instruments Act 1881                                                            |               791 |      104341
+ Maintenance of Public Order Act                                                            |               785 |       10977
+ Motor Vehicles Act, 1988                                                                   |               754 |       40598
+ Arms Act 1959                                                                              |               743 |       29579
+ Maharashtra Recognition of Trade Union And Prevention of Unfair Labour Practices Act, 1971 |               733 |       18886
+ Bihar and Orissa Excise Rules, 1919                                                        |               724 |       11326
+ Land Acquisition Act                                                                       |               720 |      120728
+ Maharashtra Rent Control Act                                                               |               695 |       11892
+
+(20 rows)
+
+Top 20 acts with lowest average days in disposition
+SELECT
+    ak.act_s,
+    ROUND(AVG(c.date_of_decision - c.date_of_filing)) AS avg_disposal_days,
+    COUNT(*) AS total_cases
+FROM
+    cases_clean c
+JOIN acts_sections a ON c.ddl_case_id = a.ddl_case_id
+JOIN act_key ak ON a.act = ak.act
+WHERE
+    c.date_of_decision IS NOT NULL
+GROUP BY
+    ak.act_s
+HAVING
+    COUNT(*) > 10000
+ORDER BY
+    avg_disposal_days ASC
+LIMIT 20;
+                       act_s                       | avg_disposal_days | total_cases
+---------------------------------------------------+-------------------+-------------
+ 185 M.V.ACT                                       |                 2 |       14221
+ IMV ACT                                           |                 7 |       85470
+ K.P.Act.                                          |                 7 |       10157
+ K.P. Act                                          |                 8 |       29297
+ 98 KP Act                                         |                11 |       15958
+ Railway Act                                       |                11 |       33471
+ Railways Act 1989\                                |                13 |       31244
+ KARNATAKA POLICE ACT                              |                18 |       43691
+ KARANATAKA POLICE ACT                             |                19 |       11036
+ KP Act                                            |                20 |       65856
+ Indian Police Act                                 |                23 |       17542
+ K P Act                                           |                25 |       15903
+ RAILWAYS ACT, 1989                                |                27 |       70776
+ Railways Act                                      |                30 |      242794
+ TamilNaduProhibitionAct                           |                30 |       96754
+ Excise Act 1915                                   |                32 |      354246
+ Railway Act, 1989                                 |                34 |      130324
+ 13 Sub 3 of Birth and Death Registration Act 1969 |                36 |       10927
+ Police Act 1861                                   |                38 |       66216
+ INDIAN MOTOR VEHICLE ACT                          |                38 |       11792
+
+(20 rows)
+
+Bailable and non bailable cases average disposition day
+SELECT
+    a.bailable_ipc,
+    ROUND(AVG(c.date_of_decision - c.date_of_filing)) AS avg_disposal_days,
+    COUNT(*) AS total_cases
+FROM
+    cases_clean c
+JOIN acts_sections a ON c.ddl_case_id = a.ddl_case_id
+WHERE
+    c.date_of_decision IS NOT NULL AND a.section IS NOT NULL AND a.bailable_ipc IN ('bailable', 'non-bailable')
+GROUP BY
+    a.bailable_ipc
+ORDER BY
+    avg_disposal_days DESC
+LIMIT 20;
+bailable_ipc | avg_disposal_days | total_cases
+--------------+-------------------+-------------
+ bailable     |               411 |     4679568
+ non-bailable |               358 |     3411069
+
+
+
+
+State wise act with most cases
+
+SELECT state_name, act_s, no_of_cases
+FROM (
+    SELECT
+        c.state_code,c.year,
+        ak.act_s,
+        COUNT(*) AS no_of_cases,
+        RANK() OVER (PARTITION BY c.state_code ORDER BY COUNT(*) DESC) AS rnk
+    FROM
+        cases_clean c
+    JOIN acts_sections a USING (ddl_case_id)
+    JOIN act_key ak ON a.act = ak.act
+    GROUP BY c.state_code, ak.act_s,year
+) sub JOIN state_key USING (state_code,year)
+WHERE rnk = 1;
+
+Top acts used in every state
+    state_name     |                  act_s                   | no_of_cases
+-------------------+------------------------------------------+-------------
+ Maharashtra       | The Indian Penal Code                    |      285005
+ Andhra Pradesh    | CODE OF CIVIL PROCEDURE, 1908 (HB)       |       96616
+ Karnataka         | The Indian Penal Code                    |      160747
+ Kerala            | The Indian Penal Code                    |      317575
+ Himachal Pradesh  | Code of Criminal Procedure               |       58927
+ Assam             | The Indian Penal Code                    |       63397
+ Jharkhand         | The Indian Penal Code                    |      111042
+ Bihar             | The Indian Penal Code                    |      373392
+ Rajasthan         | The Indian Penal Code                    |      198829
+ Tamil Nadu        | The Indian Penal Code                    |      122515
+ Orissa            | The Indian Penal Code                    |       87908
+ Jammu and Kashmir | Motor Vehicle Act                        |       12726
+ Uttar Pradesh     | The Indian Penal Code                    |      688572
+ Haryana           | Motor Vehicles Act                       |      160156
+ Uttarakhand       | Motor Vehicles Act                       |       41237
+ West Bengal       | The Indian Penal Code                    |      121485
+ Gujarat           | Code of Criminal Procedure               |      129663
+ Chhattisgarh      | The Indian Penal Code                    |       42197
+ Mizoram           | Mizoram Civil Court Act                  |         534
+ Tripura           | The Indian Penal Code                    |        5263
+ Meghalaya         | Registration of Birth and Death Act 1969 |        2127
+ Punjab            | Motor Vehicles Act                       |       96749
+ Madhya Pradesh    | The Indian Penal Code                    |      249925
+ Sikkim            | Code of Criminal Procedure               |        1536
+ Manipur           | The Indian Penal Code                    |        4074
+ Delhi             | The Indian Penal Code                    |      112048
+ Chandigarh        | Negotiable Instruments Act               |        8277
+ Telangana         | The Indian Penal Code                    |       83596
+ Goa               | Motor Vehicle Act                        |        7216
+ Diu and Daman     | Civil Procedure codes                    |         636
+ DNH at Silvasa    | The Indian Penal Code                    |         435
+ Ladakh            | Ranbir Penal Code                        |         154
+(32 rows)
+
+Yearwise trends of these three acts.
+
+SELECT
+    EXTRACT(YEAR FROM c.date_of_filing) AS year,
+    ak.act_s,
+    COUNT(*) AS case_count
+FROM
+    cases_clean c
+JOIN acts_sections ac USING (ddl_case_id)
+JOIN act_key ak ON ac.act = ak.act
+WHERE
+    ak.act_s IN (
+        'Dowry Prohibition Act',
+        'Protection of Women from Domestic Violence Act',
+        'HINDU MARRIAGE ACT'
+    )
+GROUP BY EXTRACT(YEAR FROM c.date_of_filing), ak.act_s
+ORDER BY year, ak.act_s;
+ year |                     act_s                      | case_count
+------+------------------------------------------------+------------
+ 2010 | Dowry Prohibition Act                          |        604
+ 2010 | HINDU MARRIAGE ACT                             |      32999
+ 2010 | Protection of Women from Domestic Violence Act |       8210
+ 2011 | Dowry Prohibition Act                          |        958
+ 2011 | HINDU MARRIAGE ACT                             |      41027
+ 2011 | Protection of Women from Domestic Violence Act |      12276
+ 2012 | Dowry Prohibition Act                          |       1198
+ 2012 | HINDU MARRIAGE ACT                             |      53703
+ 2012 | Protection of Women from Domestic Violence Act |      22050
+ 2013 | Dowry Prohibition Act                          |       1423
+ 2013 | HINDU MARRIAGE ACT                             |      78384
+ 2013 | Protection of Women from Domestic Violence Act |      36143
+ 2014 | Dowry Prohibition Act                          |       2390
+ 2014 | HINDU MARRIAGE ACT                             |     151362
+ 2014 | Protection of Women from Domestic Violence Act |      63232
+ 2015 | Dowry Prohibition Act                          |       4022
+ 2015 | HINDU MARRIAGE ACT                             |     207182
+ 2015 | Protection of Women from Domestic Violence Act |      82147
+ 2016 | Dowry Prohibition Act                          |       4582
+ 2016 | HINDU MARRIAGE ACT                             |     235350
+ 2016 | Protection of Women from Domestic Violence Act |      94165
+ 2017 | Dowry Prohibition Act                          |       3379
+ 2017 | HINDU MARRIAGE ACT                             |     257210
+ 2017 | Protection of Women from Domestic Violence Act |     104982
+ 2018 | Dowry Prohibition Act                          |       2973
+ 2018 | HINDU MARRIAGE ACT                             |     252697
+ 2018 | Protection of Women from Domestic Violence Act |     105967
+(27 rows)
+

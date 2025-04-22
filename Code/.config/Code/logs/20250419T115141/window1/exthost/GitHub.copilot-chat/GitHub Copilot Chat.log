@@ -1,0 +1,21 @@
+2025-04-19 11:51:58.196 [info] Using the Electron fetcher.
+2025-04-19 11:51:58.196 [info] Initializing Git extension service.
+2025-04-19 11:51:58.196 [info] Successfully activated the vscode.git extension.
+2025-04-19 11:51:58.196 [info] Enablement state of the vscode.git extension: true.
+2025-04-19 11:51:58.196 [info] Successfully registered Git commit message provider.
+2025-04-19 11:52:01.077 [info] Logged in as aarctanz
+2025-04-19 11:52:02.857 [info] Got Copilot token for aarctanz
+2025-04-19 11:52:03.233 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-19 11:52:03.233 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-04-19 11:52:03.274 [info] Registering default platform agent...
+2025-04-19 11:52:04.634 [info] Fetched model metadata in 1753ms e5bd0d88-4840-489e-9278-4288d1469e90
+2025-04-19 11:52:04.985 [info] activationBlocker from 'languageModelAccess' took for 3824ms
+2025-04-19 12:07:09.832 [info] Fetched model metadata in 2728ms f504854c-e4bd-4e7c-bedf-9c1e7203a1c0
+2025-04-19 12:17:02.871 [info] Logged in as aarctanz
+2025-04-19 12:17:05.168 [info] Got Copilot token for aarctanz
+2025-04-19 12:17:05.199 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-19 12:27:31.153 [info] Fetched model metadata in 7073ms ea8bfbb1-dd83-46f3-b772-7091b537aa75
+2025-04-19 12:42:05.178 [info] Logged in as aarctanz
+2025-04-19 12:42:06.503 [info] Got Copilot token for aarctanz
+2025-04-19 12:42:06.525 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-19 12:42:08.244 [info] Fetched model metadata in 1709ms beb08163-acfa-4ffd-b0f1-5c5ad3247e8e

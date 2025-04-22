@@ -1,0 +1,39 @@
+SELECT
+  sk.state_name,
+  COUNT(*) AS pending_cases
+FROM cases_clean cc
+JOIN state_key sk ON cc.state_code = sk.state_code AND cc.year = sk.year
+WHERE cc.date_of_decision IS NULL
+GROUP BY sk.state_name
+ORDER BY pending_cases DESC;
+    state_name     pending_cases
+-------------------+---------------
+ Uttar Pradesh           4549903
+ Maharashtra             2763410
+ Bihar                   1648647
+ Karnataka               1324859
+ Madhya Pradesh          1246630
+ Rajasthan               1242906
+ Kerala                  1039990
+ Tamil Nadu               952927
+ West Bengal              923358
+ Gujarat                  868072
+ Orissa                   824231
+ Haryana                  564850
+ Delhi                    484484
+ Andhra Pradesh           478633
+ Punjab                   474087
+ Telangana                460184
+ Jharkhand                299252
+ Assam                    252369
+ Chhattisgarh             236766
+ Himachal Pradesh         231149
+ Uttarakhand              200544
+ Jammu and Kashmir        143914
+ Goa                       38459
+ Chandigarh                27665
+ Tripura                   17687
+ Manipur                    7928
+ Meghalaya                  5784
+ Mizoram                    2969
+ Sikkim                     1081

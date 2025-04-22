@@ -1,0 +1,81 @@
+2025-04-12 20:29:40.368 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-04-12 20:29:40.368 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-04-12 20:29:40.368 [info] Native locator: Refresh started
+2025-04-12 20:29:40.368 [info] > pyenv which python
+2025-04-12 20:29:40.368 [info] cwd: .
+2025-04-12 20:29:40.436 [info] > conda info --json
+2025-04-12 20:29:40.532 [info] Native locator: Refresh finished in 3749 ms
+2025-04-12 20:29:40.547 [info] Python interpreter path: /usr/bin/python
+2025-04-12 20:29:42.588 [info] Starting Pylance language server.
+2025-04-12 21:26:46.909 [info] Native locator: Refresh started
+2025-04-12 21:26:47.416 [info] Native locator: Refresh finished in 506 ms
+2025-04-12 21:28:46.908 [info] Native locator: Refresh started
+2025-04-12 21:28:46.909 [info] Native locator: Refresh started
+2025-04-12 21:28:47.237 [info] Native locator: Refresh finished in 333 ms
+2025-04-13 05:49:58.008 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:50:10.376 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:50:12.321 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:50:15.027 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:50:29.209 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:50:30.245 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:50:38.468 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:50:43.688 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:50:47.943 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:50:49.986 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:50:52.289 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:50:54.268 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:50:55.939 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:50:57.711 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:50:59.310 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:51:01.430 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:51:04.736 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:51:06.668 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:51:10.496 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:51:14.615 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:51:17.363 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:51:19.340 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:51:20.917 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:51:22.711 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:51:25.109 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:51:26.595 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:51:28.763 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:51:30.132 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:51:31.710 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:51:33.593 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:51:35.471 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:51:37.058 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:51:40.023 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:51:41.973 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:51:44.675 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:51:46.727 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:51:48.834 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:51:57.594 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:52:06.865 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:52:10.992 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:52:15.652 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:52:25.793 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:52:31.812 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:52:38.219 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:52:43.412 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:52:48.620 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:52:53.925 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:52:59.342 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:53:05.646 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:53:10.346 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:53:16.285 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:53:21.336 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:53:22.741 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:53:25.134 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:53:29.111 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:53:31.382 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:53:32.659 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:53:35.096 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:53:43.128 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:53:46.867 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:53:48.489 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:53:51.250 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:54:37.688 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 05:55:04.272 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 10:09:30.796 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 10:09:32.139 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/charts/quick.py
+2025-04-13 11:16:13.755 [info] Discover tests for workspace name: justice_data - uri: /home/arctan/data/justice_data/q.py

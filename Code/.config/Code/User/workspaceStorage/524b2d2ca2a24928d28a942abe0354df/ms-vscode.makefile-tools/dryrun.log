@@ -1,0 +1,5 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/arctan/projects/unano'
+gcc main.c -Wall -Wextra -pedantic 
+make: Leaving directory '/home/arctan/projects/unano'
+ 

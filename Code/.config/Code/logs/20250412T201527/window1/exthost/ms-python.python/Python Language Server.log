@@ -1,0 +1,99 @@
+2025-04-12 20:29:41.142 [info] (Client) Pylance async client (2025.4.1) started with python extension (2025.4.0)
+2025-04-12 20:29:42.529 [info] [Info  - 20:29:42] (224684) Server root directory: file:///home/arctan/.vscode/extensions/ms-python.vscode-pylance-2025.4.1/dist
+2025-04-12 20:29:42.534 [info] [Info  - 20:29:42] (224684) Pylance language server 2025.4.1 (pyright version 1.1.398, commit 4f24eccc) starting
+2025-04-12 20:29:42.544 [info] [Info  - 20:29:42] (224684) Starting service instance "justice_data" for workspace "/home/arctan/data/justice_data"
+2025-04-12 20:29:42.736 [info] [Info  - 20:29:42] (224684) Setting environmentName for service "justice_data": "3.13.1 (global)"
+2025-04-12 20:29:42.737 [info] [Info  - 20:29:42] (224684) Setting pythonPath for service "justice_data": "/usr/bin/python"
+2025-04-12 20:29:42.738 [info] [Info  - 20:29:42] (224684) No include entries specified; assuming /home/arctan/data/justice_data
+2025-04-12 20:29:42.740 [info] [Info  - 20:29:42] (224684) Auto-excluding **/node_modules
+2025-04-12 20:29:42.741 [info] [Info  - 20:29:42] (224684) Auto-excluding **/__pycache__
+2025-04-12 20:29:42.742 [info] [Info  - 20:29:42] (224684) Auto-excluding **/.*
+2025-04-12 20:29:42.830 [info] [Info  - 20:29:42] (224684) Assuming Python version 3.13.2.final.0
+2025-04-12 20:29:43.322 [info] [Info  - 20:29:43] (224684) Found 3 source files
+2025-04-12 20:29:43.399 [info] [Info  - 20:29:43] (224684) Setting environmentName for service "justice_data": "3.13.1 (global)"
+2025-04-12 20:29:43.400 [info] [Info  - 20:29:43] (224684) Setting pythonPath for service "justice_data": "/usr/bin/python"
+2025-04-12 20:29:43.400 [info] [Info  - 20:29:43] (224684) No include entries specified; assuming /home/arctan/data/justice_data
+2025-04-12 20:29:43.401 [info] [Info  - 20:29:43] (224684) Auto-excluding **/node_modules
+2025-04-12 20:29:43.403 [info] [Info  - 20:29:43] (224684) Auto-excluding **/__pycache__
+2025-04-12 20:29:43.403 [info] [Info  - 20:29:43] (224684) Auto-excluding **/.*
+2025-04-12 20:29:43.537 [info] [Info  - 20:29:43] (224684) Assuming Python version 3.13.2.final.0
+2025-04-12 20:29:43.904 [info] [Info  - 20:29:43] (224684) Found 3 source files
+2025-04-12 20:29:44.347 [info] [Info  - 20:29:44] (224684) Starting service instance "<default>" for workspace ""
+2025-04-12 20:29:44.648 [info] [Info  - 20:29:44] (224684) Setting environmentName for service "<default>": "3.13.1 (global)"
+2025-04-12 20:29:44.651 [info] [Info  - 20:29:44] (224684) Setting pythonPath for service "<default>": "/usr/bin/python"
+2025-04-12 20:29:44.655 [info] [Info  - 20:29:44] (224684) No include entries specified; assuming /<default workspace root>
+2025-04-12 20:29:44.658 [info] [Info  - 20:29:44] (224684) Auto-excluding **/node_modules
+2025-04-12 20:29:44.659 [info] [Info  - 20:29:44] (224684) Auto-excluding **/__pycache__
+2025-04-12 20:29:44.659 [info] [Info  - 20:29:44] (224684) Auto-excluding **/.*
+2025-04-12 20:29:44.749 [info] [Info  - 20:29:44] (224684) Assuming Python version 3.13.2.final.0
+2025-04-12 20:29:45.173 [info] [Error - 20:29:45] (224684) File or directory "/<default workspace root>" does not exist.
+2025-04-12 20:29:45.174 [info] [Info  - 20:29:45] (224684) No source files found.
+2025-04-12 20:29:47.068 [info] [Info  - 20:29:47] (224684) BG: Priority queue background worker(2) root directory: file:///home/arctan/.vscode/extensions/ms-python.vscode-pylance-2025.4.1/dist
+2025-04-12 20:29:47.069 [info] [Info  - 20:29:47] (224684) BG: Priority queue background worker(2) started
+2025-04-12 20:29:48.273 [info] [Info  - 20:29:48] (224684) BG: Indexer background runner(3) root directory: file:///home/arctan/.vscode/extensions/ms-python.vscode-pylance-2025.4.1/dist (index)
+2025-04-12 20:29:48.274 [info] [Info  - 20:29:48] (224684) BG: Indexing(3) started
+2025-04-12 20:29:50.071 [info] [Info  - 20:29:50] (224684) BG: Priority queue background worker(5) root directory: file:///home/arctan/.vscode/extensions/ms-python.vscode-pylance-2025.4.1/dist
+2025-04-12 20:29:50.080 [info] [Info  - 20:29:50] (224684) BG: Priority queue background worker(5) started
+2025-04-12 20:29:54.665 [info] [Info  - 20:29:54] (224684) BG: [BG(1)] Long operation: checking: file:///home/arctan/data/justice_data/script/fileSplitter.py (2854ms)
+2025-04-12 20:29:54.666 [info] [Info  - 20:29:54] (224684) BG: [BG(1)] Long operation: analyzing: file:///home/arctan/data/justice_data/script/fileSplitter.py (4847ms)
+2025-04-12 20:29:55.404 [info] [Info  - 20:29:55] (224684) BG: [IDX(3)] Long operation: scan packages file:///home/arctan/data/justice_data (6447ms)
+2025-04-12 20:29:55.407 [info] [Info  - 20:29:55] (224684) BG: scanned(3) 249 files over 1 exec env
+2025-04-12 20:29:56.183 [info] [Info  - 20:29:56] (224684) BG: indexed(3) 249 files over 1 exec env
+2025-04-12 20:29:56.442 [info] [Info  - 20:29:56] (224684) BG: Indexing finished(3).
+2025-04-12 21:27:07.282 [info] [Info  - 21:27:07] (224684) Starting service instance "justice_data" for workspace "/home/arctan/data/justice_data"
+2025-04-12 21:27:07.579 [info] [Info  - 21:27:07] (224684) Setting environmentName for service "justice_data": "3.13.1 (global)"
+2025-04-12 21:27:07.580 [info] [Info  - 21:27:07] (224684) Setting pythonPath for service "justice_data": "/home/arctan/data/justice_data"
+2025-04-12 21:27:07.584 [info] [Info  - 21:27:07] (224684) No include entries specified; assuming /home/arctan/data/justice_data
+2025-04-12 21:27:07.585 [info] [Info  - 21:27:07] (224684) Auto-excluding **/node_modules
+2025-04-12 21:27:07.585 [info] [Info  - 21:27:07] (224684) Auto-excluding **/__pycache__
+2025-04-12 21:27:07.585 [info] [Info  - 21:27:07] (224684) Auto-excluding **/.*
+2025-04-12 21:27:07.786 [info] [Info  - 21:27:07] (224684) Found 3 source files
+2025-04-12 21:27:09.377 [info] [Info  - 21:27:09] (224684) BG: Priority queue background worker(7) root directory: file:///home/arctan/.vscode/extensions/ms-python.vscode-pylance-2025.4.1/dist
+2025-04-12 21:27:09.378 [info] [Info  - 21:27:09] (224684) BG: Priority queue background worker(7) started
+2025-04-12 21:27:09.730 [info] [Info  - 21:27:09] (224684) BG: Indexer background runner(8) root directory: file:///home/arctan/.vscode/extensions/ms-python.vscode-pylance-2025.4.1/dist (index)
+2025-04-12 21:27:09.731 [info] [Info  - 21:27:09] (224684) BG: Indexing(8) started
+2025-04-12 21:27:10.341 [info] [Info  - 21:27:10] (224684) BG: scanned(8) 1 files over 1 exec env
+2025-04-12 21:27:10.923 [info] [Info  - 21:27:10] (224684) BG: indexed(8) 1 files over 1 exec env
+2025-04-12 21:27:10.924 [info] [Info  - 21:27:10] (224684) BG: Indexing finished(8).
+2025-04-12 21:28:50.907 [info] [Info  - 21:28:50] (224684) BG: Indexer background runner(9) root directory: file:///home/arctan/.vscode/extensions/ms-python.vscode-pylance-2025.4.1/dist (refresh)
+2025-04-12 21:28:51.057 [info] [Info  - 21:28:51] (224684) BG: Indexing(9) started
+2025-04-12 21:28:52.378 [info] [Info  - 21:28:52] (224684) BG: scanned(9) 249 files over 1 exec env
+2025-04-12 21:28:52.987 [info] [Info  - 21:28:52] (224684) BG: indexed(9) 249 files over 1 exec env
+2025-04-12 21:28:53.121 [info] [Info  - 21:28:53] (224684) BG: Indexing finished(9).
+2025-04-13 04:13:35.171 [info] [Info  - 04:13:35] (224684) BG: Indexer background runner(10) root directory: file:///home/arctan/.vscode/extensions/ms-python.vscode-pylance-2025.4.1/dist (refresh)
+2025-04-13 04:13:35.173 [info] [Info  - 04:13:35] (224684) BG: Indexing(10) started
+2025-04-13 04:13:35.381 [info] [Info  - 04:13:35] (224684) BG: [BG(1)] Long operation: analyzing: file:///home/arctan/data/justice_data/script/analysis.ipynb.py#pylancePrefixCell (2373ms)
+2025-04-13 04:13:38.166 [info] [Info  - 04:13:38] (224684) BG: [BG(1)] Long operation: checking: file:///home/arctan/data/justice_data/script/analysis.ipynb.py#X12sZmlsZQ%3D%3D (2683ms)
+2025-04-13 04:13:38.167 [info] [Info  - 04:13:38] (224684) BG: [BG(1)] Long operation: analyzing: file:///home/arctan/data/justice_data/script/analysis.ipynb.py#X12sZmlsZQ%3D%3D (2684ms)
+2025-04-13 04:13:38.174 [info] [Info  - 04:13:38] (224684) BG: [IDX(10)] Long operation: scan packages file:///home/arctan/data/justice_data (2652ms)
+2025-04-13 04:13:38.174 [info] [Info  - 04:13:38] (224684) BG: scanned(10) 276 files over 1 exec env
+2025-04-13 04:13:39.406 [info] [Info  - 04:13:39] (224684) BG: [BG(1)] Long operation: analyzing: file:///home/arctan/data/justice_data/script/analysis.ipynb.py#pylancePrefixCell (3923ms)
+2025-04-13 04:13:41.361 [info] [Info  - 04:13:41] (224684) BG: [IDX(10)] Long operation: index execution environment file:///home/arctan/data/justice_data (2304ms)
+2025-04-13 04:13:41.368 [info] [Info  - 04:13:41] (224684) BG: [IDX(10)] Long operation: index packages file:///home/arctan/data/justice_data (2566ms)
+2025-04-13 04:13:41.368 [info] [Info  - 04:13:41] (224684) BG: indexed(10) 276 files over 1 exec env
+2025-04-13 04:13:41.519 [info] [Info  - 04:13:41] (224684) BG: Indexing finished(10).
+2025-04-13 04:15:08.308 [info] [Info  - 04:15:08] (224684) [FG] Long operation: binding: file:///usr/lib/python3.13/site-packages/scipy/stats/__init__.py (2969ms)
+2025-04-13 04:15:08.420 [info] [Info  - 04:15:08] (224684) BG: [BG(1)] Long operation: checking: file:///home/arctan/data/justice_data/script/analysis.ipynb.py#X14sZmlsZQ%3D%3D (3199ms)
+2025-04-13 04:15:08.420 [info] [Info  - 04:15:08] (224684) BG: [BG(1)] Long operation: analyzing: file:///home/arctan/data/justice_data/script/analysis.ipynb.py#X14sZmlsZQ%3D%3D (3199ms)
+2025-04-13 04:15:08.420 [info] [Info  - 04:15:08] (224684) BG: [BG(1)] Long operation: analyzing: file:///home/arctan/data/justice_data/script/analysis.ipynb.py#pylancePrefixCell (3199ms)
+2025-04-13 04:51:44.373 [info] [Info  - 04:51:44] (224684) BG: Indexer background runner(11) root directory: file:///home/arctan/.vscode/extensions/ms-python.vscode-pylance-2025.4.1/dist (refresh)
+2025-04-13 04:51:44.376 [info] [Info  - 04:51:44] (224684) BG: Indexing(11) started
+2025-04-13 04:51:46.824 [info] [Info  - 04:51:46] (224684) BG: [IDX(11)] Long operation: scan packages file:///home/arctan/data/justice_data (2174ms)
+2025-04-13 04:51:46.824 [info] [Info  - 04:51:46] (224684) BG: scanned(11) 324 files over 1 exec env
+2025-04-13 04:51:47.464 [info] [Info  - 04:51:47] (224684) BG: [BG(1)] Long operation: checking: file:///home/arctan/data/justice_data/script/analysis.ipynb.py#X12sZmlsZQ%3D%3D (4004ms)
+2025-04-13 04:51:47.465 [info] [Info  - 04:51:47] (224684) BG: [BG(1)] Long operation: analyzing: file:///home/arctan/data/justice_data/script/analysis.ipynb.py#X12sZmlsZQ%3D%3D (4007ms)
+2025-04-13 04:51:48.696 [info] [Info  - 04:51:48] (224684) BG: [BG(1)] Long operation: analyzing: file:///home/arctan/data/justice_data/script/analysis.ipynb.py#pylancePrefixCell (5537ms)
+2025-04-13 04:51:52.422 [info] [Info  - 04:51:52] (224684) BG: [IDX(11)] Long operation: index execution environment file:///home/arctan/data/justice_data (4856ms)
+2025-04-13 04:51:52.425 [info] [Info  - 04:51:52] (224684) BG: [IDX(11)] Long operation: index packages file:///home/arctan/data/justice_data (4945ms)
+2025-04-13 04:51:52.432 [info] [Info  - 04:51:52] (224684) BG: indexed(11) 324 files over 1 exec env
+2025-04-13 04:51:52.736 [info] [Info  - 04:51:52] (224684) BG: Indexing finished(11).
+2025-04-13 04:51:52.964 [info] [Info  - 04:51:52] (224684) BG: [BG(1)] Long operation: analyzing: file:///home/arctan/data/justice_data/script/analysis.ipynb.py#pylancePrefixCell (3317ms)
+2025-04-13 05:15:31.342 [info] [Info  - 05:15:31] (224684) BG: [BG(1)] Long operation: checking: file:///home/arctan/data/justice_data/script/analysis.ipynb.py#X22sZmlsZQ%3D%3D (2045ms)
+2025-04-13 05:15:31.349 [info] [Info  - 05:15:31] (224684) BG: [BG(1)] Long operation: analyzing: file:///home/arctan/data/justice_data/script/analysis.ipynb.py#X22sZmlsZQ%3D%3D (2055ms)
+2025-04-13 05:15:31.356 [info] [Info  - 05:15:31] (224684) BG: [BG(1)] Long operation: analyzing: file:///home/arctan/data/justice_data/script/analysis.ipynb.py#pylancePrefixCell (2124ms)
+2025-04-13 05:49:51.848 [info] [Info  - 05:49:51] (224684) Found 23 source files
+2025-04-13 05:50:01.236 [info] [Info  - 05:50:01] (224684) BG: [BG(1)] Long operation: analyzing: file:///home/arctan/data/justice_data/script/analysis.ipynb.py#pylancePrefixCell (2356ms)
+2025-04-13 11:16:12.078 [info] [Info  - 11:16:12] (224684) Found 24 source files
+2025-04-13 11:16:17.317 [info] [Info  - 11:16:17] (224684) BG: [BG(1)] Long operation: checking: file:///home/arctan/data/justice_data/script/analysis.ipynb.py#X14sZmlsZQ%3D%3D (2286ms)
+2025-04-13 11:16:17.318 [info] [Info  - 11:16:17] (224684) BG: [BG(1)] Long operation: analyzing: file:///home/arctan/data/justice_data/script/analysis.ipynb.py#X14sZmlsZQ%3D%3D (2286ms)
+2025-04-13 11:16:19.220 [info] [Info  - 11:16:19] (224684) BG: [BG(1)] Long operation: analyzing: file:///home/arctan/data/justice_data/script/analysis.ipynb.py#pylancePrefixCell (5374ms)

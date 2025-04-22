@@ -1,0 +1,43 @@
+SELECT
+  sk.state_name,
+  ROUND(AVG(cc.date_of_decision - cc.date_of_filing)) AS avg_duration_days
+FROM cases_clean cc
+JOIN state_key sk
+  ON cc.state_code = sk.state_code AND cc.year = sk.year
+WHERE cc.date_of_decision IS NOT NULL
+GROUP BY sk.state_name
+ORDER BY sk.state_name;
+    state_name     | avg_duration_days
+-------------------+-------------------
+ Andhra Pradesh    |               536
+ Assam             |               425
+ Bihar             |               498
+ Chandigarh        |               429
+ Chhattisgarh      |               365
+ Delhi             |               372
+ Diu and Daman     |               240
+ DNH at Silvasa    |               470
+ Goa               |               268
+ Gujarat           |               403
+ Haryana           |               380
+ Himachal Pradesh  |               343
+ Jammu and Kashmir |               445
+ Jharkhand         |               437
+ Karnataka         |               299
+ Kerala            |               417
+ Ladakh            |               312
+ Madhya Pradesh    |               416
+ Maharashtra       |               467
+ Manipur           |               169
+ Meghalaya         |               212
+ Mizoram           |               308
+ Orissa            |               683
+ Punjab            |               388
+ Rajasthan         |               469
+ Sikkim            |               118
+ Tamil Nadu        |               493
+ Telangana         |               582
+ Tripura           |               491
+ Uttarakhand       |               380
+ Uttar Pradesh     |               424
+ West Bengal       |               441

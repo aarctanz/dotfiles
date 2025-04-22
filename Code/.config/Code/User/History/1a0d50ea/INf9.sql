@@ -1,0 +1,99 @@
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2010_part_1.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2010_part_2.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2010_part_3.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2010_part_4.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2010_part_5.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2010_part_6.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2010_part_7.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2010_part_8.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2010_part_9.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2010_part_10.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2011_part_1.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2011_part_2.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2011_part_3.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2011_part_4.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2011_part_5.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2011_part_6.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2011_part_7.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2011_part_8.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2011_part_9.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2011_part_10.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2012_part_1.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2012_part_2.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2012_part_3.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2012_part_4.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2012_part_5.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2012_part_6.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2012_part_7.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2012_part_8.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2012_part_9.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2012_part_10.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2013_part_1.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2013_part_2.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2013_part_3.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2013_part_4.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2013_part_5.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2013_part_6.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2013_part_7.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2013_part_8.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2013_part_9.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2013_part_10.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2014_part_1.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2014_part_2.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2014_part_3.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2014_part_4.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2014_part_5.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2014_part_6.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2014_part_7.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2014_part_8.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2014_part_9.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2014_part_10.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2015_part_1.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2015_part_2.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2015_part_3.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2015_part_4.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2015_part_5.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2015_part_6.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2015_part_7.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2015_part_8.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2015_part_9.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2015_part_10.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2016_part_1.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2016_part_2.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2016_part_3.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2016_part_4.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2016_part_5.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2016_part_6.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2016_part_7.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2016_part_8.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2016_part_9.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2016_part_10.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2017_part_1.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2017_part_2.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2017_part_3.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2017_part_4.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2017_part_5.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2017_part_6.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2017_part_7.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2017_part_8.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2017_part_9.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2017_part_10.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2018_part_1.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2018_part_2.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2018_part_3.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2018_part_4.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2018_part_5.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2018_part_6.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2018_part_7.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2018_part_8.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2018_part_9.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+--\COPY cases_clean FROM '/home/arctan/data/justice_data/cases_parts/cases_2018_part_10.csv' WITH (FORMAT CSV, HEADER true, NULL '');
+

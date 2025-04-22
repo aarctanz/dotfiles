@@ -1,0 +1,294 @@
+SELECT sk.state_name, cc.year, COUNT(cc.ddl_case_id) AS filed_cases
+FROM cases_clean cc
+JOIN state_key sk ON cc.state_code = sk.state_code AND cc.year = sk.year
+GROUP BY sk.state_name, cc.year
+ORDER BY sk.state_name, cc.year;
+    state_name     | year | filed_cases
+-------------------+------+-------------
+ Andhra Pradesh    | 2010 |      119060
+ Andhra Pradesh    | 2011 |      157147
+ Andhra Pradesh    | 2012 |      179161
+ Andhra Pradesh    | 2013 |      193951
+ Andhra Pradesh    | 2014 |      244465
+ Andhra Pradesh    | 2015 |      264059
+ Andhra Pradesh    | 2016 |      269339
+ Andhra Pradesh    | 2017 |      299830
+ Andhra Pradesh    | 2018 |      298205
+ Assam             | 2010 |       47654
+ Assam             | 2011 |       71407
+ Assam             | 2012 |       90410
+ Assam             | 2013 |      110864
+ Assam             | 2014 |      129700
+ Assam             | 2015 |      153021
+ Assam             | 2016 |      153878
+ Assam             | 2017 |      209735
+ Assam             | 2018 |      198812
+ Bihar             | 2010 |      136679
+ Bihar             | 2011 |      166851
+ Bihar             | 2012 |      211517
+ Bihar             | 2013 |      280409
+ Bihar             | 2014 |      348488
+ Bihar             | 2015 |      369842
+ Bihar             | 2016 |      381925
+ Bihar             | 2017 |      462128
+ Bihar             | 2018 |      582013
+ Chandigarh        | 2010 |       10283
+ Chandigarh        | 2011 |       14910
+ Chandigarh        | 2012 |       19410
+ Chandigarh        | 2013 |       24416
+ Chandigarh        | 2014 |       27757
+ Chandigarh        | 2015 |       28987
+ Chandigarh        | 2016 |       29496
+ Chandigarh        | 2017 |       31870
+ Chandigarh        | 2018 |       24670
+ Chhattisgarh      | 2010 |        9968
+ Chhattisgarh      | 2011 |       36053
+ Chhattisgarh      | 2012 |       70304
+ Chhattisgarh      | 2013 |       56794
+ Chhattisgarh      | 2014 |      126410
+ Chhattisgarh      | 2015 |      158350
+ Chhattisgarh      | 2016 |      176387
+ Chhattisgarh      | 2017 |      178850
+ Chhattisgarh      | 2018 |      203198
+ Delhi             | 2010 |       94133
+ Delhi             | 2011 |      103018
+ Delhi             | 2012 |      113121
+ Delhi             | 2013 |      145063
+ Delhi             | 2014 |      169280
+ Delhi             | 2015 |      202832
+ Delhi             | 2016 |      297016
+ Delhi             | 2017 |      364905
+ Delhi             | 2018 |      357111
+ Diu and Daman     | 2010 |         478
+ Diu and Daman     | 2011 |         577
+ Diu and Daman     | 2012 |        1302
+ Diu and Daman     | 2013 |        1373
+ Diu and Daman     | 2014 |         960
+ Diu and Daman     | 2015 |        1525
+ Diu and Daman     | 2016 |        1534
+ Diu and Daman     | 2017 |        1430
+ Diu and Daman     | 2018 |        1318
+ DNH at Silvasa    | 2010 |         587
+ DNH at Silvasa    | 2011 |         636
+ DNH at Silvasa    | 2012 |         721
+ DNH at Silvasa    | 2013 |        1318
+ DNH at Silvasa    | 2014 |         981
+ DNH at Silvasa    | 2015 |        1178
+ DNH at Silvasa    | 2016 |         874
+ DNH at Silvasa    | 2017 |         673
+ DNH at Silvasa    | 2018 |         693
+ Goa               | 2010 |       24398
+ Goa               | 2011 |       23197
+ Goa               | 2012 |       26137
+ Goa               | 2013 |       29141
+ Goa               | 2014 |       33232
+ Goa               | 2015 |       39479
+ Goa               | 2016 |       31118
+ Goa               | 2017 |       31723
+ Goa               | 2018 |       37372
+ Gujarat           | 2010 |      323378
+ Gujarat           | 2011 |      363540
+ Gujarat           | 2012 |      446063
+ Gujarat           | 2013 |      563238
+ Gujarat           | 2014 |      626785
+ Gujarat           | 2015 |      647062
+ Gujarat           | 2016 |      727572
+ Gujarat           | 2017 |      745875
+ Gujarat           | 2018 |      636917
+ Haryana           | 2010 |      114369
+ Haryana           | 2011 |      180003
+ Haryana           | 2012 |      223297
+ Haryana           | 2013 |      284909
+ Haryana           | 2014 |      392863
+ Haryana           | 2015 |      497951
+ Haryana           | 2016 |      562374
+ Haryana           | 2017 |      566267
+ Haryana           | 2018 |      568937
+ Himachal Pradesh  | 2010 |       28384
+ Himachal Pradesh  | 2011 |       44062
+ Himachal Pradesh  | 2012 |       61502
+ Himachal Pradesh  | 2013 |       69222
+ Himachal Pradesh  | 2014 |       87738
+ Himachal Pradesh  | 2015 |      118389
+ Himachal Pradesh  | 2016 |      109027
+ Himachal Pradesh  | 2017 |      139192
+ Himachal Pradesh  | 2018 |      287846
+ Jammu and Kashmir | 2010 |       12341
+ Jammu and Kashmir | 2011 |       22695
+ Jammu and Kashmir | 2012 |       28477
+ Jammu and Kashmir | 2013 |       27091
+ Jammu and Kashmir | 2014 |       29114
+ Jammu and Kashmir | 2015 |       48645
+ Jammu and Kashmir | 2016 |       42081
+ Jammu and Kashmir | 2017 |       65302
+ Jammu and Kashmir | 2018 |       80330
+ Jharkhand         | 2010 |       42242
+ Jharkhand         | 2011 |       53993
+ Jharkhand         | 2012 |       73584
+ Jharkhand         | 2013 |       85499
+ Jharkhand         | 2014 |      105431
+ Jharkhand         | 2015 |      133520
+ Jharkhand         | 2016 |      128532
+ Jharkhand         | 2017 |      170860
+ Jharkhand         | 2018 |      261470
+ Karnataka         | 2010 |      505067
+ Karnataka         | 2011 |      616999
+ Karnataka         | 2012 |      711985
+ Karnataka         | 2013 |      888301
+ Karnataka         | 2014 |     1018705
+ Karnataka         | 2015 |     1047082
+ Karnataka         | 2016 |     1060212
+ Karnataka         | 2017 |     1063775
+ Karnataka         | 2018 |     1018807
+ Kerala            | 2010 |      216726
+ Kerala            | 2011 |      232944
+ Kerala            | 2012 |      330901
+ Kerala            | 2013 |      404351
+ Kerala            | 2014 |      548581
+ Kerala            | 2015 |      665496
+ Kerala            | 2016 |      793377
+ Kerala            | 2017 |      765998
+ Kerala            | 2018 |      578654
+ Ladakh            | 2011 |           2
+ Ladakh            | 2012 |           7
+ Ladakh            | 2013 |          10
+ Ladakh            | 2014 |          18
+ Ladakh            | 2015 |          43
+ Ladakh            | 2016 |          96
+ Ladakh            | 2017 |         198
+ Ladakh            | 2018 |         297
+ Madhya Pradesh    | 2010 |      329611
+ Madhya Pradesh    | 2011 |      390092
+ Madhya Pradesh    | 2012 |      438625
+ Madhya Pradesh    | 2013 |      551561
+ Madhya Pradesh    | 2014 |      675507
+ Madhya Pradesh    | 2015 |      661148
+ Madhya Pradesh    | 2016 |      734398
+ Madhya Pradesh    | 2017 |      794414
+ Madhya Pradesh    | 2018 |      777138
+ Maharashtra       | 2010 |      843828
+ Maharashtra       | 2011 |      852358
+ Maharashtra       | 2012 |      947686
+ Maharashtra       | 2013 |     1024567
+ Maharashtra       | 2014 |     1098596
+ Maharashtra       | 2015 |     1227976
+ Maharashtra       | 2016 |     1227521
+ Maharashtra       | 2017 |     1268023
+ Maharashtra       | 2018 |     1279711
+ Manipur           | 2010 |         682
+ Manipur           | 2011 |        1174
+ Manipur           | 2012 |        2314
+ Manipur           | 2013 |        4532
+ Manipur           | 2014 |       12937
+ Manipur           | 2015 |       14734
+ Manipur           | 2016 |       15642
+ Manipur           | 2017 |       15375
+ Manipur           | 2018 |       13758
+ Meghalaya         | 2010 |         884
+ Meghalaya         | 2011 |        1277
+ Meghalaya         | 2012 |        2681
+ Meghalaya         | 2013 |        1995
+ Meghalaya         | 2014 |        4827
+ Meghalaya         | 2015 |        5384
+ Meghalaya         | 2016 |        5202
+ Meghalaya         | 2017 |        7425
+ Meghalaya         | 2018 |        3820
+ Mizoram           | 2010 |         308
+ Mizoram           | 2011 |         659
+ Mizoram           | 2012 |        1863
+ Mizoram           | 2013 |        1301
+ Mizoram           | 2014 |         707
+ Mizoram           | 2015 |        1119
+ Mizoram           | 2016 |        1027
+ Mizoram           | 2017 |        1900
+ Mizoram           | 2018 |        1241
+ Orissa            | 2010 |       81999
+ Orissa            | 2011 |      100002
+ Orissa            | 2012 |      124080
+ Orissa            | 2013 |      156448
+ Orissa            | 2014 |      161651
+ Orissa            | 2015 |      190400
+ Orissa            | 2016 |      225370
+ Orissa            | 2017 |      280902
+ Orissa            | 2018 |      244660
+ Punjab            | 2010 |      105241
+ Punjab            | 2011 |      166199
+ Punjab            | 2012 |      246044
+ Punjab            | 2013 |      308946
+ Punjab            | 2014 |      371878
+ Punjab            | 2015 |      406869
+ Punjab            | 2016 |      432106
+ Punjab            | 2017 |      530641
+ Punjab            | 2018 |      508737
+ Rajasthan         | 2010 |      186541
+ Rajasthan         | 2011 |      246223
+ Rajasthan         | 2012 |      324821
+ Rajasthan         | 2013 |      428314
+ Rajasthan         | 2014 |      435297
+ Rajasthan         | 2015 |      564492
+ Rajasthan         | 2016 |      536517
+ Rajasthan         | 2017 |      835964
+ Rajasthan         | 2018 |      762095
+ Sikkim            | 2010 |         172
+ Sikkim            | 2011 |         422
+ Sikkim            | 2012 |         885
+ Sikkim            | 2013 |        3396
+ Sikkim            | 2014 |        4906
+ Sikkim            | 2015 |        4731
+ Sikkim            | 2016 |        5074
+ Sikkim            | 2017 |        4529
+ Sikkim            | 2018 |        3929
+ Tamil Nadu        | 2010 |      169763
+ Tamil Nadu        | 2011 |      217434
+ Tamil Nadu        | 2012 |      264714
+ Tamil Nadu        | 2013 |      322826
+ Tamil Nadu        | 2014 |      393737
+ Tamil Nadu        | 2015 |      446306
+ Tamil Nadu        | 2016 |      487858
+ Tamil Nadu        | 2017 |      603300
+ Tamil Nadu        | 2018 |      623378
+ Telangana         | 2010 |       98258
+ Telangana         | 2011 |      111926
+ Telangana         | 2012 |      135231
+ Telangana         | 2013 |      167583
+ Telangana         | 2014 |      180852
+ Telangana         | 2015 |      190840
+ Telangana         | 2016 |      201282
+ Telangana         | 2017 |      222771
+ Telangana         | 2018 |      224768
+ Tripura           | 2010 |        5759
+ Tripura           | 2011 |        7924
+ Tripura           | 2012 |       10720
+ Tripura           | 2013 |       12622
+ Tripura           | 2014 |       13439
+ Tripura           | 2015 |       11727
+ Tripura           | 2016 |       13407
+ Tripura           | 2017 |       11654
+ Tripura           | 2018 |       10508
+ Uttarakhand       | 2010 |       30082
+ Uttarakhand       | 2011 |       39135
+ Uttarakhand       | 2012 |       62618
+ Uttarakhand       | 2013 |       84164
+ Uttarakhand       | 2014 |      104243
+ Uttarakhand       | 2015 |       86019
+ Uttarakhand       | 2016 |       91218
+ Uttarakhand       | 2017 |      112425
+ Uttarakhand       | 2018 |      138027
+ Uttar Pradesh     | 2010 |      566535
+ Uttar Pradesh     | 2011 |      740306
+ Uttar Pradesh     | 2012 |      934941
+ Uttar Pradesh     | 2013 |      983026
+ Uttar Pradesh     | 2014 |     1146625
+ Uttar Pradesh     | 2015 |     1677099
+ Uttar Pradesh     | 2016 |     2028033
+ Uttar Pradesh     | 2017 |     2307339
+ Uttar Pradesh     | 2018 |     2360275
+ West Bengal       | 2010 |      112763
+ West Bengal       | 2011 |      140496
+ West Bengal       | 2012 |      198457
+ West Bengal       | 2013 |      231225
+ West Bengal       | 2014 |      242660
+ West Bengal       | 2015 |      357348
+ West Bengal       | 2016 |      335864
+ West Bengal       | 2017 |      410173
+ West Bengal       | 2018 |      420940

@@ -1,0 +1,1 @@
+INDEX VERSION 1.134+/home/arctan/.config/Code/User/workspaceStorage/26c97a3eccd30e3dec491ddfb8212f25/redhat.java/ss_ws/.metadata/.plugins/org.eclipse.jdt.core

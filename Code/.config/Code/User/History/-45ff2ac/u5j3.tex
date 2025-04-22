@@ -1,0 +1,63 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{multicol}
+\usepackage{titlesec}
+\setlength{\parskip}{1em}
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}[block]{\bfseries\Large}{\thesection}{1em}{}
+
+
+\title{}
+\author{Abhinav Kumar}
+
+\begin{document}
+\maketitle
+\newpage
+\section*{Hardwired and Microprogrammed Control}
+Control unit in a CPU manages the flow of signals. There are two main ways to design a control unit: hardwired control and microprogrammed control. Each has its own advantages and drawbacks. 
+
+Hardwired control uses fixed logic circuits to control signals in the CPU. It is fast because no decoding is needed. The downside is that it is inflexible. If you want to change the control logic, you need to redesign the entire circuit.
+
+Microprogrammed control is flexible. Instead of fixed logic, it uses a set of microinstructions stored in a control memory. These instructions decide how the signals are controlled. It is slower than hardwired control, but it is easier to modify. Complex instructions are easier to implement with microprogramming.
+\begin{multicols}{2}
+    \textbf{Hardwired Control:}
+    \begin{itemize}
+        \item Uses fixed logic circuits to generate control signals.
+        \item Very fast since no decoding is needed.
+        \item Difficult to modify. Changes require redesigning the circuit.
+        \item Best for simple processors or small instruction sets.
+        \item More efficient in terms of speed.
+    \end{itemize}
+    
+    \columnbreak
+    
+    \textbf{Microprogrammed Control:}
+    \begin{itemize}
+        \item Uses microinstructions stored in control memory.
+        \item Slower compared to hardwired because decoding is needed.
+        \item Easy to modify by updating the microinstructions.
+        \item Best for complex processors with large instruction sets.
+        \item More flexible for implementing new features.
+    \end{itemize}
+\end{multicols}
+\newpage
+
+\section*{RISC and CISC Processors}
+RISC (Reduced Instruction Set Computer) has simple instructions. Each instruction does one small task. RISC focuses on speed. Fewer instructions mean it is easier for the CPU to execute them quickly. The programs are bigger, but they run faster.
+
+CISC (Complex Instruction Set Computer) has complex instructions. Each instruction can do multiple tasks. This makes the programs smaller but can slow the CPU because decoding these instructions takes more time. CISC is good when memory is limited.
+
+\section*{Multiprocessing and Multiprocessors}
+Multiprocessing means the CPU can execute multiple processes at the same time. It requires more than one processing unit. This improves speed and efficiency, especially for large tasks.
+
+Multiprocessors are systems with two or more CPUs in the same system. They work together to handle tasks. Shared memory is often used so all CPUs can access the same data. This is common in servers and supercomputers.
+
+\section*{Parallel Processors}
+Parallel processors split one big task into smaller parts. These parts are processed at the same time. This reduces the time it takes to complete the task.
+
+Parallel processing is useful for tasks like simulations, graphics rendering, and machine learning. It needs software that can break the task into independent pieces. Synchronization is also important, so all parts work together correctly.
+
+\end{document}

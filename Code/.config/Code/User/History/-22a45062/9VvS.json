@@ -1,0 +1,5 @@
+{
+    "window.menuBarVisibility": "toggle",
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 18
+}

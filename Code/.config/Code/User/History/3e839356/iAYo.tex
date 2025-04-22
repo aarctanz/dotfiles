@@ -1,0 +1,55 @@
+\documentclass[twoside]{report}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{lipsum}
+
+\newgeometry{options}
+
+\title{Thesis for \Large{NIT KKR}}
+\author{Arctan}
+\date{20 Dec}
+
+
+\begin{document}
+\maketitle    
+
+\chapter*{Abstract}
+Abstract section
+
+\chapter*{Dedication}
+Bs normal 
+
+
+\chapter*{Acknowledgement}
+Acknowledgement section
+
+%After acknowledgement put table of content
+\tableofcontents
+
+\listoffigures
+
+\include{chapt1}
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.3]{../images/asd.png}
+    \caption{AN images}
+    \label{fig:img1}
+\end{figure}
+
+\include{chapt2}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[scale=0.4]{../images/asdd.png}
+    \caption{another img}
+    \label{fig:img2}
+\end{figure}
+
+\include{conclusion}
+\appendix
+\include{appendix}
+
+\bibliographystyle{plain}
+\bibliography{ref.bib}
+
+\end{document}

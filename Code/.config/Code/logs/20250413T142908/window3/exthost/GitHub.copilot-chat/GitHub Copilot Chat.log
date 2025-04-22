@@ -1,0 +1,47 @@
+2025-04-13 21:18:22.030 [info] Using the Electron fetcher.
+2025-04-13 21:18:22.030 [info] Initializing Git extension service.
+2025-04-13 21:18:22.030 [info] Successfully activated the vscode.git extension.
+2025-04-13 21:18:22.030 [info] Enablement state of the vscode.git extension: true.
+2025-04-13 21:18:22.030 [info] Successfully registered Git commit message provider.
+2025-04-13 21:18:24.232 [info] Logged in as aarctanz
+2025-04-13 21:18:48.993 [info] Got Copilot token for aarctanz
+2025-04-13 21:18:49.917 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-13 21:18:49.917 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-04-13 21:18:50.046 [info] Registering default platform agent...
+2025-04-13 21:18:50.355 [info] Fetched model metadata in 1351ms 8a106750-6762-4fc6-8c4a-e345177b4590
+2025-04-13 21:18:50.789 [info] activationBlocker from 'languageModelAccess' took for 12796ms
+2025-04-13 21:34:01.455 [info] Fetched model metadata in 7515ms 95ac96e8-345f-438a-a2ad-361fd1b79ca1
+2025-04-13 21:43:49.033 [info] Logged in as aarctanz
+2025-04-13 21:43:51.445 [info] Got Copilot token for aarctanz
+2025-04-13 21:43:51.461 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-13 21:58:52.920 [info] Fetched model metadata in 1434ms bcd42f47-7013-4751-bb35-fb36a9dce409
+2025-04-13 22:08:51.463 [info] Logged in as aarctanz
+2025-04-13 22:08:53.534 [info] Got Copilot token for aarctanz
+2025-04-13 22:08:53.548 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-13 22:08:54.301 [info] Fetched model metadata in 744ms 96da46ab-b5f9-455a-b451-48ffa400fcee
+2025-04-13 22:23:55.943 [info] Fetched model metadata in 1626ms ee64fb95-5003-4b7e-87b6-acc42b8fa7e3
+2025-04-13 22:33:53.545 [info] Logged in as aarctanz
+2025-04-13 22:33:55.889 [info] Got Copilot token for aarctanz
+2025-04-13 22:33:55.909 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-13 22:48:58.266 [info] Fetched model metadata in 2332ms 5d50a080-53d3-4893-b68e-ef78e8a35801
+2025-04-13 22:58:55.899 [info] Logged in as aarctanz
+2025-04-13 22:58:57.378 [info] Got Copilot token for aarctanz
+2025-04-13 22:58:57.402 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-13 23:13:59.445 [info] Fetched model metadata in 2010ms 1da8a2eb-792e-476d-a9ac-5c356fd8d9e8
+2025-04-13 23:23:57.386 [info] Logged in as aarctanz
+2025-04-13 23:23:59.134 [info] Got Copilot token for aarctanz
+2025-04-13 23:23:59.152 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-13 23:39:00.872 [info] Fetched model metadata in 1669ms e4c3c5fa-467c-4c91-9a9c-025a2b6319dc
+2025-04-14 08:06:24.034 [info] Logged in as aarctanz
+2025-04-14 08:06:25.377 [info] Got Copilot token for aarctanz
+2025-04-14 08:06:25.400 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-14 08:06:27.370 [info] Fetched model metadata in 1960ms 59c281f0-a032-4d31-aec3-ee08c31aa955
+2025-04-14 08:21:29.575 [info] Fetched model metadata in 1984ms 37a45081-71de-4181-b388-d98de823a698
+2025-04-14 08:31:25.386 [info] Logged in as aarctanz
+2025-04-14 08:31:27.177 [info] Got Copilot token for aarctanz
+2025-04-14 08:31:27.202 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-14 08:46:30.316 [info] Fetched model metadata in 2344ms 6d012b37-20cb-4da9-859c-bf2e45ea0981
+2025-04-14 09:30:20.985 [info] Logged in as aarctanz
+2025-04-14 09:30:22.383 [info] Got Copilot token for aarctanz
+2025-04-14 09:30:22.425 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-14 09:30:24.377 [info] Fetched model metadata in 1944ms b602558c-c6dd-408b-a5e4-0542743928b1

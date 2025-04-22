@@ -1,0 +1,92 @@
+// Entities and Attributes
+
+Cases {
+    ddl_case_id string pk
+    year int
+    state_code string fk
+    dist_code string fk
+    court_no string fk
+    cino string
+    judge_position string
+    female_defendant string
+    female_petitioner string
+    female_adv_def string
+    female_adv_pet string
+    type_name string fk
+    purpose_name string fk
+    disp_name string fk
+    date_of_filing date
+    date_of_decision date
+    date_first_list date
+    date_last_list date
+    date_next_list date
+}
+
+Judges {
+    ddl_judge_id int pk
+    state_code string fk
+    dist_code string fk
+    court_no string fk
+    judge_position string
+    female_judge string
+    start_date date
+    end_date date
+}
+
+Acts_Sections {
+    act_s string pk
+    act int
+    section string
+    bailable_ipc string
+    number_sections_ipc int
+    criminal int
+}
+
+Courts {
+    court_no string pk
+    court_name string
+    state_code string fk
+    dist_code string fk
+}
+
+Districts {
+    dist_code string pk
+    state_code string fk
+    district_name string
+}
+
+States {
+    state_code string pk
+    state_name string
+}
+
+Purpose_Name {
+    purpose_name string pk
+    purpose_name_s string
+    count int
+}
+
+Disposition_Name {
+    disp_name string pk
+    disp_name_s string
+    count int
+}
+
+Judge_Case_Merge {
+    ddl_case_id string pk fk
+    ddl_filing_judge_id int fk
+    ddl_decision_judge_id int fk
+}
+
+// Relationships
+
+Cases.ddl_case_id < Judge_Case_Merge.ddl_case_id
+Judges.ddl_judge_id < Judge_Case_Merge.ddl_filing_judge_id
+Judges.ddl_judge_id < Judge_Case_Merge.ddl_decision_judge_id
+Cases.court_no < Courts.court_no
+Cases.dist_code < Districts.dist_code
+Cases.state_code < States.state_code
+Courts.dist_code < Districts.dist_code
+Cases.purpose_name < Purpose_Name.purpose_name
+Cases.disp_name < Disposition_Name.disp_name
+

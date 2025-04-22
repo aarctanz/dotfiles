@@ -1,0 +1,185 @@
+Visual Studio Code (1.96.1, undefined, desktop)
+Jupyter Extension Version: 2024.11.0.
+Python Extension Version: 2025.4.0.
+Pylance Extension Version: 2025.4.1.
+Platform: linux (x64).
+Temp Storage folder ~/.config/Code/User/globalStorage/ms-toolsai.jupyter/version-2024.11.0
+Workspace folder ~/data/Dataset-Indian-Names-master, Home = /home/arctan
+21:18:47.890 [info] Starting Kernel (Python Path: /sbin/python, Unknown, 3.13.2) for '~/data/Dataset-Indian-Names-master/name_classifier.ipynb' (disableUI=true)
+21:18:49.167 [warn] Failed to get activated env vars for /sbin/python in 1515ms
+21:18:49.301 [info] Process Execution: /sbin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+21:18:49.462 [info] Process Execution: /sbin/python -m pip list
+21:18:49.518 [warn] Failed to get activated env vars for /sbin/python in 555ms
+21:18:49.564 [info] Process Execution: /sbin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+21:18:49.631 [info] Process Execution: /sbin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v3f05cba77db232e2d53b3cfd8b3bcc66da319c376.json
+    > cwd: //home/~/data/Dataset-Indian-Names-master
+21:18:53.809 [info] Kernel successfully started
+21:18:53.880 [info] Process Execution: /sbin/python /home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/pythonFiles/printJupyterDataDir.py
+21:25:08.152 [warn] Cell completed with errors iu [Error]: 'float' object is not subscriptable
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'TypeError',
+  evalue: "'float' object is not subscriptable",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mTypeError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[3]\x1B[39m\x1B[32m, line 8\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34mextract_features\x1B[39m(name):\n' +
+      '\x1B[32m      2\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m {\n' +
+      '\x1B[32m      3\x1B[39m         \x1B[33m"\x1B[39m\x1B[33mlast_char\x1B[39m\x1B[33m"\x1B[39m: name[-\x1B[32m1\x1B[39m:],\n' +
+      '\x1B[32m      4\x1B[39m         \x1B[33m"\x1B[39m\x1B[33mlast_2\x1B[39m\x1B[33m"\x1B[39m: name[-\x1B[32m2\x1B[39m:],\n' +
+      '\x1B[32m      5\x1B[39m         \x1B[33m"\x1B[39m\x1B[33mlast_3\x1B[39m\x1B[33m"\x1B[39m: name[-\x1B[32m3\x1B[39m:]\n' +
+      '\x1B[32m      6\x1B[39m     }\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m8\x1B[39m features = \x1B[43mdata\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43mname\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m.\x1B[49m\x1B[43mapply\x1B[49m\x1B[43m(\x1B[49m\x1B[43mextract_features\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m      9\x1B[39m features_df = pd.DataFrame(features.tolist())\n' +
+      '\x1B[32m     11\x1B[39m \x1B[38;5;66;03m# Vectorize the features\x1B[39;00m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/series.py:4924\x1B[39m, in \x1B[36mSeries.apply\x1B[39m\x1B[34m(self, func, convert_dtype, args, by_row, **kwargs)\x1B[39m\n' +
+      '\x1B[32m   4789\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34mapply\x1B[39m(\n' +
+      '\x1B[32m   4790\x1B[39m     \x1B[38;5;28mself\x1B[39m,\n' +
+      '\x1B[32m   4791\x1B[39m     func: AggFuncType,\n' +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m   4796\x1B[39m     **kwargs,\n' +
+      '\x1B[32m   4797\x1B[39m ) -> DataFrame | Series:\n' +
+      '\x1B[32m   4798\x1B[39m \x1B[38;5;250m    \x1B[39m\x1B[33;03m"""\x1B[39;00m\n' +
+      '\x1B[32m   4799\x1B[39m \x1B[33;03m    Invoke function on values of Series.\x1B[39;00m\n' +
+      '\x1B[32m   4800\x1B[39m \n' +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m   4915\x1B[39m \x1B[33;03m    dtype: float64\x1B[39;00m\n' +
+      '\x1B[32m   4916\x1B[39m \x1B[33;03m    """\x1B[39;00m\n' +
+      '\x1B[32m   4917\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mSeriesApply\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[32m   4918\x1B[39m \x1B[43m        \x1B[49m\x1B[38;5;28;43mself\x1B[39;49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   4919\x1B[39m \x1B[43m        \x1B[49m\x1B[43mfunc\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   4920\x1B[39m \x1B[43m        \x1B[49m\x1B[43mconvert_dtype\x1B[49m\x1B[43m=\x1B[49m\x1B[43mconvert_dtype\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   4921\x1B[39m \x1B[43m        \x1B[49m\x1B[43mby_row\x1B[49m\x1B[43m=\x1B[49m\x1B[43mby_row\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   4922\x1B[39m \x1B[43m        \x1B[49m\x1B[43margs\x1B[49m\x1B[43m=\x1B[49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   4923\x1B[39m \x1B[43m        \x1B[49m\x1B[43mkwargs\x1B[49m\x1B[43m=\x1B[49m\x1B[43mkwargs\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m4924\x1B[39m \x1B[43m    \x1B[49m\x1B[43m)\x1B[49m\x1B[43m.\x1B[49m\x1B[43mapply\x1B[49m\x1B[43m(\x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/apply.py:1427\x1B[39m, in \x1B[36mSeriesApply.apply\x1B[39m\x1B[34m(self)\x1B[39m\n' +
+      '\x1B[32m   1424\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m.apply_compat()\n' +
+      '\x1B[32m   1426\x1B[39m \x1B[38;5;66;03m# self.func is Callable\x1B[39;00m\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1427\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43mapply_standard\x1B[49m\x1B[43m(\x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/apply.py:1507\x1B[39m, in \x1B[36mSeriesApply.apply_standard\x1B[39m\x1B[34m(self)\x1B[39m\n' +
+      '\x1B[32m   1501\x1B[39m \x1B[38;5;66;03m# row-wise access\x1B[39;00m\n' +
+      "\x1B[32m   1502\x1B[39m \x1B[38;5;66;03m# apply doesn't have a `na_action` keyword and for backward compat reasons\x1B[39;00m\n" +
+      '\x1B[32m   1503\x1B[39m \x1B[38;5;66;03m# we need to give `na_action="ignore"` for categorical data.\x1B[39;00m\n' +
+      '\x1B[32m   1504\x1B[39m \x1B[38;5;66;03m# TODO: remove the `na_action="ignore"` when that default has been changed in\x1B[39;00m\n' +
+      '\x1B[32m   1505\x1B[39m \x1B[38;5;66;03m#  Categorical (GH51645).\x1B[39;00m\n' +
+      '\x1B[32m   1506\x1B[39m action = \x1B[33m"\x1B[39m\x1B[33mignore\x1B[39m\x1B[33m"\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(obj.dtype, CategoricalDtype) \x1B[38;5;28;01melse\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1507\x1B[39m mapped = \x1B[43mobj\x1B[49m\x1B[43m.\x1B[49m\x1B[43m_map_values\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[32m   1508\x1B[39m \x1B[43m    \x1B[49m\x1B[43mmapper\x1B[49m\x1B[43m=\x1B[49m\x1B[43mcurried\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mna_action\x1B[49m\x1B[43m=\x1B[49m\x1B[43maction\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mconvert\x1B[49m\x1B[43m=\x1B[49m\x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43mconvert_dtype\x1B[49m\n' +
+      '\x1B[32m   1509\x1B[39m \x1B[43m\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   1511\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mlen\x1B[39m(mapped) \x1B[38;5;129;01mand\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(mapped[\x1B[32m0\x1B[39m], ABCSeries):\n' +
+      '\x1B[32m   1512\x1B[39m     \x1B[38;5;66;03m# GH#43986 Need to do list(mapped) in order to get treated as nested\x1B[39;00m\n' +
+      '\x1B[32m   1513\x1B[39m     \x1B[38;5;66;03m#  See also GH#25959 regarding EA support\x1B[39;00m\n' +
+      '\x1B[32m   1514\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m obj._constructor_expanddim(\x1B[38;5;28mlist\x1B[39m(mapped), index=obj.index)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/base.py:921\x1B[39m, in \x1B[36mIndexOpsMixin._map_values\x1B[39m\x1B[34m(self, mapper, na_action, convert)\x1B[39m\n' +
+      '\x1B[32m    918\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(arr, ExtensionArray):\n' +
+      '\x1B[32m    919\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m arr.map(mapper, na_action=na_action)\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m921\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43malgorithms\x1B[49m\x1B[43m.\x1B[49m\x1B[43mmap_array\x1B[49m\x1B[43m(\x1B[49m\x1B[43marr\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mmapper\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mna_action\x1B[49m\x1B[43m=\x1B[49m\x1B[43mna_action\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mconvert\x1B[49m\x1B[43m=\x1B[49m\x1B[43mconvert\x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/algorithms.py:1743\x1B[39m, in \x1B[36mmap_array\x1B[39m\x1B[34m(arr, mapper, na_action, convert)\x1B[39m\n' +
+      '\x1B[32m   1741\x1B[39m values = arr.astype(\x1B[38;5;28mobject\x1B[39m, copy=\x1B[38;5;28;01mFalse\x1B[39;00m)\n' +
+      '\x1B[32m   1742\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m na_action \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1743\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mlib\x1B[49m\x1B[43m.\x1B[49m\x1B[43mmap_infer\x1B[49m\x1B[43m(\x1B[49m\x1B[43mvalues\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mmapper\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mconvert\x1B[49m\x1B[43m=\x1B[49m\x1B[43mconvert\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   1744\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m   1745\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m lib.map_infer_mask(\n' +
+      '\x1B[32m   1746\x1B[39m         values, mapper, mask=isna(values).view(np.uint8), convert=convert\n' +
+      '\x1B[32m   1747\x1B[39m     )\n',
+    '\x1B[36mFile \x1B[39m\x1B[32mlib.pyx:2972\x1B[39m, in \x1B[36mpandas._libs.lib.map_infer\x1B[39m\x1B[34m()\x1B[39m\n',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[3]\x1B[39m\x1B[32m, line 3\x1B[39m, in \x1B[36mextract_features\x1B[39m\x1B[34m(name)\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34mextract_features\x1B[39m(name):\n' +
+      '\x1B[32m      2\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m {\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m3\x1B[39m         \x1B[33m"\x1B[39m\x1B[33mlast_char\x1B[39m\x1B[33m"\x1B[39m: \x1B[43mname\x1B[49m\x1B[43m[\x1B[49m\x1B[43m-\x1B[49m\x1B[32;43m1\x1B[39;49m\x1B[43m:\x1B[49m\x1B[43m]\x1B[49m,\n' +
+      '\x1B[32m      4\x1B[39m         \x1B[33m"\x1B[39m\x1B[33mlast_2\x1B[39m\x1B[33m"\x1B[39m: name[-\x1B[32m2\x1B[39m:],\n' +
+      '\x1B[32m      5\x1B[39m         \x1B[33m"\x1B[39m\x1B[33mlast_3\x1B[39m\x1B[33m"\x1B[39m: name[-\x1B[32m3\x1B[39m:]\n' +
+      '\x1B[32m      6\x1B[39m     }\n',
+    "\x1B[31mTypeError\x1B[39m: 'float' object is not subscriptable"
+  ]
+}
+21:25:42.301 [warn] Cell completed with errors iu [Error]: name 'df' is not defined
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'NameError',
+  evalue: "name 'df' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[5]\x1B[39m\x1B[32m, line 11\x1B[39m\n' +
+      '\x1B[32m      9\x1B[39m \x1B[38;5;66;03m# Make sure names are in lowercase\x1B[39;00m\n' +
+      '\x1B[32m     10\x1B[39m data[\x1B[33m"\x1B[39m\x1B[33mname\x1B[39m\x1B[33m"\x1B[39m] = data[\x1B[33m"\x1B[39m\x1B[33mname\x1B[39m\x1B[33m"\x1B[39m].str.lower().str.strip()\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m11\x1B[39m \x1B[43mdf\x1B[49m.info()\n',
+    "\x1B[31mNameError\x1B[39m: name 'df' is not defined"
+  ]
+}
+21:28:59.711 [warn] Cell completed with errors iu [Error]: 'float' object is not subscriptable
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'TypeError',
+  evalue: "'float' object is not subscriptable",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mTypeError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[10]\x1B[39m\x1B[32m, line 8\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34mextract_features\x1B[39m(name):\n' +
+      '\x1B[32m      2\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m {\n' +
+      '\x1B[32m      3\x1B[39m         \x1B[33m"\x1B[39m\x1B[33mlast_char\x1B[39m\x1B[33m"\x1B[39m: name[-\x1B[32m1\x1B[39m:],\n' +
+      '\x1B[32m      4\x1B[39m         \x1B[33m"\x1B[39m\x1B[33mlast_2\x1B[39m\x1B[33m"\x1B[39m: name[-\x1B[32m2\x1B[39m:],\n' +
+      '\x1B[32m      5\x1B[39m         \x1B[33m"\x1B[39m\x1B[33mlast_3\x1B[39m\x1B[33m"\x1B[39m: name[-\x1B[32m3\x1B[39m:]\n' +
+      '\x1B[32m      6\x1B[39m     }\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m8\x1B[39m features = \x1B[43mdf\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43mname\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m.\x1B[49m\x1B[43mapply\x1B[49m\x1B[43m(\x1B[49m\x1B[43mextract_features\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m      9\x1B[39m features_df = pd.DataFrame(features.tolist())\n' +
+      '\x1B[32m     11\x1B[39m \x1B[38;5;66;03m# Vectorize the features\x1B[39;00m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/series.py:4924\x1B[39m, in \x1B[36mSeries.apply\x1B[39m\x1B[34m(self, func, convert_dtype, args, by_row, **kwargs)\x1B[39m\n' +
+      '\x1B[32m   4789\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34mapply\x1B[39m(\n' +
+      '\x1B[32m   4790\x1B[39m     \x1B[38;5;28mself\x1B[39m,\n' +
+      '\x1B[32m   4791\x1B[39m     func: AggFuncType,\n' +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m   4796\x1B[39m     **kwargs,\n' +
+      '\x1B[32m   4797\x1B[39m ) -> DataFrame | Series:\n' +
+      '\x1B[32m   4798\x1B[39m \x1B[38;5;250m    \x1B[39m\x1B[33;03m"""\x1B[39;00m\n' +
+      '\x1B[32m   4799\x1B[39m \x1B[33;03m    Invoke function on values of Series.\x1B[39;00m\n' +
+      '\x1B[32m   4800\x1B[39m \n' +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m   4915\x1B[39m \x1B[33;03m    dtype: float64\x1B[39;00m\n' +
+      '\x1B[32m   4916\x1B[39m \x1B[33;03m    """\x1B[39;00m\n' +
+      '\x1B[32m   4917\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mSeriesApply\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[32m   4918\x1B[39m \x1B[43m        \x1B[49m\x1B[38;5;28;43mself\x1B[39;49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   4919\x1B[39m \x1B[43m        \x1B[49m\x1B[43mfunc\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   4920\x1B[39m \x1B[43m        \x1B[49m\x1B[43mconvert_dtype\x1B[49m\x1B[43m=\x1B[49m\x1B[43mconvert_dtype\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   4921\x1B[39m \x1B[43m        \x1B[49m\x1B[43mby_row\x1B[49m\x1B[43m=\x1B[49m\x1B[43mby_row\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   4922\x1B[39m \x1B[43m        \x1B[49m\x1B[43margs\x1B[49m\x1B[43m=\x1B[49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   4923\x1B[39m \x1B[43m        \x1B[49m\x1B[43mkwargs\x1B[49m\x1B[43m=\x1B[49m\x1B[43mkwargs\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m4924\x1B[39m \x1B[43m    \x1B[49m\x1B[43m)\x1B[49m\x1B[43m.\x1B[49m\x1B[43mapply\x1B[49m\x1B[43m(\x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/apply.py:1427\x1B[39m, in \x1B[36mSeriesApply.apply\x1B[39m\x1B[34m(self)\x1B[39m\n' +
+      '\x1B[32m   1424\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m.apply_compat()\n' +
+      '\x1B[32m   1426\x1B[39m \x1B[38;5;66;03m# self.func is Callable\x1B[39;00m\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1427\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43mapply_standard\x1B[49m\x1B[43m(\x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/apply.py:1507\x1B[39m, in \x1B[36mSeriesApply.apply_standard\x1B[39m\x1B[34m(self)\x1B[39m\n' +
+      '\x1B[32m   1501\x1B[39m \x1B[38;5;66;03m# row-wise access\x1B[39;00m\n' +
+      "\x1B[32m   1502\x1B[39m \x1B[38;5;66;03m# apply doesn't have a `na_action` keyword and for backward compat reasons\x1B[39;00m\n" +
+      '\x1B[32m   1503\x1B[39m \x1B[38;5;66;03m# we need to give `na_action="ignore"` for categorical data.\x1B[39;00m\n' +
+      '\x1B[32m   1504\x1B[39m \x1B[38;5;66;03m# TODO: remove the `na_action="ignore"` when that default has been changed in\x1B[39;00m\n' +
+      '\x1B[32m   1505\x1B[39m \x1B[38;5;66;03m#  Categorical (GH51645).\x1B[39;00m\n' +
+      '\x1B[32m   1506\x1B[39m action = \x1B[33m"\x1B[39m\x1B[33mignore\x1B[39m\x1B[33m"\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(obj.dtype, CategoricalDtype) \x1B[38;5;28;01melse\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1507\x1B[39m mapped = \x1B[43mobj\x1B[49m\x1B[43m.\x1B[49m\x1B[43m_map_values\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[32m   1508\x1B[39m \x1B[43m    \x1B[49m\x1B[43mmapper\x1B[49m\x1B[43m=\x1B[49m\x1B[43mcurried\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mna_action\x1B[49m\x1B[43m=\x1B[49m\x1B[43maction\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mconvert\x1B[49m\x1B[43m=\x1B[49m\x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43mconvert_dtype\x1B[49m\n' +
+      '\x1B[32m   1509\x1B[39m \x1B[43m\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   1511\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mlen\x1B[39m(mapped) \x1B[38;5;129;01mand\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(mapped[\x1B[32m0\x1B[39m], ABCSeries):\n' +
+      '\x1B[32m   1512\x1B[39m     \x1B[38;5;66;03m# GH#43986 Need to do list(mapped) in order to get treated as nested\x1B[39;00m\n' +
+      '\x1B[32m   1513\x1B[39m     \x1B[38;5;66;03m#  See also GH#25959 regarding EA support\x1B[39;00m\n' +
+      '\x1B[32m   1514\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m obj._constructor_expanddim(\x1B[38;5;28mlist\x1B[39m(mapped), index=obj.index)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/base.py:921\x1B[39m, in \x1B[36mIndexOpsMixin._map_values\x1B[39m\x1B[34m(self, mapper, na_action, convert)\x1B[39m\n' +
+      '\x1B[32m    918\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(arr, ExtensionArray):\n' +
+      '\x1B[32m    919\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m arr.map(mapper, na_action=na_action)\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m921\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43malgorithms\x1B[49m\x1B[43m.\x1B[49m\x1B[43mmap_array\x1B[49m\x1B[43m(\x1B[49m\x1B[43marr\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mmapper\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mna_action\x1B[49m\x1B[43m=\x1B[49m\x1B[43mna_action\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mconvert\x1B[49m\x1B[43m=\x1B[49m\x1B[43mconvert\x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/usr/lib/python3.13/site-packages/pandas/core/algorithms.py:1743\x1B[39m, in \x1B[36mmap_array\x1B[39m\x1B[34m(arr, mapper, na_action, convert)\x1B[39m\n' +
+      '\x1B[32m   1741\x1B[39m values = arr.astype(\x1B[38;5;28mobject\x1B[39m, copy=\x1B[38;5;28;01mFalse\x1B[39;00m)\n' +
+      '\x1B[32m   1742\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m na_action \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1743\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mlib\x1B[49m\x1B[43m.\x1B[49m\x1B[43mmap_infer\x1B[49m\x1B[43m(\x1B[49m\x1B[43mvalues\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mmapper\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mconvert\x1B[49m\x1B[43m=\x1B[49m\x1B[43mconvert\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   1744\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m   1745\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m lib.map_infer_mask(\n' +
+      '\x1B[32m   1746\x1B[39m         values, mapper, mask=isna(values).view(np.uint8), convert=convert\n' +
+      '\x1B[32m   1747\x1B[39m     )\n',
+    '\x1B[36mFile \x1B[39m\x1B[32mlib.pyx:2972\x1B[39m, in \x1B[36mpandas._libs.lib.map_infer\x1B[39m\x1B[34m()\x1B[39m\n',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[10]\x1B[39m\x1B[32m, line 3\x1B[39m, in \x1B[36mextract_features\x1B[39m\x1B[34m(name)\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34mextract_features\x1B[39m(name):\n' +
+      '\x1B[32m      2\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m {\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m3\x1B[39m         \x1B[33m"\x1B[39m\x1B[33mlast_char\x1B[39m\x1B[33m"\x1B[39m: \x1B[43mname\x1B[49m\x1B[43m[\x1B[49m\x1B[43m-\x1B[49m\x1B[32;43m1\x1B[39;49m\x1B[43m:\x1B[49m\x1B[43m]\x1B[49m,\n' +
+      '\x1B[32m      4\x1B[39m         \x1B[33m"\x1B[39m\x1B[33mlast_2\x1B[39m\x1B[33m"\x1B[39m: name[-\x1B[32m2\x1B[39m:],\n' +
+      '\x1B[32m      5\x1B[39m         \x1B[33m"\x1B[39m\x1B[33mlast_3\x1B[39m\x1B[33m"\x1B[39m: name[-\x1B[32m3\x1B[39m:]\n' +
+      '\x1B[32m      6\x1B[39m     }\n',
+    "\x1B[31mTypeError\x1B[39m: 'float' object is not subscriptable"
+  ]
+}

@@ -1,0 +1,37 @@
+2025-04-12 20:15:33.333 [info] Extension host with pid 219996 started
+2025-04-12 20:15:33.333 [info] Skipping acquiring lock for /home/arctan/.config/Code/User/workspaceStorage/e7e83285fd2e7826f698b87f7ad43506.
+2025-04-12 20:15:34.484 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-04-12 20:15:34.581 [info] ExtensionService#_doActivateExtension mechatroner.rainbow-csv, startup: false, activationEvent: 'onLanguage:plaintext'
+2025-04-12 20:15:34.622 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-04-12 20:15:34.667 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onWebviewPanel:markdown.preview'
+2025-04-12 20:15:35.182 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-04-12 20:15:35.195 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+2025-04-12 20:15:35.713 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-04-12 20:15:35.850 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-04-12 20:15:36.360 [info] Eager extensions activated
+2025-04-12 20:15:36.368 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-04-12 20:15:36.397 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-04-12 20:15:36.455 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-04-12 20:15:36.461 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-04-12 20:15:36.526 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-04-12 20:15:36.700 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-04-12 20:15:37.875 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-04-12 20:15:39.166 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+2025-04-12 20:15:39.511 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-04-12 20:15:39.542 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-04-12 20:26:51.160 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:sql'
+2025-04-12 20:29:35.513 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'api', root cause: VisualStudioExptTeam.vscodeintellicode
+2025-04-12 20:29:36.060 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2025-04-12 20:29:36.065 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.intellicode-api-usage-examples, startup: false, activationEvent: 'onLanguage:python'
+2025-04-12 20:29:37.676 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2025-04-12 20:29:38.445 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'api', root cause: VisualStudioExptTeam.vscodeintellicode
+2025-04-12 20:29:39.922 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-04-12 21:26:46.848 [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: false, activationEvent: 'onNotebookSerializer:jupyter-notebook'
+2025-04-12 21:26:46.945 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-cell-tags, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2025-04-12 21:26:46.963 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-slideshow, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2025-04-12 21:29:52.173 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-04-13 03:56:30.690 [warning] GitHub.copilot-chat - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite.review.copilot'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-04-13 03:56:30.740 [warning] GitHub.copilot-chat - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite.review.copilot'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-04-13 03:56:30.784 [warning] GitHub.copilot-chat - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite.review.copilot'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-04-13 03:56:32.100 [warning] GitHub.copilot-chat - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite.review.copilot'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-04-13 04:28:46.674 [warning] onWillSaveNotebookDocument-listener from extension {"value":"vscode.ipynb","_lower":"vscode.ipynb"} ignored due to invalid data

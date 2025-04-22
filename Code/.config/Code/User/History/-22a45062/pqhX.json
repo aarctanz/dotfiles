@@ -1,0 +1,8 @@
+{
+    "window.menuBarVisibility": "toggle",
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 18,
+    "workbench.editorAssociations": {
+        "*.pdf": "default"
+    }
+}

@@ -1,0 +1,636 @@
+SELECT
+  dk.district_name,
+  COUNT(*) AS filed_cases
+FROM cases_clean cc
+JOIN dist_key dk ON cc.state_code = dk.state_code AND cc.dist_code = dk.dist_code AND cc.year = dk.year
+GROUP BY  dk.district_name;
+         district_name          | filed_cases
+--------------------------------+-------------
+ Adilabad                       |      101474
+ Agra                           |      325343
+ Ahmedabad                      |      514067
+ Ahmednagar                     |      431015
+ Aizawl                         |        9476
+ Ajmer                          |      263389
+ Akola                          |      189654
+ Alappuzha                      |      338732
+ Aligarh                        |      321151
+ Alirajpur                      |       22495
+ Allahabad                      |      383961
+ Almora                         |       11802
+ Alwar                          |      221355
+ Ambala                         |      197338
+ Ambedkar Nagar                 |      126036
+ Amravati                       |      270288
+ Amreli                         |       93717
+ Amritsar                       |      269595
+ Anand                          |      167860
+ Ananthapur                     |      159912
+ Anantnag                       |       49449
+ Anugul                         |       50029
+ Anuppur                        |       35518
+ Araria                         |       78505
+ Aravalli at Modasa             |       75796
+ Ariyalur                       |       47127
+ Ashoknagr                      |       32198
+ Auraiya                        |       65104
+ Aurangabad                     |      448470
+ Azamgarh                       |      247124
+ BAGALKOT                       |      190382
+ Bageshwar                      |        8647
+ Baghpat                        |       92517
+ Bahraich                       |      209428
+ Baksa                          |        2453
+ Balaghat                       |       79392
+ Balangir                       |       42474
+ Balasore                       |      140346
+ BALLARI                        |      290566
+ Ballia                         |      102912
+ Balod                          |       18594
+ Balodabazar                    |       40304
+ Balotra Barmer                 |       60786
+ Balrampur                      |       79903
+ Balrampur Ramanujganj          |        9631
+ Banaskanth at Palanpur         |      198801
+ Banda                          |      112571
+ Bandipora                      |        5787
+ Banka                          |       48723
+ Bankura                        |       54014
+ Banswara                       |       49937
+ Barabanki                      |      203357
+ Baramulla                      |       21955
+ Baran                          |       85500
+ Bareilly                       |      255574
+ Bargarh                        |       47896
+ Barnala                        |       50926
+ Barpeta                        |       55889
+ Barwani                        |       54028
+ Bastar                         |       21920
+ Basti                          |      109487
+ Bathinda                       |      196510
+ Beed                           |      302973
+ Begusarai                      |      111631
+ BELAGAVI                       |      503405
+ Bemetara                       |       15314
+ BENGALURU                      |     1612911
+ BENGALURU RURAL                |      357991
+ Bettiah                        |      122079
+ Betul                          |       98851
+ Bhadohi SR Nagar               |       95451
+ Bhadrak                        |       76439
+ Bhagalpur                      |       70136
+ Bhandara                       |       78431
+ Bharatpur                      |      110595
+ Bharuch                        |      248014
+ Bhavnagar                      |      236201
+ Bhilwara                       |      130472
+ Bhind                          |       89739
+ Bhiwani                        |      191835
+ Bhojpur                        |       57234
+ Bhopal                         |      395334
+ BIDAR                          |      219319
+ Bijnor                         |      162379
+ Bikaner                        |      134520
+ Bilaspur                       |      194555
+ Birbhum                        |       66778
+ Bishnupur                      |        7741
+ Bokaro                         |       51725
+ Bongaigaon                     |       15781
+ BOTAD                          |       25144
+ Boudh                          |       19222
+ Budaun                         |      250133
+ Budgam                         |       14557
+ Bulandshahr                    |      232448
+ Buldhana                       |      203148
+ Bundi                          |      105768
+ Burhanpur                      |       33656
+ Buxar                          |       67941
+ Cachar                         |       56350
+ Calcutta                       |      141932
+ Central                        |      280114
+ Chamba                         |       53587
+ Chamoli                        |        6492
+ Champawat                      |       13921
+ CHAMRAJNAGAR                   |      111859
+ Chandauli                      |        6856
+ Chandel                        |         704
+ Chandigarh                     |      211799
+ Chandrapur                     |      182310
+ Chatra                         |       34699
+ Chennai                        |      390762
+ Chhatarpur                     |       76684
+ Chhindwara                     |      152531
+ Chhota Udepur                  |       61394
+ CHIKKABALLAPUR                 |      135524
+ CHIKKAMAGALURU                 |      161146
+ Chirang                        |        3537
+ CHITRADURGA                    |      176891
+ Chitrakoot                     |       69093
+ Chittoor                       |      159836
+ Chittorgarh                    |      108771
+ Churachandpur                  |        1477
+ Churu                          |       79503
+ Coimbatore                     |      184235
+ Coochbehar                     |       75026
+ Cuddalore                      |      125365
+ Cuttack                        |      130666
+ Dahod                          |       84727
+ DAKSHINA KANNADA               |      233937
+ Daltonganj                     |       58759
+ Daman                          |        7548
+ Damoh                          |       95415
+ Dantewada                      |        7043
+ Darbhanga                      |      115500
+ Darjeeling                     |       39698
+ Darrang                        |       35047
+ Datia                          |       50682
+ Dausa                          |       85704
+ DAVANGERE                      |      218586
+ Dehradun                       |      263242
+ Deogarh                        |       14174
+ Deoghar                        |       42718
+ Deoria                         |      106318
+ Devbhumi Dwarka at Khambhaliya |       51668
+ Dewas                          |      127274
+ Dhalai Tripura                 |        2989
+ Dhamtari                       |       30092
+ Dhanbad                        |      139536
+ Dhar                           |      131113
+ Dharmapuri                     |       40847
+ DHARWAD                        |      242397
+ Dhemaji                        |       15072
+ Dhenkanal                      |       45958
+ Dholpur                        |       35882
+ Dhubri                         |       54962
+ Dhule                          |      134861
+ Dibrugarh                      |       64092
+ Dima Hasao                     |         888
+ Dindigul                       |      104155
+ Dindori                        |       26194
+ Diu                            |        2949
+ Doda                           |       10021
+ Dumka                          |       31794
+ Dungarpur                      |       43822
+ Durg                           |      123158
+ East                           |      118167
+ East Garo Hills                |        1279
+ East Godavari                  |      204215
+ East Khasi Hills               |       28766
+ East Singhbhum at Jamshedpur   |       99652
+ Ernakulam                      |      465594
+ Erode                          |      103712
+ Etah                           |      209595
+ Etawah                         |       99858
+ Faizabad                       |      211478
+ Faridabad                      |      240744
+ Faridkot                       |       58845
+ Farrukhabad                    |      125051
+ Fatehabad                      |      121806
+ Fatehgarh Sahib                |       91990
+ Fatehpur                       |      167929
+ Fazilka                        |       90557
+ Ferozepur                      |      114276
+ Firozabad                      |      235811
+ GADAG                          |       80170
+ Gadchiroli                     |       63501
+ Gajapati                       |       27160
+ Ganderbal                      |        7731
+ GANDHINAGAR                    |      195215
+ Ganganagar                     |      185597
+ Gangtok                        |       15335
+ Ganjam                         |       84520
+ Garhwa                         |       48966
+ Gautam Buddha Nagar            |      399381
+ Gaya                           |       73805
+ Ghaziabad                      |      392823
+ Ghazipur                       |      109718
+ Giridih                        |       65015
+ Gir Somnath at Veraval         |       86783
+ Goalpara                       |       38825
+ Godda                          |       32563
+ Golaghat                       |       26816
+ Gomati District                |       10942
+ Gonda                          |      135587
+ Gondia                         |       67151
+ Gopalganj                      |      112334
+ Gorakhpur                      |      381506
+ Gumla                          |       24810
+ Guna                           |       71194
+ Guntur                         |      247801
+ Gurdaspur                      |      103166
+ Gurugram                       |      313198
+ Gwalior                        |      253913
+ Gyalshing                      |        4001
+ Hailakandi                     |       33463
+ Hamirpur                       |      142215
+ Hanumangarh                    |      125373
+ Hapur                          |       80945
+ Harda                          |       38374
+ Hardoi                         |      159125
+ Haridwar                       |      180584
+ HASSAN                         |      379728
+ Hathras                        |       96677
+ HAVERI                         |      176924
+ Hazaribagh                     |       79970
+ Hisar                          |      239724
+ Hooghly                        |      155965
+ Hoshangabad                    |       74782
+ Hoshiarpur                     |       33488
+ Hoshiarpurr                    |       86668
+ Howrah                         |      214279
+ Hyderabad                      |      386857
+ Idukki                         |      130798
+ Imphal East                    |       19266
+ Imphal West                    |       40608
+ Indore                         |      576653
+ Jabalpur                       |      315394
+ Jagatsinghpur                  |       48768
+ Jaipur District                |       94379
+ Jaipur Metro                   |      333215
+ Jaipur Metro I                 |      248572
+ Jaipur Metro II                |      195340
+ Jaiselmer                      |       39584
+ Jajpur                         |       52488
+ Jalandhar                      |      401526
+ Jalaun                         |       60211
+ Jalgaon                        |      310126
+ Jalna                          |      154101
+ Jalore                         |       47927
+ Jalpaiguri                     |      102813
+ Jammu                          |       59013
+ Jamnagar                       |      162414
+ Jamtara                        |       27488
+ Jamui                          |       52175
+ Janjgir                        |       31817
+ Jashpur                        |       13045
+ Jaunpur                        |      250742
+ Jehanabad                      |       30469
+ Jhabua                         |       41695
+ Jhajjar                        |      108397
+ Jhalawar                       |       76657
+ Jhansi                         |      230767
+ Jhargram                       |        3648
+ Jharsuguda                     |       27447
+ Jhunjhunu                      |       99548
+ Jind                           |      122380
+ Jodhpur District               |       53490
+ Jodhpur Metro                  |      107488
+ Jorhat                         |       49546
+ Junagadh                       |      150960
+ Jyotiba Phule Nagar            |      139742
+ kachchh at Bhuj                |      177007
+ Kadapa                         |      115180
+ Kaimur at Bhabhua              |       71645
+ Kaithal                        |      111532
+ KALABURAGI                     |      227177
+ Kalahandi                      |       35364
+ kalimpong                      |        3293
+ Kamrup                         |       14111
+ Kamrup Metro                   |      236112
+ Kancheepuram                   |      128424
+ Kandhamal                      |       29970
+ Kangra                         |      137791
+ Kanker                         |       17066
+ Kannauj                        |       75183
+ Kanniyakumari                  |       91509
+ Kannur                         |      261072
+ Kanpur Dehat                   |      181540
+ Kanpur Nagar                   |      287009
+ Kanshi Ram Nagar               |       78087
+ Kapurthala                     |      118318
+ Karauli                        |       63660
+ Karbi Anglong                  |        6838
+ Kargil                         |         676
+ Karimganj                      |       33498
+ Karimnagar                     |      123318
+ Karnal                         |      260478
+ Karur                          |       48935
+ Kasaragod                      |      146088
+ Kathua                         |       14431
+ Katihar                        |      105468
+ Katni                          |      119480
+ Kaushambi                      |       83083
+ Kawardha                       |       30758
+ Kendrapada                     |       39158
+ Keonjhar                       |       59740
+ Khagaria                       |       46057
+ Khammam                        |      139806
+ Khandwa                        |       86557
+ Kheda at Nadiad                |      217299
+ Khowai Tripura                 |        4071
+ KHUNTI                         |        2100
+ Khurda                         |      123564
+ Kinnaur                        |       31765
+ Kishanganj                     |       31157
+ Kishtwar                       |        7029
+ KODAGU                         |       79403
+ Koderma                        |       39916
+ Kokrajhar                      |       12352
+ KOLAR                          |      169397
+ Kolhapur                       |      242359
+ Kollam                         |      519916
+ Kondagaon                      |        7156
+ KOPPAL                         |      106935
+ Koraput                        |       50280
+ Korba                          |       42877
+ Koriya                         |       21910
+ Kota                           |      208828
+ Kottayam                       |      405928
+ Kozhikode                      |      337903
+ Krishna                        |      251060
+ Krishnagiri                    |       74768
+ Kulgam                         |        6792
+ Kullu                          |       80134
+ Kupwara                        |       14503
+ Kurnool                        |      135126
+ Kurukshetra                    |      151419
+ Kushinagar                     |      145621
+ Lakhimpur                      |      226129
+ Lakhisarai                     |       35202
+ Lakshadweep                    |         248
+ Lalitpur                       |       78114
+ Latehar                        |       22470
+ Latur                          |      213879
+ Leh                            |        1079
+ Lohardaga                      |       17758
+ Lucknow                        |      408150
+ Ludhiana                       |      444831
+ Lunglei                        |         649
+ Madhepura                      |       51638
+ Madhubani                      |      104673
+ Madurai                        |      169507
+ Mahabubnagar                   |      123637
+ Maharajganj                    |       89396
+ Maharashtra-Family Courts      |      187204
+ Maharashtra Industrial and Lab |      149798
+ Maharashtra-School Tribunals   |        2104
+ Mahasamund                     |       33692
+ Mahesana                       |      259091
+ Mahisagar at Lunawada          |       36476
+ Mahoba                         |       73204
+ Mah State Cooperative Appellat |       34198
+ Mainpuri                       |      111586
+ Malappuram                     |      285300
+ Malda                          |       81299
+ Malkangiri                     |        9289
+ Mandi                          |      119744
+ Mandla                         |       56447
+ Mandleshwar                    |       92174
+ Mandsaur                       |       90563
+ MANDYA                         |      278341
+ Mangan                         |         957
+ Mansa                          |       73762
+ Mathura                        |      351444
+ Mau                            |       91201
+ Mayurbhanj                     |       49413
+ Medak                          |       75533
+ Meerut                         |      442493
+ Merta (Nagaur)                 |       39823
+ Merta Nagaur                   |       83260
+ Mirzapur                       |      146336
+ Moga                           |       82096
+ Mohali                         |      105690
+ Moradabad                      |      291928
+ MORBI                          |       73447
+ Morena                         |      116018
+ Morigaon                       |       42681
+ Motihari                       |      124079
+ Mumbai City Civil Court        |      329268
+ Mumbai CMM Courts              |      935631
+ Mumbai Motor Accident Claims T |       24022
+ Mumbai Small Causes Court      |       59412
+ Mungeli                        |       15631
+ Munger                         |       57108
+ Murshidabad                    |      221476
+ Muzaffarnagar                  |      209273
+ Muzaffarpur                    |       96811
+ MYSURU                         |      410363
+ Nabarangpur                    |       20549
+ Nadia                          |      135974
+ Nagaon                         |      119712
+ Nagapattinam                   |       46843
+ Nagpur                         |      625566
+ Nainital                       |       74558
+ Nalanda                        |       74930
+ Nalbari                        |       37110
+ Nalgonda                       |      101600
+ Namakkal                       |       84926
+ Namchi                         |        7751
+ Nanded                         |      215713
+ Nandurbar                      |       67920
+ Narmada                        |       43630
+ Narnaul                        |      103327
+ Narsinghpur                    |       84262
+ Nashik                         |      435457
+ Navsari                        |      116928
+ Nawada                         |       41752
+ Nayagarh                       |       29464
+ Neemuch                        |       49022
+ Nellore                        |      102187
+ New Delhi                      |      165053
+ Nizamabad                      |       76910
+ North                          |      150863
+ North Dinajpur                 |       69090
+ North East                     |       90444
+ North Goa                      |      151888
+ North Tripura                  |        9192
+ North  Twenty Four Parganas    |      262218
+ North West                     |      178503
+ Nuapada                        |       23278
+ Nuh                            |       70961
+ Osmanabad                      |      208973
+ Pakur                          |       19949
+ Palakkad                       |      299543
+ Pali                           |      131751
+ Palwal                         |       86271
+ Panchkula                      |      128372
+ Panchmahal at Godhra           |      136284
+ Panipat                        |      143242
+ Panna                          |       54910
+ Parbhani                       |      200299
+ Paschim Bardhaman              |       38814
+ Paschim Medinpur               |      118030
+ Patan                          |      105794
+ Pathanamthitta                 |      237747
+ Pathankot                      |       42850
+ Patiala                        |      268005
+ Patna                          |      327251
+ Pauri Garhwal                  |       21744
+ Perambalur                     |       31182
+ Pilibhit                       |      123128
+ Pithoragarh                    |       13193
+ Poonch                         |       10388
+ Porbandar                      |       68563
+ Prakasham                      |      140245
+ Pratapgarh                     |      250471
+ Puducherry                     |       79630
+ Pudukkottai                    |       49095
+ Pulwama                        |       15169
+ Pune                           |      665481
+ Purba Bardhaman                |       84537
+ Purba Medinipur                |       95557
+ Puri                           |       74350
+ Purnea                         |       91452
+ Purulia                        |       47958
+ Raebareli                      |       98370
+ RAICHUR                        |      170181
+ Raigad                         |      178732
+ Raigarh                        |       65901
+ Raipur                         |      211738
+ Raisen                         |       67954
+ Rajgarh                        |       97213
+ RAJKOT                         |      301554
+ Rajnandgaon                    |       65787
+ Rajouri                        |       11105
+ Rajsamand                      |       88135
+ RAMANAGARAM                    |      127368
+ Ramanathapuram                 |       47136
+ Ramban                         |        5227
+ RAMGARH                        |        5027
+ Rampur                         |      208366
+ Ranchi                         |      120152
+ Rangareddy                     |      263822
+ Ratlam                         |       98539
+ Ratnagiri                      |       83983
+ Rayagada                       |       49016
+ Reasi                          |        6413
+ Rewa                           |      156467
+ Rewari                         |      130488
+ Ri Bhoi                        |          99
+ Rohtak                         |      183567
+ Rohtas Sasaram                 |      111441
+ Rupnagar                       |       87199
+ Sabarkantha at Himmatnagar     |      137133
+ Sagar                          |      193359
+ Saharanpur                     |      202845
+ Saharsa                        |       57926
+ Sahibganj                      |       22995
+ Salem                          |      146494
+ Samastipur                     |      132455
+ Samba                          |        6620
+ Sambalpur                      |       54260
+ Sambhal at Chandausi           |       49080
+ Sangli                         |      212260
+ Sangrur                        |      160210
+ Santkabir Nagar                |       64999
+ Saran at Chapra                |       94856
+ Satara                         |      245017
+ Satna                          |      126992
+ Sawai Madhopur                 |       74509
+ SBS Nagar                      |       62008
+ Sehore                         |       70715
+ Senapati                       |        1297
+ Seoni                          |       86370
+ Sepahijala Tripura             |        9162
+ Seraikella                     |       30777
+ Shahdara                       |      115530
+ Shahdol                        |       75008
+ Shahjahanpur                   |      174095
+ Shajapur                       |       76559
+ Shamli                         |       16200
+ Sheikhpura                     |       22474
+ Sheohar                        |        6064
+ Sheopur                        |       34535
+ Shimla                         |      105739
+ SHIVAMOGGA                     |      302925
+ Shivpuri                       |       98180
+ Shopian                        |       10950
+ Shravasti                      |       50155
+ Siddharthnagar                 |       80220
+ Sidhi                          |       70734
+ Sikar                          |      140206
+ Silvassa                       |        7661
+ Simdega                        |       11187
+ Sindhudurg                     |       49982
+ Singrauli                      |       68950
+ Sirmaur                        |       67360
+ Sirohi                         |       61540
+ Sirsa                          |      167304
+ Sitamarhi                      |       81664
+ Sitapur                        |      234862
+ Sivagangai                     |       63696
+ Sivasagar                      |       46969
+ Siwan                          |      105814
+ Solan                          |      114351
+ Solapur                        |      386007
+ Sonbhadra                      |      120303
+ Sonepat                        |      172995
+ Sonepur                        |       20983
+ Sonitpur                       |       80609
+ South                          |      146626
+ South Dinajpur                 |       60981
+ South East                     |      172621
+ South Goa                      |      123909
+ SouthTripura                   |        7459
+ South Twenty Four Parganas     |      376546
+ South West                     |      238060
+ Srikakulam                     |       60054
+ Sri Muktsar Sahib              |       65046
+ Srinagar                       |       57544
+ Sultanpur                      |      196809
+ Sundargarh                     |       89247
+ Supaul                         |       44654
+ Surajpur                       |       18585
+ SURAT                          |      392862
+ Surendranagar                  |      120342
+ Surguja                        |       33906
+ Surguja at Ambikapur           |        5477
+ Tamenglong                     |        1092
+ Tapi                           |       38650
+ Tarn Taran                     |       69099
+ Tehri Garhwal                  |       14679
+ Thane                          |      570773
+ Thanjavur                      |      114625
+ Theni                          |       98879
+ The Nilgiris                   |       30216
+ Thiruvananthapuram             |      474882
+ Thoothukudi                    |       99758
+ Thoubal                        |        8963
+ Thrissur                       |      511313
+ Tikamgarh                      |      105087
+ Tinsukia                       |       40548
+ Tiruchirappalli                |      153012
+ Tirunelveli                    |      228039
+ Tiruppur                       |      128724
+ Tiruvallur                     |       83634
+ Tiruvannamalai                 |       82080
+ Tiruvarur                      |       57396
+ Tonk                           |       81156
+ TUMAKURU                       |      359732
+ Udaipur                        |      176495
+ Udalguri                       |        7359
+ Udhampur                       |       20308
+ Udham Singh Nagar              |      128028
+ UDUPI                          |      177083
+ Ujjain                         |      189963
+ Umaria                         |       32469
+ Una                            |      104635
+ Unakoti  Tripura               |       11989
+ Unnao                          |      188252
+ UTTARA KANNADA                 |      181698
+ Uttarkashi                     |       11041
+ Vadodara                       |      385326
+ Vaishali                       |       41678
+ Valsad                         |      117283
+ Varanasi                       |      283141
+ Vellore                        |      164445
+ Vidisha                        |       80858
+ VIJAYAPURA                     |      187886
+ Viluppuram                     |      121921
+ Virudhunagar                   |      108239
+ Visakapatnam                   |      235467
+ Vizianagaram                   |       63368
+ Warangal                       |      140554
+ Wardha                         |      231745
+ Washim                         |      103771
+ Wayanad                        |      121964
+ West                           |      190498
+ West Garo Hills                |        2762
+ West Godavari                  |      150766
+ West Jaintia Hills             |         589
+ West Singhbhum at Chaibasa     |       25105
+ West Tripura                   |       41956
+ YADGIR                         |       39755
+ YADGIR.                        |       20953
+ Yamunanagar                    |      145592
+ Yavatmal                       |      315754

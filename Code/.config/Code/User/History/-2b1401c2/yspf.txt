@@ -1,0 +1,40 @@
+SELECT sk.state_name,  COUNT(cc.ddl_case_id) AS disposed_cases
+FROM cases_clean cc
+JOIN state_key sk ON cc.state_code = sk.state_code AND cc.year = sk.year
+WHERE cc.date_of_decision IS NOT NULL
+GROUP BY sk.state_name
+ORDER BY sk.state_name;
+    state_name      disposed_cases
+-------------------+----------------
+ Andhra Pradesh            1546584
+ Assam                      913112
+ Bihar                     1291205
+ Chandigarh                 184134
+ Chhattisgarh               779548
+ Delhi                     1361995
+ Diu and Daman               10497
+ DNH at Silvasa               7661
+ Goa                        237338
+ Gujarat                   4212358
+ Haryana                   2826120
+ Himachal Pradesh           714213
+ Jammu and Kashmir          212162
+ Jharkhand                  755879
+ Karnataka                 6606074
+ Kerala                    3497038
+ Ladakh                        671
+ Madhya Pradesh            4105864
+ Maharashtra               7006856
+ Manipur                     73220
+ Meghalaya                   27711
+ Mizoram                      7156
+ Orissa                     741281
+ Punjab                    2602574
+ Rajasthan                 3077358
+ Sikkim                      26963
+ Tamil Nadu                2576389
+ Telangana                 1073327
+ Tripura                     80073
+ Uttarakhand                547387
+ Uttar Pradesh             8194276
+ West Bengal               1526568

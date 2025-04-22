@@ -1,0 +1,72 @@
+\d act_key
+                      Table "public.act_key"
+ Column |          Type           | Collation | Nullable | Default
+--------+-------------------------+-----------+----------+---------
+ act_s  | character varying(1024) |           |          |
+ count  | integer                 |           |          |
+ act    | integer                 |           | not null |
+Indexes:
+    "act_key_pkey" PRIMARY KEY, btree (act)
+Referenced by:
+    TABLE "acts_sections" CONSTRAINT "fk_asc_act" FOREIGN KEY (act) REFERENCES act_key(act) ON DELETE CASCADE
+
+\d acts_sections
+                         Table "public.acts_sections"
+       Column        |          Type          | Collation | Nullable | Default
+---------------------+------------------------+-----------+----------+---------
+ ddl_case_id         | character varying(256) |           |          |
+ act                 | integer                |           |          |
+ section             | integer                |           |          |
+ bailable_ipc        | character varying(256) |           |          |
+ number_sections_ipc | integer                |           |          |
+ criminal            | integer                |           |          |
+Indexes:
+    "idx_asc_act" btree (act)
+    "idx_asc_act_section" btree (act, section)
+    "idx_asc_bailable" btree (bailable_ipc)
+    "idx_asc_case_id" btree (ddl_case_id)
+    "idx_asc_criminal" btree (criminal)
+    "idx_asc_section" btree (section)
+Foreign-key constraints:
+    "fk_asc_act" FOREIGN KEY (act) REFERENCES act_key(act) ON DELETE CASCADE
+    "fk_asc_case" FOREIGN KEY (ddl_case_id) REFERENCES cases_clean(ddl_case_id) ON DELETE CASCADE
+    "fk_asc_section" FOREIGN KEY (section) REFERENCES section_key(section) ON DELETE CASCADE
+
+\d cases_clean
+                          Table "public.cases_clean"
+      Column       |          Type           | Collation | Nullable | Default
+-------------------+-------------------------+-----------+----------+---------
+ ddl_case_id       | character varying(256)  |           | not null |
+ year              | integer                 |           |          |
+ state_code        | integer                 |           |          |
+ dist_code         | integer                 |           |          |
+ court_no          | integer                 |           |          |
+ cino              | character varying(128)  |           |          |
+ judge_position    | character varying(1024) |           |          |
+ female_defendant  | character varying(128)  |           |          |
+ female_petitioner | character varying(128)  |           |          |
+ female_adv_def    | character varying(128)  |           |          |
+ female_adv_pet    | character varying(128)  |           |          |
+ type_name         | integer                 |           |          |
+ purpose_name      | integer                 |           |          |
+ disp_name         | integer                 |           |          |
+ date_of_filing    | date                    |           |          |
+ date_of_decision  | date                    |           |          |
+ date_first_list   | date                    |           |          |
+ date_last_list    | date                    |           |          |
+ date_next_list    | date                    |           |          |
+Indexes:
+    "cases_clean_pkey" PRIMARY KEY, btree (ddl_case_id)
+    "idx_cases_case_id" btree (ddl_case_id)
+    "idx_cases_clean_dod" btree (date_of_decision)
+    "idx_cases_clean_dof" btree (date_of_filing)
+    "idx_cases_decision_date" btree (date_of_decision)
+    "idx_cases_filing_date" btree (date_of_filing)
+    "idx_cases_year" btree (year)
+Foreign-key constraints:
+    "fk_cases_disp" FOREIGN KEY (year, disp_name) REFERENCES disp_name(year, disp_name) ON DELETE CASCADE
+    "fk_cases_type" FOREIGN KEY (year, type_name) REFERENCES type_name(year, type_name) ON DELETE CASCADE
+Referenced by:
+    TABLE "acts_sections" CONSTRAINT "fk_asc_case" FOREIGN KEY (ddl_case_id) REFERENCES cases_clean(ddl_case_id) ON DELETE CASCADE
+    TABLE "judge_case" CONSTRAINT "fk_jc_case" FOREIGN KEY (ddl_case_id) REFERENCES cases_clean(ddl_case_id) ON DELETE CASCADE
+
