@@ -1,0 +1,15 @@
+# ignore everything under Code config
+/Code/.config/Code/**
+
+# but keep the folder for user files (we'll explicitly allow these)
+!Code/.config/Code/User/
+# allow specific files you want to track:
+!Code/.config/Code/User/settings.json
+!Code/.config/Code/User/keybindings.json
+!Code/.config/Code/User/snippets/
+!Code/.config/Code/User/extensions.txt
+
+clipse/.config/clipse/tmp_files
+JetBrains/.config/JetBrains/IdeaIC2024.3
+JetBrains/.config/JetBrains/IdeaIC2024.3/*
+JetBrains/.config/JetBrains/IdeaIC2024.3/*

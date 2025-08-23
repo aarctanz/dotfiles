@@ -1,2 +1,0 @@
-
-## Average duration when 
