@@ -4,9 +4,9 @@
         "source": "/home/arctan/dotfiles/Wallpapers/chigiri.png",
         "type": "kitty",
         "padding": {
-            "top": 1,
+            "top": 2,
             "left": 1,
-            "right": 0
+            "right": 2
         },
         "width": 25
     },
@@ -16,22 +16,22 @@
         "break",
         {
             "type": "host",
-            "key": "    PC",
+            "key": "pc",
             "keyColor": "blue"
         },
         {
             "type": "cpu",
-            "key": "    CPU",
+            "key": "cpu",
             "keyColor": "blue"
         },
         {
             "type": "memory",
-            "key": "    memory",
+            "key": "mem",
             "keyColor": "blue"
         },
         {
             "type": "os",
-            "key": "    OS",
+            "key": "os",
             "keyColor": "blue"
         },
         // {
@@ -41,28 +41,28 @@
         // },
         {
             "type": "shell",
-            "key": "    shell",
+            "key": "sh",
             "keyColor": "blue"
         },
         {
             "type": "wm",
-            "key": "    WM",
+            "key": "wm",
             "keyColor": "blue"
         },
         {
             "type": "terminal",
-            "key": "    terminal",
+            "key": "term",
             "keyColor": "blue"
         },
         {
             "type": "command",
-            "key": "    OS Age ",
+            "key": "age",
             "keyColor": "blue",
             "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
         },
         {
             "type": "uptime",
-            "key": "    Uptime ",
+            "key": "up",
             "keyColor": "blue"
         },
 
@@ -72,9 +72,8 @@
 
         {
             "type": "colors",
-            "paddingLeft": 4,
+            "paddingLeft": 0,
             "symbol": "circle"
-        },
-        "break"
+        }
     ]
 }
