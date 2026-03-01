@@ -12,13 +12,13 @@ FOO = "bar"
 # dimensions = { columns = 20, lines = 10 }
 # position = "None" | { x = <integer>, y = <integer> }
 
-#padding = {x = 15, y = 15}
+padding = {x = 15, y = 15}
 
 # dynamic_padding = true | false
 
 # decorations = "Full" | "None" | "Transparent" | "Buttonless"
 
-opacity = 1.0
+opacity = 0.9
 
 [font.normal]
 family = "Firacode Nerd Font"
@@ -35,7 +35,7 @@ live_config_reload = true
 # Starts the shell in specified directory
 working_directory = "None"
 # Imports additional config files
-import = [ "~/.config/alacritty/themes/catppuccin-latte.toml" ]
+import = [ "~/.config/alacritty/themes/aura-theme.toml" ]
 
 [terminal]
 
