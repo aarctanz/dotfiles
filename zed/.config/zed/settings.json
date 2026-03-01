@@ -7,11 +7,20 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "icon_theme": "Zed (Default)",
+  "base_keymap": "VSCode",
+  "telemetry": {
+    "metrics": false,
+    "diagnostics": false
+  },
+
   "ui_font_size": 16,
   "buffer_font_size": 16,
   "theme": {
-    "mode": "system",
-    "light": "One Light",
-    "dark": "One Dark"
-  }
+    "mode": "dark",
+    "light": "Catppuccin Mocha (Blur) [Heavy]",
+    "dark": "Catppuccin Mocha"
+  },
+  "ui_font_family": "Hack Nerd Font Mono",
+  "autosave": "on_focus_change"
 }
