@@ -7,11 +7,35 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "icon_theme": "Zed (Default)",
+  "cli_default_open_behavior": "new_window",
+  "project_panel": {
+    "dock": "left"
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "git_panel": {
+    "dock": "left"
+  },
+  "agent": {
+    "dock": "right",
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "gpt-5.4",
+      "enable_thinking": true,
+      "effort": "high",
+    },
+    "favorite_models": [],
+    "model_parameters": [],
+  },
+  "icon_theme": "Material Icon Theme",
   "base_keymap": "VSCode",
   "telemetry": {
     "metrics": false,
-    "diagnostics": false
+    "diagnostics": false,
   },
 
   "ui_font_size": 16,
@@ -19,8 +43,20 @@
   "theme": {
     "mode": "dark",
     "light": "Catppuccin Mocha (Blur) [Heavy]",
-    "dark": "Catppuccin Mocha"
+    "dark": "Catppuccin Mocha",
   },
   "ui_font_family": "Hack Nerd Font Mono",
-  "autosave": "on_focus_change"
+  "autosave": "on_focus_change",
+
+  "lsp": {
+    "texlab": {
+      "settings": {
+        "texlab": {
+          "build": {
+            "onSave": true,
+          },
+        },
+      },
+    },
+  },
 }
